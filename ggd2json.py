@@ -54,6 +54,20 @@ k2archive = {
     'item_mnl': "Bibliotheek van de Maatschappij der Nederlandse Letterkunde",
 }
 
+languages = {
+    'Duits': 'iso639-3:ger',
+    'Engels': 'iso639-3:eng',
+    'Frans': 'iso639-3:fre',
+    'Fries': 'iso639-3:stq',
+    'Grieks': 'iso639-3:gre',
+    'Hebreeuws': 'iso639-3:heb',
+    'Italiaans': 'iso639-3:ita',
+    'Latijn': 'iso639-3:lat',
+    'Nederlands': 'iso639-3:dut',
+    'Spaans': 'iso639-3:spa',
+    'latijn': 'iso639-3:lat'
+}
+
 
 def getRecords(filepath: str):
 
@@ -161,7 +175,9 @@ def parseRecord(record: dict):
 
     # language
     if type(record['language']) != list:
-        record['language'] = [record['language']]
+        record['language'] = [languages[record['language']]]
+    else:
+        record['language'] = [languages[i] for i in record['language']]
 
     # persons/roles
     if record.get('person'):
