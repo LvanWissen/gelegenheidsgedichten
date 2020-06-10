@@ -1,0 +1,202 @@
+{
+    "https://data.goldenagents.org/datasets/thesaurus/eventtype/10-jarighuwelijk": {
+        "prefLabel": {
+            "en": "10 years of marriage",
+            "nl": "10-jarig huwelijk"
+        },
+        "broaderTransitive": ["https://data.goldenagents.org/datasets/thesaurus/eventtype/jubileum"],
+        "relatedMatch": []
+    },
+    "https://data.goldenagents.org/datasets/thesaurus/eventtype/12en5-jarighuwelijk": {
+        "prefLabel": {
+            "en": "12.5 years of marriage",
+            "nl": "12,5 jarig huwelijk"
+        },
+        "broaderTransitive": ["https://data.goldenagents.org/datasets/thesaurus/eventtype/jubileum"],
+        "relatedMatch": []
+    },
+    "https://data.goldenagents.org/datasets/thesaurus/eventtype/16-jarighuwelijk": {
+        "prefLabel": {
+            "en": "16 years of marriage",
+            "nl": "16-jarig huwelijk"
+        },
+        "broaderTransitive": ["https://data.goldenagents.org/datasets/thesaurus/eventtype/jubileum"],
+        "relatedMatch": []
+    },
+    "https://data.goldenagents.org/datasets/thesaurus/eventtype/25-jarighuwelijk": {
+        "prefLabel": {
+            "en": "25 years of marriage",
+            "nl": "25-jarig huwelijk"
+        },
+        "broaderTransitive": ["https://data.goldenagents.org/datasets/thesaurus/eventtype/jubileum"],
+        "relatedMatch": []
+    },
+    "https://data.goldenagents.org/datasets/thesaurus/eventtype/3-jarighuwelijk": {
+        "prefLabel": {
+            "en": "3 years of marriage",
+            "nl": "3-jarig huwelijk"
+        },
+        "broaderTransitive": ["https://data.goldenagents.org/datasets/thesaurus/eventtype/jubileum"],
+        "relatedMatch": []
+    },
+    "https://data.goldenagents.org/datasets/thesaurus/eventtype/40-jarighuwelijk": {
+        "prefLabel": {
+            "en": "40 years of marriage",
+            "nl": "40-jarig huwelijk"
+        },
+        "broaderTransitive": ["https://data.goldenagents.org/datasets/thesaurus/eventtype/jubileum"],
+        "relatedMatch": []
+    },
+    "https://data.goldenagents.org/datasets/thesaurus/eventtype/50-jarighuwelijk": {
+        "prefLabel": {
+            "en": "50 years of marriage",
+            "nl": "50-jarig huwelijk"
+        },
+        "broaderTransitive": ["https://data.goldenagents.org/datasets/thesaurus/eventtype/jubileum"],
+        "relatedMatch": []
+    },
+    "https://data.goldenagents.org/datasets/thesaurus/eventtype/7-jarighuwelijk": {
+        "prefLabel": {
+            "en": "7 years of marriage",
+            "nl": "7-jarig huwelijk"
+        },
+        "broaderTransitive": ["https://data.goldenagents.org/datasets/thesaurus/eventtype/jubileum"],
+        "relatedMatch": []
+    },
+    "https://data.goldenagents.org/datasets/thesaurus/eventtype/aanvangstudie": {
+        "prefLabel": {
+            "en": "start of study",
+            "nl": "aanvang studie"
+        },
+        "broaderTransitive": [],
+        "relatedMatch": []
+    },
+    "https://data.goldenagents.org/datasets/thesaurus/eventtype/afscheid": {
+        "prefLabel": {
+            "en": "farewell",
+            "nl": "afscheid"
+        },
+        "broaderTransitive": [],
+        "relatedMatch": []
+    },
+    "https://data.goldenagents.org/datasets/thesaurus/eventtype/afwijzingberoep": {
+        "prefLabel": {
+            "en": "rejection of office",
+            "nl": "afwijzing beroep"
+        },
+        "broaderTransitive": [],
+        "relatedMatch": []
+    },
+    "https://data.goldenagents.org/datasets/thesaurus/eventtype/ambtsaanvaarding": {
+        "prefLabel": {
+            "en": "inauguration",
+            "nl": "ambtsaanvaarding"
+        },
+        "broaderTransitive": [],
+        "relatedMatch": ["http://purl.org/vocab/bio/0.1/Inauguration"]
+    },
+    "https://data.goldenagents.org/datasets/thesaurus/eventtype/ambtsaftreden": {
+        "prefLabel": {
+            "en": "resignation",
+            "nl": "ambtsaftreden"
+        },
+        "broaderTransitive": [],
+        "relatedMatch": ["http://purl.org/vocab/bio/0.1/Resignation"]
+    },
+    "https://data.goldenagents.org/datasets/thesaurus/eventtype/geboorte": {
+        "prefLabel": {
+            "en": "birth",
+            "nl": "geboorte"
+        },
+        "broaderTransitive": [],
+        "relatedMatch": ["http://purl.org/vocab/bio/0.1/Birth"]
+    },
+    "https://data.goldenagents.org/datasets/thesaurus/eventtype/genezing": {
+        "prefLabel": {
+            "en": "healing",
+            "nl": "genezing"
+        },
+        "broaderTransitive": [],
+        "relatedMatch": []
+    },
+    "https://data.goldenagents.org/datasets/thesaurus/eventtype/huwelijk": {
+        "prefLabel": {
+            "en": "marriage",
+            "nl": "huwelijk"
+        },
+        "broaderTransitive": [],
+        "relatedMatch": ["http://purl.org/vocab/bio/0.1/Marriage"]
+    },
+    "https://data.goldenagents.org/datasets/thesaurus/eventtype/jubileum": {
+        "prefLabel": {
+            "en": "anniversary",
+            "nl": "jubileum"
+        },
+        "broaderTransitive": [],
+        "relatedMatch": []
+    },
+    "https://data.goldenagents.org/datasets/thesaurus/eventtype/kloosterintrede": {
+        "prefLabel": {
+            "en": "monastery entry",
+            "nl": "kloosterintrede"
+        },
+        "broaderTransitive": [],
+        "relatedMatch": []
+    },
+    "https://data.goldenagents.org/datasets/thesaurus/eventtype/meesterproef": {
+        "prefLabel": {
+            "en": "master test",
+            "nl": "meesterproef"
+        },
+        "broaderTransitive": [],
+        "relatedMatch": []
+    },
+    "https://data.goldenagents.org/datasets/thesaurus/eventtype/overlijden": {
+        "prefLabel": {
+            "en": "death",
+            "nl": "overlijden"
+        },
+        "broaderTransitive": [],
+        "relatedMatch": ["http://purl.org/vocab/bio/0.1/Death"]
+    },
+    "https://data.goldenagents.org/datasets/thesaurus/eventtype/prijs": {
+        "prefLabel": {
+            "en": "price",
+            "nl": "prijs"
+        },
+        "broaderTransitive": [],
+        "relatedMatch": []
+    },
+    "https://data.goldenagents.org/datasets/thesaurus/eventtype/promotie": {
+        "prefLabel": {
+            "en": "promotion",
+            "nl": "promotie"
+        },
+        "broaderTransitive": [],
+        "relatedMatch": ["http://purl.org/vocab/bio/0.1/Promotion"]
+    },
+    "https://data.goldenagents.org/datasets/thesaurus/eventtype/proponentsexamen": {
+        "prefLabel": {
+            "en": "exam",
+            "nl": "proponentsexamen"
+        },
+        "broaderTransitive": [],
+        "relatedMatch": ["http://purl.org/vocab/bio/0.1/Graduation"]
+    },
+    "https://data.goldenagents.org/datasets/thesaurus/eventtype/verjaardag": {
+        "prefLabel": {
+            "en": "birthday",
+            "nl": "verjaardag"
+        },
+        "broaderTransitive": [],
+        "relatedMatch": []
+    },
+    "https://data.goldenagents.org/datasets/thesaurus/eventtype/welkom": {
+        "prefLabel": {
+            "en": "welcome",
+            "nl": "welkom"
+        },
+        "broaderTransitive": [],
+        "relatedMatch": []
+    }
+}
