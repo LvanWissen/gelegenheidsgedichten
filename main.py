@@ -2,7 +2,7 @@ import re
 import json
 from itertools import count
 
-from rdflib import Graph, Namespace, OWL, Literal, URIRef, BNode, XSD, RDFS
+from rdflib import Graph, Namespace, OWL, Literal, URIRef, BNode, XSD, RDFS, RDF
 from rdfalchemy import rdfSubject, rdfSingle, rdfMultiple
 
 # http://data.bibliotheken.nl/id/dataset/ggd/
@@ -20,6 +20,7 @@ kbdef = Namespace("http://data.bibliotheken.nl/def#ppn")
 gaThes = Namespace(
     "https://data.goldenagents.org/datasets/thesaurus/eventtype/")
 
+ggdItem = Namespace('https://data.goldenagents.org/datasets/ggd/item/')
 ggdEvent = Namespace('https://data.goldenagents.org/datasets/ggd/event/')
 ggdAuthor = Namespace('https://data.goldenagents.org/datasets/ggd/author/')
 ggdPrinter = Namespace('https://data.goldenagents.org/datasets/ggd/printer/')
@@ -46,6 +47,8 @@ class Thing(rdfSubject):
     dateModified = rdfSingle(schema.dateModified)
 
     subjectOf = rdfSingle(schema.subjectOf)
+
+    value = rdfSingle(RDF.value)
 
 
 class Book(Thing):
@@ -110,12 +113,23 @@ class Event(Thing):
     hasLatestEndTimeStamp = rdfSingle(sem.hasLatestEndTimeStamp)
 
     hasPlace = rdfMultiple(sem.hasPlace)
+    hasActor = rdfMultiple(sem.hasActor)
 
     eventType = rdfMultiple(sem.eventType)
 
 
 class EventType(Thing):
     rdf_type = sem.EventType
+
+
+class SemRole(Thing):
+    rdf_type = sem.Role
+
+    roleType = rdfSingle(sem.roleType)
+
+
+class SemRoleType(Thing):
+    rdf_type = sem.RoleType
 
 
 class PropertyValue(Thing):
@@ -163,7 +177,7 @@ def parsePersonName(nameString, identifier=None):
     labels = []
 
     if '(' in nameString:
-        nameString = re.sub(' ?(.*) ?', '', nameString)
+        nameString = re.sub(' ?\(.*\) ?', '', nameString)
 
     if ',' in nameString:
         last, first = nameString.split(',', 1)
@@ -255,6 +269,7 @@ def toRdf(filepath: str, target: str):
     with open(filepath) as infile:
         data = json.load(infile)
 
+    itemCounter = count(1)
     eventCounter = count(1)
     authorCounter = count(1)
     printerCounter = count(1)
@@ -263,6 +278,8 @@ def toRdf(filepath: str, target: str):
     for r in data:
 
         abouts = []
+        semRoles = []
+
         printers = []
         workExamples = []
         authors = []
@@ -330,34 +347,49 @@ def toRdf(filepath: str, target: str):
         for p in r.get('person', []):
 
             if p['role'] == 'Drukker/uitgever':
-                person = Organization(ggdPrinter.term(str(
-                    next(printerCounter))),
-                                      name=[p['person']])
+                printer = Organization(ggdPrinter.term(
+                    str(next(printerCounter))),
+                                       name=[p['person']])
 
-                printers.append(person)
+                printers.append(printer)
             else:
 
                 pn, pnLabels = parsePersonName(p['person'])
 
+                person = Person(ggdPerson.term(str(next(personCounter))),
+                                hasName=pn,
+                                name=pnLabels)
+
                 role = Role(None,
-                            about=Person(ggdPerson.term(
-                                str(next(personCounter))),
-                                         hasName=pn,
-                                         name=pnLabels),
+                            about=person,
                             roleName=p['role'],
                             name=pnLabels,
                             hasName=pn)
                 abouts.append(role)
 
+                # Attach them to the event
+                semRoles.append(
+                    SemRole(
+                        None,
+                        value=person,
+                        roleType=SemRoleType(
+                            None,
+                            name=[p['role']] if p['role'] else ["Unknown"])))
+
         book.about = abouts
         pubEvent.publishedBy = printers
+
+        event.hasActor = semRoles
 
         for item in r['item']:
 
             holdingArchive = item['holdingArchive']
             itemLocation = item['location']
 
-            workExample = Item(None,
+            label = [f"{holdingArchive} {itemLocation}"]
+
+            workExample = Item(ggdItem.term(str(next(itemCounter))),
+                               name=label,
                                holdingArchive=holdingArchive,
                                itemLocation=itemLocation,
                                comment=item.get('comment'),
@@ -386,6 +418,7 @@ def toRdf(filepath: str, target: str):
     g.bind('xsd', XSD)
     g.bind('sem', sem)
     g.bind('bio', bio)
+    g.bind('pnv', pnv)
 
     print(f"Serializing to {target}")
     g.serialize(target, format='turtle')
