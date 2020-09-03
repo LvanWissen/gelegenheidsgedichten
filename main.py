@@ -6,7 +6,7 @@ from rdflib import Graph, Namespace, OWL, Literal, URIRef, BNode, XSD, RDFS, RDF
 from rdfalchemy import rdfSubject, rdfSingle, rdfMultiple
 
 # http://data.bibliotheken.nl/id/dataset/ggd/
-ggd = Namespace('https://data.goldenagents.org/datasets/ggd/')
+ggd = Namespace('http://data.bibliotheken.nl/id/dataset/ggd/')
 ggddoc = Namespace('http://data.bibliotheken.nl/doc/dataset/ggd/')
 
 bio = Namespace("http://purl.org/vocab/bio/0.1/")
@@ -20,11 +20,12 @@ kbdef = Namespace("http://data.bibliotheken.nl/def#ppn")
 gaThes = Namespace(
     "https://data.goldenagents.org/datasets/thesaurus/eventtype/")
 
-ggdItem = Namespace('https://data.goldenagents.org/datasets/ggd/item/')
-ggdEvent = Namespace('https://data.goldenagents.org/datasets/ggd/event/')
-ggdAuthor = Namespace('https://data.goldenagents.org/datasets/ggd/author/')
-ggdPrinter = Namespace('https://data.goldenagents.org/datasets/ggd/printer/')
-ggdPerson = Namespace('https://data.goldenagents.org/datasets/ggd/person/')
+ggdItem = Namespace('http://data.bibliotheken.nl/id/dataset/ggd/item/')
+ggdEvent = Namespace('http://data.bibliotheken.nl/id/dataset/ggd/event/')
+ggdAuthor = Namespace('http://data.bibliotheken.nl/id/dataset/ggd/author/')
+ggdPrinter = Namespace('http://data.bibliotheken.nl/id/dataset/ggd/printer/')
+ggdPerson = Namespace('http://data.bibliotheken.nl/id/dataset/ggd/person/')
+ggdPlace = Namespace('http://data.bibliotheken.nl/id/dataset/ggd/place/')
 
 JSONFILE = 'data/ggd.json'
 
@@ -146,6 +147,10 @@ class Item(Thing):
     exampleOfWork = rdfSingle(schema.exampleOfWork)
 
 
+class Place(Thing):
+    rdf_type = schema.Place
+
+
 class PersonName(Thing):
     rdf_type = pnv.PersonName
 
@@ -154,6 +159,7 @@ class PersonName(Thing):
     givenName = rdfSingle(pnv.givenName)
     surnamePrefix = rdfSingle(pnv.surnamePrefix)
     baseSurname = rdfSingle(pnv.baseSurname)
+    initials = rdfSingle(pnv.initials)
 
     # These do not
     prefix = rdfSingle(pnv.prefix)
@@ -181,7 +187,7 @@ def parsePersonName(nameString, identifier=None):
 
     if ',' in nameString:
         last, first = nameString.split(',', 1)
-        nameString = " ".join([first, last])
+        nameString = " ".join([first, last]).strip()
 
     for full_name in nameString.split(' / '):
 
@@ -189,10 +195,10 @@ def parsePersonName(nameString, identifier=None):
         dets = ['van', 'de', 'den', 'des', 'der', 'ten', "l'", "d'"]
         prefixes = ['Mr.']
         suffixes = ['Jr.', 'Sr.']
-        patronymfix = ('sz', 'sz.', 'szoon', 'dr.', 'dr')
+        patronymfix = ('sz', 'sz.', 'szoon', 'dr.', 'dr', 'sdochter')
 
         # Correcting syntax errors
-        full_name = full_name.replace('.', '. ')
+        # full_name = full_name.replace('.', '. ')
         full_name = full_name.replace("'", "' ")
         full_name = full_name.replace('  ', ' ')
 
@@ -242,14 +248,24 @@ def parsePersonName(nameString, identifier=None):
         full_name = " ".join(tokens).strip(
         )  # ALL CAPS to normal name format (e.g. Mr. Jan van Tatenhove)
 
+        if first_name.endswith('.'):
+            initials = first_name
+            givenName = None
+        elif first_name != "":
+            givenName = first_name
+            initials = None
+        else:
+            givenName, initials = None, None
+
         pn = PersonName(
             identifier,
             literalName=full_name.strip()
             if full_name is not None else "Unknown",
             prefix=prefix if prefix != "" else None,
-            givenName=first_name if first_name != "" else None,
+            givenName=givenName,
+            initials=initials,
             surnamePrefix=infix if infix != "" else None,
-            surname=family_name if family_name != "" else None,
+            baseSurname=family_name if family_name != "" else None,
             patronym=patronym if patronym != "" else None,
             disambiguatingDescription=suffix if suffix != "" else None)
 
@@ -265,6 +281,10 @@ def toRdf(filepath: str, target: str):
 
     g = rdfSubject.db = Graph()
     eventTypesDict = dict()
+
+    authorsDict = dict()
+    placesDict = dict()
+    organizationsDict = dict()
 
     with open(filepath) as infile:
         data = json.load(infile)
@@ -285,17 +305,20 @@ def toRdf(filepath: str, target: str):
         authors = []
 
         for a in r['author']:
-            pn, pnLabels = parsePersonName(a['person'])
 
-            authors.append(
-                Role(None,
-                     name=pnLabels,
-                     author=[
-                         Person(ggdAuthor.term(str(next(authorCounter))),
+            authorvalues = authorsDict.get(a['person'])
+            if authorvalues:
+                author, pn, pnLabels = authorvalues
+            else:
+                pn, pnLabels = parsePersonName(a['person'])
+                author = Person(ggdAuthor.term(str(next(authorCounter))),
                                 name=pnLabels,
                                 hasName=pn)
-                     ],
-                     hasName=pn))
+
+                authorsDict[a['person']] = (author, pn, pnLabels)
+
+            authors.append(
+                Role(None, name=pnLabels, author=[author], hasName=pn))
 
         book = Book(ggd.term(r['id']),
                     name=[r['title']] if r['title'] else [],
@@ -307,6 +330,8 @@ def toRdf(filepath: str, target: str):
         if r.get('pages'):
             pages, _ = r['pages'].split(' ', 1)
             pages = int(pages)
+        else:
+            pages = None
 
         book.numberOfPages = pages
 
@@ -323,6 +348,15 @@ def toRdf(filepath: str, target: str):
                 eventType = eventTypesDict.get(eType)
             eTypes.append(eventType)
 
+        places = []
+        for place in r['event']['place']:
+            placeItem = placesDict.get(place)
+            if placeItem is None:
+                placeliteral = place.lower().replace(' ', '')
+                placeItem = Place(ggdPlace.term(placeliteral), name=[place])
+                placesDict[place] = placeItem
+                places.append(placeItem)
+
         event = Event(
             ggdEvent.term(str(next(eventCounter))),
             hasTimeStamp=Literal(r['event']['timeStamp'], datatype=XSD.date)
@@ -331,7 +365,7 @@ def toRdf(filepath: str, target: str):
                 r['event']['earliestBeginTimeStamp'], datatype=XSD.date),
             hasLatestEndTimeStamp=Literal(r['event']['latestEndTimeStamp'],
                                           datatype=XSD.date),
-            hasPlace=r['event']['place'],
+            hasPlace=places,
             eventType=eTypes,
             subjectOf=book,
             label=[Literal(i, lang='nl') for i in r['event']['type'] if i])
@@ -347,9 +381,15 @@ def toRdf(filepath: str, target: str):
         for p in r.get('person', []):
 
             if p['role'] == 'Drukker/uitgever':
-                printer = Organization(ggdPrinter.term(
-                    str(next(printerCounter))),
-                                       name=[p['person']])
+
+                printer = organizationsDict.get(p['person'])
+
+                if printer is None:
+
+                    printer = Organization(ggdPrinter.term(
+                        str(next(printerCounter))),
+                                           name=[p['person']])
+                    organizationsDict[p['person']] = printer
 
                 printers.append(printer)
             else:
@@ -372,6 +412,7 @@ def toRdf(filepath: str, target: str):
                     SemRole(
                         None,
                         value=person,
+                        name=pnLabels,
                         roleType=SemRoleType(
                             None,
                             name=[p['role']] if p['role'] else ["Unknown"])))
@@ -403,12 +444,16 @@ def toRdf(filepath: str, target: str):
             comment=r.get('comments'),
             identifier=identifiers,
             sameAs=[ggddoc.term(r['id'])],
-            inDataset=URIRef("http://data.bibliotheken.nl/id/dataset/ggd/"),
+            inDataset=URIRef("http://data.bibliotheken.nl/id/dataset/ggd"),
             dateCreated=Literal(r['created'], datatype=XSD.date),
             dateModified=Literal(r['modified'], datatype=XSD.date))
 
         book.isPrimaryTopicOf = document
         document.primaryTopic = book
+
+        # STCN
+        if r['stcn']:
+            book.sameAs = [URIRef(r['stcn'])]
 
     g.bind('foaf', foaf)
     g.bind('schema', schema)

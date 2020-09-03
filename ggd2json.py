@@ -68,6 +68,9 @@ languages = {
     'latijn': 'iso639-3:lat'
 }
 
+with open('data/ggd2stcn.json') as infile:
+    GGD2STCN = json.load(infile)
+
 
 def getRecords(filepath: str):
 
@@ -209,6 +212,9 @@ def parseRecord(record: dict):
                     'holdingArchive': k2archive[k],
                     'comment': comment
                 })
+
+    # stcn
+    record['stcn'] = GGD2STCN.get(record['id'], None)
 
     return record
 
