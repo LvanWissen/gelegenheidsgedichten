@@ -16,7 +16,7 @@ foaf = Namespace('http://xmlns.com/foaf/0.1/')
 sem = Namespace('http://semanticweb.cs.vu.nl/2009/11/sem/')
 pnv = Namespace('https://w3id.org/pnv#')
 
-kbdef = Namespace("http://data.bibliotheken.nl/def#ppn")
+kbdef = Namespace("http://data.bibliotheken.nl/def#")
 gaThes = Namespace(
     "https://data.goldenagents.org/datasets/thesaurus/eventtype/")
 
@@ -86,6 +86,8 @@ class Person(Thing):
 
 class Organization(Thing):
     rdf_type = schema.Organization
+
+    hasName = rdfMultiple(pnv.hasName)
 
 
 class PublicationEvent(Thing):
@@ -306,19 +308,33 @@ def toRdf(filepath: str, target: str):
 
         for a in r['author']:
 
-            authorvalues = authorsDict.get(a['person'])
-            if authorvalues:
-                author, pn, pnLabels = authorvalues
-            else:
-                pn, pnLabels = parsePersonName(a['person'])
-                author = Person(ggdAuthor.term(str(next(authorCounter))),
-                                name=pnLabels,
-                                hasName=pn)
+            # authorvalues = authorsDict.get(a['person'])
+            # if authorvalues:
+            #     author, pn, pnLabels = authorvalues
+            # else:
+            pn, pnLabels = parsePersonName(a['person'])
 
-                authorsDict[a['person']] = (author, pn, pnLabels)
+            labelInverseName = [a['person']]
+
+            if a['thesaurus']:
+                authorSameAs = [URIRef(a['thesaurus'])]
+            else:
+                authorSameAs = []
+
+            author = Person(ggdAuthor.term(str(next(authorCounter))),
+                            label=labelInverseName,
+                            name=pnLabels,
+                            hasName=pn,
+                            sameAs=authorSameAs)
+
+            # authorsDict[a['person']] = (author, pn, pnLabels)
 
             authors.append(
-                Role(None, name=pnLabels, author=[author], hasName=pn))
+                Role(None,
+                     label=labelInverseName,
+                     name=pnLabels,
+                     author=[author],
+                     hasName=pn))
 
         book = Book(ggd.term(r['id']),
                     name=[r['title']] if r['title'] else [],
@@ -380,21 +396,35 @@ def toRdf(filepath: str, target: str):
 
         for p in r.get('person', []):
 
+            pn, pnLabels = parsePersonName(p['person'])
+
             if p['role'] == 'Drukker/uitgever':
 
-                printer = organizationsDict.get(p['person'])
+                # printer = organizationsDict.get(p['person'])
 
-                if printer is None:
+                labelInverseName = [p['person']]
 
-                    printer = Organization(ggdPrinter.term(
-                        str(next(printerCounter))),
-                                           name=[p['person']])
-                    organizationsDict[p['person']] = printer
+                if p['thesaurus']:
+                    printerSameAs = [URIRef(p['thesaurus'])]
+                else:
+                    printerSameAs = []
 
-                printers.append(printer)
+                printer = Organization(ggdPrinter.term(
+                    str(next(printerCounter))),
+                                       label=labelInverseName,
+                                       name=pnLabels,
+                                       hasName=pn,
+                                       sameAs=printerSameAs)
+
+                printers.append(
+                    Role(None,
+                         label=labelInverseName,
+                         name=pnLabels,
+                         publishedBy=printer,
+                         hasName=pn))
             else:
 
-                pn, pnLabels = parsePersonName(p['person'])
+                # pn, pnLabels = parsePersonName(p['person'])
 
                 person = Person(ggdPerson.term(str(next(personCounter))),
                                 hasName=pn,
@@ -459,7 +489,7 @@ def toRdf(filepath: str, target: str):
     g.bind('schema', schema)
     g.bind('kbdef', kbdef)
     g.bind('void', void)
-    g.bind('owĺ', OWL)
+    g.bind('owl', OWL)
     g.bind('xsd', XSD)
     g.bind('sem', sem)
     g.bind('bio', bio)

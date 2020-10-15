@@ -4,7 +4,7 @@
             "en": "10 years of marriage",
             "nl": "10-jarig huwelijk"
         },
-        "broaderTransitive": ["https://data.goldenagents.org/datasets/thesaurus/eventtype/jubileum"],
+        "broader": ["https://data.goldenagents.org/datasets/thesaurus/eventtype/jubileum"],
         "relatedMatch": []
     },
     "https://data.goldenagents.org/datasets/thesaurus/eventtype/12en5-jarighuwelijk": {
@@ -12,7 +12,7 @@
             "en": "12.5 years of marriage",
             "nl": "12,5 jarig huwelijk"
         },
-        "broaderTransitive": ["https://data.goldenagents.org/datasets/thesaurus/eventtype/jubileum"],
+        "broader": ["https://data.goldenagents.org/datasets/thesaurus/eventtype/jubileum"],
         "relatedMatch": []
     },
     "https://data.goldenagents.org/datasets/thesaurus/eventtype/16-jarighuwelijk": {
@@ -20,7 +20,7 @@
             "en": "16 years of marriage",
             "nl": "16-jarig huwelijk"
         },
-        "broaderTransitive": ["https://data.goldenagents.org/datasets/thesaurus/eventtype/jubileum"],
+        "broader": ["https://data.goldenagents.org/datasets/thesaurus/eventtype/jubileum"],
         "relatedMatch": []
     },
     "https://data.goldenagents.org/datasets/thesaurus/eventtype/25-jarighuwelijk": {
@@ -28,7 +28,7 @@
             "en": "25 years of marriage",
             "nl": "25-jarig huwelijk"
         },
-        "broaderTransitive": ["https://data.goldenagents.org/datasets/thesaurus/eventtype/jubileum"],
+        "broader": ["https://data.goldenagents.org/datasets/thesaurus/eventtype/jubileum"],
         "relatedMatch": []
     },
     "https://data.goldenagents.org/datasets/thesaurus/eventtype/3-jarighuwelijk": {
@@ -36,7 +36,7 @@
             "en": "3 years of marriage",
             "nl": "3-jarig huwelijk"
         },
-        "broaderTransitive": ["https://data.goldenagents.org/datasets/thesaurus/eventtype/jubileum"],
+        "broader": ["https://data.goldenagents.org/datasets/thesaurus/eventtype/jubileum"],
         "relatedMatch": []
     },
     "https://data.goldenagents.org/datasets/thesaurus/eventtype/40-jarighuwelijk": {
@@ -44,7 +44,7 @@
             "en": "40 years of marriage",
             "nl": "40-jarig huwelijk"
         },
-        "broaderTransitive": ["https://data.goldenagents.org/datasets/thesaurus/eventtype/jubileum"],
+        "broader": ["https://data.goldenagents.org/datasets/thesaurus/eventtype/jubileum"],
         "relatedMatch": []
     },
     "https://data.goldenagents.org/datasets/thesaurus/eventtype/50-jarighuwelijk": {
@@ -52,7 +52,7 @@
             "en": "50 years of marriage",
             "nl": "50-jarig huwelijk"
         },
-        "broaderTransitive": ["https://data.goldenagents.org/datasets/thesaurus/eventtype/jubileum"],
+        "broader": ["https://data.goldenagents.org/datasets/thesaurus/eventtype/jubileum"],
         "relatedMatch": []
     },
     "https://data.goldenagents.org/datasets/thesaurus/eventtype/7-jarighuwelijk": {
@@ -60,7 +60,7 @@
             "en": "7 years of marriage",
             "nl": "7-jarig huwelijk"
         },
-        "broaderTransitive": ["https://data.goldenagents.org/datasets/thesaurus/eventtype/jubileum"],
+        "broader": ["https://data.goldenagents.org/datasets/thesaurus/eventtype/jubileum"],
         "relatedMatch": []
     },
     "https://data.goldenagents.org/datasets/thesaurus/eventtype/aanvangstudie": {
@@ -68,7 +68,7 @@
             "en": "start of study",
             "nl": "aanvang studie"
         },
-        "broaderTransitive": [],
+        "broader": [],
         "relatedMatch": []
     },
     "https://data.goldenagents.org/datasets/thesaurus/eventtype/afscheid": {
@@ -76,7 +76,7 @@
             "en": "farewell",
             "nl": "afscheid"
         },
-        "broaderTransitive": [],
+        "broader": [],
         "relatedMatch": []
     },
     "https://data.goldenagents.org/datasets/thesaurus/eventtype/afwijzingberoep": {
@@ -84,7 +84,7 @@
             "en": "rejection of office",
             "nl": "afwijzing beroep"
         },
-        "broaderTransitive": [],
+        "broader": [],
         "relatedMatch": []
     },
     "https://data.goldenagents.org/datasets/thesaurus/eventtype/ambtsaanvaarding": {
@@ -92,7 +92,7 @@
             "en": "inauguration",
             "nl": "ambtsaanvaarding"
         },
-        "broaderTransitive": [],
+        "broader": [],
         "relatedMatch": ["http://purl.org/vocab/bio/0.1/Inauguration"]
     },
     "https://data.goldenagents.org/datasets/thesaurus/eventtype/ambtsaftreden": {
@@ -100,7 +100,7 @@
             "en": "resignation",
             "nl": "ambtsaftreden"
         },
-        "broaderTransitive": [],
+        "broader": [],
         "relatedMatch": ["http://purl.org/vocab/bio/0.1/Resignation"]
     },
     "https://data.goldenagents.org/datasets/thesaurus/eventtype/geboorte": {
@@ -108,7 +108,7 @@
             "en": "birth",
             "nl": "geboorte"
         },
-        "broaderTransitive": [],
+        "broader": [],
         "relatedMatch": ["http://purl.org/vocab/bio/0.1/Birth"]
     },
     "https://data.goldenagents.org/datasets/thesaurus/eventtype/genezing": {
@@ -116,7 +116,7 @@
             "en": "healing",
             "nl": "genezing"
         },
-        "broaderTransitive": [],
+        "broader": [],
         "relatedMatch": []
     },
     "https://data.goldenagents.org/datasets/thesaurus/eventtype/huwelijk": {
@@ -124,7 +124,7 @@
             "en": "marriage",
             "nl": "huwelijk"
         },
-        "broaderTransitive": [],
+        "broader": [],
         "relatedMatch": ["http://purl.org/vocab/bio/0.1/Marriage"]
     },
     "https://data.goldenagents.org/datasets/thesaurus/eventtype/jubileum": {
@@ -132,7 +132,7 @@
             "en": "anniversary",
             "nl": "jubileum"
         },
-        "broaderTransitive": [],
+        "broader": [],
         "relatedMatch": []
     },
     "https://data.goldenagents.org/datasets/thesaurus/eventtype/kloosterintrede": {
@@ -140,7 +140,7 @@
             "en": "monastery entry",
             "nl": "kloosterintrede"
         },
-        "broaderTransitive": [],
+        "broader": [],
         "relatedMatch": []
     },
     "https://data.goldenagents.org/datasets/thesaurus/eventtype/meesterproef": {
@@ -148,7 +148,7 @@
             "en": "master test",
             "nl": "meesterproef"
         },
-        "broaderTransitive": [],
+        "broader": [],
         "relatedMatch": []
     },
     "https://data.goldenagents.org/datasets/thesaurus/eventtype/overlijden": {
@@ -156,7 +156,7 @@
             "en": "death",
             "nl": "overlijden"
         },
-        "broaderTransitive": [],
+        "broader": [],
         "relatedMatch": ["http://purl.org/vocab/bio/0.1/Death"]
     },
     "https://data.goldenagents.org/datasets/thesaurus/eventtype/prijs": {
@@ -164,7 +164,7 @@
             "en": "price",
             "nl": "prijs"
         },
-        "broaderTransitive": [],
+        "broader": [],
         "relatedMatch": []
     },
     "https://data.goldenagents.org/datasets/thesaurus/eventtype/promotie": {
@@ -172,7 +172,7 @@
             "en": "promotion",
             "nl": "promotie"
         },
-        "broaderTransitive": [],
+        "broader": [],
         "relatedMatch": ["http://purl.org/vocab/bio/0.1/Promotion"]
     },
     "https://data.goldenagents.org/datasets/thesaurus/eventtype/proponentsexamen": {
@@ -180,7 +180,7 @@
             "en": "exam",
             "nl": "proponentsexamen"
         },
-        "broaderTransitive": [],
+        "broader": [],
         "relatedMatch": ["http://purl.org/vocab/bio/0.1/Graduation"]
     },
     "https://data.goldenagents.org/datasets/thesaurus/eventtype/verjaardag": {
@@ -188,7 +188,7 @@
             "en": "birthday",
             "nl": "verjaardag"
         },
-        "broaderTransitive": [],
+        "broader": [],
         "relatedMatch": []
     },
     "https://data.goldenagents.org/datasets/thesaurus/eventtype/welkom": {
@@ -196,7 +196,7 @@
             "en": "welcome",
             "nl": "welkom"
         },
-        "broaderTransitive": [],
+        "broader": [],
         "relatedMatch": []
     }
 }

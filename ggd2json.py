@@ -71,6 +71,9 @@ languages = {
 with open('data/ggd2stcn.json') as infile:
     GGD2STCN = json.load(infile)
 
+with open('data/id2author.json') as infile:
+    ID2AUTHOR = json.load(infile)
+
 
 def getRecords(filepath: str):
 
@@ -95,7 +98,7 @@ def getRecords(filepath: str):
     return records
 
 
-def getPersons(persons, role=False):
+def getPersons(persons, role=False, recordID=None):
 
     plist = []
 
@@ -105,11 +108,24 @@ def getPersons(persons, role=False):
     for person in persons:
 
         if role and '. ' in person:
-            person, role = person.rsplit('. ', 1)
+            if person.count('.') > 1:
+                # initials
+                person, role = person.rsplit('.', 1)
+                person += '.'
+            else:
+                person, role = person.rsplit('. ', 1)
+
+            person = person.strip()
+            role = role.strip()
         else:
             role = None
 
-        plist.append({'person': person, 'role': role})
+        if recordID and recordID in ID2AUTHOR:
+            thesaurus = ID2AUTHOR[recordID].get(person)
+        else:
+            thesaurus = None
+
+        plist.append({'person': person, 'role': role, 'thesaurus': thesaurus})
 
     return plist
 
@@ -187,7 +203,7 @@ def parseRecord(record: dict):
         record['person'] = getPersons(record['person'], role=True)
 
     if record.get('author'):
-        record['author'] = getPersons(record['author'])
+        record['author'] = getPersons(record['author'], recordID=record['id'])
     else:
         record['author'] = []
 
@@ -230,4 +246,4 @@ def main(filepath: str):
 
 
 if __name__ == "__main__":
-    print(main(filepath=GGDFILE))
+    main(filepath=GGDFILE)

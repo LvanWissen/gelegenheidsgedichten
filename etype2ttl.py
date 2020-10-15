@@ -6,12 +6,12 @@ skos = Namespace("http://www.w3.org/2004/02/skos/core#")
 
 
 class Concept(rdfSubject):
-    rdf_type = skos.concept
+    rdf_type = skos.Concept
 
     prefLabel = rdfMultiple(skos.prefLabel)
 
-    skos.broaderTransitive = rdfMultiple(skos.broaderTransitive)
-    skos.narrowerTransitive = rdfMultiple(skos.narrowerTransitive)
+    broader = rdfMultiple(skos.broader)
+    narrower = rdfMultiple(skos.narrower)
 
     relatedMatch = rdfMultiple(skos.relatedMatch)
 
@@ -35,9 +35,9 @@ def main(filepath, destination='data/etypes.ttl'):
 
         # Broader / Narrower
         broaders = []
-        for broader in data[uri]['broaderTransitive']:
+        for broader in data[uri]['broader']:
             broaders.append(URIRef(broader))
-        concept.broaderTransitive = broaders
+        concept.broader = broaders
 
         # Matches
         matches = []
