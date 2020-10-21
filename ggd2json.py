@@ -74,6 +74,12 @@ with open('data/ggd2stcn.json') as infile:
 with open('data/id2author.json') as infile:
     ID2AUTHOR = json.load(infile)
 
+with open("data/place2ecartico.json") as infile:
+    PLACE2ECARTICO = json.load(infile)
+
+with open("data/impressum_place_year.json") as infile:
+    IMPRESSUMDATA = json.load(infile)
+
 
 def getRecords(filepath: str):
 
@@ -156,6 +162,8 @@ def getEvent(record):
     else:
         place = record.get('place', [])
 
+    place = [PLACE2ECARTICO[i] for i in place]
+
     if record.get('event') and type(record['event']) == str:
         eType = [record['event']]
     else:
@@ -231,6 +239,23 @@ def parseRecord(record: dict):
 
     # stcn
     record['stcn'] = GGD2STCN.get(record['id'], None)
+
+    # impressum place
+    if record['id'] in IMPRESSUMDATA:
+        imp_place = IMPRESSUMDATA[record['id']]['place']
+        if imp_place:
+            record['impressum_place'] = PLACE2ECARTICO[imp_place]
+        else:
+            record['impressum_place'] = None
+    else:
+        record['impressum_place'] = None
+
+    # impressum date
+    if record['id'] in IMPRESSUMDATA:
+        imp_year = IMPRESSUMDATA[record['id']]['year']
+    else:
+        imp_year = None
+    record['impressum_year'] = imp_year
 
     return record
 

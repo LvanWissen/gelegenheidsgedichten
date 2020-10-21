@@ -51,6 +51,15 @@ class Thing(rdfSubject):
 
     value = rdfSingle(RDF.value)
 
+    startDate = rdfSingle(schema.startDate)
+    hasTimeStamp = rdfSingle(sem.hasTimeStamp)
+    hasBeginTimeStamp = rdfSingle(sem.hasBeginTimeStamp)
+    hasEndTimeStamp = rdfSingle(sem.hasEndTimeStamp)
+    hasEarliestBeginTimeStamp = rdfSingle(sem.hasEarliestBeginTimeStamp)
+    hasLatestBeginTimeStamp = rdfSingle(sem.hasLatestBeginTimeStamp)
+    hasEarliestEndTimeStamp = rdfSingle(sem.hasEarliestEndTimeStamp)
+    hasLatestEndTimeStamp = rdfSingle(sem.hasLatestEndTimeStamp)
+
 
 class Book(Thing):
     rdf_type = schema.Book
@@ -94,6 +103,7 @@ class PublicationEvent(Thing):
     rdf_type = schema.PublicationEvent
 
     publishedBy = rdfMultiple(schema.publishedBy)
+    location = rdfSingle(schema.location)
 
 
 class Document(Thing):
@@ -106,14 +116,6 @@ class Document(Thing):
 
 class Event(Thing):
     rdf_type = sem.Event
-
-    hasTimeStamp = rdfSingle(sem.hasTimeStamp)
-    hasBeginTimeStamp = rdfSingle(sem.hasBeginTimeStamp)
-    hasEndTimeStamp = rdfSingle(sem.hasEndTimeStamp)
-    hasEarliestBeginTimeStamp = rdfSingle(sem.hasEarliestBeginTimeStamp)
-    hasLatestBeginTimeStamp = rdfSingle(sem.hasLatestBeginTimeStamp)
-    hasEarliestEndTimeStamp = rdfSingle(sem.hasEarliestEndTimeStamp)
-    hasLatestEndTimeStamp = rdfSingle(sem.hasLatestEndTimeStamp)
 
     hasPlace = rdfMultiple(sem.hasPlace)
     hasActor = rdfMultiple(sem.hasActor)
@@ -279,6 +281,11 @@ def parsePersonName(nameString, identifier=None):
     return pns, labels
 
 
+def parseImpressum(impressum):
+
+    return impressum, printPlace, printYear
+
+
 def toRdf(filepath: str, target: str):
 
     g = rdfSubject.db = Graph()
@@ -351,7 +358,33 @@ def toRdf(filepath: str, target: str):
 
         book.numberOfPages = pages
 
-        pubEvent = PublicationEvent(None, description=r['impressum'])
+        # Parsing impressum info
+        impressum = r['impressum']
+        printPlace, printYear = r['impressum_place'], r['impressum_year']
+
+        if printPlace:
+            if printPlace['thesaurus']:
+                printPlace = Place(URIRef(printPlace['thesaurus']),
+                                   name=[printPlace['name']])
+            else:
+                printPlace = Place(None, name=[printPlace['name']])
+
+        if printYear:
+            earliestBeginTimeStampPrint = Literal(f"{printYear}-01-01",
+                                                  datatype=XSD.date)
+            latestEndTimeStampPrint = Literal(f"{printYear}-12-31",
+                                              datatype=XSD.date)
+            printYear = Literal(printYear, datatype=XSD.gYear)
+        else:
+            earliestBeginTimeStampPrint, latestEndTimeStampPrint = None, None
+
+        pubEvent = PublicationEvent(
+            None,
+            description=impressum,
+            location=printPlace,
+            startDate=printYear,
+            hasEarliestBeginTimeStamp=earliestBeginTimeStampPrint,
+            hasLatestEndTimeStamp=latestEndTimeStampPrint)
         book.publication = pubEvent
 
         eTypes = []
@@ -366,11 +399,18 @@ def toRdf(filepath: str, target: str):
 
         places = []
         for place in r['event']['place']:
-            placeItem = placesDict.get(place)
+            placeName = place['name']
+            placeItem = placesDict.get(placeName)
             if placeItem is None:
-                placeliteral = place.lower().replace(' ', '')
-                placeItem = Place(ggdPlace.term(placeliteral), name=[place])
-                placesDict[place] = placeItem
+                placeliteral = placeName.lower().replace(' ', '')
+
+                placeURI = place['thesaurus']
+                if placeURI:
+                    placeItem = Place(URIRef(placeURI), name=[placeName])
+                else:
+                    placeItem = Place(BNode(placeliteral), name=[placeName])
+
+                placesDict[placeName] = placeItem
                 places.append(placeItem)
 
         event = Event(
