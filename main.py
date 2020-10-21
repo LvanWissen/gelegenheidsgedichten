@@ -445,6 +445,7 @@ def toRdf(filepath: str, target: str):
                 labelInverseName = [p['person']]
 
                 if p['thesaurus']:
+
                     printerSameAs = [URIRef(p['thesaurus'])]
                 else:
                     printerSameAs = []
