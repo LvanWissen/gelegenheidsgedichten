@@ -72,19 +72,25 @@ languages = {
 with open('data/ggd2stcn.json') as infile:
     GGD2STCN = json.load(infile)
 
+with open('data/id2person.json') as infile:
+    ID2PERSON = json.load(infile)
+
 with open('data/id2author.json') as infile:
     ID2AUTHOR = json.load(infile)
 
 with open('data/id2printer.json') as infile:
     ID2PRINTER = json.load(infile)
 
-ID2PERSON = defaultdict(lambda: defaultdict(dict))
+ID2THESAURUS = defaultdict(lambda: defaultdict(dict))
+for ggdid in ID2PERSON:
+    for name in ID2PERSON[ggdid]:
+        ID2THESAURUS[ggdid]['person'][name] = ID2PERSON[ggdid][name]
 for ggdid in ID2AUTHOR:
     for name in ID2AUTHOR[ggdid]:
-        ID2PERSON[ggdid]['author'][name] = ID2AUTHOR[ggdid][name]
+        ID2THESAURUS[ggdid]['author'][name] = ID2AUTHOR[ggdid][name]
 for ggdid in ID2PRINTER:
     for name in ID2PRINTER[ggdid]:
-        ID2PERSON[ggdid]['printer'][name] = ID2PRINTER[ggdid][name]
+        ID2THESAURUS[ggdid]['printer'][name] = ID2PRINTER[ggdid][name]
 
 with open("data/place2ecartico.json") as infile:
     PLACE2ECARTICO = json.load(infile)
@@ -138,13 +144,13 @@ def getPersons(persons, role=False, recordID=None):
         else:
             role = None
 
-        if recordID and recordID in ID2PERSON:
+        if recordID and recordID in ID2THESAURUS:
             if role == 'Drukker/uitgever':
-                thesaurus = ID2PERSON[recordID]['printer'].get(person)
+                thesaurus = ID2THESAURUS[recordID]['printer'].get(person)
             elif role is None:
-                thesaurus = ID2PERSON[recordID]['author'].get(person)
+                thesaurus = ID2THESAURUS[recordID]['author'].get(person)
             else:
-                thesaurus = ID2PERSON[recordID]['person'].get(person)
+                thesaurus = ID2THESAURUS[recordID]['person'].get(person)
         else:
             thesaurus = None
 

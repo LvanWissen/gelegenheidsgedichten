@@ -438,11 +438,11 @@ def toRdf(filepath: str, target: str):
 
             pn, pnLabels = parsePersonName(p['person'])
 
+            labelInverseName = [p['person']]
+
             if p['role'] == 'Drukker/uitgever':
 
                 # printer = organizationsDict.get(p['person'])
-
-                labelInverseName = [p['person']]
 
                 if p['thesaurus']:
 
@@ -468,6 +468,7 @@ def toRdf(filepath: str, target: str):
                 # pn, pnLabels = parsePersonName(p['person'])
 
                 person = Person(ggdPerson.term(str(next(personCounter))),
+                                label=labelInverseName,
                                 hasName=pn,
                                 name=pnLabels)
 
