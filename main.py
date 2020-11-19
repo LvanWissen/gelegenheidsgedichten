@@ -281,11 +281,6 @@ def parsePersonName(nameString, identifier=None):
     return pns, labels
 
 
-def parseImpressum(impressum):
-
-    return impressum, printPlace, printYear
-
-
 def toRdf(filepath: str, target: str):
 
     g = rdfSubject.db = Graph()
@@ -400,18 +395,12 @@ def toRdf(filepath: str, target: str):
         places = []
         for place in r['event']['place']:
             placeName = place['name']
-            placeItem = placesDict.get(placeName)
-            if placeItem is None:
-                placeliteral = placeName.lower().replace(' ', '')
 
-                placeURI = place['thesaurus']
-                if placeURI:
-                    placeItem = Place(URIRef(placeURI), name=[placeName])
-                else:
-                    placeItem = Place(BNode(placeliteral), name=[placeName])
+            placeURI = place['thesaurus']
+            if placeURI:
+                placeURI = URIRef(placeURI)
 
-                placesDict[placeName] = placeItem
-                places.append(placeItem)
+            places.append(Place(placeURI, name=[placeName]))
 
         event = Event(
             ggdEvent.term(str(next(eventCounter))),
@@ -467,10 +456,16 @@ def toRdf(filepath: str, target: str):
 
                 # pn, pnLabels = parsePersonName(p['person'])
 
+                if p['thesaurus']:
+                    personSameAs = [URIRef(p['thesaurus'])]
+                else:
+                    personSameAs = []
+
                 person = Person(ggdPerson.term(str(next(personCounter))),
                                 label=labelInverseName,
                                 hasName=pn,
-                                name=pnLabels)
+                                name=pnLabels,
+                                sameAs=personSameAs)
 
                 role = Role(None,
                             about=person,
