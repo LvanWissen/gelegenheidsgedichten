@@ -91,6 +91,7 @@ class Person(Thing):
     rdf_type = schema.Person
 
     hasName = rdfMultiple(pnv.hasName)
+    gender = rdfSingle(schema.gender)
 
 
 class Organization(Thing):
@@ -461,10 +462,18 @@ def toRdf(filepath: str, target: str):
                 else:
                     personSameAs = []
 
+                if p['gender'] == 'male':
+                    gender = schema.Male
+                elif p['gender'] == 'female':
+                    gender = schema.Female
+                else:
+                    gender = None
+
                 person = Person(ggdPerson.term(str(next(personCounter))),
                                 label=labelInverseName,
                                 hasName=pn,
                                 name=pnLabels,
+                                gender=gender,
                                 sameAs=personSameAs)
 
                 role = Role(None,
@@ -482,7 +491,7 @@ def toRdf(filepath: str, target: str):
                         name=pnLabels,
                         roleType=SemRoleType(
                             None,
-                            name=[p['role']] if p['role'] else ["Unknown"])))
+                            label=[p['role']] if p['role'] else ["Unknown"])))
 
         book.about = abouts
         pubEvent.publishedBy = printers
