@@ -81,7 +81,10 @@ with open('data/id2author.json') as infile:
 with open('data/id2printer.json') as infile:
     ID2PRINTER = json.load(infile)
 
-ID2THESAURUS = defaultdict(lambda: defaultdict(dict))
+with open('data/id2gender.json') as infile:
+    ID2GENDER = json.load(infile)
+
+ID2THESAURUS = defaultdict(lambda: defaultdict(lambda: defaultdict(dict)))
 for ggdid in ID2PERSON:
     for name in ID2PERSON[ggdid]:
         ID2THESAURUS[ggdid]['person'][name] = ID2PERSON[ggdid][name]
@@ -154,7 +157,17 @@ def getPersons(persons, role=False, recordID=None):
         else:
             thesaurus = None
 
-        plist.append({'person': person, 'role': role, 'thesaurus': thesaurus})
+        if recordID and recordID in ID2GENDER:
+            gender = ID2GENDER[recordID].get(person)
+        else:
+            gender = None
+
+        plist.append({
+            'person': person,
+            'role': role,
+            'thesaurus': thesaurus,
+            'gender': gender
+        })
 
     return plist
 

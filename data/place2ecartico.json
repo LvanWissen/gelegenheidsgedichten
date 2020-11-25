@@ -1,1358 +1,1366 @@
 {
-    "Eenrum": {
-        "name": "Eenrum",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2444"
-    },
-    "Tholen": {
-        "name": "Tholen",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/924"
-    },
     "'s-Graveland": {
         "name": "'s-Graveland",
         "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/917"
-    },
-    "Maastricht": {
-        "name": "Maastricht",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/291"
-    },
-    "Schoonhoven": {
-        "name": "Schoonhoven",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/449"
-    },
-    "Heemstede": {
-        "name": "Heemstede",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/198"
-    },
-    "Hemmen": {
-        "name": "Hemmen",
-        "thesaurus": null
-    },
-    "Pera": {
-        "name": "Pera",
-        "thesaurus": null
-    },
-    "Colombo": {
-        "name": "Colombo",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/652"
-    },
-    "Muiderberg": {
-        "name": "Muiderberg",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2640"
-    },
-    "Poortvliet": {
-        "name": "Poortvliet",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2719"
-    },
-    "Zuidzijpe": {
-        "name": "Zuidzijpe",
-        "thesaurus": null
-    },
-    "Oostkapelle": {
-        "name": "Oostkapelle",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2686"
-    },
-    "Nieuwendam": {
-        "name": "Nieuwendam",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/587"
-    },
-    "Zorgvliet": {
-        "name": "Zorgvliet",
-        "thesaurus": null
-    },
-    "Leeuwarden": {
-        "name": "Leeuwarden",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/261"
-    },
-    "Willemstad": {
-        "name": "Willemstad",
-        "thesaurus": null
-    },
-    "Zandvoort": {
-        "name": "Zandvoort",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2881"
-    },
-    "Winterswijk": {
-        "name": "Winterswijk",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1068"
-    },
-    "Edam": {
-        "name": "Edam",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/132"
-    },
-    "Zevenbergen": {
-        "name": "Zevenbergen",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/567"
-    },
-    "Axel": {
-        "name": "Axel",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/805"
-    },
-    "IJzendoorn": {
-        "name": "IJzendoorn",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2248"
-    },
-    "De Beemster": {
-        "name": "De Beemster",
-        "thesaurus": null
-    },
-    "B\u00fcy\u00fckdere": {
-        "name": "B\u00fcy\u00fckdere",
-        "thesaurus": null
-    },
-    "Winschoten": {
-        "name": "Winschoten",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1083"
-    },
-    "Gibraltar": {
-        "name": "Gibraltar",
-        "thesaurus": null
-    },
-    "Haamstede": {
-        "name": "Haamstede",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2495"
-    },
-    "Sommelsdijk": {
-        "name": "Sommelsdijk",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/477"
-    },
-    "Ceylon": {
-        "name": "Ceylon",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/619"
-    },
-    "Swichem": {
-        "name": "Swichem",
-        "thesaurus": null
-    },
-    "Nieuwer-Amstel": {
-        "name": "Nieuwer-Amstel",
-        "thesaurus": null
-    },
-    "Wilsveen": {
-        "name": "Wilsveen",
-        "thesaurus": null
-    },
-    "Loosduinen": {
-        "name": "Loosduinen",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/281"
-    },
-    "Schiedam": {
-        "name": "Schiedam",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/447"
-    },
-    "Geertruidenberg": {
-        "name": "Geertruidenberg",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/161"
-    },
-    "Tiel": {
-        "name": "Tiel",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/782"
-    },
-    "Oosterbeek": {
-        "name": "Oosterbeek",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1610"
-    },
-    "Lezart": {
-        "name": "Lezart",
-        "thesaurus": null
-    },
-    "Molkwerum": {
-        "name": "Molkwerum",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2633"
-    },
-    "Amersfoort": {
-        "name": "Amersfoort",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/9"
-    },
-    "Koudum": {
-        "name": "Koudum",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/846"
-    },
-    "Ternaard": {
-        "name": "Ternaard",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1617"
-    },
-    "Moordrecht": {
-        "name": "Moordrecht",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1928"
-    },
-    "Arnhem": {
-        "name": "Arnhem",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/18"
-    },
-    "Scheveningen": {
-        "name": "Scheveningen",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/446"
-    },
-    "Batavia": {
-        "name": "Batavia",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/36"
-    },
-    "Oostzaan": {
-        "name": "Oostzaan",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/375"
-    },
-    "Hontenisse": {
-        "name": "Hontenisse",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2537"
-    },
-    "Rome": {
-        "name": "Rome",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/430"
-    },
-    "Zutphen": {
-        "name": "Zutphen",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/576"
-    },
-    "Hoorn": {
-        "name": "Hoorn",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/219"
-    },
-    "Hardinxveld": {
-        "name": "Hardinxveld",
-        "thesaurus": null
     },
     "'s-Gravendeel": {
         "name": "'s-Gravendeel",
         "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/435"
     },
-    "Utrecht": {
-        "name": "Utrecht",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/512"
-    },
-    "Alphen": {
-        "name": "Alphen",
-        "thesaurus": null
-    },
-    "Beetgum": {
-        "name": "Beetgum",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1448"
-    },
-    "Delfshaven": {
-        "name": "Delfshaven",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/96"
-    },
-    "Nieuw-Beijerland": {
-        "name": "Nieuw-Beijerland",
-        "thesaurus": null
-    },
-    "Sloterdijk": {
-        "name": "Sloterdijk",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/637"
-    },
-    "Harmelen": {
-        "name": "Harmelen",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2501"
-    },
-    "Sint-Pancras": {
-        "name": "Sint-Pancras",
-        "thesaurus": null
-    },
-    "Leuven": {
-        "name": "Leuven",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/267"
-    },
-    "Frankfurt an der Oder": {
-        "name": "Frankfurt an der Oder",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1132"
-    },
-    "Emmerik": {
-        "name": "Emmerik",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/143"
-    },
-    "Zwammerdam": {
-        "name": "Zwammerdam",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/577"
-    },
-    "Leiden": {
-        "name": "Leiden",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/262"
-    },
-    "Bolsward": {
-        "name": "Bolsward",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/63"
-    },
-    "Maarssen": {
-        "name": "Maarssen",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/288"
-    },
-    "Sas van Gent": {
-        "name": "Sas van Gent",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/977"
-    },
-    "Overschie": {
-        "name": "Overschie",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/389"
-    },
-    "Nieuw Loosdrecht": {
-        "name": "Nieuw Loosdrecht",
-        "thesaurus": null
-    },
-    "Culemborg": {
-        "name": "Culemborg",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/92"
-    },
-    "Baambrugge": {
-        "name": "Baambrugge",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1318"
-    },
-    "Katwijk": {
-        "name": "Katwijk",
-        "thesaurus": null
-    },
-    "Texel": {
-        "name": "Texel",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/803"
-    },
-    "Erkelenz": {
-        "name": "Erkelenz",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1991"
-    },
-    "Oosterwijk": {
-        "name": "Oosterwijk",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1440"
-    },
-    "Goudswaard": {
-        "name": "Goudswaard",
-        "thesaurus": null
-    },
-    "Den Hitsert": {
-        "name": "Den Hitsert",
-        "thesaurus": null
-    },
-    "Stitswerd": {
-        "name": "Stitswerd",
-        "thesaurus": null
-    },
-    "Echten": {
-        "name": "Echten",
-        "thesaurus": null
-    },
-    "Eede": {
-        "name": "Eede",
-        "thesaurus": null
-    },
-    "Buiksloot": {
-        "name": "Buiksloot",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/591"
-    },
-    "Heerjansdam en Kijfhoek": {
-        "name": "Heerjansdam en Kijfhoek",
-        "thesaurus": null
-    },
-    "Dokkum": {
-        "name": "Dokkum",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/116"
-    },
-    "Aken": {
-        "name": "Aken",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/5"
-    },
-    "Piershil": {
-        "name": "Piershil",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/400"
-    },
-    "Wormer": {
-        "name": "Wormer",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/560"
-    },
-    "Oudewater": {
-        "name": "Oudewater",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/386"
-    },
-    "Holwerd": {
-        "name": "Holwerd",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/865"
-    },
-    "Wassenaar": {
-        "name": "Wassenaar",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/539"
-    },
-    "Oost-Graftdijk": {
-        "name": "Oost-Graftdijk",
-        "thesaurus": null
-    },
-    "Asperen": {
-        "name": "Asperen",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1402"
-    },
-    "Stockholm": {
-        "name": "Stockholm",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/489"
-    },
-    "Haarlem": {
-        "name": "Haarlem",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/184"
-    },
-    "Amstelveen": {
-        "name": "Amstelveen",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/593"
-    },
-    "Warmond": {
-        "name": "Warmond",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/537"
-    },
-    "Den Briel": {
-        "name": "Den Briel",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/98"
-    },
-    "Maasbommel": {
-        "name": "Maasbommel",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1597"
-    },
-    "Parijs": {
-        "name": "Parijs",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/395"
-    },
-    "Marseille": {
-        "name": "Marseille",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/623"
-    },
-    "Deventer": {
-        "name": "Deventer",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/105"
-    },
-    "De Koog": {
-        "name": "De Koog",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2408"
-    },
-    "Zuid-Beijerland": {
-        "name": "Zuid-Beijerland",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2928"
-    },
-    "Waddinxveen": {
-        "name": "Waddinxveen",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/774"
-    },
-    "Etersheim": {
-        "name": "Etersheim",
-        "thesaurus": null
-    },
-    "Waverveen": {
-        "name": "Waverveen",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/944"
-    },
-    "Kortenhoef": {
-        "name": "Kortenhoef",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/970"
-    },
-    "Jutphaas": {
-        "name": "Jutphaas",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2172"
-    },
-    "Namen": {
-        "name": "Namen",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/334"
-    },
-    "Suriname": {
-        "name": "Suriname",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/493"
-    },
-    "Eck en Wiel": {
-        "name": "Eck en Wiel",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2442"
-    },
-    "Harlingen": {
-        "name": "Harlingen",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/192"
-    },
-    "Oud-Beijerland": {
-        "name": "Oud-Beijerland",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/382"
-    },
-    "Klundert": {
-        "name": "Klundert",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/246"
-    },
-    "Woerden": {
-        "name": "Woerden",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/557"
-    },
-    "Westzaan": {
-        "name": "Westzaan",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/913"
-    },
-    "Bunnik": {
-        "name": "Bunnik",
-        "thesaurus": null
-    },
-    "Groningen": {
-        "name": "Groningen",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/182"
-    },
-    "Maasland": {
-        "name": "Maasland",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1216"
-    },
-    "Capelle a/d IJssel": {
-        "name": "Capelle a/d IJssel",
-        "thesaurus": null
-    },
-    "Nederland": {
-        "name": "Nederland",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/337"
-    },
-    "Spaarndam": {
-        "name": "Spaarndam",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/480"
-    },
-    "Schipluiden": {
-        "name": "Schipluiden",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/981"
-    },
-    "Leiderdorp": {
-        "name": "Leiderdorp",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/263"
-    },
-    "Zwolle": {
-        "name": "Zwolle",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/580"
-    },
-    "Sint-Laurens": {
-        "name": "Sint-Laurens",
-        "thesaurus": null
-    },
-    "Monster": {
-        "name": "Monster",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1740"
-    },
-    "Ochten": {
-        "name": "Ochten",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1415"
-    },
-    "Brandwijk en Gijbeland": {
-        "name": "Brandwijk en Gijbeland",
-        "thesaurus": null
-    },
-    "Veere": {
-        "name": "Veere",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/516"
-    },
-    "Hichtum": {
-        "name": "Hichtum",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2912"
-    },
-    "Loenersloot": {
-        "name": "Loenersloot",
-        "thesaurus": null
-    },
-    "Danzig/Gdansk": {
-        "name": "Danzig/Gdansk",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/94"
-    },
-    "Dubbeldam": {
-        "name": "Dubbeldam",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/706"
-    },
-    "Heteren": {
-        "name": "Heteren",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2526"
-    },
-    "Lopik": {
-        "name": "Lopik",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1357"
-    },
-    "Londen": {
-        "name": "Londen",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/279"
-    },
-    "Hulst": {
-        "name": "Hulst",
-        "thesaurus": null
-    },
-    "Leidschendam": {
-        "name": "Leidschendam",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2141"
-    },
-    "Nichtevecht": {
-        "name": "Nichtevecht",
-        "thesaurus": null
-    },
-    "Gotenburg": {
-        "name": "Gotenburg",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/176"
-    },
-    "Herwijnen": {
-        "name": "Herwijnen",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2525"
-    },
-    "Kassel": {
-        "name": "Kassel",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/241"
-    },
-    "Goes": {
-        "name": "Goes",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/173"
-    },
-    "Padua": {
-        "name": "Padua",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/392"
-    },
-    "Meppel": {
-        "name": "Meppel",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/309"
-    },
-    "Bennebroek": {
-        "name": "Bennebroek",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2227"
-    },
-    "Brielle": {
-        "name": "Brielle",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/98"
-    },
-    "Buren": {
-        "name": "Buren",
-        "thesaurus": null
-    },
-    "Ter Heide": {
-        "name": "Ter Heide",
-        "thesaurus": null
-    },
-    "Hoogezand": {
-        "name": "Hoogezand",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2233"
-    },
-    "Brussel": {
-        "name": "Brussel",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/83"
-    },
-    "Oudkerk": {
-        "name": "Oudkerk",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2023"
-    },
-    "Schalkwijk": {
-        "name": "Schalkwijk",
-        "thesaurus": null
-    },
-    "Hoogwoud": {
-        "name": "Hoogwoud",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2542"
-    },
-    "Diemen": {
-        "name": "Diemen",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/108"
-    },
-    "Breukelen": {
-        "name": "Breukelen",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/838"
-    },
-    "Limmen": {
-        "name": "Limmen",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1464"
-    },
-    "Langen": {
-        "name": "Langen",
-        "thesaurus": null
-    },
-    "Veurne": {
-        "name": "Veurne",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/522"
-    },
-    "Ravenswaai": {
-        "name": "Ravenswaai",
-        "thesaurus": null
-    },
-    "Avenhorn": {
-        "name": "Avenhorn",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1323"
-    },
-    "Leimuiden": {
-        "name": "Leimuiden",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/960"
-    },
-    "Benschop": {
-        "name": "Benschop",
-        "thesaurus": null
-    },
-    "Vlissingen": {
-        "name": "Vlissingen",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/528"
-    },
-    "Biervliet": {
-        "name": "Biervliet",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2372"
-    },
-    "Oosterblokker": {
-        "name": "Oosterblokker",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2681"
-    },
-    "Oosthuizen": {
-        "name": "Oosthuizen",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1563"
-    },
-    "Alkmaar": {
-        "name": "Alkmaar",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/7"
-    },
-    "Zevenhuizen": {
-        "name": "Zevenhuizen",
-        "thesaurus": null
-    },
-    "Mijnsheerenland": {
-        "name": "Mijnsheerenland",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2629"
-    },
-    "Rijnsaterwoude": {
-        "name": "Rijnsaterwoude",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/974"
-    },
-    "Dodewaard": {
-        "name": "Dodewaard",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2427"
-    },
-    "Noordwijk": {
-        "name": "Noordwijk",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/359"
-    },
-    "Steenwijk": {
-        "name": "Steenwijk",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/485"
-    },
-    "Vreeland": {
-        "name": "Vreeland",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1136"
-    },
-    "Veur": {
-        "name": "Veur",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2302"
-    },
-    "Putney": {
-        "name": "Putney",
-        "thesaurus": null
-    },
-    "Apeldoorn": {
-        "name": "Apeldoorn",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/14"
-    },
-    "Makkum": {
-        "name": "Makkum",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/296"
-    },
-    "Naarden": {
-        "name": "Naarden",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/333"
-    },
-    "Hazerswoude": {
-        "name": "Hazerswoude",
-        "thesaurus": null
-    },
-    "Sloten": {
-        "name": "Sloten",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/468"
-    },
-    "Zierikzee": {
-        "name": "Zierikzee",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/570"
-    },
-    "Haastrecht": {
-        "name": "Haastrecht",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1332"
-    },
-    "De Rijp": {
-        "name": "De Rijp",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1127"
-    },
-    "Sneek": {
-        "name": "Sneek",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/471"
-    },
-    "Sint-Eustatius": {
-        "name": "Sint-Eustatius",
-        "thesaurus": null
-    },
-    "Franeker": {
-        "name": "Franeker",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/153"
-    },
-    "Den Hoef": {
-        "name": "Den Hoef",
-        "thesaurus": null
-    },
-    "Lingen": {
-        "name": "Lingen",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/988"
-    },
-    "Velsen": {
-        "name": "Velsen",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/756"
-    },
-    "Duinkerken": {
-        "name": "Duinkerken",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/127"
-    },
-    "Rindern": {
-        "name": "Rindern",
-        "thesaurus": null
-    },
-    "Utingeradeel": {
-        "name": "Utingeradeel",
-        "thesaurus": null
-    },
-    "Neer": {
-        "name": "Neer",
-        "thesaurus": null
-    },
-    "Bodegraven": {
-        "name": "Bodegraven",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/60"
-    },
-    "Zonnemere": {
-        "name": "Zonnemere",
-        "thesaurus": null
-    },
-    "Noordgouwe": {
-        "name": "Noordgouwe",
-        "thesaurus": null
-    },
-    "Weesp": {
-        "name": "Weesp",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/543"
-    },
-    "Rozendaal": {
-        "name": "Rozendaal",
-        "thesaurus": null
-    },
-    "Loenen": {
-        "name": "Loenen",
-        "thesaurus": null
-    },
-    "Vianen": {
-        "name": "Vianen",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/523"
-    },
-    "Keulen": {
-        "name": "Keulen",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/242"
-    },
-    "Ankeveen": {
-        "name": "Ankeveen",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1170"
-    },
-    "Ransdorp": {
-        "name": "Ransdorp",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/836"
-    },
-    "Zaandam": {
-        "name": "Zaandam",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/562"
-    },
-    "Douai": {
-        "name": "Douai",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1909"
-    },
-    "Ter Aar": {
-        "name": "Ter Aar",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1167"
-    },
-    "Grave": {
-        "name": "Grave",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/178"
-    },
-    "Hensbroek": {
-        "name": "Hensbroek",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2519"
-    },
-    "Hei- en Boeikop": {
-        "name": "Hei- en Boeikop",
-        "thesaurus": null
-    },
-    "Batavia/Jakarta": {
-        "name": "Batavia/Jakarta",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/36"
-    },
-    "Ouderkerk": {
-        "name": "Ouderkerk",
-        "thesaurus": null
-    },
-    "Bremen": {
-        "name": "Bremen",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/77"
-    },
-    "Jelsum": {
-        "name": "Jelsum",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1050"
-    },
-    "Duisburg": {
-        "name": "Duisburg",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/128"
-    },
-    "Dordrecht": {
-        "name": "Dordrecht",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/118"
-    },
-    "M\u00fclheim am Rhein": {
-        "name": "M\u00fclheim am Rhein",
-        "thesaurus": null
-    },
-    "Windesheim": {
-        "name": "Windesheim",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2314"
-    },
-    "Namen (Namur)": {
-        "name": "Namen (Namur)",
-        "thesaurus": null
+    "'s-Gravenzande": {
+        "name": "'s-Gravenzande",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/767"
     },
     "'s-Hertogenbosch": {
         "name": "'s-Hertogenbosch",
         "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/436"
     },
-    "Buitenpost": {
-        "name": "Buitenpost",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2397"
-    },
-    "Hellevoetsluis": {
-        "name": "Hellevoetsluis",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/201"
-    },
-    "Breda": {
-        "name": "Breda",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/76"
-    },
-    "Purmerend": {
-        "name": "Purmerend",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/410"
-    },
-    "Istanbul": {
-        "name": "Istanbul",
-        "thesaurus": null
-    },
-    "Berkhout": {
-        "name": "Berkhout",
-        "thesaurus": null
-    },
-    "Ridderkerk": {
-        "name": "Ridderkerk",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/421"
-    },
-    "Roermond": {
-        "name": "Roermond",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/427"
-    },
-    "Vlaardingen": {
-        "name": "Vlaardingen",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/526"
-    },
-    "Amerongen": {
-        "name": "Amerongen",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2338"
-    },
-    "Bergen NH": {
-        "name": "Bergen NH",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1012"
-    },
-    "Woubrugge": {
-        "name": "Woubrugge",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1980"
-    },
-    "Zuilen": {
-        "name": "Zuilen",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1431"
-    },
-    "Sint-Annaparochie": {
-        "name": "Sint-Annaparochie",
-        "thesaurus": null
-    },
-    "Heerjansdam": {
-        "name": "Heerjansdam",
-        "thesaurus": null
-    },
-    "Voorburg": {
-        "name": "Voorburg",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/530"
-    },
-    "Lexmond, Achthoven en Lakerveld": {
-        "name": "Lexmond, Achthoven en Lakerveld",
-        "thesaurus": null
-    },
-    "Oegstgeest": {
-        "name": "Oegstgeest",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/367"
-    },
-    "Weert": {
-        "name": "Weert",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/542"
-    },
-    "Sint-Truiden": {
-        "name": "Sint-Truiden",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/465"
-    },
-    "Lopikerkapel": {
-        "name": "Lopikerkapel",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/629"
-    },
-    "Medemblik": {
-        "name": "Medemblik",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/306"
-    },
-    "Zeist": {
-        "name": "Zeist",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/566"
-    },
-    "Nijmegen": {
-        "name": "Nijmegen",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/350"
-    },
     "Aarlanderveen": {
         "name": "Aarlanderveen",
         "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1434"
-    },
-    "Heenvliet": {
-        "name": "Heenvliet",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2006"
-    },
-    "Bellingeweer": {
-        "name": "Bellingeweer",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2975"
-    },
-    "Middelharnis": {
-        "name": "Middelharnis",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1307"
-    },
-    "Bloemendaal": {
-        "name": "Bloemendaal",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/636"
-    },
-    "Terweer": {
-        "name": "Terweer",
-        "thesaurus": null
-    },
-    "Zoeterwoude": {
-        "name": "Zoeterwoude",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/572"
-    },
-    "Krommenie": {
-        "name": "Krommenie",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1263"
-    },
-    "Babiloni\u00ebnbroek": {
-        "name": "Babiloni\u00ebnbroek",
-        "thesaurus": null
-    },
-    "Vollenhove": {
-        "name": "Vollenhove",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/529"
-    },
-    "Enkhuizen": {
-        "name": "Enkhuizen",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/145"
-    },
-    "Sluis": {
-        "name": "Sluis",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/469"
-    },
-    "Monnikendam": {
-        "name": "Monnikendam",
-        "thesaurus": null
-    },
-    "Wateringen": {
-        "name": "Wateringen",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2841"
-    },
-    "Bergen op Zoom": {
-        "name": "Bergen op Zoom",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/46"
-    },
-    "Dresden": {
-        "name": "Dresden",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/717"
-    },
-    "Voorschoten": {
-        "name": "Voorschoten",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/899"
-    },
-    "Hamm": {
-        "name": "Hamm",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2967"
-    },
-    "Frankfurt a/d Main": {
-        "name": "Frankfurt a/d Main",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/155"
-    },
-    "Marsum": {
-        "name": "Marsum",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1733"
-    },
-    "Oud-Vossemeer": {
-        "name": "Oud-Vossemeer",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2693"
-    },
-    "Velp": {
-        "name": "Velp",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2816"
-    },
-    "Grosthuizen": {
-        "name": "Grosthuizen",
-        "thesaurus": null
-    },
-    "IJsselstein": {
-        "name": "IJsselstein",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/227"
-    },
-    "Harderwijk": {
-        "name": "Harderwijk",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/190"
-    },
-    "Kampen": {
-        "name": "Kampen",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/240"
-    },
-    "Nieuwerkerk a/d IJssel": {
-        "name": "Nieuwerkerk a/d IJssel",
-        "thesaurus": null
-    },
-    "Dirksland": {
-        "name": "Dirksland",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/114"
-    },
-    "Beilen": {
-        "name": "Beilen",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/963"
-    },
-    "Bovenkarspel": {
-        "name": "Bovenkarspel",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2986"
-    },
-    "Berkel": {
-        "name": "Berkel",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/849"
-    },
-    "Koudekerk": {
-        "name": "Koudekerk",
-        "thesaurus": null
-    },
-    "Briels Nieuwland": {
-        "name": "Briels Nieuwland",
-        "thesaurus": null
-    },
-    "Delft": {
-        "name": "Delft",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/97"
-    },
-    "Emden": {
-        "name": "Emden",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/142"
-    },
-    "Brouwershaven": {
-        "name": "Brouwershaven",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/900"
-    },
-    "Venlo": {
-        "name": "Venlo",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/520"
-    },
-    "Rotterdam": {
-        "name": "Rotterdam",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/431"
-    },
-    "Graft": {
-        "name": "Graft",
-        "thesaurus": null
-    },
-    "Raamsdonk": {
-        "name": "Raamsdonk",
-        "thesaurus": null
-    },
-    "Syracuse": {
-        "name": "Syracuse",
-        "thesaurus": null
-    },
-    "Heusden": {
-        "name": "Heusden",
-        "thesaurus": null
-    },
-    "Muiden": {
-        "name": "Muiden",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/328"
-    },
-    "Jaarsveld": {
-        "name": "Jaarsveld",
-        "thesaurus": null
-    },
-    "'s-Gravenzande": {
-        "name": "'s-Gravenzande",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/767"
-    },
-    "Broek in Waterland": {
-        "name": "Broek in Waterland",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/590"
-    },
-    "Montfoort": {
-        "name": "Montfoort",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/322"
-    },
-    "Hamburg": {
-        "name": "Hamburg",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/187"
-    },
-    "Zaltbommel": {
-        "name": "Zaltbommel",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/563"
-    },
-    "Charlois": {
-        "name": "Charlois",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1460"
-    },
-    "Nieuwkoop": {
-        "name": "Nieuwkoop",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/348"
-    },
-    "Wesel": {
-        "name": "Wesel",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/546"
-    },
-    "Amsterdam": {
-        "name": "Amsterdam",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/11"
-    },
-    "Polsbroek": {
-        "name": "Polsbroek",
-        "thesaurus": null
-    },
-    "Ursem": {
-        "name": "Ursem",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2810"
-    },
-    "Rockanje": {
-        "name": "Rockanje",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1667"
-    },
-    "Oudorp": {
-        "name": "Oudorp",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1805"
-    },
-    "Boschkapelle": {
-        "name": "Boschkapelle",
-        "thesaurus": null
-    },
-    "Maassluis": {
-        "name": "Maassluis",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/290"
-    },
-    "Den Bosch": {
-        "name": "Den Bosch",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/436"
-    },
-    "Lisse": {
-        "name": "Lisse",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/274"
-    },
-    "Domburg": {
-        "name": "Domburg",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1260"
-    },
-    "Eemnes": {
-        "name": "Eemnes",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1099"
-    },
-    "Workum": {
-        "name": "Workum",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/559"
-    },
-    "Eelde": {
-        "name": "Eelde",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2443"
-    },
-    "Rijnsburg": {
-        "name": "Rijnsburg",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/422"
-    },
-    "Purmerland": {
-        "name": "Purmerland",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/726"
-    },
-    "Gouda": {
-        "name": "Gouda",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/177"
-    },
-    "Almelo": {
-        "name": "Almelo",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/978"
-    },
-    "Overveen": {
-        "name": "Overveen",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1674"
     },
     "Abcoude": {
         "name": "Abcoude",
         "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3"
     },
-    "Mechelen": {
-        "name": "Mechelen",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/305"
-    },
-    "Doetinchem": {
-        "name": "Doetinchem",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/115"
-    },
-    "Soest": {
-        "name": "Soest",
-        "thesaurus": null
-    },
-    "Altona": {
-        "name": "Altona",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/812"
-    },
-    "Beverwijk": {
-        "name": "Beverwijk",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/52"
-    },
-    "Oenkerk": {
-        "name": "Oenkerk",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2917"
-    },
-    "Middelburg": {
-        "name": "Middelburg",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/314"
-    },
-    "Rijswijk": {
-        "name": "Rijswijk",
-        "thesaurus": null
-    },
-    "Baarn": {
-        "name": "Baarn",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2348"
-    },
-    "Goutum": {
-        "name": "Goutum",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1564"
-    },
-    "Den Haag": {
-        "name": "Den Haag",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/100"
-    },
-    "Hasselt": {
-        "name": "Hasselt",
-        "thesaurus": null
-    },
-    "Schermer": {
-        "name": "Schermer",
-        "thesaurus": null
+    "Achthoven": {
+        "name": "Achthoven",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1000"
     },
     "Aduard": {
         "name": "Aduard",
         "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1436"
     },
-    "Langweer": {
-        "name": "Langweer",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1445"
+    "Aken": {
+        "name": "Aken",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/5"
     },
-    "Wezepe": {
-        "name": "Wezepe",
-        "thesaurus": null
+    "Alkmaar": {
+        "name": "Alkmaar",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/7"
+    },
+    "Almelo": {
+        "name": "Almelo",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/978"
+    },
+    "Alphen": {
+        "name": "Alphen",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/8"
+    },
+    "Altona": {
+        "name": "Altona",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/812"
+    },
+    "Amerongen": {
+        "name": "Amerongen",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2338"
+    },
+    "Amersfoort": {
+        "name": "Amersfoort",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/9"
+    },
+    "Amstelveen": {
+        "name": "Amstelveen",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/593"
+    },
+    "Amsterdam": {
+        "name": "Amsterdam",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/11"
+    },
+    "Ankeveen": {
+        "name": "Ankeveen",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1170"
+    },
+    "Apeldoorn": {
+        "name": "Apeldoorn",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/14"
+    },
+    "Arnhem": {
+        "name": "Arnhem",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/18"
+    },
+    "Asperen": {
+        "name": "Asperen",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1402"
+    },
+    "Avenhorn": {
+        "name": "Avenhorn",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1323"
+    },
+    "Axel": {
+        "name": "Axel",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/805"
+    },
+    "Baambrugge": {
+        "name": "Baambrugge",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1318"
+    },
+    "Baarn": {
+        "name": "Baarn",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2348"
+    },
+    "Babiloni\u00ebnbroek": {
+        "name": "Babiloni\u00ebnbroek",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3170"
+    },
+    "Batavia": {
+        "name": "Batavia",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/36"
+    },
+    "Batavia/Jakarta": {
+        "name": "Batavia/Jakarta",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/36"
+    },
+    "Beetgum": {
+        "name": "Beetgum",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1448"
+    },
+    "Beilen": {
+        "name": "Beilen",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/963"
+    },
+    "Bellingeweer": {
+        "name": "Bellingeweer",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2975"
+    },
+    "Bennebroek": {
+        "name": "Bennebroek",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2227"
+    },
+    "Benschop": {
+        "name": "Benschop",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3171"
+    },
+    "Bergen NH": {
+        "name": "Bergen NH",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1012"
+    },
+    "Bergen op Zoom": {
+        "name": "Bergen op Zoom",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/46"
+    },
+    "Berkel": {
+        "name": "Berkel",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/849"
+    },
+    "Berkhout": {
+        "name": "Berkhout",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3172"
+    },
+    "Beverwijk": {
+        "name": "Beverwijk",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/52"
+    },
+    "Biervliet": {
+        "name": "Biervliet",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2372"
+    },
+    "Bloemendaal": {
+        "name": "Bloemendaal",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/636"
+    },
+    "Bodegraven": {
+        "name": "Bodegraven",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/60"
+    },
+    "Bolsward": {
+        "name": "Bolsward",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/63"
+    },
+    "Boschkapelle": {
+        "name": "Boschkapelle",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3184"
+    },
+    "Bovenkarspel": {
+        "name": "Bovenkarspel",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2986"
+    },
+    "Brandwijk en Gijbeland": {
+        "name": "Brandwijk en Gijbeland",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1316"
+    },
+    "Breda": {
+        "name": "Breda",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/76"
+    },
+    "Bremen": {
+        "name": "Bremen",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/77"
+    },
+    "Breukelen": {
+        "name": "Breukelen",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/838"
+    },
+    "Brielle": {
+        "name": "Brielle",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/98"
+    },
+    "Briels Nieuwland": {
+        "name": "Briels Nieuwland",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3183"
+    },
+    "Broek in Waterland": {
+        "name": "Broek in Waterland",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/590"
+    },
+    "Brouwershaven": {
+        "name": "Brouwershaven",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/900"
+    },
+    "Brussel": {
+        "name": "Brussel",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/83"
+    },
+    "Buiksloot": {
+        "name": "Buiksloot",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/591"
+    },
+    "Buitenpost": {
+        "name": "Buitenpost",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2397"
+    },
+    "Bunnik": {
+        "name": "Bunnik",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3173"
+    },
+    "Buren": {
+        "name": "Buren",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/835"
+    },
+    "B\u00fcy\u00fckdere": {
+        "name": "B\u00fcy\u00fckdere",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3211"
+    },
+    "Capelle a/d IJssel": {
+        "name": "Capelle a/d IJssel",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2060"
+    },
+    "Ceylon": {
+        "name": "Ceylon",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/619"
+    },
+    "Charlois": {
+        "name": "Charlois",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1460"
+    },
+    "Colombo": {
+        "name": "Colombo",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/652"
+    },
+    "Culemborg": {
+        "name": "Culemborg",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/92"
+    },
+    "Danzig/Gdansk": {
+        "name": "Danzig/Gdansk",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/94"
+    },
+    "De Beemster": {
+        "name": "De Beemster",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1189"
+    },
+    "De Koog": {
+        "name": "De Koog",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2408"
+    },
+    "De Rijp": {
+        "name": "De Rijp",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1127"
+    },
+    "Delfshaven": {
+        "name": "Delfshaven",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/96"
+    },
+    "Delft": {
+        "name": "Delft",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/97"
+    },
+    "Den Bosch": {
+        "name": "Den Bosch",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/436"
+    },
+    "Den Briel": {
+        "name": "Den Briel",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/98"
+    },
+    "Den Haag": {
+        "name": "Den Haag",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/100"
+    },
+    "Den Hitsert": {
+        "name": "Den Hitsert",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2928"
+    },
+    "Den Hoef": {
+        "name": "Den Hoef",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3209"
+    },
+    "Deventer": {
+        "name": "Deventer",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/105"
+    },
+    "Diemen": {
+        "name": "Diemen",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/108"
+    },
+    "Dirksland": {
+        "name": "Dirksland",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/114"
+    },
+    "Dodewaard": {
+        "name": "Dodewaard",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2427"
+    },
+    "Doetinchem": {
+        "name": "Doetinchem",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/115"
+    },
+    "Dokkum": {
+        "name": "Dokkum",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/116"
+    },
+    "Domburg": {
+        "name": "Domburg",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1260"
     },
     "Dongjum": {
         "name": "Dongjum",
-        "thesaurus": null
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3178"
     },
-    "Mijdrecht": {
-        "name": "Mijdrecht",
-        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/317"
+    "Dordrecht": {
+        "name": "Dordrecht",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/118"
+    },
+    "Douai": {
+        "name": "Douai",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1909"
+    },
+    "Dresden": {
+        "name": "Dresden",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/717"
+    },
+    "Dubbeldam": {
+        "name": "Dubbeldam",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/706"
+    },
+    "Duinkerken": {
+        "name": "Duinkerken",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/127"
+    },
+    "Duisburg": {
+        "name": "Duisburg",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/128"
+    },
+    "Echten": {
+        "name": "Echten",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3037"
+    },
+    "Eck en Wiel": {
+        "name": "Eck en Wiel",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2442"
+    },
+    "Edam": {
+        "name": "Edam",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/132"
+    },
+    "Eede": {
+        "name": "Eede",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/763"
+    },
+    "Eelde": {
+        "name": "Eelde",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2443"
+    },
+    "Eemnes": {
+        "name": "Eemnes",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1099"
+    },
+    "Eenrum": {
+        "name": "Eenrum",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2444"
+    },
+    "Emden": {
+        "name": "Emden",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/142"
+    },
+    "Emmerik": {
+        "name": "Emmerik",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/143"
+    },
+    "Enkhuizen": {
+        "name": "Enkhuizen",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/145"
+    },
+    "Erkelenz": {
+        "name": "Erkelenz",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1991"
+    },
+    "Etersheim": {
+        "name": "Etersheim",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3193"
+    },
+    "Franeker": {
+        "name": "Franeker",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/153"
+    },
+    "Frankfurt a/d Main": {
+        "name": "Frankfurt a/d Main",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/155"
+    },
+    "Frankfurt an der Oder": {
+        "name": "Frankfurt an der Oder",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1132"
+    },
+    "Geertruidenberg": {
+        "name": "Geertruidenberg",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/161"
+    },
+    "Gibraltar": {
+        "name": "Gibraltar",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3188"
+    },
+    "Goes": {
+        "name": "Goes",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/173"
     },
     "Gorinchem": {
         "name": "Gorinchem",
         "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/174"
     },
+    "Gotenburg": {
+        "name": "Gotenburg",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/176"
+    },
+    "Gouda": {
+        "name": "Gouda",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/177"
+    },
+    "Goudswaard": {
+        "name": "Goudswaard",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3194"
+    },
+    "Goutum": {
+        "name": "Goutum",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1564"
+    },
+    "Graft": {
+        "name": "Graft",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3135"
+    },
+    "Grave": {
+        "name": "Grave",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/178"
+    },
+    "Groningen": {
+        "name": "Groningen",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/182"
+    },
+    "Grosthuizen": {
+        "name": "Grosthuizen",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3195"
+    },
+    "Haamstede": {
+        "name": "Haamstede",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2495"
+    },
+    "Haarlem": {
+        "name": "Haarlem",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/184"
+    },
+    "Haastrecht": {
+        "name": "Haastrecht",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1332"
+    },
+    "Hamburg": {
+        "name": "Hamburg",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/187"
+    },
+    "Hamm": {
+        "name": "Hamm",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2967"
+    },
+    "Harderwijk": {
+        "name": "Harderwijk",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/190"
+    },
+    "Hardinxveld": {
+        "name": "Hardinxveld",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3196"
+    },
+    "Harlingen": {
+        "name": "Harlingen",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/192"
+    },
+    "Harmelen": {
+        "name": "Harmelen",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2501"
+    },
+    "Hasselt": {
+        "name": "Hasselt",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/195"
+    },
+    "Hazerswoude": {
+        "name": "Hazerswoude",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1908"
+    },
+    "Heemstede": {
+        "name": "Heemstede",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/198"
+    },
+    "Heenvliet": {
+        "name": "Heenvliet",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2006"
+    },
+    "Heerjansdam": {
+        "name": "Heerjansdam",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3181"
+    },
+    "Hei- en Boeikop": {
+        "name": "Hei- en Boeikop",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3197"
+    },
+    "Hellevoetsluis": {
+        "name": "Hellevoetsluis",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/201"
+    },
+    "Hemmen": {
+        "name": "Hemmen",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3210"
+    },
+    "Hensbroek": {
+        "name": "Hensbroek",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2519"
+    },
+    "Herwijnen": {
+        "name": "Herwijnen",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2525"
+    },
+    "Heteren": {
+        "name": "Heteren",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2526"
+    },
+    "Heusden": {
+        "name": "Heusden",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/209"
+    },
+    "Hichtum": {
+        "name": "Hichtum",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2912"
+    },
+    "Holwerd": {
+        "name": "Holwerd",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/865"
+    },
+    "Hontenisse": {
+        "name": "Hontenisse",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2537"
+    },
+    "Hoogezand": {
+        "name": "Hoogezand",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2233"
+    },
+    "Hoogwoud": {
+        "name": "Hoogwoud",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2542"
+    },
+    "Hoorn": {
+        "name": "Hoorn",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/219"
+    },
+    "Hulst": {
+        "name": "Hulst",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/222"
+    },
+    "IJsselstein": {
+        "name": "IJsselstein",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/227"
+    },
+    "IJzendoorn": {
+        "name": "IJzendoorn",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2248"
+    },
+    "Istanbul": {
+        "name": "Istanbul",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/89"
+    },
+    "Jaarsveld": {
+        "name": "Jaarsveld",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3198"
+    },
+    "Jelsum": {
+        "name": "Jelsum",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1050"
+    },
+    "Jutphaas": {
+        "name": "Jutphaas",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2172"
+    },
+    "Kampen": {
+        "name": "Kampen",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/240"
+    },
+    "Kassel": {
+        "name": "Kassel",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/241"
+    },
+    "Katwijk": {
+        "name": "Katwijk",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/830"
+    },
+    "Keulen": {
+        "name": "Keulen",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/242"
+    },
+    "Kijfhoek": {
+        "name": "Kijfhoek",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3182"
+    },
+    "Klundert": {
+        "name": "Klundert",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/246"
+    },
+    "Kortenhoef": {
+        "name": "Kortenhoef",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/970"
+    },
+    "Koudekerk": {
+        "name": "Koudekerk",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2584"
+    },
+    "Koudum": {
+        "name": "Koudum",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/846"
+    },
+    "Krommenie": {
+        "name": "Krommenie",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1263"
+    },
+    "Lakerveld": {
+        "name": "Lakerveld",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3216"
+    },
+    "Langen": {
+        "name": "Langen",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2592"
+    },
+    "Langweer": {
+        "name": "Langweer",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1445"
+    },
+    "Leeuwarden": {
+        "name": "Leeuwarden",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/261"
+    },
+    "Leiden": {
+        "name": "Leiden",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/262"
+    },
+    "Leiderdorp": {
+        "name": "Leiderdorp",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/263"
+    },
+    "Leidschendam": {
+        "name": "Leidschendam",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2141"
+    },
+    "Leimuiden": {
+        "name": "Leimuiden",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/960"
+    },
+    "Leuven": {
+        "name": "Leuven",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/267"
+    },
+    "Lexmond": {
+        "name": "Lexmond",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/810"
+    },
+    "Lezart": {
+        "name": "Lezart",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3208"
+    },
+    "Limmen": {
+        "name": "Limmen",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1464"
+    },
+    "Lingen": {
+        "name": "Lingen",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/988"
+    },
+    "Lisse": {
+        "name": "Lisse",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/274"
+    },
+    "Loenen": {
+        "name": "Loenen",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/276"
+    },
+    "Loenersloot": {
+        "name": "Loenersloot",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3175"
+    },
+    "Londen": {
+        "name": "Londen",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/279"
+    },
+    "Loosduinen": {
+        "name": "Loosduinen",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/281"
+    },
+    "Lopik": {
+        "name": "Lopik",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1357"
+    },
+    "Lopikerkapel": {
+        "name": "Lopikerkapel",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/629"
+    },
+    "Maarssen": {
+        "name": "Maarssen",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/288"
+    },
+    "Maasbommel": {
+        "name": "Maasbommel",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1597"
+    },
+    "Maasland": {
+        "name": "Maasland",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1216"
+    },
+    "Maassluis": {
+        "name": "Maassluis",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/290"
+    },
+    "Maastricht": {
+        "name": "Maastricht",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/291"
+    },
+    "Makkum": {
+        "name": "Makkum",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/296"
+    },
+    "Marseille": {
+        "name": "Marseille",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/623"
+    },
+    "Marsum": {
+        "name": "Marsum",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1733"
+    },
+    "Mechelen": {
+        "name": "Mechelen",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/305"
+    },
+    "Medemblik": {
+        "name": "Medemblik",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/306"
+    },
+    "Meppel": {
+        "name": "Meppel",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/309"
+    },
+    "Middelburg": {
+        "name": "Middelburg",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/314"
+    },
+    "Middelharnis": {
+        "name": "Middelharnis",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1307"
+    },
+    "Mijdrecht": {
+        "name": "Mijdrecht",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/317"
+    },
+    "Mijnsheerenland": {
+        "name": "Mijnsheerenland",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2629"
+    },
+    "Molkwerum": {
+        "name": "Molkwerum",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2633"
+    },
+    "Monnikendam": {
+        "name": "Monnikendam",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/321"
+    },
+    "Monster": {
+        "name": "Monster",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1740"
+    },
+    "Montfoort": {
+        "name": "Montfoort",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/322"
+    },
+    "Moordrecht": {
+        "name": "Moordrecht",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1928"
+    },
+    "Muiden": {
+        "name": "Muiden",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/328"
+    },
+    "Muiderberg": {
+        "name": "Muiderberg",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2640"
+    },
+    "M\u00fclheim am Rhein": {
+        "name": "M\u00fclheim am Rhein",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1517"
+    },
+    "Naarden": {
+        "name": "Naarden",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/333"
+    },
+    "Namen": {
+        "name": "Namen",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/334"
+    },
+    "Namen (Namur)": {
+        "name": "Namen (Namur)",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/334"
+    },
+    "Nederland": {
+        "name": "Nederland",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/337"
+    },
+    "Neer": {
+        "name": "Neer",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3212"
+    },
+    "Nichtevecht": {
+        "name": "Nichtevecht",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1601"
+    },
+    "Nieuw Loosdrecht": {
+        "name": "Nieuw Loosdrecht",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3192"
+    },
+    "Nieuw-Beijerland": {
+        "name": "Nieuw-Beijerland",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3199"
+    },
+    "Nieuwendam": {
+        "name": "Nieuwendam",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/587"
+    },
+    "Nieuwer-Amstel": {
+        "name": "Nieuwer-Amstel",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3215"
+    },
+    "Nieuwerkerk a/d IJssel": {
+        "name": "Nieuwerkerk a/d IJssel",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3200"
+    },
+    "Nieuwkoop": {
+        "name": "Nieuwkoop",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/348"
+    },
+    "Nijmegen": {
+        "name": "Nijmegen",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/350"
+    },
+    "Noordgouwe": {
+        "name": "Noordgouwe",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3191"
+    },
+    "Noordwijk": {
+        "name": "Noordwijk",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/359"
+    },
+    "Ochten": {
+        "name": "Ochten",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1415"
+    },
+    "Oegstgeest": {
+        "name": "Oegstgeest",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/367"
+    },
+    "Oenkerk": {
+        "name": "Oenkerk",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2917"
+    },
+    "Oost-Graftdijk": {
+        "name": "Oost-Graftdijk",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3201"
+    },
+    "Oosterbeek": {
+        "name": "Oosterbeek",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1610"
+    },
+    "Oosterblokker": {
+        "name": "Oosterblokker",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2681"
+    },
+    "Oosterwijk": {
+        "name": "Oosterwijk",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1440"
+    },
+    "Oosthuizen": {
+        "name": "Oosthuizen",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1563"
+    },
+    "Oostkapelle": {
+        "name": "Oostkapelle",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2686"
+    },
+    "Oostzaan": {
+        "name": "Oostzaan",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/375"
+    },
+    "Oud-Beijerland": {
+        "name": "Oud-Beijerland",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/382"
+    },
+    "Oud-Vossemeer": {
+        "name": "Oud-Vossemeer",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2693"
+    },
+    "Ouderkerk": {
+        "name": "Ouderkerk",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/594"
+    },
+    "Oudewater": {
+        "name": "Oudewater",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/386"
+    },
+    "Oudkerk": {
+        "name": "Oudkerk",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2023"
+    },
+    "Oudorp": {
+        "name": "Oudorp",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1805"
+    },
+    "Overschie": {
+        "name": "Overschie",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/389"
+    },
+    "Overveen": {
+        "name": "Overveen",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1674"
+    },
+    "Padua": {
+        "name": "Padua",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/392"
+    },
+    "Parijs": {
+        "name": "Parijs",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/395"
+    },
+    "Pera": {
+        "name": "Pera",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3217"
+    },
+    "Piershil": {
+        "name": "Piershil",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/400"
+    },
+    "Polsbroek": {
+        "name": "Polsbroek",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3189"
+    },
+    "Poortvliet": {
+        "name": "Poortvliet",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2719"
+    },
+    "Purmerend": {
+        "name": "Purmerend",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/410"
+    },
+    "Purmerland": {
+        "name": "Purmerland",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/726"
+    },
+    "Putney": {
+        "name": "Putney",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3214"
+    },
+    "Raamsdonk": {
+        "name": "Raamsdonk",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3202"
+    },
+    "Ransdorp": {
+        "name": "Ransdorp",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/836"
+    },
+    "Ravenswaai": {
+        "name": "Ravenswaai",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3203"
+    },
+    "Ridderkerk": {
+        "name": "Ridderkerk",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/421"
+    },
+    "Rijnsaterwoude": {
+        "name": "Rijnsaterwoude",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/974"
+    },
+    "Rijnsburg": {
+        "name": "Rijnsburg",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/422"
+    },
+    "Rijswijk": {
+        "name": "Rijswijk",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/424"
+    },
+    "Rindern": {
+        "name": "Rindern",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3204"
+    },
+    "Rockanje": {
+        "name": "Rockanje",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1667"
+    },
+    "Roermond": {
+        "name": "Roermond",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/427"
+    },
+    "Rome": {
+        "name": "Rome",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/430"
+    },
+    "Rotterdam": {
+        "name": "Rotterdam",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/431"
+    },
+    "Rozendaal": {
+        "name": "Rozendaal",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3213"
+    },
+    "Sas van Gent": {
+        "name": "Sas van Gent",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/977"
+    },
+    "Schalkwijk": {
+        "name": "Schalkwijk",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/993"
+    },
+    "Schermer": {
+        "name": "Schermer",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3206"
+    },
+    "Scheveningen": {
+        "name": "Scheveningen",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/446"
+    },
+    "Schiedam": {
+        "name": "Schiedam",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/447"
+    },
+    "Schipluiden": {
+        "name": "Schipluiden",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/981"
+    },
+    "Schoonhoven": {
+        "name": "Schoonhoven",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/449"
+    },
+    "Sint-Annaparochie": {
+        "name": "Sint-Annaparochie",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/596"
+    },
+    "Sint-Eustatius": {
+        "name": "Sint-Eustatius",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3185"
+    },
+    "Sint-Laurens": {
+        "name": "Sint-Laurens",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2179"
+    },
+    "Sint-Pancras": {
+        "name": "Sint-Pancras",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2754"
+    },
+    "Sint-Truiden": {
+        "name": "Sint-Truiden",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/465"
+    },
+    "Sloten": {
+        "name": "Sloten",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/468"
+    },
+    "Sloterdijk": {
+        "name": "Sloterdijk",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/637"
+    },
+    "Sluis": {
+        "name": "Sluis",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/469"
+    },
+    "Sneek": {
+        "name": "Sneek",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/471"
+    },
+    "Soest": {
+        "name": "Soest",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/473"
+    },
+    "Sommelsdijk": {
+        "name": "Sommelsdijk",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/477"
+    },
+    "Spaarndam": {
+        "name": "Spaarndam",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/480"
+    },
+    "Steenwijk": {
+        "name": "Steenwijk",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/485"
+    },
+    "Stitswerd": {
+        "name": "Stitswerd",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3186"
+    },
+    "Stockholm": {
+        "name": "Stockholm",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/489"
+    },
     "Strijen": {
         "name": "Strijen",
-        "thesaurus": null
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2987"
+    },
+    "Suriname": {
+        "name": "Suriname",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/493"
+    },
+    "Swichem": {
+        "name": "Swichem",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3207"
+    },
+    "Syracuse": {
+        "name": "Syracuse",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3187"
+    },
+    "Ter Aar": {
+        "name": "Ter Aar",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1167"
+    },
+    "Ter Heide": {
+        "name": "Ter Heide",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/833"
+    },
+    "Ternaard": {
+        "name": "Ternaard",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1617"
+    },
+    "Terweer": {
+        "name": "Terweer",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/539"
+    },
+    "Texel": {
+        "name": "Texel",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/803"
+    },
+    "Tholen": {
+        "name": "Tholen",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/924"
+    },
+    "Tiel": {
+        "name": "Tiel",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/782"
+    },
+    "Ursem": {
+        "name": "Ursem",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2810"
+    },
+    "Utingeradeel": {
+        "name": "Utingeradeel",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3176"
+    },
+    "Utrecht": {
+        "name": "Utrecht",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/512"
+    },
+    "Veere": {
+        "name": "Veere",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/516"
+    },
+    "Velp": {
+        "name": "Velp",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2816"
+    },
+    "Velsen": {
+        "name": "Velsen",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/756"
+    },
+    "Venlo": {
+        "name": "Venlo",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/520"
+    },
+    "Veur": {
+        "name": "Veur",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2302"
+    },
+    "Veurne": {
+        "name": "Veurne",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/522"
+    },
+    "Vianen": {
+        "name": "Vianen",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/523"
+    },
+    "Vlaardingen": {
+        "name": "Vlaardingen",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/526"
+    },
+    "Vlissingen": {
+        "name": "Vlissingen",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/528"
+    },
+    "Vollenhove": {
+        "name": "Vollenhove",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/529"
+    },
+    "Voorburg": {
+        "name": "Voorburg",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/530"
+    },
+    "Voorschoten": {
+        "name": "Voorschoten",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/899"
+    },
+    "Vreeland": {
+        "name": "Vreeland",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1136"
+    },
+    "Waddinxveen": {
+        "name": "Waddinxveen",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/774"
+    },
+    "Warmond": {
+        "name": "Warmond",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/537"
+    },
+    "Wassenaar": {
+        "name": "Wassenaar",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/539"
+    },
+    "Wateringen": {
+        "name": "Wateringen",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2841"
+    },
+    "Waverveen": {
+        "name": "Waverveen",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/944"
+    },
+    "Weert": {
+        "name": "Weert",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/542"
+    },
+    "Weesp": {
+        "name": "Weesp",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/543"
+    },
+    "Wesel": {
+        "name": "Wesel",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/546"
+    },
+    "Westzaan": {
+        "name": "Westzaan",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/913"
+    },
+    "Wezepe": {
+        "name": "Wezepe",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3179"
+    },
+    "Willemstad": {
+        "name": "Willemstad",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/554"
+    },
+    "Wilsveen": {
+        "name": "Wilsveen",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3177"
+    },
+    "Windesheim": {
+        "name": "Windesheim",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2314"
+    },
+    "Winschoten": {
+        "name": "Winschoten",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1083"
+    },
+    "Winterswijk": {
+        "name": "Winterswijk",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1068"
+    },
+    "Woerden": {
+        "name": "Woerden",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/557"
+    },
+    "Workum": {
+        "name": "Workum",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/559"
+    },
+    "Wormer": {
+        "name": "Wormer",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/560"
+    },
+    "Woubrugge": {
+        "name": "Woubrugge",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1980"
+    },
+    "Zaandam": {
+        "name": "Zaandam",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/562"
+    },
+    "Zaltbommel": {
+        "name": "Zaltbommel",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/563"
+    },
+    "Zandvoort": {
+        "name": "Zandvoort",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2881"
+    },
+    "Zeist": {
+        "name": "Zeist",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/566"
+    },
+    "Zevenbergen": {
+        "name": "Zevenbergen",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/567"
+    },
+    "Zevenhuizen": {
+        "name": "Zevenhuizen",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/568"
+    },
+    "Zierikzee": {
+        "name": "Zierikzee",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/570"
+    },
+    "Zoeterwoude": {
+        "name": "Zoeterwoude",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/572"
+    },
+    "Zonnemere": {
+        "name": "Zonnemere",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3190"
+    },
+    "Zorgvliet": {
+        "name": "Zorgvliet",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/3205"
+    },
+    "Zuid-Beijerland": {
+        "name": "Zuid-Beijerland",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/2928"
+    },
+    "Zuidzijpe": {
+        "name": "Zuidzijpe",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1723"
+    },
+    "Zuilen": {
+        "name": "Zuilen",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/1431"
+    },
+    "Zutphen": {
+        "name": "Zutphen",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/576"
+    },
+    "Zwammerdam": {
+        "name": "Zwammerdam",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/577"
+    },
+    "Zwolle": {
+        "name": "Zwolle",
+        "thesaurus": "http://www.vondel.humanities.uva.nl/ecartico/places/580"
     }
 }
