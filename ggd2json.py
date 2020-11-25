@@ -84,6 +84,9 @@ with open('data/id2printer.json') as infile:
 with open('data/id2gender.json') as infile:
     ID2GENDER = json.load(infile)
 
+with open('data/id2otr.json') as infile:
+    ID2OTR = json.load(infile)
+
 ID2THESAURUS = defaultdict(lambda: defaultdict(lambda: defaultdict(dict)))
 for ggdid in ID2PERSON:
     for name in ID2PERSON[ggdid]:
@@ -162,11 +165,17 @@ def getPersons(persons, role=False, recordID=None):
         else:
             gender = None
 
+        if recordID and recordID in ID2OTR:
+            otr = ID2OTR[recordID].get(person, [])
+        else:
+            otr = []
+
         plist.append({
             'person': person,
             'role': role,
             'thesaurus': thesaurus,
-            'gender': gender
+            'gender': gender,
+            'otr': otr
         })
 
     return plist
@@ -277,6 +286,14 @@ def parseRecord(record: dict):
 
     # stcn
     record['stcn'] = GGD2STCN.get(record['id'], None)
+
+    # otr
+    otr = ID2OTR.get(record['id'])
+    if otr:
+        otr = otr['otr']
+    else:
+        otr = []
+    record['event']['otr'] = otr
 
     # impressum place
     if record['id'] in IMPRESSUMDATA:

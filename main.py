@@ -123,6 +123,8 @@ class Event(Thing):
 
     eventType = rdfMultiple(sem.eventType)
 
+    precedingEvent = rdfMultiple(bio.precedingEvent)
+
 
 class EventType(Thing):
     rdf_type = sem.EventType
@@ -404,7 +406,7 @@ def toRdf(filepath: str, target: str):
             places.append(Place(placeURI, name=[placeName]))
 
         event = Event(
-            ggdEvent.term(str(next(eventCounter))),
+            ggdEvent.term(str(r['id'])),
             hasTimeStamp=Literal(r['event']['timeStamp'], datatype=XSD.date)
             if r['event']['timeStamp'] else None,
             hasEarliestBeginTimeStamp=Literal(
@@ -414,7 +416,8 @@ def toRdf(filepath: str, target: str):
             hasPlace=places,
             eventType=eTypes,
             subjectOf=book,
-            label=[Literal(i, lang='nl') for i in r['event']['type'] if i])
+            label=[Literal(i, lang='nl') for i in r['event']['type'] if i],
+            precedingEvent=[URIRef(i) for i in r['event']['otr']])
         abouts.append(event)
 
         identifiers = [PropertyValue(None, name=['GGD id'], value=r['id'])]
@@ -468,6 +471,9 @@ def toRdf(filepath: str, target: str):
                     gender = schema.Female
                 else:
                     gender = None
+
+                # otr
+                personSameAs += [URIRef(i) for i in p['otr']]
 
                 person = Person(ggdPerson.term(str(next(personCounter))),
                                 label=labelInverseName,
