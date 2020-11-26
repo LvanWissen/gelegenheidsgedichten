@@ -1,466 +1,466 @@
 {
     "24": {
-        "Groot, Hugo de": "https://data.create.humanities.uva.nl/id/rkd/persons/103088",
-        "Reigersbergh, Maria van": "https://data.create.humanities.uva.nl/id/rkd/persons/115712"
+        "Groot, Hugo de": ["https://data.create.humanities.uva.nl/id/rkd/persons/103088"],
+        "Reigersbergh, Maria van": ["https://data.create.humanities.uva.nl/id/rkd/persons/115712"]
     },
     "83": {
-        "Jacobsen, Rombout": "https://data.create.humanities.uva.nl/id/rkd/persons/117809",
-        "Baesdorp, Hillegonda van": "https://data.create.humanities.uva.nl/id/rkd/persons/110607"
+        "Jacobsen, Rombout": ["https://data.create.humanities.uva.nl/id/rkd/persons/117809"],
+        "Baesdorp, Hillegonda van": ["https://data.create.humanities.uva.nl/id/rkd/persons/110607"]
     },
     "148": {
-        "Vernat, Joan": "https://data.create.humanities.uva.nl/id/rkd/persons/114445",
-        "Gheel, Sara van": "https://data.create.humanities.uva.nl/id/rkd/persons/122191"
+        "Vernat, Joan": ["https://data.create.humanities.uva.nl/id/rkd/persons/114445"],
+        "Gheel, Sara van": ["https://data.create.humanities.uva.nl/id/rkd/persons/122191"]
     },
     "189": {
-        "Merckt, Jacob van der": "https://data.create.humanities.uva.nl/id/rkd/persons/116186",
-        "Witsen, Petronella": "https://data.create.humanities.uva.nl/id/rkd/persons/116187"
+        "Merckt, Jacob van der": ["https://data.create.humanities.uva.nl/id/rkd/persons/116186"],
+        "Witsen, Petronella": ["https://data.create.humanities.uva.nl/id/rkd/persons/116187"]
     },
     "221": {
-        "Roostermans, Tileman": "https://data.create.humanities.uva.nl/id/rkd/persons/135588",
-        "Brugmans, Catharina": "https://data.create.humanities.uva.nl/id/rkd/persons/135589"
+        "Roostermans, Tileman": ["https://data.create.humanities.uva.nl/id/rkd/persons/135588"],
+        "Brugmans, Catharina": ["https://data.create.humanities.uva.nl/id/rkd/persons/135589"]
     },
     "235": {
-        "Graeff, Cornelis de": "https://data.create.humanities.uva.nl/id/rkd/persons/103076",
-        "Overlander, Geertruid": "https://data.create.humanities.uva.nl/id/rkd/persons/121310"
+        "Graeff, Cornelis de": ["https://data.create.humanities.uva.nl/id/rkd/persons/103076"],
+        "Overlander, Geertruid": ["https://data.create.humanities.uva.nl/id/rkd/persons/121310"]
     },
     "278": {
-        "Bicker, Hendrik (1615-1651)": "https://data.create.humanities.uva.nl/id/rkd/persons/119089",
-        "Geelvinck, Eva": "https://data.create.humanities.uva.nl/id/rkd/persons/119088"
+        "Bicker, Hendrik (1615-1651)": ["https://data.create.humanities.uva.nl/id/rkd/persons/119089"],
+        "Geelvinck, Eva": ["https://data.create.humanities.uva.nl/id/rkd/persons/119088"]
     },
     "510": {
-        "Doublet, Philippus": "https://data.create.humanities.uva.nl/id/rkd/persons/118684",
-        "Huygens, Susanna": "https://data.create.humanities.uva.nl/id/rkd/persons/118685"
+        "Doublet, Philippus": ["https://data.create.humanities.uva.nl/id/rkd/persons/118684"],
+        "Huygens, Susanna": ["https://data.create.humanities.uva.nl/id/rkd/persons/118685"]
     },
     "529": {
-        "Honiwood, Robert": "https://data.create.humanities.uva.nl/id/rkd/persons/204003",
-        "Vlooswyck, Margarite van": "https://data.create.humanities.uva.nl/id/rkd/persons/204002"
+        "Honiwood, Robert": ["https://data.create.humanities.uva.nl/id/rkd/persons/204003"],
+        "Vlooswyck, Margarite van": ["https://data.create.humanities.uva.nl/id/rkd/persons/204002"]
     },
     "570": {
-        "Tromp, Cornelis": "https://data.create.humanities.uva.nl/id/rkd/persons/110371",
-        "Raephorst, Margareta van": "https://data.create.humanities.uva.nl/id/rkd/persons/142541"
+        "Tromp, Cornelis": ["https://data.create.humanities.uva.nl/id/rkd/persons/110371"],
+        "Raephorst, Margareta van": ["https://data.create.humanities.uva.nl/id/rkd/persons/142541"]
     },
     "589": {
-        "Wassenaar, Jacob van (1646-1707)": "https://data.create.humanities.uva.nl/id/rkd/persons/119834",
-        "Lier, Jacoba van": "https://data.create.humanities.uva.nl/id/rkd/persons/112817"
+        "Wassenaar, Jacob van (1646-1707)": ["https://data.create.humanities.uva.nl/id/rkd/persons/119834"],
+        "Lier, Jacoba van": ["https://data.create.humanities.uva.nl/id/rkd/persons/112817"]
     },
     "749": {
-        "Koker, Gillis de": "https://data.create.humanities.uva.nl/id/rkd/persons/207668",
-        "Liemans, Hester": "https://data.create.humanities.uva.nl/id/rkd/persons/207669"
+        "Koker, Gillis de": ["https://data.create.humanities.uva.nl/id/rkd/persons/207668"],
+        "Liemans, Hester": ["https://data.create.humanities.uva.nl/id/rkd/persons/207669"]
     },
     "750": {
-        "Koker, Gillis de": "https://data.create.humanities.uva.nl/id/rkd/persons/207668",
-        "Liemans, Hester": "https://data.create.humanities.uva.nl/id/rkd/persons/207669"
+        "Koker, Gillis de": ["https://data.create.humanities.uva.nl/id/rkd/persons/207668"],
+        "Liemans, Hester": ["https://data.create.humanities.uva.nl/id/rkd/persons/207669"]
     },
     "763": {
-        "Ingelbrechts, Josias": "https://data.create.humanities.uva.nl/id/rkd/persons/105736",
-        "Reyniers, Maria": "https://data.create.humanities.uva.nl/id/rkd/persons/108563"
+        "Ingelbrechts, Josias": ["https://data.create.humanities.uva.nl/id/rkd/persons/105736"],
+        "Reyniers, Maria": ["https://data.create.humanities.uva.nl/id/rkd/persons/108563"]
     },
     "853": {
-        "Roovere, Cornelis de": "https://data.create.humanities.uva.nl/id/rkd/persons/103546",
-        "Meerman, Dina": "https://data.create.humanities.uva.nl/id/rkd/persons/206254"
+        "Roovere, Cornelis de": ["https://data.create.humanities.uva.nl/id/rkd/persons/103546"],
+        "Meerman, Dina": ["https://data.create.humanities.uva.nl/id/rkd/persons/206254"]
     },
     "887": {
-        "Kops, Jakobus": "https://data.create.humanities.uva.nl/id/rkd/persons/127803",
-        "Barnaart, Elizabeth": "https://data.create.humanities.uva.nl/id/rkd/persons/127800"
+        "Kops, Jakobus": ["https://data.create.humanities.uva.nl/id/rkd/persons/127803"],
+        "Barnaart, Elizabeth": ["https://data.create.humanities.uva.nl/id/rkd/persons/127800"]
     },
     "981": {
-        "Witt, Joan de (1662-1701)": "https://data.create.humanities.uva.nl/id/rkd/persons/120481",
-        "Witt, Wilhelmina de": "https://data.create.humanities.uva.nl/id/rkd/persons/103841"
+        "Witt, Joan de (1662-1701)": ["https://data.create.humanities.uva.nl/id/rkd/persons/120481"],
+        "Witt, Wilhelmina de": ["https://data.create.humanities.uva.nl/id/rkd/persons/103841"]
     },
     "1233": {
-        "Oosterdyk Schacht, Hermannus": "https://data.create.humanities.uva.nl/id/rkd/persons/200731",
-        "Stoffen, Catharina van der": "https://data.create.humanities.uva.nl/id/rkd/persons/208274"
+        "Oosterdyk Schacht, Hermannus": ["https://data.create.humanities.uva.nl/id/rkd/persons/200731"],
+        "Stoffen, Catharina van der": ["https://data.create.humanities.uva.nl/id/rkd/persons/208274"]
     },
     "1324": {
-        "Reverhorst, Maurits van": "https://data.create.humanities.uva.nl/id/rkd/persons/117147",
-        "Schrevelius, Emmerentia": "https://data.create.humanities.uva.nl/id/rkd/persons/117148"
+        "Reverhorst, Maurits van": ["https://data.create.humanities.uva.nl/id/rkd/persons/117147"],
+        "Schrevelius, Emmerentia": ["https://data.create.humanities.uva.nl/id/rkd/persons/117148"]
     },
     "1747": {
-        "Lennep, Jacob Aarnoudsz van": "https://data.create.humanities.uva.nl/id/rkd/persons/116088",
-        "Neufville, Petronella de": "https://data.create.humanities.uva.nl/id/rkd/persons/116099"
+        "Lennep, Jacob Aarnoudsz van": ["https://data.create.humanities.uva.nl/id/rkd/persons/116088"],
+        "Neufville, Petronella de": ["https://data.create.humanities.uva.nl/id/rkd/persons/116099"]
     },
     "1748": {
-        "Lennep, Jacob Aarnoudsz van": "https://data.create.humanities.uva.nl/id/rkd/persons/116088",
-        "Neufville, Petronella de": "https://data.create.humanities.uva.nl/id/rkd/persons/116099"
+        "Lennep, Jacob Aarnoudsz van": ["https://data.create.humanities.uva.nl/id/rkd/persons/116088"],
+        "Neufville, Petronella de": ["https://data.create.humanities.uva.nl/id/rkd/persons/116099"]
     },
     "1749": {
-        "Lennep, Jacob Aarnoudsz van": "https://data.create.humanities.uva.nl/id/rkd/persons/116088",
-        "Neufville, Petronella de": "https://data.create.humanities.uva.nl/id/rkd/persons/116099"
+        "Lennep, Jacob Aarnoudsz van": ["https://data.create.humanities.uva.nl/id/rkd/persons/116088"],
+        "Neufville, Petronella de": ["https://data.create.humanities.uva.nl/id/rkd/persons/116099"]
     },
     "1815": {
-        "Visch, Jakob": "https://data.create.humanities.uva.nl/id/rkd/persons/114557",
-        "Schepers, Geertruid": "https://data.create.humanities.uva.nl/id/rkd/persons/109086"
+        "Visch, Jakob": ["https://data.create.humanities.uva.nl/id/rkd/persons/114557"],
+        "Schepers, Geertruid": ["https://data.create.humanities.uva.nl/id/rkd/persons/109086"]
     },
     "1853": {
-        "Corver, Jan": "https://data.create.humanities.uva.nl/id/rkd/persons/144987",
-        "Trip, Sara Maria": "https://data.create.humanities.uva.nl/id/rkd/persons/144988"
+        "Corver, Jan": ["https://data.create.humanities.uva.nl/id/rkd/persons/144987"],
+        "Trip, Sara Maria": ["https://data.create.humanities.uva.nl/id/rkd/persons/144988"]
     },
     "1874": {
-        "Gallis, Dirck": "https://data.create.humanities.uva.nl/id/rkd/persons/104615",
-        "Backer, Johanna": "https://data.create.humanities.uva.nl/id/rkd/persons/138440"
+        "Gallis, Dirck": ["https://data.create.humanities.uva.nl/id/rkd/persons/104615"],
+        "Backer, Johanna": ["https://data.create.humanities.uva.nl/id/rkd/persons/138440"]
     },
     "1938": {
-        "Schoemaker, Gerrit": "https://data.create.humanities.uva.nl/id/rkd/persons/109178",
-        "Esser, Margareta": "https://data.create.humanities.uva.nl/id/rkd/persons/104401"
+        "Schoemaker, Gerrit": ["https://data.create.humanities.uva.nl/id/rkd/persons/109178"],
+        "Esser, Margareta": ["https://data.create.humanities.uva.nl/id/rkd/persons/104401"]
     },
     "1961": {
-        "Trip, Adriaan Josef (1687-1748)": "https://data.create.humanities.uva.nl/id/rkd/persons/110366",
-        "Gales, Johanna Bondina": "https://data.create.humanities.uva.nl/id/rkd/persons/104609"
+        "Trip, Adriaan Josef (1687-1748)": ["https://data.create.humanities.uva.nl/id/rkd/persons/110366"],
+        "Gales, Johanna Bondina": ["https://data.create.humanities.uva.nl/id/rkd/persons/104609"]
     },
     "2016": {
-        "Wolters, Jan": "https://data.create.humanities.uva.nl/id/rkd/persons/115171",
-        "Munter, Sara": "https://data.create.humanities.uva.nl/id/rkd/persons/120819"
+        "Wolters, Jan": ["https://data.create.humanities.uva.nl/id/rkd/persons/115171"],
+        "Munter, Sara": ["https://data.create.humanities.uva.nl/id/rkd/persons/120819"]
     },
     "2075": {
-        "Aylva, Hans Willem baron van": "https://data.create.humanities.uva.nl/id/rkd/persons/119548",
-        "Aylva, Agatha Wilhelmina barones van": "https://data.create.humanities.uva.nl/id/rkd/persons/119549"
+        "Aylva, Hans Willem baron van": ["https://data.create.humanities.uva.nl/id/rkd/persons/119548"],
+        "Aylva, Agatha Wilhelmina barones van": ["https://data.create.humanities.uva.nl/id/rkd/persons/119549"]
     },
     "2123": {
-        "Diert, Johan": "https://data.create.humanities.uva.nl/id/rkd/persons/139220",
-        "Beeck, Katarina van": "https://data.create.humanities.uva.nl/id/rkd/persons/139221"
+        "Diert, Johan": ["https://data.create.humanities.uva.nl/id/rkd/persons/139220"],
+        "Beeck, Katarina van": ["https://data.create.humanities.uva.nl/id/rkd/persons/139221"]
     },
     "2226": {
-        "Witt, Cornelis de (1696-1769)": "https://data.create.humanities.uva.nl/id/rkd/persons/120484",
-        "Honert, Catharina Wilhelmina van den": "https://data.create.humanities.uva.nl/id/rkd/persons/120487"
+        "Witt, Cornelis de (1696-1769)": ["https://data.create.humanities.uva.nl/id/rkd/persons/120484"],
+        "Honert, Catharina Wilhelmina van den": ["https://data.create.humanities.uva.nl/id/rkd/persons/120487"]
     },
     "2283": {
-        "Schimmelpenning, Everhard Fran\u00e7ois": "https://data.create.humanities.uva.nl/id/rkd/persons/120435",
-        "Du Try, Sara": "https://data.create.humanities.uva.nl/id/rkd/persons/120440"
+        "Schimmelpenning, Everhard Fran\u00e7ois": ["https://data.create.humanities.uva.nl/id/rkd/persons/120435"],
+        "Du Try, Sara": ["https://data.create.humanities.uva.nl/id/rkd/persons/120440"]
     },
     "2404": {
-        "Luchtmans, Samuel I": "https://data.create.humanities.uva.nl/id/rkd/persons/106710",
-        "Musschenbroek, Kornelia van": "https://data.create.humanities.uva.nl/id/rkd/persons/107275"
+        "Luchtmans, Samuel I": ["https://data.create.humanities.uva.nl/id/rkd/persons/106710"],
+        "Musschenbroek, Kornelia van": ["https://data.create.humanities.uva.nl/id/rkd/persons/107275"]
     },
     "2512": {
-        "Elias, Pieter": "https://data.create.humanities.uva.nl/id/rkd/persons/104295",
-        "Tongeren, Maria Philippina van": "https://data.create.humanities.uva.nl/id/rkd/persons/113889"
+        "Elias, Pieter": ["https://data.create.humanities.uva.nl/id/rkd/persons/104295"],
+        "Tongeren, Maria Philippina van": ["https://data.create.humanities.uva.nl/id/rkd/persons/113889"]
     },
     "2513": {
-        "Elias, Pieter": "https://data.create.humanities.uva.nl/id/rkd/persons/104295",
-        "Tongeren, Maria Philippina van": "https://data.create.humanities.uva.nl/id/rkd/persons/113889"
+        "Elias, Pieter": ["https://data.create.humanities.uva.nl/id/rkd/persons/104295"],
+        "Tongeren, Maria Philippina van": ["https://data.create.humanities.uva.nl/id/rkd/persons/113889"]
     },
     "2705": {
-        "Steengracht, Nicolaus": "https://data.create.humanities.uva.nl/id/rkd/persons/134707",
-        "Spiering, Anna Maria": "https://data.create.humanities.uva.nl/id/rkd/persons/134708"
+        "Steengracht, Nicolaus": ["https://data.create.humanities.uva.nl/id/rkd/persons/134707"],
+        "Spiering, Anna Maria": ["https://data.create.humanities.uva.nl/id/rkd/persons/134708"]
     },
     "2736": {
-        "Nolthenius, Balthazar": "https://data.create.humanities.uva.nl/id/rkd/persons/107690",
-        "Boel, Johanna": "https://data.create.humanities.uva.nl/id/rkd/persons/101957"
+        "Nolthenius, Balthazar": ["https://data.create.humanities.uva.nl/id/rkd/persons/107690"],
+        "Boel, Johanna": ["https://data.create.humanities.uva.nl/id/rkd/persons/101957"]
     },
     "2737": {
-        "Nolthenius, Balthazar": "https://data.create.humanities.uva.nl/id/rkd/persons/107690",
-        "Boel, Johanna": "https://data.create.humanities.uva.nl/id/rkd/persons/101957"
+        "Nolthenius, Balthazar": ["https://data.create.humanities.uva.nl/id/rkd/persons/107690"],
+        "Boel, Johanna": ["https://data.create.humanities.uva.nl/id/rkd/persons/101957"]
     },
     "2747": {
-        "Kinschot, Gaspar Rudolf van": "https://data.create.humanities.uva.nl/id/rkd/persons/135655",
-        "Dedel, Catharina Maria": "https://data.create.humanities.uva.nl/id/rkd/persons/135656"
+        "Kinschot, Gaspar Rudolf van": ["https://data.create.humanities.uva.nl/id/rkd/persons/135655"],
+        "Dedel, Catharina Maria": ["https://data.create.humanities.uva.nl/id/rkd/persons/135656"]
     },
     "2748": {
-        "Kinschot, Gaspar Rudolf van": "https://data.create.humanities.uva.nl/id/rkd/persons/135655",
-        "Dedel, Catharina Maria": "https://data.create.humanities.uva.nl/id/rkd/persons/135656"
+        "Kinschot, Gaspar Rudolf van": ["https://data.create.humanities.uva.nl/id/rkd/persons/135655"],
+        "Dedel, Catharina Maria": ["https://data.create.humanities.uva.nl/id/rkd/persons/135656"]
     },
     "2793": {
-        "Vlaardingerwoud, Marten": "https://data.create.humanities.uva.nl/id/rkd/persons/114590",
-        "Baerle, Anna van": "https://data.create.humanities.uva.nl/id/rkd/persons/110603"
+        "Vlaardingerwoud, Marten": ["https://data.create.humanities.uva.nl/id/rkd/persons/114590"],
+        "Baerle, Anna van": ["https://data.create.humanities.uva.nl/id/rkd/persons/110603"]
     },
     "2794": {
-        "Vlaardingerwoud, Marten": "https://data.create.humanities.uva.nl/id/rkd/persons/114590",
-        "Baerle, Anna van": "https://data.create.humanities.uva.nl/id/rkd/persons/110603"
+        "Vlaardingerwoud, Marten": ["https://data.create.humanities.uva.nl/id/rkd/persons/114590"],
+        "Baerle, Anna van": ["https://data.create.humanities.uva.nl/id/rkd/persons/110603"]
     },
     "2891": {
-        "Velzen, Cornelius van": "https://data.create.humanities.uva.nl/id/rkd/persons/114004",
-        "Wolthers, Arendina Cornelia": "https://data.create.humanities.uva.nl/id/rkd/persons/115175"
+        "Velzen, Cornelius van": ["https://data.create.humanities.uva.nl/id/rkd/persons/114004"],
+        "Wolthers, Arendina Cornelia": ["https://data.create.humanities.uva.nl/id/rkd/persons/115175"]
     },
     "2896": {
-        "Mersch, Pieter van der": "https://data.create.humanities.uva.nl/id/rkd/persons/135657",
-        "Sydervelt, Maria": "https://data.create.humanities.uva.nl/id/rkd/persons/135658"
+        "Mersch, Pieter van der": ["https://data.create.humanities.uva.nl/id/rkd/persons/135657"],
+        "Sydervelt, Maria": ["https://data.create.humanities.uva.nl/id/rkd/persons/135658"]
     },
     "3025": {
-        "Schryver, Cornelis": "https://data.create.humanities.uva.nl/id/rkd/persons/144890",
-        "Le Pla, Maria": "https://data.create.humanities.uva.nl/id/rkd/persons/144887"
+        "Schryver, Cornelis": ["https://data.create.humanities.uva.nl/id/rkd/persons/144890"],
+        "Le Pla, Maria": ["https://data.create.humanities.uva.nl/id/rkd/persons/144887"]
     },
     "3113": {
-        "Adriani, Arius": "https://data.create.humanities.uva.nl/id/rkd/persons/101289",
-        "Sijlman, Johanna": "https://data.create.humanities.uva.nl/id/rkd/persons/109404"
+        "Adriani, Arius": ["https://data.create.humanities.uva.nl/id/rkd/persons/101289"],
+        "Sijlman, Johanna": ["https://data.create.humanities.uva.nl/id/rkd/persons/109404"]
     },
     "3114": {
-        "Vicq, Fran\u00e7ois de": "https://data.create.humanities.uva.nl/id/rkd/persons/143731",
-        "Bredehoff, Maria Jacoba van": "https://data.create.humanities.uva.nl/id/rkd/persons/143732"
+        "Vicq, Fran\u00e7ois de": ["https://data.create.humanities.uva.nl/id/rkd/persons/143731"],
+        "Bredehoff, Maria Jacoba van": ["https://data.create.humanities.uva.nl/id/rkd/persons/143732"]
     },
     "3122": {
-        "Berckhout, Herman": "https://data.create.humanities.uva.nl/id/rkd/persons/205105",
-        "Vries, Debora de": "https://data.create.humanities.uva.nl/id/rkd/persons/205106"
+        "Berckhout, Herman": ["https://data.create.humanities.uva.nl/id/rkd/persons/205105"],
+        "Vries, Debora de": ["https://data.create.humanities.uva.nl/id/rkd/persons/205106"]
     },
     "3139": {
-        "Pot, Willem van der": "https://data.create.humanities.uva.nl/id/rkd/persons/134380",
-        "Bosch, Sara": "https://data.create.humanities.uva.nl/id/rkd/persons/134379"
+        "Pot, Willem van der": ["https://data.create.humanities.uva.nl/id/rkd/persons/134380"],
+        "Bosch, Sara": ["https://data.create.humanities.uva.nl/id/rkd/persons/134379"]
     },
     "3143": {
-        "Du Bourg, Louis Fabricius": "https://data.create.humanities.uva.nl/id/rkd/persons/205977",
-        "Kaarsgieter, Eva de": "https://data.create.humanities.uva.nl/id/rkd/persons/205978"
+        "Du Bourg, Louis Fabricius": ["https://data.create.humanities.uva.nl/id/rkd/persons/205977"],
+        "Kaarsgieter, Eva de": ["https://data.create.humanities.uva.nl/id/rkd/persons/205978"]
     },
     "3169": {
-        "Hoffham, Hendrik": "https://data.create.humanities.uva.nl/id/rkd/persons/117515",
-        "Hoffham, Geertruyd": "https://data.create.humanities.uva.nl/id/rkd/persons/117514"
+        "Hoffham, Hendrik": ["https://data.create.humanities.uva.nl/id/rkd/persons/117515"],
+        "Hoffham, Geertruyd": ["https://data.create.humanities.uva.nl/id/rkd/persons/117514"]
     },
     "3180": {
-        "Pot, Willem van der": "https://data.create.humanities.uva.nl/id/rkd/persons/134380",
-        "Bosch, Sara": "https://data.create.humanities.uva.nl/id/rkd/persons/134379"
+        "Pot, Willem van der": ["https://data.create.humanities.uva.nl/id/rkd/persons/134380"],
+        "Bosch, Sara": ["https://data.create.humanities.uva.nl/id/rkd/persons/134379"]
     },
     "3202": {
-        "Reitsma, Tiberius": "https://data.create.humanities.uva.nl/id/rkd/persons/137726",
-        "Baalde, Magdalena Henrietta": "https://data.create.humanities.uva.nl/id/rkd/persons/137727"
+        "Reitsma, Tiberius": ["https://data.create.humanities.uva.nl/id/rkd/persons/137726"],
+        "Baalde, Magdalena Henrietta": ["https://data.create.humanities.uva.nl/id/rkd/persons/137727"]
     },
     "3397": {
-        "Huydecoper van Maersseveen, Jan": "https://data.create.humanities.uva.nl/id/rkd/persons/116360",
-        "Muelen, Sophia Maria Agatha van der": "https://data.create.humanities.uva.nl/id/rkd/persons/143835"
+        "Huydecoper van Maersseveen, Jan": ["https://data.create.humanities.uva.nl/id/rkd/persons/116360"],
+        "Muelen, Sophia Maria Agatha van der": ["https://data.create.humanities.uva.nl/id/rkd/persons/143835"]
     },
     "3398": {
-        "Huydecoper van Maersseveen, Jan": "https://data.create.humanities.uva.nl/id/rkd/persons/116360",
-        "Muelen, Sophia Maria Agatha van der": "https://data.create.humanities.uva.nl/id/rkd/persons/143835"
+        "Huydecoper van Maersseveen, Jan": ["https://data.create.humanities.uva.nl/id/rkd/persons/116360"],
+        "Muelen, Sophia Maria Agatha van der": ["https://data.create.humanities.uva.nl/id/rkd/persons/143835"]
     },
     "3494": {
-        "Hoorn, Jacob van": "https://data.create.humanities.uva.nl/id/rkd/persons/112579",
-        "Selstede, Jakoba van": "https://data.create.humanities.uva.nl/id/rkd/persons/113680"
+        "Hoorn, Jacob van": ["https://data.create.humanities.uva.nl/id/rkd/persons/112579"],
+        "Selstede, Jakoba van": ["https://data.create.humanities.uva.nl/id/rkd/persons/113680"]
     },
     "3612": {
-        "Siccama, Wiardus": "https://data.create.humanities.uva.nl/id/rkd/persons/141337",
-        "Hora, Anna Catharina": "https://data.create.humanities.uva.nl/id/rkd/persons/141338"
+        "Siccama, Wiardus": ["https://data.create.humanities.uva.nl/id/rkd/persons/141337"],
+        "Hora, Anna Catharina": ["https://data.create.humanities.uva.nl/id/rkd/persons/141338"]
     },
     "3629": {
-        "Pabst, Rudolph Willem van": "https://data.create.humanities.uva.nl/id/rkd/persons/113252",
-        "Huygens, Anthonia": "https://data.create.humanities.uva.nl/id/rkd/persons/120610"
+        "Pabst, Rudolph Willem van": ["https://data.create.humanities.uva.nl/id/rkd/persons/113252"],
+        "Huygens, Anthonia": ["https://data.create.humanities.uva.nl/id/rkd/persons/120610"]
     },
     "3672": {
-        "Citters, Cornelis van": "https://data.create.humanities.uva.nl/id/rkd/persons/110947",
-        "Bye, Anna Christina de": "https://data.create.humanities.uva.nl/id/rkd/persons/102945"
+        "Citters, Cornelis van": ["https://data.create.humanities.uva.nl/id/rkd/persons/110947"],
+        "Bye, Anna Christina de": ["https://data.create.humanities.uva.nl/id/rkd/persons/102945"]
     },
     "3673": {
-        "Citters, Cornelis van": "https://data.create.humanities.uva.nl/id/rkd/persons/110947",
-        "Bye, Anna Christina de": "https://data.create.humanities.uva.nl/id/rkd/persons/102945"
+        "Citters, Cornelis van": ["https://data.create.humanities.uva.nl/id/rkd/persons/110947"],
+        "Bye, Anna Christina de": ["https://data.create.humanities.uva.nl/id/rkd/persons/102945"]
     },
     "3674": {
-        "Citters, Cornelis van": "https://data.create.humanities.uva.nl/id/rkd/persons/110947",
-        "Bye, Anna Christina de": "https://data.create.humanities.uva.nl/id/rkd/persons/102945"
+        "Citters, Cornelis van": ["https://data.create.humanities.uva.nl/id/rkd/persons/110947"],
+        "Bye, Anna Christina de": ["https://data.create.humanities.uva.nl/id/rkd/persons/102945"]
     },
     "3706": {
-        "Westerwyk Forsborgh, Andries": "https://data.create.humanities.uva.nl/id/rkd/persons/124153",
-        "Haak Kerkman, Susanna Magdalena": "https://data.create.humanities.uva.nl/id/rkd/persons/124154"
+        "Westerwyk Forsborgh, Andries": ["https://data.create.humanities.uva.nl/id/rkd/persons/124153"],
+        "Haak Kerkman, Susanna Magdalena": ["https://data.create.humanities.uva.nl/id/rkd/persons/124154"]
     },
     "3707": {
-        "Bolhuis, Michiel van": "https://data.create.humanities.uva.nl/id/rkd/persons/207947",
-        "Beckeringh, Alegonde": "https://data.create.humanities.uva.nl/id/rkd/persons/207948"
+        "Bolhuis, Michiel van": ["https://data.create.humanities.uva.nl/id/rkd/persons/207947"],
+        "Beckeringh, Alegonde": ["https://data.create.humanities.uva.nl/id/rkd/persons/207948"]
     },
     "3725": {
-        "Mandere, Jakob van der": "https://data.create.humanities.uva.nl/id/rkd/persons/111626",
-        "Berckel, Petronella Geertruid van": "https://data.create.humanities.uva.nl/id/rkd/persons/110675"
+        "Mandere, Jakob van der": ["https://data.create.humanities.uva.nl/id/rkd/persons/111626"],
+        "Berckel, Petronella Geertruid van": ["https://data.create.humanities.uva.nl/id/rkd/persons/110675"]
     },
     "3743": {
-        "Groenhout, Theodora Maria": "https://data.create.humanities.uva.nl/id/rkd/persons/134663",
-        "Groeninx, Aegidius": "https://data.create.humanities.uva.nl/id/rkd/persons/121662"
+        "Groenhout, Theodora Maria": ["https://data.create.humanities.uva.nl/id/rkd/persons/134663"],
+        "Groeninx, Aegidius": ["https://data.create.humanities.uva.nl/id/rkd/persons/121662"]
     },
     "3860": {
-        "Bosch, Bernardus de": "https://data.create.humanities.uva.nl/id/rkd/persons/102869",
-        "Leuvenig, Margareta van": "https://data.create.humanities.uva.nl/id/rkd/persons/133603"
+        "Bosch, Bernardus de": ["https://data.create.humanities.uva.nl/id/rkd/persons/102869"],
+        "Leuvenig, Margareta van": ["https://data.create.humanities.uva.nl/id/rkd/persons/133603"]
     },
     "3938": {
-        "Schuylenburch, Pieter van": "https://data.create.humanities.uva.nl/id/rkd/persons/144016",
-        "Sypesteyn, Maria Machteld van": "https://data.create.humanities.uva.nl/id/rkd/persons/15418"
+        "Schuylenburch, Pieter van": ["https://data.create.humanities.uva.nl/id/rkd/persons/144016"],
+        "Sypesteyn, Maria Machteld van": ["https://data.create.humanities.uva.nl/id/rkd/persons/15418"]
     },
     "3978": {
-        "Schellinger, Elias": "https://data.create.humanities.uva.nl/id/rkd/persons/143210",
-        "Buys, Elizabeth": "https://data.create.humanities.uva.nl/id/rkd/persons/143212"
+        "Schellinger, Elias": ["https://data.create.humanities.uva.nl/id/rkd/persons/143210"],
+        "Buys, Elizabeth": ["https://data.create.humanities.uva.nl/id/rkd/persons/143212"]
     },
     "3979": {
-        "Schellinger, Elias": "https://data.create.humanities.uva.nl/id/rkd/persons/143210",
-        "Buys, Elizabeth": "https://data.create.humanities.uva.nl/id/rkd/persons/143212"
+        "Schellinger, Elias": ["https://data.create.humanities.uva.nl/id/rkd/persons/143210"],
+        "Buys, Elizabeth": ["https://data.create.humanities.uva.nl/id/rkd/persons/143212"]
     },
     "4011": {
-        "Heemskerck, Willem van": "https://data.create.humanities.uva.nl/id/rkd/persons/112384",
-        "Backer, Haduina Antonia": "https://data.create.humanities.uva.nl/id/rkd/persons/143344"
+        "Heemskerck, Willem van": ["https://data.create.humanities.uva.nl/id/rkd/persons/112384"],
+        "Backer, Haduina Antonia": ["https://data.create.humanities.uva.nl/id/rkd/persons/143344"]
     },
     "4055": {
-        "Bicker, Hendrik (1722-1783)": "https://data.create.humanities.uva.nl/id/rkd/persons/133487",
-        "Dedel, Clara Magdalena": "https://data.create.humanities.uva.nl/id/rkd/persons/133488"
+        "Bicker, Hendrik (1722-1783)": ["https://data.create.humanities.uva.nl/id/rkd/persons/133487"],
+        "Dedel, Clara Magdalena": ["https://data.create.humanities.uva.nl/id/rkd/persons/133488"]
     },
     "4071": {
-        "Poort, Johan Gualtherus van der": "https://data.create.humanities.uva.nl/id/rkd/persons/119579",
-        "Mandere, Johanna Susanna van der": "https://data.create.humanities.uva.nl/id/rkd/persons/119580"
+        "Poort, Johan Gualtherus van der": ["https://data.create.humanities.uva.nl/id/rkd/persons/119579"],
+        "Mandere, Johanna Susanna van der": ["https://data.create.humanities.uva.nl/id/rkd/persons/119580"]
     },
     "4094": {
-        "Wolthers, Herman": "https://data.create.humanities.uva.nl/id/rkd/persons/141560",
-        "Conring, Louisa Christina": "https://data.create.humanities.uva.nl/id/rkd/persons/141559"
+        "Wolthers, Herman": ["https://data.create.humanities.uva.nl/id/rkd/persons/141560"],
+        "Conring, Louisa Christina": ["https://data.create.humanities.uva.nl/id/rkd/persons/141559"]
     },
     "4095": {
-        "Wolthers, Herman": "https://data.create.humanities.uva.nl/id/rkd/persons/141560",
-        "Conring, Louisa Christina": "https://data.create.humanities.uva.nl/id/rkd/persons/141559"
+        "Wolthers, Herman": ["https://data.create.humanities.uva.nl/id/rkd/persons/141560"],
+        "Conring, Louisa Christina": ["https://data.create.humanities.uva.nl/id/rkd/persons/141559"]
     },
     "4158": {
-        "Bachman, Jan Frederik": "https://data.create.humanities.uva.nl/id/rkd/persons/101454",
-        "Broek, Johanna Catharina van den": "https://data.create.humanities.uva.nl/id/rkd/persons/111189"
+        "Bachman, Jan Frederik": ["https://data.create.humanities.uva.nl/id/rkd/persons/101454"],
+        "Broek, Johanna Catharina van den": ["https://data.create.humanities.uva.nl/id/rkd/persons/111189"]
     },
     "4160": {
-        "Poll, Jacobus van de": "https://data.create.humanities.uva.nl/id/rkd/persons/146193",
-        "Wolters, Cornelia Jacoba": "https://data.create.humanities.uva.nl/id/rkd/persons/146194"
+        "Poll, Jacobus van de": ["https://data.create.humanities.uva.nl/id/rkd/persons/146193"],
+        "Wolters, Cornelia Jacoba": ["https://data.create.humanities.uva.nl/id/rkd/persons/146194"]
     },
     "4161": {
-        "Poll, Jacobus van de": "https://data.create.humanities.uva.nl/id/rkd/persons/146193",
-        "Wolters, Cornelia Jacoba": "https://data.create.humanities.uva.nl/id/rkd/persons/146194"
+        "Poll, Jacobus van de": ["https://data.create.humanities.uva.nl/id/rkd/persons/146193"],
+        "Wolters, Cornelia Jacoba": ["https://data.create.humanities.uva.nl/id/rkd/persons/146194"]
     },
     "4218": {
-        "Barnaart, Willem": "https://data.create.humanities.uva.nl/id/rkd/persons/121583",
-        "Kops, Catharina": "https://data.create.humanities.uva.nl/id/rkd/persons/134446"
+        "Barnaart, Willem": ["https://data.create.humanities.uva.nl/id/rkd/persons/121583"],
+        "Kops, Catharina": ["https://data.create.humanities.uva.nl/id/rkd/persons/134446"]
     },
     "4261": {
-        "Ypey, Nicolaas": "https://data.create.humanities.uva.nl/id/rkd/persons/120197",
-        "Smit, Elizabeth Helena": "https://data.create.humanities.uva.nl/id/rkd/persons/139686"
+        "Ypey, Nicolaas": ["https://data.create.humanities.uva.nl/id/rkd/persons/120197"],
+        "Smit, Elizabeth Helena": ["https://data.create.humanities.uva.nl/id/rkd/persons/139686"]
     },
     "4307": {
-        "Dussen, Nicolaas van der": "https://data.create.humanities.uva.nl/id/rkd/persons/206270",
-        "Slicher, Elisabeth Aletta": "https://data.create.humanities.uva.nl/id/rkd/persons/135692"
+        "Dussen, Nicolaas van der": ["https://data.create.humanities.uva.nl/id/rkd/persons/206270"],
+        "Slicher, Elisabeth Aletta": ["https://data.create.humanities.uva.nl/id/rkd/persons/135692"]
     },
     "4340": {
-        "Jongh, Leonardus de": "https://data.create.humanities.uva.nl/id/rkd/persons/103257",
-        "Son, Anna Elisabeth Geertruida van": "https://data.create.humanities.uva.nl/id/rkd/persons/113722"
+        "Jongh, Leonardus de": ["https://data.create.humanities.uva.nl/id/rkd/persons/103257"],
+        "Son, Anna Elisabeth Geertruida van": ["https://data.create.humanities.uva.nl/id/rkd/persons/113722"]
     },
     "4370": {
-        "Helm Boddaert, Kornelis van den": "https://data.create.humanities.uva.nl/id/rkd/persons/101941",
-        "Scholten, Anna Virginia": "https://data.create.humanities.uva.nl/id/rkd/persons/119581"
+        "Helm Boddaert, Kornelis van den": ["https://data.create.humanities.uva.nl/id/rkd/persons/101941"],
+        "Scholten, Anna Virginia": ["https://data.create.humanities.uva.nl/id/rkd/persons/119581"]
     },
     "4388": {
-        "Kretschmar, Jan Nicolaas Christiaan van": "https://data.create.humanities.uva.nl/id/rkd/persons/120516",
-        "Mogge van Haamstede, Maria Jacoba": "https://data.create.humanities.uva.nl/id/rkd/persons/120517"
+        "Kretschmar, Jan Nicolaas Christiaan van": ["https://data.create.humanities.uva.nl/id/rkd/persons/120516"],
+        "Mogge van Haamstede, Maria Jacoba": ["https://data.create.humanities.uva.nl/id/rkd/persons/120517"]
     },
     "4389": {
-        "Kretschmar, Jan Nicolaas Christiaan van": "https://data.create.humanities.uva.nl/id/rkd/persons/120516",
-        "Mogge van Haamstede, Maria Jacoba": "https://data.create.humanities.uva.nl/id/rkd/persons/120517"
+        "Kretschmar, Jan Nicolaas Christiaan van": ["https://data.create.humanities.uva.nl/id/rkd/persons/120516"],
+        "Mogge van Haamstede, Maria Jacoba": ["https://data.create.humanities.uva.nl/id/rkd/persons/120517"]
     },
     "4454": {
-        "Poll, Jan Pietersz van de (1726-1781)": "https://data.create.humanities.uva.nl/id/rkd/persons/143300",
-        "La Court, Sara de": "https://data.create.humanities.uva.nl/id/rkd/persons/143301"
+        "Poll, Jan Pietersz van de (1726-1781)": ["https://data.create.humanities.uva.nl/id/rkd/persons/143300"],
+        "La Court, Sara de": ["https://data.create.humanities.uva.nl/id/rkd/persons/143301"]
     },
     "4512": {
-        "Gesseler, Hermannus van": "https://data.create.humanities.uva.nl/id/rkd/persons/112123",
-        "Geertsema, Enna Hillegonda": "https://data.create.humanities.uva.nl/id/rkd/persons/104664"
+        "Gesseler, Hermannus van": ["https://data.create.humanities.uva.nl/id/rkd/persons/112123"],
+        "Geertsema, Enna Hillegonda": ["https://data.create.humanities.uva.nl/id/rkd/persons/104664"]
     },
     "4536": {
-        "Hurgronje, Iza\u00e4k": "https://data.create.humanities.uva.nl/id/rkd/persons/105659",
-        "Dishoeck, Johanna van": "https://data.create.humanities.uva.nl/id/rkd/persons/111883"
+        "Hurgronje, Iza\u00e4k": ["https://data.create.humanities.uva.nl/id/rkd/persons/105659"],
+        "Dishoeck, Johanna van": ["https://data.create.humanities.uva.nl/id/rkd/persons/111883"]
     },
     "4563": {
-        "Lampsins, Jan Cornelis": "https://data.create.humanities.uva.nl/id/rkd/persons/137153",
-        "Sautyn, Margaretha": "https://data.create.humanities.uva.nl/id/rkd/persons/132842"
+        "Lampsins, Jan Cornelis": ["https://data.create.humanities.uva.nl/id/rkd/persons/137153"],
+        "Sautyn, Margaretha": ["https://data.create.humanities.uva.nl/id/rkd/persons/132842"]
     },
     "4565": {
-        "Bronckhorst, Adriaan van": "https://data.create.humanities.uva.nl/id/rkd/persons/110854",
-        "Cleeff, Meynarda Johanna van": "https://data.create.humanities.uva.nl/id/rkd/persons/110965"
+        "Bronckhorst, Adriaan van": ["https://data.create.humanities.uva.nl/id/rkd/persons/110854"],
+        "Cleeff, Meynarda Johanna van": ["https://data.create.humanities.uva.nl/id/rkd/persons/110965"]
     },
     "4575": {
-        "Collard, Sara": "https://data.create.humanities.uva.nl/id/rkd/persons/117216",
-        "Slijpe, Adriaan Philip Hendrik van": "https://data.create.humanities.uva.nl/id/rkd/persons/117215"
+        "Collard, Sara": ["https://data.create.humanities.uva.nl/id/rkd/persons/117216"],
+        "Slijpe, Adriaan Philip Hendrik van": ["https://data.create.humanities.uva.nl/id/rkd/persons/117215"]
     },
     "4710": {
-        "Becius, Barbara": "https://data.create.humanities.uva.nl/id/rkd/persons/146245",
-        "Jonge, Christiaan de": "https://data.create.humanities.uva.nl/id/rkd/persons/146235"
+        "Becius, Barbara": ["https://data.create.humanities.uva.nl/id/rkd/persons/146245"],
+        "Jonge, Christiaan de": ["https://data.create.humanities.uva.nl/id/rkd/persons/146235"]
     },
     "4863": {
-        "Buys, Eva Maria Adriana": "https://data.create.humanities.uva.nl/id/rkd/persons/102384",
-        "Martini, Antoni": "https://data.create.humanities.uva.nl/id/rkd/persons/106849"
+        "Buys, Eva Maria Adriana": ["https://data.create.humanities.uva.nl/id/rkd/persons/102384"],
+        "Martini, Antoni": ["https://data.create.humanities.uva.nl/id/rkd/persons/106849"]
     },
     "4934": {
-        "Neck, Elizabeth Maria van": "https://data.create.humanities.uva.nl/id/rkd/persons/134817",
-        "Prins, Wilhem": "https://data.create.humanities.uva.nl/id/rkd/persons/134820"
+        "Neck, Elizabeth Maria van": ["https://data.create.humanities.uva.nl/id/rkd/persons/134817"],
+        "Prins, Wilhem": ["https://data.create.humanities.uva.nl/id/rkd/persons/134820"]
     },
     "4943": {
-        "Bouwens, Jacoba Johanna": "https://data.create.humanities.uva.nl/id/rkd/persons/102163",
-        "Grovestins, Willem Augustus van": "https://data.create.humanities.uva.nl/id/rkd/persons/112197"
+        "Bouwens, Jacoba Johanna": ["https://data.create.humanities.uva.nl/id/rkd/persons/102163"],
+        "Grovestins, Willem Augustus van": ["https://data.create.humanities.uva.nl/id/rkd/persons/112197"]
     },
     "5008": {
-        "Kaag, Jacoba van der": "https://data.create.humanities.uva.nl/id/rkd/persons/111547",
-        "Onderdewyngaart, Canzius": "https://data.create.humanities.uva.nl/id/rkd/persons/107789"
+        "Kaag, Jacoba van der": ["https://data.create.humanities.uva.nl/id/rkd/persons/111547"],
+        "Onderdewyngaart, Canzius": ["https://data.create.humanities.uva.nl/id/rkd/persons/107789"]
     },
     "5022": {
-        "Scheltus, Isaac II": "https://data.create.humanities.uva.nl/id/rkd/persons/109072",
-        "Rasiere, Maria Elizabeth de": "https://data.create.humanities.uva.nl/id/rkd/persons/103519"
+        "Scheltus, Isaac II": ["https://data.create.humanities.uva.nl/id/rkd/persons/109072"],
+        "Rasiere, Maria Elizabeth de": ["https://data.create.humanities.uva.nl/id/rkd/persons/103519"]
     },
     "5134": {
-        "Wall, Pieter Hendrik van de": "https://data.create.humanities.uva.nl/id/rkd/persons/115316",
-        "Berger, Catharina": "https://data.create.humanities.uva.nl/id/rkd/persons/137972"
+        "Wall, Pieter Hendrik van de": ["https://data.create.humanities.uva.nl/id/rkd/persons/115316"],
+        "Berger, Catharina": ["https://data.create.humanities.uva.nl/id/rkd/persons/137972"]
     },
     "5255": {
-        "Roo, Hendrik de": "https://data.create.humanities.uva.nl/id/rkd/persons/121288",
-        "Witt, Hester Constantia de": "https://data.create.humanities.uva.nl/id/rkd/persons/142347"
+        "Roo, Hendrik de": ["https://data.create.humanities.uva.nl/id/rkd/persons/121288"],
+        "Witt, Hester Constantia de": ["https://data.create.humanities.uva.nl/id/rkd/persons/142347"]
     },
     "5256": {
-        "Roo, Hendrik de": "https://data.create.humanities.uva.nl/id/rkd/persons/121288",
-        "Witt, Hester Constantia de": "https://data.create.humanities.uva.nl/id/rkd/persons/142347"
+        "Roo, Hendrik de": ["https://data.create.humanities.uva.nl/id/rkd/persons/121288"],
+        "Witt, Hester Constantia de": ["https://data.create.humanities.uva.nl/id/rkd/persons/142347"]
     },
     "5279": {
-        "Bosch, Hendrik de": "https://data.create.humanities.uva.nl/id/rkd/persons/102871",
-        "Ottens, Alida": "https://data.create.humanities.uva.nl/id/rkd/persons/107875"
+        "Bosch, Hendrik de": ["https://data.create.humanities.uva.nl/id/rkd/persons/102871"],
+        "Ottens, Alida": ["https://data.create.humanities.uva.nl/id/rkd/persons/107875"]
     },
     "5305": {
-        "Thye Hannes, Johan Abraham van": "https://data.create.humanities.uva.nl/id/rkd/persons/141543",
-        "Barnevelt, Anna Christina van": "https://data.create.humanities.uva.nl/id/rkd/persons/141374"
+        "Thye Hannes, Johan Abraham van": ["https://data.create.humanities.uva.nl/id/rkd/persons/141543"],
+        "Barnevelt, Anna Christina van": ["https://data.create.humanities.uva.nl/id/rkd/persons/141374"]
     },
     "5306": {
-        "Thye Hannes, Johan Abraham van": "https://data.create.humanities.uva.nl/id/rkd/persons/141543",
-        "Barnevelt, Anna Christina van": "https://data.create.humanities.uva.nl/id/rkd/persons/141374"
+        "Thye Hannes, Johan Abraham van": ["https://data.create.humanities.uva.nl/id/rkd/persons/141543"],
+        "Barnevelt, Anna Christina van": ["https://data.create.humanities.uva.nl/id/rkd/persons/141374"]
     },
     "5360": {
-        "Teding van Berkhout, Willem Hendrik": "https://data.create.humanities.uva.nl/id/rkd/persons/110727",
-        "Kretschmar, Maria Agatha van": "https://data.create.humanities.uva.nl/id/rkd/persons/112715"
+        "Teding van Berkhout, Willem Hendrik": ["https://data.create.humanities.uva.nl/id/rkd/persons/110727"],
+        "Kretschmar, Maria Agatha van": ["https://data.create.humanities.uva.nl/id/rkd/persons/112715"]
     },
     "5385": {
-        "Bicker, Jan Bernd (1746-1812)": "https://data.create.humanities.uva.nl/id/rkd/persons/101794",
-        "Six, Catharina": "https://data.create.humanities.uva.nl/id/rkd/persons/115683"
+        "Bicker, Jan Bernd (1746-1812)": ["https://data.create.humanities.uva.nl/id/rkd/persons/101794"],
+        "Six, Catharina": ["https://data.create.humanities.uva.nl/id/rkd/persons/115683"]
     },
     "5387": {
-        "Bicker, Jan Bernd (1746-1812)": "https://data.create.humanities.uva.nl/id/rkd/persons/101794",
-        "Six, Catharina": "https://data.create.humanities.uva.nl/id/rkd/persons/115683"
+        "Bicker, Jan Bernd (1746-1812)": ["https://data.create.humanities.uva.nl/id/rkd/persons/101794"],
+        "Six, Catharina": ["https://data.create.humanities.uva.nl/id/rkd/persons/115683"]
     },
     "5389": {
-        "Bicker, Jan Bernd (1746-1812)": "https://data.create.humanities.uva.nl/id/rkd/persons/101794",
-        "Six, Catharina": "https://data.create.humanities.uva.nl/id/rkd/persons/115683"
+        "Bicker, Jan Bernd (1746-1812)": ["https://data.create.humanities.uva.nl/id/rkd/persons/101794"],
+        "Six, Catharina": ["https://data.create.humanities.uva.nl/id/rkd/persons/115683"]
     },
     "5399": {
-        "Staveren, Gijsbert van": "https://data.create.humanities.uva.nl/id/rkd/persons/141548",
-        "Pielat, Everhardina Joanna": "https://data.create.humanities.uva.nl/id/rkd/persons/141550"
+        "Staveren, Gijsbert van": ["https://data.create.humanities.uva.nl/id/rkd/persons/141548"],
+        "Pielat, Everhardina Joanna": ["https://data.create.humanities.uva.nl/id/rkd/persons/141550"]
     },
     "5685": {
-        "'s-Gravesande, Maximiliaan": "https://data.create.humanities.uva.nl/id/rkd/persons/122220",
-        "Aar de Sterke, Anna van der": "https://data.create.humanities.uva.nl/id/rkd/persons/122221"
+        "'s-Gravesande, Maximiliaan": ["https://data.create.humanities.uva.nl/id/rkd/persons/122220"],
+        "Aar de Sterke, Anna van der": ["https://data.create.humanities.uva.nl/id/rkd/persons/122221"]
     },
     "5686": {
-        "'s-Gravesande, Maximiliaan": "https://data.create.humanities.uva.nl/id/rkd/persons/122220",
-        "Aar de Sterke, Anna van der": "https://data.create.humanities.uva.nl/id/rkd/persons/122221"
+        "'s-Gravesande, Maximiliaan": ["https://data.create.humanities.uva.nl/id/rkd/persons/122220"],
+        "Aar de Sterke, Anna van der": ["https://data.create.humanities.uva.nl/id/rkd/persons/122221"]
     },
     "5925": {
-        "Deiman, Johan Rudolph": "https://data.create.humanities.uva.nl/id/rkd/persons/141759",
-        "Smitt, Sophia Catharina": "https://data.create.humanities.uva.nl/id/rkd/persons/144418"
+        "Deiman, Johan Rudolph": ["https://data.create.humanities.uva.nl/id/rkd/persons/141759"],
+        "Smitt, Sophia Catharina": ["https://data.create.humanities.uva.nl/id/rkd/persons/144418"]
     },
     "5990": {
-        "Vernede, Jacob Hendrik": "https://data.create.humanities.uva.nl/id/rkd/persons/114455",
-        "Du Peyrou, Petronella Johanna": "https://data.create.humanities.uva.nl/id/rkd/persons/104164"
+        "Vernede, Jacob Hendrik": ["https://data.create.humanities.uva.nl/id/rkd/persons/114455"],
+        "Du Peyrou, Petronella Johanna": ["https://data.create.humanities.uva.nl/id/rkd/persons/104164"]
     },
     "6523": {
-        "Vosmaer, Willem Carel": "https://data.create.humanities.uva.nl/id/rkd/persons/114826",
-        "Scheltus, Jacoba Maria": "https://data.create.humanities.uva.nl/id/rkd/persons/109075"
+        "Vosmaer, Willem Carel": ["https://data.create.humanities.uva.nl/id/rkd/persons/114826"],
+        "Scheltus, Jacoba Maria": ["https://data.create.humanities.uva.nl/id/rkd/persons/109075"]
     },
     "6679": {
-        "Arntzenius, Robert Hendrik": "https://data.create.humanities.uva.nl/id/rkd/persons/116046",
-        "Tideman, Anna Elizabeth": "https://data.create.humanities.uva.nl/id/rkd/persons/116047"
+        "Arntzenius, Robert Hendrik": ["https://data.create.humanities.uva.nl/id/rkd/persons/116046"],
+        "Tideman, Anna Elizabeth": ["https://data.create.humanities.uva.nl/id/rkd/persons/116047"]
     },
     "6680": {
-        "Arntzenius, Robert Hendrik": "https://data.create.humanities.uva.nl/id/rkd/persons/116046",
-        "Tideman, Anna Elizabeth": "https://data.create.humanities.uva.nl/id/rkd/persons/116047"
+        "Arntzenius, Robert Hendrik": ["https://data.create.humanities.uva.nl/id/rkd/persons/116046"],
+        "Tideman, Anna Elizabeth": ["https://data.create.humanities.uva.nl/id/rkd/persons/116047"]
     },
     "6727": {
-        "Heemstra, Feyo van": "https://data.create.humanities.uva.nl/id/rkd/persons/112396",
-        "Burmania, Titia Helena van": "https://data.create.humanities.uva.nl/id/rkd/persons/110906"
+        "Heemstra, Feyo van": ["https://data.create.humanities.uva.nl/id/rkd/persons/112396"],
+        "Burmania, Titia Helena van": ["https://data.create.humanities.uva.nl/id/rkd/persons/110906"]
     },
     "6758": {
-        "Eck, Jacob Willem baron van": "https://data.create.humanities.uva.nl/id/rkd/persons/206512",
-        "Vygh, Margareta baronesse": "https://data.create.humanities.uva.nl/id/rkd/persons/206513"
+        "Eck, Jacob Willem baron van": ["https://data.create.humanities.uva.nl/id/rkd/persons/206512"],
+        "Vygh, Margareta baronesse": ["https://data.create.humanities.uva.nl/id/rkd/persons/206513"]
     }
 }
