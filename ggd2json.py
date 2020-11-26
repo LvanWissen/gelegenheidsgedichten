@@ -87,6 +87,9 @@ with open('data/id2gender.json') as infile:
 with open('data/id2otr.json') as infile:
     ID2OTR = json.load(infile)
 
+with open('data/id2rkd.json') as infile:
+    ID2RKD = json.load(infile)
+
 ID2THESAURUS = defaultdict(lambda: defaultdict(lambda: defaultdict(dict)))
 for ggdid in ID2PERSON:
     for name in ID2PERSON[ggdid]:
@@ -170,12 +173,18 @@ def getPersons(persons, role=False, recordID=None):
         else:
             otr = []
 
+        if recordID and recordID in ID2RKD:
+            rkd = ID2RKD[recordID].get(person, [])
+        else:
+            rkd = []
+
         plist.append({
             'person': person,
             'role': role,
             'thesaurus': thesaurus,
             'gender': gender,
-            'otr': otr
+            'otr': otr,
+            'rkd': rkd
         })
 
     return plist

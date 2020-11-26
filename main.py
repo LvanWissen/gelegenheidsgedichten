@@ -475,6 +475,9 @@ def toRdf(filepath: str, target: str):
                 # otr
                 personSameAs += [URIRef(i) for i in p['otr']]
 
+                # rkd
+                personSameAs += [URIRef(i) for i in p['rkd']]
+
                 person = Person(ggdPerson.term(str(next(personCounter))),
                                 label=labelInverseName,
                                 hasName=pn,
