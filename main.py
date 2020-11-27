@@ -479,7 +479,7 @@ def toRdf(filepath: str, target: str):
                 personSameAs += [URIRef(i) for i in p['rkd']]
 
                 # wd
-                personSameAs += [URIRef(i) for i in p['wd']]
+                personSameAs.append(URIRef(p['wd']))
 
                 person = Person(ggdPerson.term(str(next(personCounter))),
                                 label=labelInverseName,
