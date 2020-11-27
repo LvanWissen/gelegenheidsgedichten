@@ -90,6 +90,9 @@ with open('data/id2otr.json') as infile:
 with open('data/id2rkd.json') as infile:
     ID2RKD = json.load(infile)
 
+with open('data/id2wikidata.json') as infile:
+    ID2WIKIDATA = json.load(infile)
+
 ID2THESAURUS = defaultdict(lambda: defaultdict(lambda: defaultdict(dict)))
 for ggdid in ID2PERSON:
     for name in ID2PERSON[ggdid]:
@@ -178,13 +181,19 @@ def getPersons(persons, role=False, recordID=None):
         else:
             rkd = []
 
+        if recordID and recordID in ID2WIKIDATA:
+            wd = ID2WIKIDATA[recordID].get(person, [])
+        else:
+            wd = []
+
         plist.append({
             'person': person,
             'role': role,
             'thesaurus': thesaurus,
             'gender': gender,
             'otr': otr,
-            'rkd': rkd
+            'rkd': rkd,
+            'wd': wd
         })
 
     return plist
