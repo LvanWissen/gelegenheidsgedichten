@@ -322,7 +322,7 @@ def toRdf(filepath: str, target: str):
             labelInverseName = [a['person']]
 
             if a['thesaurus']:
-                authorSameAs = [URIRef(a['thesaurus'])]
+                authorSameAs = [URIRef(i) for i in a['thesaurus']]
             else:
                 authorSameAs = []
 
@@ -439,7 +439,7 @@ def toRdf(filepath: str, target: str):
 
                 if p['thesaurus']:
 
-                    printerSameAs = [URIRef(p['thesaurus'])]
+                    printerSameAs = [URIRef(i) for i in p['thesaurus']]
                 else:
                     printerSameAs = []
 
@@ -461,7 +461,7 @@ def toRdf(filepath: str, target: str):
                 # pn, pnLabels = parsePersonName(p['person'])
 
                 if p['thesaurus']:
-                    personSameAs = [URIRef(p['thesaurus'])]
+                    personSameAs = [URIRef(i) for i in p['thesaurus']]
                 else:
                     personSameAs = []
 

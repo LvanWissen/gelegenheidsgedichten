@@ -93,16 +93,16 @@ with open('data/id2rkd.json') as infile:
 with open('data/id2wikidata.json') as infile:
     ID2WIKIDATA = json.load(infile)
 
-ID2THESAURUS = defaultdict(lambda: defaultdict(lambda: defaultdict(dict)))
+ID2THESAURUS = defaultdict(lambda: defaultdict(lambda: defaultdict(list)))
 for ggdid in ID2PERSON:
     for name in ID2PERSON[ggdid]:
-        ID2THESAURUS[ggdid]['person'][name] = ID2PERSON[ggdid][name]
+        ID2THESAURUS[ggdid]['person'][name] += ID2PERSON[ggdid][name]
 for ggdid in ID2AUTHOR:
     for name in ID2AUTHOR[ggdid]:
-        ID2THESAURUS[ggdid]['author'][name] = ID2AUTHOR[ggdid][name]
+        ID2THESAURUS[ggdid]['author'][name] += ID2AUTHOR[ggdid][name]
 for ggdid in ID2PRINTER:
     for name in ID2PRINTER[ggdid]:
-        ID2THESAURUS[ggdid]['printer'][name] = ID2PRINTER[ggdid][name]
+        ID2THESAURUS[ggdid]['printer'][name] += ID2PRINTER[ggdid][name]
 
 with open("data/place2ecartico.json") as infile:
     PLACE2ECARTICO = json.load(infile)
@@ -164,7 +164,7 @@ def getPersons(persons, role=False, recordID=None):
             else:
                 thesaurus = ID2THESAURUS[recordID]['person'].get(person)
         else:
-            thesaurus = None
+            thesaurus = []
 
         if recordID and recordID in ID2GENDER:
             gender = ID2GENDER[recordID].get(person)
