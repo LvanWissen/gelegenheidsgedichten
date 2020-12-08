@@ -115,7 +115,7 @@
         "Houtman, J.": ["http://data.bibliotheken.nl/id/thes/p154307823"]
     },
     "3709": {
-        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/7975", "http://data.bibliotheken.nl/id/thes/p069889538"]
+        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069889538"]
     },
     "870": {
         "Duykerius, Johannes": ["http://data.bibliotheken.nl/id/thes/p06973027X"]
@@ -128,7 +128,7 @@
         "Bilderdijk, Willem": ["http://data.bibliotheken.nl/id/thes/p06847685X"]
     },
     "3672": {
-        "Dussen, Nicolaas van der (1718-1770)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/7874", "http://data.bibliotheken.nl/id/thes/p236456083"]
+        "Dussen, Nicolaas van der (1718-1770)": ["http://data.bibliotheken.nl/id/thes/p236456083", "http://data.bibliotheken.nl/id/thes/p239819152"]
     },
     "6865": {
         "Rekker, Bartholomeus": ["http://data.bibliotheken.nl/id/thes/p07150642X"]
@@ -153,7 +153,7 @@
     },
     "5817": {
         "Hooft, Jacob Jacobsz 't": ["http://data.bibliotheken.nl/id/thes/p072044594"],
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12943"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "6347": {
         "Hooft, Jacob Jacobsz 't": ["http://data.bibliotheken.nl/id/thes/p072044594"]
@@ -338,31 +338,31 @@
         "Verlaan, Hilbrand": ["http://data.bibliotheken.nl/id/thes/p189199563"]
     },
     "5490": {
-        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12257", "http://data.bibliotheken.nl/id/thes/p069889538"]
+        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069889538"]
     },
     "4692": {
-        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/10478", "http://data.bibliotheken.nl/id/thes/p069889538"]
+        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069889538"]
     },
     "3334": {
-        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/7038", "http://data.bibliotheken.nl/id/thes/p069889538"]
+        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069889538"]
     },
     "3811": {
-        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/8229", "http://data.bibliotheken.nl/id/thes/p069889538"]
+        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069889538"]
     },
     "5276": {
-        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/11800", "http://data.bibliotheken.nl/id/thes/p069889538"]
+        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069889538"]
     },
     "5779": {
-        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12881", "http://data.bibliotheken.nl/id/thes/p069889538"]
+        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069889538"]
     },
     "5791": {
-        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12904", "http://data.bibliotheken.nl/id/thes/p069889538"]
+        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069889538"]
     },
     "3776": {
-        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/8100", "http://data.bibliotheken.nl/id/thes/p069889538"]
+        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069889538"]
     },
     "3543": {
-        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/7545", "http://data.bibliotheken.nl/id/thes/p069889538"]
+        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069889538"]
     },
     "5329": {
         "Lichte, Pieter Michiel de": ["http://data.bibliotheken.nl/id/thes/p156871270"]
@@ -416,7 +416,7 @@
         "Zijll, Ph. van": ["http://data.bibliotheken.nl/id/thes/p118005499"]
     },
     "5564": {
-        "Hoogeveen, Jan (1736-)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12399", "http://data.bibliotheken.nl/id/thes/p069292256"],
+        "Hoogeveen, Jan (1736-)": ["http://data.bibliotheken.nl/id/thes/p069292256", "http://data.bibliotheken.nl/id/thes/p071545964"],
         "Hoogeveen, Henricus": ["http://data.bibliotheken.nl/id/thes/p069292256"]
     },
     "2624": {
@@ -435,10 +435,10 @@
         "Vliet, Adriaan van der": ["http://data.bibliotheken.nl/id/thes/p136594352"]
     },
     "5333": {
-        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/11892", "http://data.bibliotheken.nl/id/thes/p069889538"]
+        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069889538"]
     },
     "4896": {
-        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/10922", "http://data.bibliotheken.nl/id/thes/p069889538"]
+        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069889538"]
     },
     "371": {
         "Jansen, Anthony": ["http://data.bibliotheken.nl/id/thes/p06914687X"]
@@ -495,7 +495,7 @@
     },
     "965": {
         "Bredenburg, Johannes (Jr)": ["http://data.bibliotheken.nl/id/thes/p069671176"],
-        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/1225"]
+        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/thes/p069905428"]
     },
     "3536": {
         "Walevelt, B.": ["http://data.bibliotheken.nl/id/thes/p190217553"]
@@ -517,7 +517,7 @@
     },
     "6342": {
         "Houtkamp, Meinardus": ["http://data.bibliotheken.nl/id/thes/p07174679X"],
-        "Alphen, Hieronymus van (1746-1803)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13970"]
+        "Alphen, Hieronymus van (1746-1803)": ["http://data.bibliotheken.nl/id/thes/p069101930"]
     },
     "3100": {
         "Lankeren, Martinus van": ["http://data.bibliotheken.nl/id/thes/p18915280X"]
@@ -603,7 +603,7 @@
         "Wouters, Roelof": ["http://data.bibliotheken.nl/id/thes/p173075010"]
     },
     "711": {
-        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/833", "http://data.bibliotheken.nl/id/thes/p069905428"]
+        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/thes/p069905428"]
     },
     "2801": {
         "Kersseboom, Willem": ["http://data.bibliotheken.nl/id/thes/p338652175"]
@@ -621,19 +621,19 @@
         "Luzac, J.": ["http://data.bibliotheken.nl/id/thes/p069855943"]
     },
     "6143": {
-        "Royen, Jan van (1736-1803)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13598", "http://data.bibliotheken.nl/id/thes/p096926414"]
+        "Royen, Jan van (1736-1803)": ["http://data.bibliotheken.nl/id/thes/p096926414"]
     },
     "6203": {
-        "Royen, Jan van (1736-1803)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13753", "http://data.bibliotheken.nl/id/thes/p096926414"]
+        "Royen, Jan van (1736-1803)": ["http://data.bibliotheken.nl/id/thes/p096926414"]
     },
     "6119": {
-        "Royen, Jan van (1736-1803)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13553", "http://data.bibliotheken.nl/id/thes/p096926414"]
+        "Royen, Jan van (1736-1803)": ["http://data.bibliotheken.nl/id/thes/p096926414"]
     },
     "6026": {
-        "Royen, Jan van (1736-1803)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13385", "http://data.bibliotheken.nl/id/thes/p096926414"]
+        "Royen, Jan van (1736-1803)": ["http://data.bibliotheken.nl/id/thes/p096926414"]
     },
     "6606": {
-        "Royen, Jan van (1736-1803)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/14353", "http://data.bibliotheken.nl/id/thes/p096926414"]
+        "Royen, Jan van (1736-1803)": ["http://data.bibliotheken.nl/id/thes/p096926414"]
     },
     "4598": {
         "Byler, Wolderus Carolus van": ["http://data.bibliotheken.nl/id/thes/p071584234"]
@@ -917,28 +917,28 @@
         "Houtkamp, Meinardus": ["http://data.bibliotheken.nl/id/thes/p07174679X"]
     },
     "6850": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/14790", "http://data.bibliotheken.nl/id/thes/p070087792"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "5784": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12887", "http://data.bibliotheken.nl/id/thes/p070087792"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "5526": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12321", "http://data.bibliotheken.nl/id/thes/p070087792"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "5418": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12115", "http://data.bibliotheken.nl/id/thes/p070087792"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "6091": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13489", "http://data.bibliotheken.nl/id/thes/p070087792"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "5860": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13089", "http://data.bibliotheken.nl/id/thes/p070087792"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "5877": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13111", "http://data.bibliotheken.nl/id/thes/p070087792"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "6763": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/14598", "http://data.bibliotheken.nl/id/thes/p070087792"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "1924": {
         "Dooreslaer, Johannes van": ["http://data.bibliotheken.nl/id/thes/p236478478"]
@@ -1461,7 +1461,7 @@
     },
     "1744": {
         "Steenbergen, Henricus van": ["http://data.bibliotheken.nl/id/thes/p075065665"],
-        "Witt, Joan de (1694-1751)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/2715"]
+        "Witt, Joan de (1694-1751)": ["http://data.bibliotheken.nl/id/thes/p239810570"]
     },
     "1673": {
         "Zeeus, Jakob": ["http://data.bibliotheken.nl/id/thes/p070404933"]
@@ -1524,7 +1524,7 @@
         "Poot, Hubert Kornelisz": ["http://data.bibliotheken.nl/id/thes/p06968510X"]
     },
     "6894": {
-        "Royen, Jan van (1736-1803)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/14880", "http://data.bibliotheken.nl/id/thes/p28002570X"]
+        "Royen, Jan van (1736-1803)": ["http://data.bibliotheken.nl/id/thes/p096926414", "http://data.bibliotheken.nl/id/thes/p28002570X"]
     },
     "1158": {
         "Arendsz, Thomas": ["http://data.bibliotheken.nl/id/thes/p070139644"]
@@ -1545,7 +1545,7 @@
         "Brender \u00e0 Brandis, Gerrit": ["http://data.bibliotheken.nl/id/thes/p069820457"]
     },
     "6864": {
-        "Deiman, Jan Diedrich (1770-1800)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/14827", "http://data.bibliotheken.nl/id/thes/p17314098X"]
+        "Deiman, Jan Diedrich (1770-1800)": ["http://data.bibliotheken.nl/id/thes/p17314098X"]
     },
     "1330": {
         "Rotgans, Lucas": ["http://data.bibliotheken.nl/id/thes/p06868438X"]
@@ -1602,7 +1602,7 @@
         "Langendyk, Pieter": ["http://data.bibliotheken.nl/id/thes/p068228619"]
     },
     "5898": {
-        "Dyk, Johannes van (1718-1798)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13140", "http://data.bibliotheken.nl/id/thes/p069940711"]
+        "Dyk, Johannes van (1718-1798)": ["http://data.bibliotheken.nl/id/thes/p069940711"]
     },
     "2057": {
         "Westerwyk, Gerard": ["http://data.bibliotheken.nl/id/thes/p097285714"]
@@ -1693,7 +1693,7 @@
     },
     "1794": {
         "Burman, Franciscus (1708-1793)": ["http://data.bibliotheken.nl/id/thes/p069965331"],
-        "Burman, Franciscus (1671-1719)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/2820"]
+        "Burman, Franciscus (1671-1719)": ["http://data.bibliotheken.nl/id/thes/p069707200"]
     },
     "11": {
         "Carpentier, Aegidius": ["http://data.bibliotheken.nl/id/thes/p069900507"]
@@ -1720,10 +1720,10 @@
         "Jungius, Jan Huibert": ["http://data.bibliotheken.nl/id/thes/p070072647"]
     },
     "715": {
-        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/846", "http://data.bibliotheken.nl/id/thes/p069905428"]
+        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/thes/p069905428"]
     },
     "827": {
-        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/1016", "http://data.bibliotheken.nl/id/thes/p069905428"]
+        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/thes/p069905428"]
     },
     "5922": {
         "Appel, Maximilianus den": ["http://data.bibliotheken.nl/id/thes/p237701138"]
@@ -1735,7 +1735,7 @@
         "Blondeel, Valentijn Jan": ["http://data.bibliotheken.nl/id/thes/p068126735"]
     },
     "5682": {
-        "Alphen, Hieronymus van (1746-1803)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12645", "http://data.bibliotheken.nl/id/thes/p069101930"]
+        "Alphen, Hieronymus van (1746-1803)": ["http://data.bibliotheken.nl/id/thes/p069101930"]
     },
     "955": {
         "Bredenburg, Johannes (Jr)": ["http://data.bibliotheken.nl/id/thes/p074713183"]
@@ -1912,7 +1912,7 @@
         "Jens, Joannes": ["http://data.bibliotheken.nl/id/thes/p06933451X"]
     },
     "1535": {
-        "Witt, Joan de (1694-1751)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/2228", "http://data.bibliotheken.nl/id/thes/p074857983"]
+        "Witt, Joan de (1694-1751)": ["http://data.bibliotheken.nl/id/thes/p074857983", "http://data.bibliotheken.nl/id/thes/p239810570"]
     },
     "3043": {
         "Huydecoper, Balthazar": ["http://data.bibliotheken.nl/id/thes/p068797990"]
@@ -2113,7 +2113,7 @@
         "Borgesius, Joachim": ["http://data.bibliotheken.nl/id/thes/p149019254"]
     },
     "6695": {
-        "Alphen, Hieronymus van (1746-1803)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/14457", "http://data.bibliotheken.nl/id/thes/p069101930"]
+        "Alphen, Hieronymus van (1746-1803)": ["http://data.bibliotheken.nl/id/thes/p069101930"]
     },
     "1415": {
         "Bongardt, Christiaan": ["http://data.bibliotheken.nl/id/thes/p236488961"]
@@ -2215,7 +2215,7 @@
         "Jagt, Willem van der": ["http://data.bibliotheken.nl/id/thes/p125523718"]
     },
     "6789": {
-        "Stoppelaar, Joan de (1757-1800)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/14631", "http://data.bibliotheken.nl/id/thes/p071705341"]
+        "Stoppelaar, Joan de (1757-1800)": ["http://data.bibliotheken.nl/id/thes/p071705341"]
     },
     "162": {
         "Oosterwijck, Volckerus van": ["http://data.bibliotheken.nl/id/thes/p069949689"]
@@ -2251,7 +2251,7 @@
         "Sloterdyck, Daniel van": ["http://data.bibliotheken.nl/id/thes/p154350168"]
     },
     "3285": {
-        "Haren, Willem van (1710-1768)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/6902", "http://data.bibliotheken.nl/id/thes/p070075085"]
+        "Haren, Willem van (1710-1768)": ["http://data.bibliotheken.nl/id/thes/p070075085"]
     },
     "4582": {
         "Ratelband, Johannes": ["http://data.bibliotheken.nl/id/thes/p068419066"]
@@ -2398,7 +2398,7 @@
         "Zweerts, Bruno": ["http://data.bibliotheken.nl/id/thes/p071572341"]
     },
     "6835": {
-        "Gennep, Arnoldus van (1766-1846)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/14757", "http://data.bibliotheken.nl/id/thes/p070045453"]
+        "Gennep, Arnoldus van (1766-1846)": ["http://data.bibliotheken.nl/id/thes/p070045453"]
     },
     "6847": {
         "Logman, Willem": ["http://data.bibliotheken.nl/id/thes/p278570577"]
@@ -2435,7 +2435,7 @@
     },
     "6461": {
         "Woordhouder, Toussaint": ["http://data.bibliotheken.nl/id/thes/p070056579"],
-        "Dyk, Johannes van (1718-1798)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/14183"]
+        "Dyk, Johannes van (1718-1798)": ["http://data.bibliotheken.nl/id/thes/p069940711"]
     },
     "1549": {
         "Kruythoff, Theodorus": ["http://data.bibliotheken.nl/id/thes/p145923126"]
@@ -2567,7 +2567,7 @@
         "Smits, Willem": ["http://data.bibliotheken.nl/id/thes/p070421080"]
     },
     "6712": {
-        "Bussingh, Johannes Wilhelmus (1761-1828)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/14487", "http://data.bibliotheken.nl/id/thes/p069965854"]
+        "Bussingh, Johannes Wilhelmus (1761-1828)": ["http://data.bibliotheken.nl/id/thes/p069965854"]
     },
     "6598": {
         "Ruloffs, Bartholomeus": ["http://data.bibliotheken.nl/id/thes/p071543635"]
@@ -2717,11 +2717,11 @@
         "Puppius, Guilielmus": ["http://data.bibliotheken.nl/id/thes/p070795738"]
     },
     "834": {
-        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/1026", "http://data.bibliotheken.nl/id/thes/p069905428"]
+        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/thes/p069905428"]
     },
     "832": {
         "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p070117322"],
-        "Haes, Frans de (c.1658-1690)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/1023"]
+        "Haes, Frans de (c.1658-1690)": ["http://data.bibliotheken.nl/id/thes/p070117322"]
     },
     "1189": {
         "Dueren, Johan van": ["http://data.bibliotheken.nl/id/thes/p069612978"]
@@ -2751,7 +2751,7 @@
         "Poll, Lucas van de": ["http://data.bibliotheken.nl/id/thes/p069551014"]
     },
     "720": {
-        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/857", "http://data.bibliotheken.nl/id/thes/p069905428"]
+        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/thes/p069905428"]
     },
     "840": {
         "Kost, Jan": ["http://data.bibliotheken.nl/id/thes/p069341575"]
@@ -2809,11 +2809,11 @@
     },
     "2918": {
         "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069537399"],
-        "Burman, Petrus (1668-1741)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/5929"]
+        "Burman, Petrus (1668-1741)": ["http://data.bibliotheken.nl/id/thes/p069537399", "http://data.bibliotheken.nl/id/thes/p273408313"]
     },
     "2015": {
         "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069537399"],
-        "Burman, Petrus (1668-1741)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/3314"]
+        "Burman, Petrus (1668-1741)": ["http://data.bibliotheken.nl/id/thes/p069537399", "http://data.bibliotheken.nl/id/thes/p273408313"]
     },
     "3281": {
         "Schelling, Pieter van der": ["http://data.bibliotheken.nl/id/thes/p069975574"]
@@ -2858,16 +2858,16 @@
         "Oosterdyk Schacht, Joannes": ["http://data.bibliotheken.nl/id/thes/p07343745X"]
     },
     "3529": {
-        "Royen, David van (1699-1764)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/7523", "http://data.bibliotheken.nl/id/thes/p070355673"]
+        "Royen, David van (1699-1764)": ["http://data.bibliotheken.nl/id/thes/p070355673"]
     },
     "3542": {
         "Royen, Adrianus van": ["http://data.bibliotheken.nl/id/thes/p070278199"]
     },
     "3527": {
-        "Royen, David van (1699-1764)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/7521", "http://data.bibliotheken.nl/id/thes/p070355673"]
+        "Royen, David van (1699-1764)": ["http://data.bibliotheken.nl/id/thes/p070355673"]
     },
     "3409": {
-        "Royen, David van (1699-1764)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/7231", "http://data.bibliotheken.nl/id/thes/p070355673"]
+        "Royen, David van (1699-1764)": ["http://data.bibliotheken.nl/id/thes/p070355673"]
     },
     "3598": {
         "Royen, Adrianus van": ["http://data.bibliotheken.nl/id/thes/p070278199"]
@@ -3377,7 +3377,7 @@
         "Paludanus, Theodorus": ["http://data.bibliotheken.nl/id/thes/p074318764"]
     },
     "4821": {
-        "Oudaen, Joachim (1716-1787)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/10740", "http://data.bibliotheken.nl/id/thes/p070244332"]
+        "Oudaen, Joachim (1716-1787)": ["http://data.bibliotheken.nl/id/thes/p070244332"]
     },
     "1732": {
         "Bidloo, Govard": ["http://data.bibliotheken.nl/id/thes/p069677697"]
@@ -3404,7 +3404,7 @@
         "Ouryk, Hendrik van": ["http://data.bibliotheken.nl/id/thes/p157135446"]
     },
     "4184": {
-        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/9160", "http://data.bibliotheken.nl/id/thes/p073547514"]
+        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"]
     },
     "2078": {
         "Snakenburg, Hendrik": ["http://data.bibliotheken.nl/id/thes/p070467013"]
@@ -3419,7 +3419,7 @@
         "Smient, N.": ["http://data.bibliotheken.nl/id/thes/p193164507"]
     },
     "4668": {
-        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/10430", "http://data.bibliotheken.nl/id/thes/p073547514"]
+        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"]
     },
     "1716": {
         "Snakenburg, Hendrik": ["http://data.bibliotheken.nl/id/thes/p070467013"]
@@ -3491,7 +3491,7 @@
         "Schonck, Everard Jan Benjamin": ["http://data.bibliotheken.nl/id/thes/p070733538"]
     },
     "6038": {
-        "Nieuwland, Pieter (1764-1794)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13398", "http://data.bibliotheken.nl/id/thes/p070161801"]
+        "Nieuwland, Pieter (1764-1794)": ["http://data.bibliotheken.nl/id/thes/p070161801"]
     },
     "5768": {
         "Roullaud, Henri Jean": ["http://data.bibliotheken.nl/id/thes/p073766720"]
@@ -3563,7 +3563,7 @@
         "Pot, Willem van der": ["http://data.bibliotheken.nl/id/thes/p071899650"]
     },
     "3677": {
-        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/7879", "http://data.bibliotheken.nl/id/thes/p073547514"]
+        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"]
     },
     "3887": {
         "Smits, Dirk": ["http://data.bibliotheken.nl/id/thes/p070007403"]
@@ -3726,7 +3726,7 @@
     },
     "6212": {
         "Bosch, Hieronymus de": ["http://data.bibliotheken.nl/id/thes/p069671451"],
-        "Nieuwland, Pieter (1764-1794)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13768"]
+        "Nieuwland, Pieter (1764-1794)": ["http://data.bibliotheken.nl/id/thes/p070161801"]
     },
     "1355": {
         "Feitama, Eduard": ["http://data.bibliotheken.nl/id/thes/p172334829"]
@@ -3831,7 +3831,7 @@
         "Heyblom, Arnoldus": ["http://data.bibliotheken.nl/id/thes/p074180959"]
     },
     "5934": {
-        "Bussingh, Johannes Wilhelmus (1761-1828)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13247", "http://data.bibliotheken.nl/id/thes/p069965854"]
+        "Bussingh, Johannes Wilhelmus (1761-1828)": ["http://data.bibliotheken.nl/id/thes/p069965854"]
     },
     "6077": {
         "Jagt, Willem van der": ["http://data.bibliotheken.nl/id/thes/p125523718"]
@@ -3891,7 +3891,7 @@
         "Kruyff, Jan de": ["http://data.bibliotheken.nl/id/thes/p07010400X"]
     },
     "6034": {
-        "Bussingh, Johannes Wilhelmus (1761-1828)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13394", "http://data.bibliotheken.nl/id/thes/p069965854"]
+        "Bussingh, Johannes Wilhelmus (1761-1828)": ["http://data.bibliotheken.nl/id/thes/p069965854"]
     },
     "6035": {
         "Palm, Johannes Henricus van der": ["http://data.bibliotheken.nl/id/thes/p069877394"]
@@ -4047,7 +4047,7 @@
         "Braam, Joannes van": ["http://data.bibliotheken.nl/id/thes/p071990968"]
     },
     "5996": {
-        "Alphen, Hieronymus van (1746-1803)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13323", "http://data.bibliotheken.nl/id/thes/p069101930"]
+        "Alphen, Hieronymus van (1746-1803)": ["http://data.bibliotheken.nl/id/thes/p069101930"]
     },
     "5732": {
         "Arends, Roelof": ["http://data.bibliotheken.nl/id/thes/p074100173"]
@@ -4087,7 +4087,7 @@
     },
     "2530": {
         "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069889538"],
-        "Burman, Petrus (1668-1741)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/4706"]
+        "Burman, Petrus (1668-1741)": ["http://data.bibliotheken.nl/id/thes/p069537399", "http://data.bibliotheken.nl/id/thes/p273408313"]
     },
     "4956": {
         "Wilde, O.B. de": ["http://data.bibliotheken.nl/id/thes/p183222725"]
@@ -4168,7 +4168,7 @@
         "Eenhoorn, Wilhelmus van": ["http://data.bibliotheken.nl/id/thes/p069944601"]
     },
     "5731": {
-        "Nieuwland, Pieter (1764-1794)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12776", "http://data.bibliotheken.nl/id/thes/p070161801"]
+        "Nieuwland, Pieter (1764-1794)": ["http://data.bibliotheken.nl/id/thes/p070161801"]
     },
     "1735": {
         "Burg, Hermanus van den": ["http://data.bibliotheken.nl/id/thes/p074970755"]
@@ -4181,7 +4181,7 @@
     },
     "4688": {
         "Royen, Adrianus van": ["http://data.bibliotheken.nl/id/thes/p070278199"],
-        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/10464"]
+        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069889538"]
     },
     "6916": {
         "Bilderdijk, Willem": ["http://data.bibliotheken.nl/id/thes/p06847685X"]
@@ -4292,7 +4292,7 @@
         "Titsingh, Abraham": ["http://data.bibliotheken.nl/id/thes/p115228101"]
     },
     "3457": {
-        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/7354", "http://data.bibliotheken.nl/id/thes/p071865772"]
+        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/thes/p071865772", "http://data.bibliotheken.nl/id/thes/p308232615"]
     },
     "3756": {
         "Titsingh, Abraham": ["http://data.bibliotheken.nl/id/thes/p115228101"]
@@ -4343,7 +4343,7 @@
         "Weyler, Pieter van": ["http://data.bibliotheken.nl/id/thes/p183103246"]
     },
     "5411": {
-        "Pot, Cornelis van der (1736-1805)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12105", "http://data.bibliotheken.nl/id/thes/p073530808"]
+        "Pot, Cornelis van der (1736-1805)": ["http://data.bibliotheken.nl/id/thes/p073530808"]
     },
     "5430": {
         "Schut, Jan Hendrik": ["http://data.bibliotheken.nl/id/thes/p183103963"]
@@ -4565,7 +4565,7 @@
         "Regtering, G.": ["http://data.bibliotheken.nl/id/thes/p185271871"]
     },
     "743": {
-        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/887", "http://data.bibliotheken.nl/id/thes/p069905428"]
+        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/thes/p069905428"]
     },
     "1149": {
         "Braam, Joannes van": ["http://data.bibliotheken.nl/id/thes/p071990968"]
@@ -4583,765 +4583,765 @@
         "Brandt, Caspar": ["http://data.bibliotheken.nl/id/thes/p069591377"]
     },
     "817": {
-        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/1000"]
+        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/thes/p069905428"]
     },
     "854": {
-        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/1058"]
+        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/thes/p069905428"]
     },
     "869": {
-        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/1076"],
-        "Haes, Frans de (c.1658-1690)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/1079"],
-        "Brandt, Joannes (1660-1708)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/1078"]
+        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/thes/p069905428"],
+        "Haes, Frans de (c.1658-1690)": ["http://data.bibliotheken.nl/id/thes/p070117322"],
+        "Brandt, Joannes (1660-1708)": ["http://data.bibliotheken.nl/id/thes/p069798044"]
     },
     "961": {
-        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/1220"]
+        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/thes/p069905428"]
     },
     "470": {
-        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/495"]
+        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/thes/p069905428"]
     },
     "491": {
-        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/527"]
+        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/thes/p069905428"]
     },
     "495": {
-        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/534"]
+        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/thes/p069905428"]
     },
     "600": {
-        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/679"]
+        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/thes/p069905428"]
     },
     "3632": {
-        "Oudaen, Joachim (1716-1787)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/7760"]
+        "Oudaen, Joachim (1716-1787)": ["http://data.bibliotheken.nl/id/thes/p070244332"]
     },
     "670": {
-        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/780"]
+        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/thes/p069905428"]
     },
     "3753": {
-        "Oudaen, Joachim (1716-1787)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/8057"]
+        "Oudaen, Joachim (1716-1787)": ["http://data.bibliotheken.nl/id/thes/p070244332"]
     },
     "696": {
-        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/817"]
+        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/thes/p069905428"]
     },
     "703": {
-        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/823"]
+        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/thes/p069905428"]
     },
     "704": {
-        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/825"]
+        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/thes/p069905428"]
     },
     "710": {
-        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/831"]
+        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/thes/p069905428"]
     },
     "716": {
-        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/847"]
+        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/thes/p069905428"]
     },
     "746": {
-        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/893"],
-        "Haes, Frans de (c.1658-1690)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/894"]
+        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/thes/p069905428"],
+        "Haes, Frans de (c.1658-1690)": ["http://data.bibliotheken.nl/id/thes/p070117322"]
     },
     "4157": {
-        "Oudaen, Joachim (1716-1787)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/9099"],
-        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/9096"]
+        "Oudaen, Joachim (1716-1787)": ["http://data.bibliotheken.nl/id/thes/p070244332"],
+        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"]
     },
     "4300": {
-        "Oudaen, Joachim (1716-1787)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/9481"],
-        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/9480"]
+        "Oudaen, Joachim (1716-1787)": ["http://data.bibliotheken.nl/id/thes/p070244332"],
+        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"]
     },
     "4305": {
-        "Oudaen, Joachim (1716-1787)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/9492"]
+        "Oudaen, Joachim (1716-1787)": ["http://data.bibliotheken.nl/id/thes/p070244332"]
     },
     "785": {
-        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/950"]
+        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/thes/p069905428"]
     },
     "4348": {
-        "Oudaen, Joachim (1716-1787)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/9608"]
+        "Oudaen, Joachim (1716-1787)": ["http://data.bibliotheken.nl/id/thes/p070244332"]
     },
     "4350": {
-        "Oudaen, Joachim (1716-1787)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/9622"]
+        "Oudaen, Joachim (1716-1787)": ["http://data.bibliotheken.nl/id/thes/p070244332"]
     },
     "4443": {
-        "Oudaen, Joachim (1716-1787)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/9873"]
+        "Oudaen, Joachim (1716-1787)": ["http://data.bibliotheken.nl/id/thes/p070244332"]
     },
     "812": {
-        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/995"]
+        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/thes/p069905428"]
     },
     "4516": {
-        "Boddaert, Pieter (1694-1760)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/10046"]
+        "Boddaert, Pieter (1694-1760)": ["http://data.bibliotheken.nl/id/thes/p069869375"]
     },
     "4537": {
-        "Boddaert, Pieter (1694-1760)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/10104"]
+        "Boddaert, Pieter (1694-1760)": ["http://data.bibliotheken.nl/id/thes/p069869375"]
     },
     "4555": {
-        "Boddaert, Pieter (1694-1760)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/10154"]
+        "Boddaert, Pieter (1694-1760)": ["http://data.bibliotheken.nl/id/thes/p069869375"]
     },
     "5304": {
-        "Boddaert, Pieter (1730-1796)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/11860"]
+        "Boddaert, Pieter (1730-1796)": ["http://data.bibliotheken.nl/id/thes/p071235507"]
     },
     "6312": {
-        "Boddaert, Pieter (1730-1796)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13931"]
+        "Boddaert, Pieter (1730-1796)": ["http://data.bibliotheken.nl/id/thes/p071235507"]
     },
     "2112": {
-        "Boddaert, Pieter (1694-1760)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/3566"]
+        "Boddaert, Pieter (1694-1760)": ["http://data.bibliotheken.nl/id/thes/p069869375"]
     },
     "2115": {
-        "Boddaert, Pieter (1694-1760)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/3571"]
+        "Boddaert, Pieter (1694-1760)": ["http://data.bibliotheken.nl/id/thes/p069869375"]
     },
     "4370": {
-        "Boddaert, Pieter (1694-1760)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/9688"]
+        "Boddaert, Pieter (1694-1760)": ["http://data.bibliotheken.nl/id/thes/p069869375"]
     },
     "4545": {
-        "Andriessen, Andreas (1733-1800)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/10131"]
+        "Andriessen, Andreas (1733-1800)": ["http://data.bibliotheken.nl/id/thes/p19058016X"]
     },
     "4709": {
-        "Andriessen, Andreas (1733-1800)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/10511"]
+        "Andriessen, Andreas (1733-1800)": ["http://data.bibliotheken.nl/id/thes/p19058016X"]
     },
     "5041": {
-        "Andriessen, Andreas (1699-1768)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/11315"]
+        "Andriessen, Andreas (1699-1768)": ["http://data.bibliotheken.nl/id/thes/p073514721"]
     },
     "5175": {
-        "Andriessen, Andreas (1699-1768)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/11604"]
+        "Andriessen, Andreas (1699-1768)": ["http://data.bibliotheken.nl/id/thes/p073514721"]
     },
     "2086": {
-        "Andriessen, Andreas (1699-1768)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/3507"]
+        "Andriessen, Andreas (1699-1768)": ["http://data.bibliotheken.nl/id/thes/p073514721"]
     },
     "4491": {
-        "Andriessen, Andreas (1699-1768)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/9971"]
+        "Andriessen, Andreas (1699-1768)": ["http://data.bibliotheken.nl/id/thes/p073514721"]
     },
     "4551": {
-        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/10141"]
+        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"]
     },
     "4620": {
-        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/10299"]
+        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"]
     },
     "4846": {
-        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/10800"]
+        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"]
     },
     "924": {
-        "Haes, Frans de (c.1658-1690)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/1169"]
+        "Haes, Frans de (c.1658-1690)": ["http://data.bibliotheken.nl/id/thes/p070117322"]
     },
     "2840": {
-        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/5733"]
+        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"]
     },
     "3031": {
-        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/6189"]
+        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"]
     },
     "3139": {
-        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/6493"]
+        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"]
     },
     "3261": {
-        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/6838"]
+        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"]
     },
     "3310": {
-        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/6979"]
+        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"]
     },
     "3363": {
-        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/7112"]
+        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"]
     },
     "3392": {
-        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/7191"]
+        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"]
     },
     "3402": {
-        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/7210"]
+        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"]
     },
     "3444": {
-        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/7319"]
+        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"]
     },
     "3532": {
-        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/7529"]
+        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"]
     },
     "3553": {
-        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/7565"]
+        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"]
     },
     "3571": {
-        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/7597"]
+        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"]
     },
     "3652": {
-        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/7808"]
+        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"]
     },
     "3794": {
-        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/8159"],
-        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/8167"]
+        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"],
+        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/thes/p071865772", "http://data.bibliotheken.nl/id/thes/p308232615"]
     },
     "3814": {
-        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/8235"]
+        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"]
     },
     "3828": {
-        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/8269"]
+        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"]
     },
     "3842": {
-        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/8308"]
+        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"]
     },
     "4039": {
-        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/8754"],
-        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/8745"],
-        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/8755"]
+        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"],
+        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069889538"],
+        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/thes/p071865772", "http://data.bibliotheken.nl/id/thes/p308232615"]
     },
     "4214": {
-        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/9259"],
-        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/9254"],
-        "Burman, Franciscus (1708-1793)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/9255"]
+        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"],
+        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069889538"],
+        "Burman, Franciscus (1708-1793)": ["http://data.bibliotheken.nl/id/thes/p069965331"]
     },
     "4291": {
-        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/9461"]
+        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"]
     },
     "4494": {
-        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/9977"]
+        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"]
     },
     "4605": {
-        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/10276"]
+        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069889538"]
     },
     "4768": {
-        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/10620"]
+        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069889538"]
     },
     "4791": {
-        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/10684"]
+        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069889538"]
     },
     "4798": {
-        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/10697"]
+        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069889538"]
     },
     "4850": {
-        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/10818"]
+        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069889538"]
     },
     "4879": {
-        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/10890"]
+        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069889538"]
     },
     "5229": {
-        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/11690"]
+        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069889538"]
     },
     "5375": {
-        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/11999"]
+        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069889538"]
     },
     "5387": {
-        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12059"]
+        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069889538"]
     },
     "5505": {
-        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12297"]
+        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069889538"]
     },
     "5754": {
-        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12812"]
+        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069889538"]
     },
     "1362": {
-        "Burman, Petrus (1668-1741)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/1873"]
+        "Burman, Petrus (1668-1741)": ["http://data.bibliotheken.nl/id/thes/p069537399", "http://data.bibliotheken.nl/id/thes/p273408313"]
     },
     "1378": {
-        "Burman, Petrus (1668-1741)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/1899"]
+        "Burman, Petrus (1668-1741)": ["http://data.bibliotheken.nl/id/thes/p069537399", "http://data.bibliotheken.nl/id/thes/p273408313"]
     },
     "1467": {
-        "Burman, Petrus (1668-1741)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/2077"]
+        "Burman, Petrus (1668-1741)": ["http://data.bibliotheken.nl/id/thes/p069537399", "http://data.bibliotheken.nl/id/thes/p273408313"]
     },
     "1554": {
-        "Burman, Petrus (1668-1741)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/2264"]
+        "Burman, Petrus (1668-1741)": ["http://data.bibliotheken.nl/id/thes/p069537399", "http://data.bibliotheken.nl/id/thes/p273408313"]
     },
     "1664": {
-        "Burman, Petrus (1668-1741)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/2578"]
+        "Burman, Petrus (1668-1741)": ["http://data.bibliotheken.nl/id/thes/p069537399", "http://data.bibliotheken.nl/id/thes/p273408313"]
     },
     "1704": {
-        "Burman, Petrus (1668-1741)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/2647"]
+        "Burman, Petrus (1668-1741)": ["http://data.bibliotheken.nl/id/thes/p069537399", "http://data.bibliotheken.nl/id/thes/p273408313"]
     },
     "1791": {
-        "Burman, Petrus (1668-1741)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/2809"]
+        "Burman, Petrus (1668-1741)": ["http://data.bibliotheken.nl/id/thes/p069537399", "http://data.bibliotheken.nl/id/thes/p273408313"]
     },
     "1837": {
-        "Burman, Petrus (1668-1741)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/2908"]
+        "Burman, Petrus (1668-1741)": ["http://data.bibliotheken.nl/id/thes/p069537399", "http://data.bibliotheken.nl/id/thes/p273408313"]
     },
     "3019": {
-        "Burman, Petrus (1668-1741)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/6151"],
-        "Burman, Franciscus (1708-1793)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/6149"]
+        "Burman, Petrus (1668-1741)": ["http://data.bibliotheken.nl/id/thes/p069537399", "http://data.bibliotheken.nl/id/thes/p273408313"],
+        "Burman, Franciscus (1708-1793)": ["http://data.bibliotheken.nl/id/thes/p069965331"]
     },
     "3251": {
-        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/6811"]
+        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069889538"]
     },
     "3257": {
-        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/6828"],
-        "Burman, Franciscus (1708-1793)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/6826"]
+        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069889538"],
+        "Burman, Franciscus (1708-1793)": ["http://data.bibliotheken.nl/id/thes/p069965331"]
     },
     "3306": {
-        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/6970"]
+        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069889538"]
     },
     "3345": {
-        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/7063"]
+        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069889538"]
     },
     "3452": {
-        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/7340"]
+        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069889538"]
     },
     "3800": {
-        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/8175"]
+        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069889538"]
     },
     "4352": {
-        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/9625"]
+        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069889538"]
     },
     "4694": {
-        "Burman, Franciscus (1708-1793)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/10480"]
+        "Burman, Franciscus (1708-1793)": ["http://data.bibliotheken.nl/id/thes/p069965331"]
     },
     "1900": {
-        "Burman, Franciscus (1671-1719)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/3036"]
+        "Burman, Franciscus (1671-1719)": ["http://data.bibliotheken.nl/id/thes/p069707200"]
     },
     "394": {
-        "Burman, Franciscus (1628-1679)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/412"]
+        "Burman, Franciscus (1628-1679)": ["http://data.bibliotheken.nl/id/thes/p069581711"]
     },
     "3035": {
-        "Burman, Franciscus (1708-1793)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/6195"]
+        "Burman, Franciscus (1708-1793)": ["http://data.bibliotheken.nl/id/thes/p069965331"]
     },
     "578": {
-        "Burman, Franciscus (1628-1679)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/628"]
+        "Burman, Franciscus (1628-1679)": ["http://data.bibliotheken.nl/id/thes/p069581711"]
     },
     "3156": {
-        "Burman, Franciscus (1708-1793)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/6553"]
+        "Burman, Franciscus (1708-1793)": ["http://data.bibliotheken.nl/id/thes/p069965331"]
     },
     "3780": {
-        "Burman, Franciscus (1708-1793)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/8110"]
+        "Burman, Franciscus (1708-1793)": ["http://data.bibliotheken.nl/id/thes/p069965331"]
     },
     "1708": {
-        "Angelkot, Hermannus (1688-1727)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/2661"]
+        "Angelkot, Hermannus (1688-1727)": ["http://data.bibliotheken.nl/id/thes/p070233683"]
     },
     "1792": {
-        "Angelkot, Hermannus (1688-1727)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/2814"]
+        "Angelkot, Hermannus (1688-1727)": ["http://data.bibliotheken.nl/id/thes/p070233683"]
     },
     "1816": {
-        "Angelkot, Hermannus (1688-1727)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/2864"]
+        "Angelkot, Hermannus (1688-1727)": ["http://data.bibliotheken.nl/id/thes/p070233683"]
     },
     "2323": {
-        "Angelkot, Hermannus (1688-1727)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/4087"]
+        "Angelkot, Hermannus (1688-1727)": ["http://data.bibliotheken.nl/id/thes/p070233683"]
     },
     "2392": {
-        "Angelkot, Hermannus (1688-1727)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/4262"]
+        "Angelkot, Hermannus (1688-1727)": ["http://data.bibliotheken.nl/id/thes/p070233683"]
     },
     "2446": {
-        "Angelkot, Hermannus (1688-1727)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/4429"]
+        "Angelkot, Hermannus (1688-1727)": ["http://data.bibliotheken.nl/id/thes/p070233683"]
     },
     "2493": {
-        "Angelkot, Hermannus (1688-1727)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/4594"]
+        "Angelkot, Hermannus (1688-1727)": ["http://data.bibliotheken.nl/id/thes/p070233683"]
     },
     "878": {
-        "Brandt, Joannes (1660-1708)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/1094"]
+        "Brandt, Joannes (1660-1708)": ["http://data.bibliotheken.nl/id/thes/p069798044"]
     },
     "1306": {
-        "Brandt, Joannes (1660-1708)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/1790"]
+        "Brandt, Joannes (1660-1708)": ["http://data.bibliotheken.nl/id/thes/p069798044"]
     },
     "1324": {
-        "Brandt, Joannes (1660-1708)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/1821"]
+        "Brandt, Joannes (1660-1708)": ["http://data.bibliotheken.nl/id/thes/p069798044"]
     },
     "1371": {
-        "Brandt, Joannes (1660-1708)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/1887"]
+        "Brandt, Joannes (1660-1708)": ["http://data.bibliotheken.nl/id/thes/p069798044"]
     },
     "1457": {
-        "Brandt, Joannes (1660-1708)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/2059"]
+        "Brandt, Joannes (1660-1708)": ["http://data.bibliotheken.nl/id/thes/p069798044"]
     },
     "691": {
-        "Brandt, Joannes (1660-1708)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/813"]
+        "Brandt, Joannes (1660-1708)": ["http://data.bibliotheken.nl/id/thes/p069798044"]
     },
     "5321": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/11878"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "5423": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12128"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "5450": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12193"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "5453": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12196"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "5464": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12218"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "5465": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12219"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "5483": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12243"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "5485": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12249"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "5513": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12305"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "5543": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12359"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "5552": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12372"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "5554": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12374"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "5567": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12401"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "5599": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12439"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "5602": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12458"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "5603": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12461"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "5608": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12475"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "5614": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12487"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "5615": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12490"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "5631": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12514"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "5648": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12562"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "5683": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12655"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "5685": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12661"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "5687": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12672"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "5750": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12804"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "5786": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12900"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "5794": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12907"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "5823": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12962"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "5847": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13030"],
-        "Dyk, Johannes van (1718-1798)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13047"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"],
+        "Dyk, Johannes van (1718-1798)": ["http://data.bibliotheken.nl/id/thes/p069940711"]
     },
     "5853": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13060"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "5856": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13079"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "5865": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13094"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "5950": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13278"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "6080": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13463"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "6127": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13568"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "6132": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13581"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "6158": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13619"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "6194": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13741"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "6206": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13757"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "6281": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13899"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "6355": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/14006"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "6387": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/14089"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "6249": {
-        "Jagt, Gerrit van der (1750-1834)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13823"]
+        "Jagt, Gerrit van der (1750-1834)": ["http://data.bibliotheken.nl/id/thes/p068390467"]
     },
     "6793": {
-        "Jagt, Gerrit van der (1750-1834)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/14651"]
+        "Jagt, Gerrit van der (1750-1834)": ["http://data.bibliotheken.nl/id/thes/p068390467"]
     },
     "4220": {
-        "Herwerden, Joannes van (1714-1772)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/9275"]
+        "Herwerden, Joannes van (1714-1772)": ["http://data.bibliotheken.nl/id/thes/p166765538"]
     },
     "5457": {
-        "Pot, Cornelis van der (1736-1805)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12203"]
+        "Pot, Cornelis van der (1736-1805)": ["http://data.bibliotheken.nl/id/thes/p073530808"]
     },
     "5466": {
-        "Pot, Cornelis van der (1736-1805)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12222"]
+        "Pot, Cornelis van der (1736-1805)": ["http://data.bibliotheken.nl/id/thes/p073530808"]
     },
     "5762": {
-        "Pot, Cornelis van der (1736-1805)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12840"]
+        "Pot, Cornelis van der (1736-1805)": ["http://data.bibliotheken.nl/id/thes/p073530808"]
     },
     "6104": {
-        "Pot, Cornelis van der (1736-1805)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13509"]
+        "Pot, Cornelis van der (1736-1805)": ["http://data.bibliotheken.nl/id/thes/p073530808"]
     },
     "6812": {
-        "Pot, Cornelis van der (1736-1805)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/14689"]
+        "Pot, Cornelis van der (1736-1805)": ["http://data.bibliotheken.nl/id/thes/p073530808"]
     },
     "5503": {
-        "Dyk, Johannes van (1718-1798)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12293"]
+        "Dyk, Johannes van (1718-1798)": ["http://data.bibliotheken.nl/id/thes/p069940711"]
     },
     "3667": {
-        "Dyk,Johannes van (1718-1798)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/7863"]
+        "Dyk,Johannes van (1718-1798)": ["http://data.bibliotheken.nl/id/thes/p069940711"]
     },
     "4027": {
-        "Dyk, Johannes van (1718-1798)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/8732"]
+        "Dyk, Johannes van (1718-1798)": ["http://data.bibliotheken.nl/id/thes/p069940711"]
     },
     "4156": {
-        "Dyk, Johannes van (1718-1798)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/9089"]
+        "Dyk, Johannes van (1718-1798)": ["http://data.bibliotheken.nl/id/thes/p069940711"]
     },
     "4399": {
-        "Dyk, Johannes van (1718-1798)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/9776"]
+        "Dyk, Johannes van (1718-1798)": ["http://data.bibliotheken.nl/id/thes/p069940711"]
     },
     "5542": {
-        "Hooft, Daniel (1753-1828)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12357"]
+        "Hooft, Daniel (1753-1828)": ["http://data.bibliotheken.nl/id/thes/p070349320"]
     },
     "5591": {
-        "Hooft, Daniel (1753-1828)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12431"]
+        "Hooft, Daniel (1753-1828)": ["http://data.bibliotheken.nl/id/thes/p070349320"]
     },
     "5761": {
-        "Hooft, Daniel (1753-1828)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12838"]
+        "Hooft, Daniel (1753-1828)": ["http://data.bibliotheken.nl/id/thes/p070349320"]
     },
     "5799": {
-        "Hooft, Daniel (1753-1828)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12915"],
-        "Nieuwland, Pieter (1764-1794)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12916"]
+        "Hooft, Daniel (1753-1828)": ["http://data.bibliotheken.nl/id/thes/p070349320"],
+        "Nieuwland, Pieter (1764-1794)": ["http://data.bibliotheken.nl/id/thes/p070161801"]
     },
     "6700": {
-        "Hoogeveen, Jan (1736-)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/14476"]
+        "Hoogeveen, Jan (1736-)": ["http://data.bibliotheken.nl/id/thes/p071545964"]
     },
     "6816": {
-        "Hoogeveen, Jan (1736-)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/14699"]
+        "Hoogeveen, Jan (1736-)": ["http://data.bibliotheken.nl/id/thes/p071545964"]
     },
     "6631": {
-        "Alphen, Hieronymus van (1746-1803)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/14387"]
+        "Alphen, Hieronymus van (1746-1803)": ["http://data.bibliotheken.nl/id/thes/p069101930"]
     },
     "5803": {
-        "Nieuwland, Pieter (1764-1794)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12923"]
+        "Nieuwland, Pieter (1764-1794)": ["http://data.bibliotheken.nl/id/thes/p070161801"]
     },
     "6141": {
-        "Nieuwland, Pieter (1764-1794)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13594"]
+        "Nieuwland, Pieter (1764-1794)": ["http://data.bibliotheken.nl/id/thes/p070161801"]
     },
     "6218": {
-        "Nieuwland, Pieter (1764-1794)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13783"]
+        "Nieuwland, Pieter (1764-1794)": ["http://data.bibliotheken.nl/id/thes/p070161801"]
     },
     "6266": {
-        "Nieuwland, Pieter (1764-1794)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13862"]
+        "Nieuwland, Pieter (1764-1794)": ["http://data.bibliotheken.nl/id/thes/p070161801"]
     },
     "6454": {
-        "Nieuwland, Pieter (1764-1794)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/14175"]
+        "Nieuwland, Pieter (1764-1794)": ["http://data.bibliotheken.nl/id/thes/p070161801"]
     },
     "5764": {
-        "Vreede, Pieter (1750-1837)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12844"]
+        "Vreede, Pieter (1750-1837)": ["http://data.bibliotheken.nl/id/thes/p068454155"]
     },
     "6015": {
-        "Vreede, Pieter (1750-1837)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13375"]
+        "Vreede, Pieter (1750-1837)": ["http://data.bibliotheken.nl/id/thes/p068454155"]
     },
     "5772": {
-        "Royen, Jan van (1736-1803)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/12866"]
+        "Royen, Jan van (1736-1803)": ["http://data.bibliotheken.nl/id/thes/p096926414"]
     },
     "5937": {
-        "Royen, Jan van (1736-1803)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13254"]
+        "Royen, Jan van (1736-1803)": ["http://data.bibliotheken.nl/id/thes/p096926414"]
     },
     "5938": {
-        "Royen, Jan van (1736-1803)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13259"]
+        "Royen, Jan van (1736-1803)": ["http://data.bibliotheken.nl/id/thes/p096926414"]
     },
     "6254": {
-        "Royen, Jan van (1736-1803)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13832"]
+        "Royen, Jan van (1736-1803)": ["http://data.bibliotheken.nl/id/thes/p096926414"]
     },
     "6326": {
-        "Royen, Jan van (1736-1803)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13949"]
+        "Royen, Jan van (1736-1803)": ["http://data.bibliotheken.nl/id/thes/p096926414"]
     },
     "6371": {
-        "Royen, Jan van (1736-1803)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/14029"]
+        "Royen, Jan van (1736-1803)": ["http://data.bibliotheken.nl/id/thes/p096926414"]
     },
     "6445": {
-        "Royen, Jan van (1736-1803)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/14158"]
+        "Royen, Jan van (1736-1803)": ["http://data.bibliotheken.nl/id/thes/p096926414"]
     },
     "6491": {
-        "Royen, Jan van (1736-1803)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/14208"]
+        "Royen, Jan van (1736-1803)": ["http://data.bibliotheken.nl/id/thes/p096926414"]
     },
     "6785": {
-        "Royen, Jan van (1736-1803)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/14626"]
+        "Royen, Jan van (1736-1803)": ["http://data.bibliotheken.nl/id/thes/p096926414"]
     },
     "5862": {
-        "Bussingh, Johannes Wilhelmus (1761-1828)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13091"]
+        "Bussingh, Johannes Wilhelmus (1761-1828)": ["http://data.bibliotheken.nl/id/thes/p069965854"]
     },
     "6045": {
-        "Bussingh, Johannes Wilhelmus (1761-1828)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13410"]
+        "Bussingh, Johannes Wilhelmus (1761-1828)": ["http://data.bibliotheken.nl/id/thes/p069965854"]
     },
     "6073": {
-        "Bussingh, Johannes Wilhelmus (1761-1828)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13450"]
+        "Bussingh, Johannes Wilhelmus (1761-1828)": ["http://data.bibliotheken.nl/id/thes/p069965854"]
     },
     "6081": {
-        "Bussingh, Johannes Wilhelmus (1761-1828)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13464"]
+        "Bussingh, Johannes Wilhelmus (1761-1828)": ["http://data.bibliotheken.nl/id/thes/p069965854"]
     },
     "6188": {
-        "Bussingh, Johannes Wilhelmus (1761-1828)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13696"],
-        "Stoppelaar, Joan de (1757-1800)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13690"]
+        "Bussingh, Johannes Wilhelmus (1761-1828)": ["http://data.bibliotheken.nl/id/thes/p069965854"],
+        "Stoppelaar, Joan de (1757-1800)": ["http://data.bibliotheken.nl/id/thes/p071705341"]
     },
     "6193": {
-        "Bussingh, Johannes Wilhelmus (1761-1828)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13711"]
+        "Bussingh, Johannes Wilhelmus (1761-1828)": ["http://data.bibliotheken.nl/id/thes/p069965854"]
     },
     "6376": {
-        "Bussingh, Johannes Wilhelmus (1761-1828)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/14046", "http://data.bibliotheken.nl/id/dataset/ggd/author/14059"]
+        "Bussingh, Johannes Wilhelmus (1761-1828)": ["http://data.bibliotheken.nl/id/thes/p069965854"]
     },
     "6410": {
-        "Bussingh, Johannes Wilhelmus (1761-1828)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/14120"]
+        "Bussingh, Johannes Wilhelmus (1761-1828)": ["http://data.bibliotheken.nl/id/thes/p069965854"]
     },
     "6676": {
-        "Bussingh, Johannes Wilhelmus (1761-1828)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/14430"]
+        "Bussingh, Johannes Wilhelmus (1761-1828)": ["http://data.bibliotheken.nl/id/thes/p069965854"]
     },
     "6803": {
-        "Bussingh, Johannes Wilhelmus (1761-1828)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/14670"]
+        "Bussingh, Johannes Wilhelmus (1761-1828)": ["http://data.bibliotheken.nl/id/thes/p069965854"]
     },
     "5939": {
-        "Stoppelaar, Joan de (1757-1800)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13260"]
+        "Stoppelaar, Joan de (1757-1800)": ["http://data.bibliotheken.nl/id/thes/p071705341"]
     },
     "6085": {
-        "Stoppelaar, Joan de (1757-1800)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/13484"]
+        "Stoppelaar, Joan de (1757-1800)": ["http://data.bibliotheken.nl/id/thes/p071705341"]
     },
     "6442": {
-        "Deiman, Jan Diedrich (1770-1800)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/14153"]
+        "Deiman, Jan Diedrich (1770-1800)": ["http://data.bibliotheken.nl/id/thes/p17314098X"]
     },
     "777": {
-        "Trigland, Jacob (1652-1705)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/933"]
+        "Trigland, Jacob (1652-1705)": ["http://data.bibliotheken.nl/id/thes/p06943106X"]
     },
     "184": {
-        "Huygens, Constantijn (1596-1687)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/185"]
+        "Huygens, Constantijn (1596-1687)": ["http://data.bibliotheken.nl/id/thes/p069146810"]
     },
     "404": {
-        "Huygens, Constantijn (1596-1687)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/420"]
+        "Huygens, Constantijn (1596-1687)": ["http://data.bibliotheken.nl/id/thes/p069146810"]
     },
     "2147": {
-        "Royen, David van (1699-1764)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/3649"]
+        "Royen, David van (1699-1764)": ["http://data.bibliotheken.nl/id/thes/p070355673"]
     },
     "2255": {
-        "Royen, David van (1699-1764)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/3906"]
+        "Royen, David van (1699-1764)": ["http://data.bibliotheken.nl/id/thes/p070355673"]
     },
     "2256": {
-        "Royen, David van (1699-1764)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/3912"]
+        "Royen, David van (1699-1764)": ["http://data.bibliotheken.nl/id/thes/p070355673"]
     },
     "2441": {
-        "Royen, David van (1699-1764)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/4415"]
+        "Royen, David van (1699-1764)": ["http://data.bibliotheken.nl/id/thes/p070355673"]
     },
     "2832": {
-        "Royen, David van (1699-1764)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/5701"]
+        "Royen, David van (1699-1764)": ["http://data.bibliotheken.nl/id/thes/p070355673"]
     },
     "3448": {
-        "Royen, David van (1699-1764)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/7325"]
+        "Royen, David van (1699-1764)": ["http://data.bibliotheken.nl/id/thes/p070355673"]
     },
     "3490": {
-        "Royen, David van (1699-1764)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/7444"]
+        "Royen, David van (1699-1764)": ["http://data.bibliotheken.nl/id/thes/p070355673"]
     },
     "3548": {
-        "Royen, David van (1699-1764)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/7554"]
+        "Royen, David van (1699-1764)": ["http://data.bibliotheken.nl/id/thes/p070355673"]
     },
     "347": {
-        "Witt, Cornelis de (1623-1672)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/371"]
+        "Witt, Cornelis de (1623-1672)": ["http://data.bibliotheken.nl/id/thes/p069501068"]
     },
     "2022": {
-        "Witt, Joan de (1694-1751)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/3324"]
+        "Witt, Joan de (1694-1751)": ["http://data.bibliotheken.nl/id/thes/p239810570"]
     },
     "2569": {
-        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/4837"]
+        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/thes/p071865772", "http://data.bibliotheken.nl/id/thes/p308232615"]
     },
     "2796": {
-        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/5613"]
+        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/thes/p071865772", "http://data.bibliotheken.nl/id/thes/p308232615"]
     },
     "2913": {
-        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/5917"]
+        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/thes/p071865772", "http://data.bibliotheken.nl/id/thes/p308232615"]
     },
     "2914": {
-        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/5921"]
+        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/thes/p071865772", "http://data.bibliotheken.nl/id/thes/p308232615"]
     },
     "3097": {
-        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/6379"]
+        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/thes/p071865772", "http://data.bibliotheken.nl/id/thes/p308232615"]
     },
     "3242": {
-        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/6792"]
+        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/thes/p071865772", "http://data.bibliotheken.nl/id/thes/p308232615"]
     },
     "3291": {
-        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/6922"]
+        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/thes/p071865772", "http://data.bibliotheken.nl/id/thes/p308232615"]
     },
     "3432": {
-        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/7281"]
+        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/thes/p071865772", "http://data.bibliotheken.nl/id/thes/p308232615"]
     },
     "3581": {
-        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/7630"]
+        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/thes/p071865772", "http://data.bibliotheken.nl/id/thes/p308232615"]
     },
     "3615": {
-        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/7719"]
+        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/thes/p071865772", "http://data.bibliotheken.nl/id/thes/p308232615"]
     },
     "3655": {
-        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/7818"]
+        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/thes/p071865772", "http://data.bibliotheken.nl/id/thes/p308232615"]
     },
     "3701": {
-        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/7947"]
+        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/thes/p071865772", "http://data.bibliotheken.nl/id/thes/p308232615"]
     },
     "3830": {
-        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/8276"]
+        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/thes/p071865772", "http://data.bibliotheken.nl/id/thes/p308232615"]
     },
     "3858": {
-        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/8366"]
+        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/thes/p071865772", "http://data.bibliotheken.nl/id/thes/p308232615"]
     },
     "4051": {
-        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/8778"]
+        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/thes/p071865772", "http://data.bibliotheken.nl/id/thes/p308232615"]
     },
     "4064": {
-        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/8817"]
+        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/thes/p071865772", "http://data.bibliotheken.nl/id/thes/p308232615"]
     },
     "4133": {
-        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/9021"]
+        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/thes/p071865772", "http://data.bibliotheken.nl/id/thes/p308232615"]
     },
     "4145": {
-        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/9068"]
+        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/thes/p071865772", "http://data.bibliotheken.nl/id/thes/p308232615"]
     },
     "4182": {
-        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/9157"]
+        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/thes/p071865772", "http://data.bibliotheken.nl/id/thes/p308232615"]
     },
     "4200": {
-        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/9209"]
+        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/thes/p071865772", "http://data.bibliotheken.nl/id/thes/p308232615"]
     },
     "2922": {
-        "Burch, Jacobus van der (1747-1776)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/5938"]
+        "Burch, Jacobus van der (1747-1776)": ["http://data.bibliotheken.nl/id/thes/p274397536", "http://data.bibliotheken.nl/id/thes/p317650580", "http://data.bibliotheken.nl/id/thes/p353537381"]
     },
     "3362": {
-        "Dussen, Nicolaas van der (1718-1770)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/7106"]
+        "Dussen, Nicolaas van der (1718-1770)": ["http://data.bibliotheken.nl/id/thes/p239819152"]
     },
     "3978": {
-        "Dussen, Nicolaas van der (1718-1770)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/8599"]
+        "Dussen, Nicolaas van der (1718-1770)": ["http://data.bibliotheken.nl/id/thes/p239819152"]
     },
     "4119": {
-        "Dussen, Nicolaas van der (1718-1770)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/8971"]
+        "Dussen, Nicolaas van der (1718-1770)": ["http://data.bibliotheken.nl/id/thes/p239819152"]
     },
     "4307": {
-        "Dussen, Nicolaas van der (1718-1770)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/9499"]
+        "Dussen, Nicolaas van der (1718-1770)": ["http://data.bibliotheken.nl/id/thes/p239819152"]
     },
     "4330": {
-        "Dussen, Nicolaas van der (1718-1770)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/9540"]
+        "Dussen, Nicolaas van der (1718-1770)": ["http://data.bibliotheken.nl/id/thes/p239819152"]
     },
     "4497": {
-        "Dussen, Nicolaas van der (1718-1770)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/9984"]
+        "Dussen, Nicolaas van der (1718-1770)": ["http://data.bibliotheken.nl/id/thes/p239819152"]
     },
     "642": {
-        "Brandt, Geeraert (1626-1685)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/744"]
+        "Brandt, Geeraert (1626-1685)": ["http://data.bibliotheken.nl/id/thes/p068386346"]
     },
     "647": {
-        "Brandt, Geeraert (1626-1685)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/753"]
+        "Brandt, Geeraert (1626-1685)": ["http://data.bibliotheken.nl/id/thes/p068386346"]
     },
     "659": {
-        "Brandt, Geeraert (1626-1685)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/768"]
+        "Brandt, Geeraert (1626-1685)": ["http://data.bibliotheken.nl/id/thes/p068386346"]
     },
     "676": {
-        "Brandt, Geeraert (1626-1685)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/785"]
+        "Brandt, Geeraert (1626-1685)": ["http://data.bibliotheken.nl/id/thes/p068386346"]
     },
     "688": {
-        "Brandt, Geeraert (1626-1685)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/796"]
+        "Brandt, Geeraert (1626-1685)": ["http://data.bibliotheken.nl/id/thes/p068386346"]
     },
     "4025": {
-        "Luzac, Elie (1723-1796)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/8718"]
+        "Luzac, Elie (1723-1796)": ["http://data.bibliotheken.nl/id/thes/p070122520"]
     },
     "4369": {
-        "Broes, Petrus (1726-1797)": ["http://data.bibliotheken.nl/id/dataset/ggd/author/9679"]
+        "Broes, Petrus (1726-1797)": ["http://data.bibliotheken.nl/id/thes/p07038634X"]
     }
 }
