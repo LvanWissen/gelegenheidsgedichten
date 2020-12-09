@@ -309,7 +309,7 @@
     },
     "2696": {
         "Orville, Jacobus Philippus d'": ["http://data.bibliotheken.nl/id/thes/p069947112"],
-        "Orville, Petrus d'": ["http://data.bibliotheken.nl/id/thes/p069947112"]
+        "Orville, Petrus d'": ["http://data.bibliotheken.nl/id/thes/p069947112", "http://data.bibliotheken.nl/id/thes/p069949883"]
     },
     "2102": {
         "Heimenberg, Casparus Henricus van": ["http://data.bibliotheken.nl/id/thes/p153498102"]
@@ -318,7 +318,8 @@
         "Beck, Hendrick": ["http://data.bibliotheken.nl/id/thes/p069851239"]
     },
     "6200": {
-        "Chastelein, Cornelis Pieter": ["http://data.bibliotheken.nl/id/thes/p142900036"]
+        "Chastelein, Cornelis Pieter": ["http://data.bibliotheken.nl/id/thes/p142900036"],
+        "Schelle, Pieter van": ["http://data.bibliotheken.nl/id/thes/p070294046"]
     },
     "4662": {
         "Heimans, Rinnardus": ["http://data.bibliotheken.nl/id/thes/p203803450"]
@@ -821,7 +822,8 @@
         "Bosch, Hieronymus de": ["http://data.bibliotheken.nl/id/thes/p069671451"]
     },
     "6451": {
-        "Bosch, Hieronymus de": ["http://data.bibliotheken.nl/id/thes/p069671451"]
+        "Bosch, Hieronymus de": ["http://data.bibliotheken.nl/id/thes/p069671451"],
+        "Siegenbeek, Matthys": ["http://data.bibliotheken.nl/id/thes/p068914997"]
     },
     "6524": {
         "Bosch, Hieronymus de": ["http://data.bibliotheken.nl/id/thes/p069671451"]
@@ -3434,7 +3436,8 @@
         "Royen, Adrianus van": ["http://data.bibliotheken.nl/id/thes/p070278199"]
     },
     "1715": {
-        "Bidloo, Govard": ["http://data.bibliotheken.nl/id/thes/p069677697"]
+        "Bidloo, Govard": ["http://data.bibliotheken.nl/id/thes/p069677697"],
+        "Snakenburg, Hendrik": ["http://data.bibliotheken.nl/id/thes/p070467013"]
     },
     "6361": {
         "Pypers, Pieter": ["http://data.bibliotheken.nl/id/thes/p071511237"]
@@ -4588,7 +4591,8 @@
         "Brandt, Caspar": ["http://data.bibliotheken.nl/id/thes/p069591377"]
     },
     "817": {
-        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/thes/p069905428"]
+        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/thes/p069905428"],
+        "Rabus, Pieter": ["http://data.bibliotheken.nl/id/thes/p068651775"]
     },
     "854": {
         "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/thes/p069905428"],
@@ -4616,13 +4620,15 @@
         "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/thes/p069905428"]
     },
     "3632": {
-        "Oudaen, Joachim (1716-1787)": ["http://data.bibliotheken.nl/id/thes/p070244332"]
+        "Oudaen, Joachim (1716-1787)": ["http://data.bibliotheken.nl/id/thes/p070244332"],
+        "Smits, Dirk": ["http://data.bibliotheken.nl/id/thes/p070007403"]
     },
     "670": {
         "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/thes/p069905428"]
     },
     "3753": {
-        "Oudaen, Joachim (1716-1787)": ["http://data.bibliotheken.nl/id/thes/p070244332"]
+        "Oudaen, Joachim (1716-1787)": ["http://data.bibliotheken.nl/id/thes/p070244332"],
+        "Schoonhoven, Thymon van": ["http://data.bibliotheken.nl/id/thes/p183464044"]
     },
     "696": {
         "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/thes/p069905428"]
@@ -4651,7 +4657,8 @@
     "4300": {
         "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"],
         "Oudaen, Joachim (1716-1787)": ["http://data.bibliotheken.nl/id/thes/p070244332"],
-        "Westerbaen, Kornelis Willemsz": ["http://data.bibliotheken.nl/id/thes/p070381607"]
+        "Westerbaen, Kornelis Willemsz": ["http://data.bibliotheken.nl/id/thes/p070381607"],
+        "Smits, Dirk": ["http://data.bibliotheken.nl/id/thes/p070007403"]
     },
     "4305": {
         "Oudaen, Joachim (1716-1787)": ["http://data.bibliotheken.nl/id/thes/p070244332"]
@@ -4662,11 +4669,13 @@
     },
     "4348": {
         "Oudaen, Joachim (1716-1787)": ["http://data.bibliotheken.nl/id/thes/p070244332"],
-        "Westerbaen, Kornelis Willemsz": ["http://data.bibliotheken.nl/id/thes/p070381607"]
+        "Westerbaen, Kornelis Willemsz": ["http://data.bibliotheken.nl/id/thes/p070381607"],
+        "Smits, Dirk": ["http://data.bibliotheken.nl/id/thes/p070007403"]
     },
     "4350": {
         "Asschenbergh, Harmanus": ["http://data.bibliotheken.nl/id/thes/p070389187"],
-        "Oudaen, Joachim (1716-1787)": ["http://data.bibliotheken.nl/id/thes/p070244332"]
+        "Oudaen, Joachim (1716-1787)": ["http://data.bibliotheken.nl/id/thes/p070244332"],
+        "Schelle, Gysbert Pietersz van": ["http://data.bibliotheken.nl/id/thes/p207130833"]
     },
     "4443": {
         "Oudaen, Joachim (1716-1787)": ["http://data.bibliotheken.nl/id/thes/p070244332"]
@@ -4682,7 +4691,8 @@
     "4537": {
         "Andriessen de Waal, Jakobus": ["http://data.bibliotheken.nl/id/thes/p189178213"],
         "Boddaert, Pieter (1694-1760)": ["http://data.bibliotheken.nl/id/thes/p069869375"],
-        "Willemsen, Jacobus": ["http://data.bibliotheken.nl/id/thes/p068410115"]
+        "Willemsen, Jacobus": ["http://data.bibliotheken.nl/id/thes/p068410115"],
+        "Sevenhoven, Martinus van": ["http://data.bibliotheken.nl/id/thes/p156655721"]
     },
     "4555": {
         "Andriessen de Waal, Jakobus": ["http://data.bibliotheken.nl/id/thes/p189178213"],
@@ -4747,31 +4757,41 @@
         "Bredenburg, Johannes (Jr)": ["http://data.bibliotheken.nl/id/thes/p074713183"]
     },
     "2840": {
-        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"]
+        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"],
+        "Smits, Dirk": ["http://data.bibliotheken.nl/id/thes/p070007403"]
     },
     "3031": {
-        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"]
+        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"],
+        "Schelling, Pieter van der": ["http://data.bibliotheken.nl/id/thes/p069975574"],
+        "Smits, Dirk": ["http://data.bibliotheken.nl/id/thes/p070007403"]
     },
     "3139": {
-        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"]
+        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"],
+        "Schelling, Pieter van der": ["http://data.bibliotheken.nl/id/thes/p069975574"],
+        "Smits, Dirk": ["http://data.bibliotheken.nl/id/thes/p070007403"]
     },
     "3261": {
-        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"]
+        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"],
+        "Smits, Dirk": ["http://data.bibliotheken.nl/id/thes/p070007403"]
     },
     "3310": {
         "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"]
     },
     "3363": {
-        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"]
+        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"],
+        "Smits, Dirk": ["http://data.bibliotheken.nl/id/thes/p070007403"]
     },
     "3392": {
-        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"]
+        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"],
+        "Smits, Dirk": ["http://data.bibliotheken.nl/id/thes/p070007403"]
     },
     "3402": {
-        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"]
+        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"],
+        "Smits, Dirk": ["http://data.bibliotheken.nl/id/thes/p070007403"]
     },
     "3444": {
-        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"]
+        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"],
+        "Smits, Dirk": ["http://data.bibliotheken.nl/id/thes/p070007403"]
     },
     "3532": {
         "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"]
@@ -4789,13 +4809,17 @@
         "Blaaupot, Gerrit": ["http://data.bibliotheken.nl/id/thes/p184246598"],
         "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/thes/p071865772", "http://data.bibliotheken.nl/id/thes/p308232615"],
         "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"],
-        "Westerbaen, Kornelis Willemsz": ["http://data.bibliotheken.nl/id/thes/p070381607"]
+        "Westerbaen, Kornelis Willemsz": ["http://data.bibliotheken.nl/id/thes/p070381607"],
+        "Schelling, Pieter van der": ["http://data.bibliotheken.nl/id/thes/p069975574"],
+        "Smits, Dirk": ["http://data.bibliotheken.nl/id/thes/p070007403"]
     },
     "3814": {
         "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"]
     },
     "3828": {
-        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"]
+        "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"],
+        "Schelling, Pieter van der": ["http://data.bibliotheken.nl/id/thes/p069975574"],
+        "Smits, Dirk": ["http://data.bibliotheken.nl/id/thes/p070007403"]
     },
     "3842": {
         "Beek, Dirk van": ["http://data.bibliotheken.nl/id/thes/p184639743"],
@@ -4807,7 +4831,10 @@
         "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/thes/p071865772", "http://data.bibliotheken.nl/id/thes/p308232615"],
         "Haes, Frans de (1708-1761)": ["http://data.bibliotheken.nl/id/thes/p073547514"],
         "Straat, Pieter": ["http://data.bibliotheken.nl/id/thes/p104139242"],
-        "Westerbaen, Kornelis Willemsz": ["http://data.bibliotheken.nl/id/thes/p070381607"]
+        "Westerbaen, Kornelis Willemsz": ["http://data.bibliotheken.nl/id/thes/p070381607"],
+        "Schrader, Johannes": ["http://data.bibliotheken.nl/id/thes/p070296863"],
+        "Sieben, Bartholomaeus": ["http://data.bibliotheken.nl/id/thes/p18565987X"],
+        "Smits, Dirk": ["http://data.bibliotheken.nl/id/thes/p070007403"]
     },
     "4214": {
         "Arntzenius, Otto": ["http://data.bibliotheken.nl/id/thes/p069916942"],
@@ -4837,7 +4864,8 @@
     "4798": {
         "Arntzenius, Henricus Joannes": ["http://data.bibliotheken.nl/id/thes/p069916918"],
         "Arntzenius, Otto": ["http://data.bibliotheken.nl/id/thes/p069916942"],
-        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069889538"]
+        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069889538"],
+        "Sieben, Bartholomaeus": ["http://data.bibliotheken.nl/id/thes/p18565987X"]
     },
     "4850": {
         "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069889538"]
@@ -4863,7 +4891,8 @@
         "Bosch, Hieronymus de": ["http://data.bibliotheken.nl/id/thes/p069671451"],
         "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069889538"],
         "Braam, Pieter van": ["http://data.bibliotheken.nl/id/thes/p069878218"],
-        "Wouters, Roelof": ["http://data.bibliotheken.nl/id/thes/p173075010"]
+        "Wouters, Roelof": ["http://data.bibliotheken.nl/id/thes/p173075010"],
+        "Ruloffs, Bartholomeus": ["http://data.bibliotheken.nl/id/thes/p071543635"]
     },
     "1362": {
         "Burman, Petrus (1668-1741)": ["http://data.bibliotheken.nl/id/thes/p069537399", "http://data.bibliotheken.nl/id/thes/p273408313"]
@@ -4873,7 +4902,9 @@
     },
     "1467": {
         "Bidloo, Govard": ["http://data.bibliotheken.nl/id/thes/p069677697"],
-        "Burman, Petrus (1668-1741)": ["http://data.bibliotheken.nl/id/thes/p069537399", "http://data.bibliotheken.nl/id/thes/p273408313"]
+        "Burman, Petrus (1668-1741)": ["http://data.bibliotheken.nl/id/thes/p069537399", "http://data.bibliotheken.nl/id/thes/p273408313"],
+        "Pars, Adriaan": ["http://data.bibliotheken.nl/id/thes/p069409692"],
+        "Snakenburg, Hendrik": ["http://data.bibliotheken.nl/id/thes/p070467013"]
     },
     "1554": {
         "Burman, Petrus (1668-1741)": ["http://data.bibliotheken.nl/id/thes/p069537399", "http://data.bibliotheken.nl/id/thes/p273408313"]
@@ -4900,10 +4931,14 @@
     },
     "3257": {
         "Burman, Franciscus (1708-1793)": ["http://data.bibliotheken.nl/id/thes/p069965331"],
-        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069889538"]
+        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069889538"],
+        "Royen, Adrianus van": ["http://data.bibliotheken.nl/id/thes/p070278199"]
     },
     "3306": {
-        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069889538"]
+        "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069889538"],
+        "Orville, Petrus d'": ["http://data.bibliotheken.nl/id/thes/p069949883"],
+        "Oudendorp, Franciscus van": ["http://data.bibliotheken.nl/id/thes/p069950148"],
+        "Snakenburg, Hendrik": ["http://data.bibliotheken.nl/id/thes/p070467013"]
     },
     "3345": {
         "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069889538"]
@@ -4914,7 +4949,10 @@
     "3800": {
         "Balde, Jan": ["http://data.bibliotheken.nl/id/thes/p185335500"],
         "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069889538"],
-        "Straat, Pieter": ["http://data.bibliotheken.nl/id/thes/p104139242"]
+        "Straat, Pieter": ["http://data.bibliotheken.nl/id/thes/p104139242"],
+        "Paludanus, Theodorus": ["http://data.bibliotheken.nl/id/thes/p074318764"],
+        "Serrurier, Louis Philippe": ["http://data.bibliotheken.nl/id/thes/p071365354"],
+        "Smits, Dirk": ["http://data.bibliotheken.nl/id/thes/p070007403"]
     },
     "4352": {
         "Burman, Petrus (1713-1778)": ["http://data.bibliotheken.nl/id/thes/p069889538"]
@@ -4940,14 +4978,16 @@
     },
     "3780": {
         "Balde, Jan": ["http://data.bibliotheken.nl/id/thes/p185335500"],
-        "Burman, Franciscus (1708-1793)": ["http://data.bibliotheken.nl/id/thes/p069965331"]
+        "Burman, Franciscus (1708-1793)": ["http://data.bibliotheken.nl/id/thes/p069965331"],
+        "Schroder, Gerardus": ["http://data.bibliotheken.nl/id/thes/p07492642X"]
     },
     "1708": {
         "Angelkot, Hermannus (1688-1727)": ["http://data.bibliotheken.nl/id/thes/p070233683"]
     },
     "1792": {
         "Angelkot, Hermannus (1688-1727)": ["http://data.bibliotheken.nl/id/thes/p070233683"],
-        "Teeckman, Jan Frederik": ["http://data.bibliotheken.nl/id/thes/p073405310"]
+        "Teeckman, Jan Frederik": ["http://data.bibliotheken.nl/id/thes/p073405310"],
+        "Smids, Ludolph": ["http://data.bibliotheken.nl/id/thes/p069828393"]
     },
     "1816": {
         "Angelkot, Hermannus (1688-1727)": ["http://data.bibliotheken.nl/id/thes/p070233683"]
@@ -5013,11 +5053,13 @@
         "Styl, Simon": ["http://data.bibliotheken.nl/id/thes/p069601712"]
     },
     "5543": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"],
+        "Spaan, Joannes van": ["http://data.bibliotheken.nl/id/thes/p070310300"]
     },
     "5552": {
         "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"],
-        "Steen, Dirk van der": ["http://data.bibliotheken.nl/id/thes/p156824116"]
+        "Steen, Dirk van der": ["http://data.bibliotheken.nl/id/thes/p156824116"],
+        "Spaan, Gelinus van": ["http://data.bibliotheken.nl/id/thes/p073580511"]
     },
     "5554": {
         "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
@@ -5041,12 +5083,14 @@
         "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "5615": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"],
+        "Santen, Laurens van": ["http://data.bibliotheken.nl/id/thes/p069964807"]
     },
     "5631": {
         "Beyer, Gerrit": ["http://data.bibliotheken.nl/id/thes/p070721505"],
         "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"],
-        "Broeckhoff, Johan Pieter": ["http://data.bibliotheken.nl/id/thes/p102006644"]
+        "Broeckhoff, Johan Pieter": ["http://data.bibliotheken.nl/id/thes/p102006644"],
+        "Spaan, Reinier van": ["http://data.bibliotheken.nl/id/thes/p070013748"]
     },
     "5648": {
         "Beyer, Gerrit": ["http://data.bibliotheken.nl/id/thes/p070721505"],
@@ -5054,14 +5098,19 @@
         "Braam, Pieter van": ["http://data.bibliotheken.nl/id/thes/p069878218"],
         "Broeckhoff, Johan Pieter": ["http://data.bibliotheken.nl/id/thes/p102006644"],
         "Steen, Dirk van der": ["http://data.bibliotheken.nl/id/thes/p156824116"],
-        "Stockum, Wilhelmus Petrus van": ["http://data.bibliotheken.nl/id/thes/p071558608"]
+        "Stockum, Wilhelmus Petrus van": ["http://data.bibliotheken.nl/id/thes/p071558608"],
+        "Spaan, Gelinus van": ["http://data.bibliotheken.nl/id/thes/p073580511"],
+        "Spaan, Joannes van": ["http://data.bibliotheken.nl/id/thes/p070310300"],
+        "Spaan, Reinier van": ["http://data.bibliotheken.nl/id/thes/p070013748"]
     },
     "5683": {
         "Beyer, Gerrit": ["http://data.bibliotheken.nl/id/thes/p070721505"],
         "Bilderdijk, Izaak": ["http://data.bibliotheken.nl/id/thes/p086517813"],
         "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"],
         "Braam, Pieter van": ["http://data.bibliotheken.nl/id/thes/p069878218"],
-        "Broeckhoff, Johan Pieter": ["http://data.bibliotheken.nl/id/thes/p102006644"]
+        "Broeckhoff, Johan Pieter": ["http://data.bibliotheken.nl/id/thes/p102006644"],
+        "Spaan, Joannes van": ["http://data.bibliotheken.nl/id/thes/p070310300"],
+        "Spaan, Reinier van": ["http://data.bibliotheken.nl/id/thes/p070013748"]
     },
     "5685": {
         "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
@@ -5073,7 +5122,9 @@
         "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
     },
     "5786": {
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"],
+        "Spaan, Joannes van": ["http://data.bibliotheken.nl/id/thes/p070310300"],
+        "Spaan, Reinier van": ["http://data.bibliotheken.nl/id/thes/p070013748"]
     },
     "5794": {
         "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
@@ -5084,7 +5135,9 @@
     "5847": {
         "Beyer, Gerrit": ["http://data.bibliotheken.nl/id/thes/p070721505"],
         "Dyk, Johannes van (1718-1798)": ["http://data.bibliotheken.nl/id/thes/p069940711"],
-        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
+        "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"],
+        "Spaan, Joannes van": ["http://data.bibliotheken.nl/id/thes/p070310300"],
+        "Spaan, Reinier van": ["http://data.bibliotheken.nl/id/thes/p070013748"]
     },
     "5853": {
         "Hoogeveen, Cornelis van (1741-1792)": ["http://data.bibliotheken.nl/id/thes/p070087792"]
@@ -5133,13 +5186,16 @@
         "Wolff, Elisabeth, geb. Bekker": ["http://data.bibliotheken.nl/id/thes/p068319088"]
     },
     "4220": {
-        "Herwerden, Joannes van (1714-1772)": ["http://data.bibliotheken.nl/id/thes/p166765538"]
+        "Herwerden, Joannes van (1714-1772)": ["http://data.bibliotheken.nl/id/thes/p166765538"],
+        "Petraeus, Johannes": ["http://data.bibliotheken.nl/id/thes/p182885348"]
     },
     "5457": {
-        "Pot, Cornelis van der (1736-1805)": ["http://data.bibliotheken.nl/id/thes/p073530808"]
+        "Pot, Cornelis van der (1736-1805)": ["http://data.bibliotheken.nl/id/thes/p073530808"],
+        "Spaan, Gelinus van": ["http://data.bibliotheken.nl/id/thes/p073580511"]
     },
     "5466": {
-        "Pot, Cornelis van der (1736-1805)": ["http://data.bibliotheken.nl/id/thes/p073530808"]
+        "Pot, Cornelis van der (1736-1805)": ["http://data.bibliotheken.nl/id/thes/p073530808"],
+        "Spaan, Gelinus van": ["http://data.bibliotheken.nl/id/thes/p073580511"]
     },
     "5762": {
         "Pot, Cornelis van der (1736-1805)": ["http://data.bibliotheken.nl/id/thes/p073530808"]
@@ -5148,7 +5204,8 @@
         "Pot, Cornelis van der (1736-1805)": ["http://data.bibliotheken.nl/id/thes/p073530808"]
     },
     "6812": {
-        "Pot, Cornelis van der (1736-1805)": ["http://data.bibliotheken.nl/id/thes/p073530808"]
+        "Pot, Cornelis van der (1736-1805)": ["http://data.bibliotheken.nl/id/thes/p073530808"],
+        "Paape, Gerrit": ["http://data.bibliotheken.nl/id/thes/p070254273"]
     },
     "5503": {
         "Dyk, Johannes van (1718-1798)": ["http://data.bibliotheken.nl/id/thes/p069940711"],
@@ -5158,7 +5215,8 @@
         "Dyk,Johannes van (1718-1798)": ["http://data.bibliotheken.nl/id/thes/p069940711"]
     },
     "4027": {
-        "Dyk, Johannes van (1718-1798)": ["http://data.bibliotheken.nl/id/thes/p069940711"]
+        "Dyk, Johannes van (1718-1798)": ["http://data.bibliotheken.nl/id/thes/p069940711"],
+        "Schelle, Joannes van": ["http://data.bibliotheken.nl/id/thes/p07336455X"]
     },
     "4156": {
         "Dyk, Johannes van (1718-1798)": ["http://data.bibliotheken.nl/id/thes/p069940711"]
@@ -5196,7 +5254,8 @@
     },
     "6141": {
         "Bosch, Hieronymus de": ["http://data.bibliotheken.nl/id/thes/p069671451"],
-        "Nieuwland, Pieter (1764-1794)": ["http://data.bibliotheken.nl/id/thes/p070161801"]
+        "Nieuwland, Pieter (1764-1794)": ["http://data.bibliotheken.nl/id/thes/p070161801"],
+        "Santen, Laurens van": ["http://data.bibliotheken.nl/id/thes/p069964807"]
     },
     "6218": {
         "Asschenbergh, Harmanus": ["http://data.bibliotheken.nl/id/thes/p070389187"],
@@ -5209,7 +5268,8 @@
         "Bleecker, Dani\u00ebl": ["http://data.bibliotheken.nl/id/thes/p074943278"],
         "Bosch, Hieronymus de": ["http://data.bibliotheken.nl/id/thes/p069671451"],
         "Nieuwland, Pieter (1764-1794)": ["http://data.bibliotheken.nl/id/thes/p070161801"],
-        "Zubli, Ambrosius Justus": ["http://data.bibliotheken.nl/id/thes/p068871309"]
+        "Zubli, Ambrosius Justus": ["http://data.bibliotheken.nl/id/thes/p068871309"],
+        "Roullaud, Henri Jean": ["http://data.bibliotheken.nl/id/thes/p073766720"]
     },
     "6454": {
         "Nieuwland, Pieter (1764-1794)": ["http://data.bibliotheken.nl/id/thes/p070161801"]
@@ -5224,14 +5284,17 @@
         "Royen, Jan van (1736-1803)": ["http://data.bibliotheken.nl/id/thes/p096926414"]
     },
     "5937": {
-        "Royen, Jan van (1736-1803)": ["http://data.bibliotheken.nl/id/thes/p096926414"]
+        "Royen, Jan van (1736-1803)": ["http://data.bibliotheken.nl/id/thes/p096926414"],
+        "Repelaer, Jonas Andries": ["http://data.bibliotheken.nl/id/thes/p07333426X"]
     },
     "5938": {
         "Royen, Jan van (1736-1803)": ["http://data.bibliotheken.nl/id/thes/p096926414"]
     },
     "6254": {
         "Royen, Jan van (1736-1803)": ["http://data.bibliotheken.nl/id/thes/p096926414"],
-        "Woordhouder, Toussaint": ["http://data.bibliotheken.nl/id/thes/p070056579"]
+        "Woordhouder, Toussaint": ["http://data.bibliotheken.nl/id/thes/p070056579"],
+        "Schelle, Pieter van": ["http://data.bibliotheken.nl/id/thes/p070294046"],
+        "Slicher, Anna Catharina": ["http://data.bibliotheken.nl/id/thes/p07321261X"]
     },
     "6326": {
         "Royen, Jan van (1736-1803)": ["http://data.bibliotheken.nl/id/thes/p096926414"]
@@ -5250,17 +5313,20 @@
         "Royen, Jan van (1736-1803)": ["http://data.bibliotheken.nl/id/thes/p096926414"]
     },
     "5862": {
-        "Bussingh, Johannes Wilhelmus (1761-1828)": ["http://data.bibliotheken.nl/id/thes/p069965854"]
+        "Bussingh, Johannes Wilhelmus (1761-1828)": ["http://data.bibliotheken.nl/id/thes/p069965854"],
+        "Palm, Johannes Henricus van der": ["http://data.bibliotheken.nl/id/thes/p069877394"]
     },
     "6045": {
         "Bussingh, Johannes Wilhelmus (1761-1828)": ["http://data.bibliotheken.nl/id/thes/p069965854"]
     },
     "6073": {
         "Bussingh, Johannes Wilhelmus (1761-1828)": ["http://data.bibliotheken.nl/id/thes/p069965854"],
-        "Broeckhoff, Johan Pieter": ["http://data.bibliotheken.nl/id/thes/p102006644"]
+        "Broeckhoff, Johan Pieter": ["http://data.bibliotheken.nl/id/thes/p102006644"],
+        "Palm, Johannes Henricus van der": ["http://data.bibliotheken.nl/id/thes/p069877394"]
     },
     "6081": {
-        "Bussingh, Johannes Wilhelmus (1761-1828)": ["http://data.bibliotheken.nl/id/thes/p069965854"]
+        "Bussingh, Johannes Wilhelmus (1761-1828)": ["http://data.bibliotheken.nl/id/thes/p069965854"],
+        "Palm, Johannes Henricus van der": ["http://data.bibliotheken.nl/id/thes/p069877394"]
     },
     "6188": {
         "Bussingh, Johannes Wilhelmus (1761-1828)": ["http://data.bibliotheken.nl/id/thes/p069965854"],
@@ -5280,7 +5346,8 @@
         "Bussingh, Johannes Wilhelmus (1761-1828)": ["http://data.bibliotheken.nl/id/thes/p069965854"]
     },
     "6803": {
-        "Bussingh, Johannes Wilhelmus (1761-1828)": ["http://data.bibliotheken.nl/id/thes/p069965854"]
+        "Bussingh, Johannes Wilhelmus (1761-1828)": ["http://data.bibliotheken.nl/id/thes/p069965854"],
+        "Palm, Johannes Henricus van der": ["http://data.bibliotheken.nl/id/thes/p069877394"]
     },
     "5939": {
         "Stoppelaar, Joan de (1757-1800)": ["http://data.bibliotheken.nl/id/thes/p071705341"]
@@ -5304,25 +5371,37 @@
         "Royen, David van (1699-1764)": ["http://data.bibliotheken.nl/id/thes/p070355673"]
     },
     "2255": {
-        "Royen, David van (1699-1764)": ["http://data.bibliotheken.nl/id/thes/p070355673"]
+        "Royen, David van (1699-1764)": ["http://data.bibliotheken.nl/id/thes/p070355673"],
+        "Oudendorp, Franciscus van": ["http://data.bibliotheken.nl/id/thes/p069950148"],
+        "Snakenburg, Hendrik": ["http://data.bibliotheken.nl/id/thes/p070467013"]
     },
     "2256": {
-        "Royen, David van (1699-1764)": ["http://data.bibliotheken.nl/id/thes/p070355673"]
+        "Royen, David van (1699-1764)": ["http://data.bibliotheken.nl/id/thes/p070355673"],
+        "Oudendorp, Franciscus van": ["http://data.bibliotheken.nl/id/thes/p069950148"]
     },
     "2441": {
         "Royen, David van (1699-1764)": ["http://data.bibliotheken.nl/id/thes/p070355673"]
     },
     "2832": {
-        "Royen, David van (1699-1764)": ["http://data.bibliotheken.nl/id/thes/p070355673"]
+        "Royen, David van (1699-1764)": ["http://data.bibliotheken.nl/id/thes/p070355673"],
+        "Orville, Jacobus Philippus d'": ["http://data.bibliotheken.nl/id/thes/p069947112"],
+        "Orville, Petrus d'": ["http://data.bibliotheken.nl/id/thes/p069949883"],
+        "Ostens, Willem": ["http://data.bibliotheken.nl/id/thes/p292750145"],
+        "Royen, Adrianus van": ["http://data.bibliotheken.nl/id/thes/p070278199"],
+        "Snakenburg, Hendrik": ["http://data.bibliotheken.nl/id/thes/p070467013"],
+        "Snakenburg, Theodoor van": ["http://data.bibliotheken.nl/id/thes/p115342788"]
     },
     "3448": {
         "Royen, David van (1699-1764)": ["http://data.bibliotheken.nl/id/thes/p070355673"]
     },
     "3490": {
-        "Royen, David van (1699-1764)": ["http://data.bibliotheken.nl/id/thes/p070355673"]
+        "Royen, David van (1699-1764)": ["http://data.bibliotheken.nl/id/thes/p070355673"],
+        "Oudendorp, Franciscus van": ["http://data.bibliotheken.nl/id/thes/p069950148"],
+        "Snakenburg, Hendrik": ["http://data.bibliotheken.nl/id/thes/p070467013"]
     },
     "3548": {
-        "Royen, David van (1699-1764)": ["http://data.bibliotheken.nl/id/thes/p070355673"]
+        "Royen, David van (1699-1764)": ["http://data.bibliotheken.nl/id/thes/p070355673"],
+        "Snakenburg, Hendrik": ["http://data.bibliotheken.nl/id/thes/p070467013"]
     },
     "347": {
         "Witt, Cornelis de (1623-1672)": ["http://data.bibliotheken.nl/id/thes/p069501068"]
@@ -5346,7 +5425,8 @@
         "Bosch, Bernardus de": ["http://data.bibliotheken.nl/id/thes/p069948046"],
         "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/thes/p071865772", "http://data.bibliotheken.nl/id/thes/p308232615"],
         "Targier, Jacobus": ["http://data.bibliotheken.nl/id/thes/p141907002"],
-        "Westerbaen, Kornelis Willemsz": ["http://data.bibliotheken.nl/id/thes/p070381607"]
+        "Westerbaen, Kornelis Willemsz": ["http://data.bibliotheken.nl/id/thes/p070381607"],
+        "Schelling, Pieter van der": ["http://data.bibliotheken.nl/id/thes/p069975574"]
     },
     "3242": {
         "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/thes/p071865772", "http://data.bibliotheken.nl/id/thes/p308232615"]
@@ -5362,7 +5442,9 @@
     },
     "3581": {
         "Bosch, Bernardus de": ["http://data.bibliotheken.nl/id/thes/p069948046"],
-        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/thes/p071865772", "http://data.bibliotheken.nl/id/thes/p308232615"]
+        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/thes/p071865772", "http://data.bibliotheken.nl/id/thes/p308232615"],
+        "Schelling, Pieter van der": ["http://data.bibliotheken.nl/id/thes/p069975574"],
+        "Serrurier, Louis Philippe": ["http://data.bibliotheken.nl/id/thes/p071365354"]
     },
     "3615": {
         "Bosch, Bernardus de": ["http://data.bibliotheken.nl/id/thes/p069948046"],
@@ -5398,13 +5480,16 @@
         "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/thes/p071865772", "http://data.bibliotheken.nl/id/thes/p308232615"]
     },
     "4200": {
-        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/thes/p071865772", "http://data.bibliotheken.nl/id/thes/p308232615"]
+        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/thes/p071865772", "http://data.bibliotheken.nl/id/thes/p308232615"],
+        "Sasselee, J.E.": ["http://data.bibliotheken.nl/id/thes/p170650480"]
     },
     "2922": {
         "Burch, Jacobus van der (1747-1776)": ["http://data.bibliotheken.nl/id/thes/p274397536", "http://data.bibliotheken.nl/id/thes/p353537381"]
     },
     "3362": {
-        "Dussen, Nicolaas van der (1718-1770)": ["http://data.bibliotheken.nl/id/thes/p239819152"]
+        "Dussen, Nicolaas van der (1718-1770)": ["http://data.bibliotheken.nl/id/thes/p239819152"],
+        "Poot, Hubert Kornelisz": ["http://data.bibliotheken.nl/id/thes/p06968510X"],
+        "Schroder, Gerardus": ["http://data.bibliotheken.nl/id/thes/p07492642X"]
     },
     "3978": {
         "Bols ten Oever, Joan": ["http://data.bibliotheken.nl/id/thes/p202419185"],
@@ -5453,10 +5538,12 @@
         "Trip, Lucas": ["http://data.bibliotheken.nl/id/thes/p298792540"]
     },
     "883": {
-        "Burgh, Petrus van der": ["http://data.bibliotheken.nl/id/thes/p12616231X"]
+        "Burgh, Petrus van der": ["http://data.bibliotheken.nl/id/thes/p12616231X"],
+        "Smout, Dirk": ["http://data.bibliotheken.nl/id/thes/p06956826X"]
     },
     "5000": {
-        "Philaletes": ["http://data.bibliotheken.nl/id/thes/p165670096"]
+        "Philaletes": ["http://data.bibliotheken.nl/id/thes/p165670096"],
+        "Slotsboo, Daniel Josephus": ["http://data.bibliotheken.nl/id/thes/p16325155X"]
     },
     "5381": {
         "Wit, Joannes de": ["http://data.bibliotheken.nl/id/thes/p237957809"]
@@ -5488,10 +5575,12 @@
         "Jansz, Cornelis": ["http://data.bibliotheken.nl/id/thes/p069306966"]
     },
     "1303": {
-        "Schrevelius, Cornelius": ["http://data.bibliotheken.nl/id/thes/p299115240"]
+        "Schrevelius, Cornelius": ["http://data.bibliotheken.nl/id/thes/p299115240"],
+        "Snakenburg, Hendrik": ["http://data.bibliotheken.nl/id/thes/p070467013"]
     },
     "1304": {
-        "Schrevelius, Cornelius": ["http://data.bibliotheken.nl/id/thes/p299115240"]
+        "Schrevelius, Cornelius": ["http://data.bibliotheken.nl/id/thes/p299115240"],
+        "Snakenburg, Hendrik": ["http://data.bibliotheken.nl/id/thes/p070467013"]
     },
     "2508": {
         "Philaletes": ["http://data.bibliotheken.nl/id/thes/p291913725"]
@@ -5529,10 +5618,12 @@
         "Alphen, Daniel Danielsz van (1713-1797)": ["http://data.bibliotheken.nl/id/thes/p068369263"]
     },
     "3640": {
-        "Alphen, Daniel Danielsz van (1713-1797)": ["http://data.bibliotheken.nl/id/thes/p068369263"]
+        "Alphen, Daniel Danielsz van (1713-1797)": ["http://data.bibliotheken.nl/id/thes/p068369263"],
+        "Snakenburg, Hendrik": ["http://data.bibliotheken.nl/id/thes/p070467013"]
     },
     "3692": {
-        "Alphen, Daniel Danielsz van (1713-1797)": ["http://data.bibliotheken.nl/id/thes/p068369263"]
+        "Alphen, Daniel Danielsz van (1713-1797)": ["http://data.bibliotheken.nl/id/thes/p068369263"],
+        "Snakenburg, Hendrik": ["http://data.bibliotheken.nl/id/thes/p070467013"]
     },
     "4172": {
         "Alphen, Daniel Danielsz van (1713-1797)": ["http://data.bibliotheken.nl/id/thes/p068369263"]
@@ -5541,7 +5632,8 @@
         "Alting, Bernhardus": ["http://data.bibliotheken.nl/id/thes/p147651565"]
     },
     "2067": {
-        "Alting, Gerhard": ["http://data.bibliotheken.nl/id/thes/p071718230"]
+        "Alting, Gerhard": ["http://data.bibliotheken.nl/id/thes/p071718230"],
+        "Outhof, Gerardus": ["http://data.bibliotheken.nl/id/thes/p068996160"]
     },
     "2891": {
         "Alting, Gerhard": ["http://data.bibliotheken.nl/id/thes/p071718230"],
@@ -5567,7 +5659,8 @@
         "Bolt, Jacob": ["http://data.bibliotheken.nl/id/thes/p107525488"]
     },
     "5522": {
-        "Alting, Gerhard": ["http://data.bibliotheken.nl/id/thes/p071718230"]
+        "Alting, Gerhard": ["http://data.bibliotheken.nl/id/thes/p071718230"],
+        "Rhoer, Jacobus de": ["http://data.bibliotheken.nl/id/thes/p069427402"]
     },
     "3271": {
         "Andriessen de Waal, Jakobus": ["http://data.bibliotheken.nl/id/thes/p189178213"]
@@ -5591,7 +5684,8 @@
     },
     "4168": {
         "Andriessen de Waal, Jakobus": ["http://data.bibliotheken.nl/id/thes/p189178213"],
-        "Willemsen, Jacobus": ["http://data.bibliotheken.nl/id/thes/p068410115"]
+        "Willemsen, Jacobus": ["http://data.bibliotheken.nl/id/thes/p068410115"],
+        "Sevenhoven, Martinus van": ["http://data.bibliotheken.nl/id/thes/p156655721"]
     },
     "4335": {
         "Andriessen de Waal, Jakobus": ["http://data.bibliotheken.nl/id/thes/p189178213"]
@@ -5604,7 +5698,8 @@
     "4482": {
         "Andriessen de Waal, Jakobus": ["http://data.bibliotheken.nl/id/thes/p189178213"],
         "Boddaert, Pieter (1694-1760)": ["http://data.bibliotheken.nl/id/thes/p069869375"],
-        "Willemsen, Jacobus": ["http://data.bibliotheken.nl/id/thes/p068410115"]
+        "Willemsen, Jacobus": ["http://data.bibliotheken.nl/id/thes/p068410115"],
+        "Sevenhoven, Martinus van": ["http://data.bibliotheken.nl/id/thes/p156655721"]
     },
     "4527": {
         "Andriessen de Waal, Jakobus": ["http://data.bibliotheken.nl/id/thes/p189178213"]
@@ -5619,7 +5714,8 @@
         "Willemsen, Jacobus": ["http://data.bibliotheken.nl/id/thes/p068410115"]
     },
     "4678": {
-        "Andriessen de Waal, Jakobus": ["http://data.bibliotheken.nl/id/thes/p189178213"]
+        "Andriessen de Waal, Jakobus": ["http://data.bibliotheken.nl/id/thes/p189178213"],
+        "Sevenhoven, Martinus van": ["http://data.bibliotheken.nl/id/thes/p156655721"]
     },
     "4724": {
         "Andriessen de Waal, Jakobus": ["http://data.bibliotheken.nl/id/thes/p189178213"]
@@ -5704,7 +5800,8 @@
     },
     "2590": {
         "Arckel, Cornelius van": ["http://data.bibliotheken.nl/id/thes/p073529230"],
-        "Suderman, Joan": ["http://data.bibliotheken.nl/id/thes/p073528293"]
+        "Suderman, Joan": ["http://data.bibliotheken.nl/id/thes/p073528293"],
+        "Poot, Hubert Kornelisz": ["http://data.bibliotheken.nl/id/thes/p06968510X"]
     },
     "4931": {
         "Arends, Roelof": ["http://data.bibliotheken.nl/id/thes/p074100173"]
@@ -5715,7 +5812,8 @@
     },
     "5936": {
         "Arends, Roelof": ["http://data.bibliotheken.nl/id/thes/p074100173"],
-        "Braam, Pieter van": ["http://data.bibliotheken.nl/id/thes/p069878218"]
+        "Braam, Pieter van": ["http://data.bibliotheken.nl/id/thes/p069878218"],
+        "Santen, Laurens van": ["http://data.bibliotheken.nl/id/thes/p069964807"]
     },
     "780": {
         "Arendsz, Thomas": ["http://data.bibliotheken.nl/id/thes/p070139644"]
@@ -5753,22 +5851,27 @@
         "Arntzenius, Henricus Joannes": ["http://data.bibliotheken.nl/id/thes/p069916918"]
     },
     "6750": {
-        "Arntzenius, Henricus Joannes": ["http://data.bibliotheken.nl/id/thes/p069916918"]
+        "Arntzenius, Henricus Joannes": ["http://data.bibliotheken.nl/id/thes/p069916918"],
+        "Schrader, Johannes": ["http://data.bibliotheken.nl/id/thes/p070296863"]
     },
     "5157": {
         "Arntzenius, Henricus Joannes": ["http://data.bibliotheken.nl/id/thes/p069916918"]
     },
     "5555": {
         "Arntzenius, Henricus Joannes": ["http://data.bibliotheken.nl/id/thes/p069916918"],
-        "Bosch, Hieronymus de": ["http://data.bibliotheken.nl/id/thes/p069671451"]
+        "Bosch, Hieronymus de": ["http://data.bibliotheken.nl/id/thes/p069671451"],
+        "Schonck, Everard Jan Benjamin": ["http://data.bibliotheken.nl/id/thes/p070733538"],
+        "Schrader, Johannes": ["http://data.bibliotheken.nl/id/thes/p070296863"]
     },
     "3140": {
         "Arntzenius, Joannes": ["http://data.bibliotheken.nl/id/thes/p070504296"],
         "Westerwyk, Gerard": ["http://data.bibliotheken.nl/id/thes/p097285714"],
-        "Willis, Arnold": ["http://data.bibliotheken.nl/id/thes/p072395257"]
+        "Willis, Arnold": ["http://data.bibliotheken.nl/id/thes/p072395257"],
+        "Schelling, Pieter van der": ["http://data.bibliotheken.nl/id/thes/p069975574"]
     },
     "4140": {
-        "Arntzenius, Otto": ["http://data.bibliotheken.nl/id/thes/p069916942"]
+        "Arntzenius, Otto": ["http://data.bibliotheken.nl/id/thes/p069916942"],
+        "Sieben, Bartholomaeus": ["http://data.bibliotheken.nl/id/thes/p18565987X"]
     },
     "4263": {
         "Arntzenius, Otto": ["http://data.bibliotheken.nl/id/thes/p069916942"]
@@ -5796,7 +5899,8 @@
     },
     "4290": {
         "Asschenbergh, Harmanus": ["http://data.bibliotheken.nl/id/thes/p070389187"],
-        "Timmerman, Jan de": ["http://data.bibliotheken.nl/id/thes/p124478530"]
+        "Timmerman, Jan de": ["http://data.bibliotheken.nl/id/thes/p124478530"],
+        "Snakenburg, Hendrik": ["http://data.bibliotheken.nl/id/thes/p070467013"]
     },
     "4440": {
         "Asschenbergh, Harmanus": ["http://data.bibliotheken.nl/id/thes/p070389187"]
@@ -5812,7 +5916,8 @@
         "Benten, R.": ["http://data.bibliotheken.nl/id/thes/p194900630"],
         "Bosch, Bernardus de": ["http://data.bibliotheken.nl/id/thes/p069948046"],
         "Winter, Nicolaas Simon van": ["http://data.bibliotheken.nl/id/thes/p070054681"],
-        "Wouters, Roelof": ["http://data.bibliotheken.nl/id/thes/p173075010"]
+        "Wouters, Roelof": ["http://data.bibliotheken.nl/id/thes/p173075010"],
+        "Roullaud, Henri Jean": ["http://data.bibliotheken.nl/id/thes/p073766720"]
     },
     "5050": {
         "Asschenbergh, Harmanus": ["http://data.bibliotheken.nl/id/thes/p070389187"],
@@ -5828,13 +5933,15 @@
         "Asschenbergh, Harmanus": ["http://data.bibliotheken.nl/id/thes/p070389187"],
         "Bilderdijk, Willem": ["http://data.bibliotheken.nl/id/thes/p06847685X"],
         "Bosch, Bernardus de": ["http://data.bibliotheken.nl/id/thes/p069948046"],
-        "Zubli, Ambrosius Justus": ["http://data.bibliotheken.nl/id/thes/p068871309"]
+        "Zubli, Ambrosius Justus": ["http://data.bibliotheken.nl/id/thes/p068871309"],
+        "Roullaud, Henri Jean": ["http://data.bibliotheken.nl/id/thes/p073766720"]
     },
     "6002": {
         "Asschenbergh, Harmanus": ["http://data.bibliotheken.nl/id/thes/p070389187"],
         "Bilderdijk, Willem": ["http://data.bibliotheken.nl/id/thes/p06847685X"],
         "Bosch, Bernardus de": ["http://data.bibliotheken.nl/id/thes/p069948046"],
-        "Zubli, Ambrosius Justus": ["http://data.bibliotheken.nl/id/thes/p068871309"]
+        "Zubli, Ambrosius Justus": ["http://data.bibliotheken.nl/id/thes/p068871309"],
+        "Roullaud, Henri Jean": ["http://data.bibliotheken.nl/id/thes/p073766720"]
     },
     "6151": {
         "Asschenbergh, Harmanus": ["http://data.bibliotheken.nl/id/thes/p070389187"]
@@ -5844,46 +5951,57 @@
     },
     "6175": {
         "Asschenbergh, Harmanus": ["http://data.bibliotheken.nl/id/thes/p070389187"],
-        "Bacot, Gerardus Jacob George": ["http://data.bibliotheken.nl/id/thes/p069863482"]
+        "Bacot, Gerardus Jacob George": ["http://data.bibliotheken.nl/id/thes/p069863482"],
+        "Overstraten, Adriana van": ["http://data.bibliotheken.nl/id/thes/p069950199"]
     },
     "6354": {
         "Asschenbergh, Harmanus": ["http://data.bibliotheken.nl/id/thes/p070389187"],
         "Bleecker, Dani\u00ebl": ["http://data.bibliotheken.nl/id/thes/p074943278"],
-        "Zubli, Ambrosius Justus": ["http://data.bibliotheken.nl/id/thes/p068871309"]
+        "Zubli, Ambrosius Justus": ["http://data.bibliotheken.nl/id/thes/p068871309"],
+        "Overstraten, Adriana van": ["http://data.bibliotheken.nl/id/thes/p069950199"],
+        "Roullaud, Henri Jean": ["http://data.bibliotheken.nl/id/thes/p073766720"]
     },
     "6174": {
         "Bacot, Gerardus Jacob George": ["http://data.bibliotheken.nl/id/thes/p069863482"]
     },
     "3091": {
         "Badon, Joannes": ["http://data.bibliotheken.nl/id/thes/p070177368"],
-        "Westerhovius, Arnoldus Henricus": ["http://data.bibliotheken.nl/id/thes/p071880496"]
+        "Westerhovius, Arnoldus Henricus": ["http://data.bibliotheken.nl/id/thes/p071880496"],
+        "Slingeland, Kornelis van": ["http://data.bibliotheken.nl/id/thes/p18375025X"]
     },
     "3256": {
         "Badon, Joannes": ["http://data.bibliotheken.nl/id/thes/p070177368"],
-        "Westerhovius, Arnoldus Henricus": ["http://data.bibliotheken.nl/id/thes/p071880496"]
+        "Westerhovius, Arnoldus Henricus": ["http://data.bibliotheken.nl/id/thes/p071880496"],
+        "Ostens, Willem": ["http://data.bibliotheken.nl/id/thes/p292750145"],
+        "Slingeland, Kornelis van": ["http://data.bibliotheken.nl/id/thes/p18375025X"]
     },
     "3492": {
         "Badon, Joannes": ["http://data.bibliotheken.nl/id/thes/p070177368"],
-        "Targier, Jacobus": ["http://data.bibliotheken.nl/id/thes/p141907002"]
+        "Targier, Jacobus": ["http://data.bibliotheken.nl/id/thes/p141907002"],
+        "Petraeus, Johannes": ["http://data.bibliotheken.nl/id/thes/p182885348"]
     },
     "3572": {
         "Badon, Joannes": ["http://data.bibliotheken.nl/id/thes/p070177368"],
         "Blankert, Segert": ["http://data.bibliotheken.nl/id/thes/p182882799"],
-        "Braam, Joannes van": ["http://data.bibliotheken.nl/id/thes/p071990968"]
+        "Braam, Joannes van": ["http://data.bibliotheken.nl/id/thes/p071990968"],
+        "Petraeus, Johannes": ["http://data.bibliotheken.nl/id/thes/p182885348"]
     },
     "3806": {
         "Badon, Joannes": ["http://data.bibliotheken.nl/id/thes/p070177368"],
-        "Braam, Joannes van": ["http://data.bibliotheken.nl/id/thes/p071990968"]
+        "Braam, Joannes van": ["http://data.bibliotheken.nl/id/thes/p071990968"],
+        "Petraeus, Johannes": ["http://data.bibliotheken.nl/id/thes/p182885348"]
     },
     "6891": {
-        "Badon, Joannes": ["http://data.bibliotheken.nl/id/thes/p070177368"]
+        "Badon, Joannes": ["http://data.bibliotheken.nl/id/thes/p070177368"],
+        "Smits, Dirk": ["http://data.bibliotheken.nl/id/thes/p070007403"]
     },
     "4163": {
         "Badon, Joannes": ["http://data.bibliotheken.nl/id/thes/p070177368"],
         "Boon van Engelant, Kornelis": ["http://data.bibliotheken.nl/id/thes/p069877777"]
     },
     "4187": {
-        "Badon, Joannes": ["http://data.bibliotheken.nl/id/thes/p070177368"]
+        "Badon, Joannes": ["http://data.bibliotheken.nl/id/thes/p070177368"],
+        "Smits, Dirk": ["http://data.bibliotheken.nl/id/thes/p070007403"]
     },
     "4259": {
         "Badon, Joannes": ["http://data.bibliotheken.nl/id/thes/p070177368"]
@@ -5908,7 +6026,8 @@
         "Badon, Joannes": ["http://data.bibliotheken.nl/id/thes/p070177368"]
     },
     "3283": {
-        "Balde, Jan": ["http://data.bibliotheken.nl/id/thes/p185335500"]
+        "Balde, Jan": ["http://data.bibliotheken.nl/id/thes/p185335500"],
+        "Snakenburg, Hendrik": ["http://data.bibliotheken.nl/id/thes/p070467013"]
     },
     "4683": {
         "Balde, Jan": ["http://data.bibliotheken.nl/id/thes/p185335500"]
@@ -6054,7 +6173,8 @@
         "Stouw, Joan": ["http://data.bibliotheken.nl/id/thes/p074970798"]
     },
     "4874": {
-        "Berg, Ahazueer van den": ["http://data.bibliotheken.nl/id/thes/p069864519"]
+        "Berg, Ahazueer van den": ["http://data.bibliotheken.nl/id/thes/p069864519"],
+        "Schortinghuis, Wilhelmus": ["http://data.bibliotheken.nl/id/thes/p075234424"]
     },
     "4909": {
         "Berg, Ahazueer van den": ["http://data.bibliotheken.nl/id/thes/p069864519"]
@@ -6084,22 +6204,27 @@
         "Beyer, Gerrit": ["http://data.bibliotheken.nl/id/thes/p070721505"]
     },
     "5660": {
-        "Beyer, Gerrit": ["http://data.bibliotheken.nl/id/thes/p070721505"]
+        "Beyer, Gerrit": ["http://data.bibliotheken.nl/id/thes/p070721505"],
+        "Spaan, Joannes van": ["http://data.bibliotheken.nl/id/thes/p070310300"],
+        "Spaan, Reinier van": ["http://data.bibliotheken.nl/id/thes/p070013748"]
     },
     "5698": {
         "Beyer, Gerrit": ["http://data.bibliotheken.nl/id/thes/p070721505"]
     },
     "5699": {
-        "Beyer, Gerrit": ["http://data.bibliotheken.nl/id/thes/p070721505"]
+        "Beyer, Gerrit": ["http://data.bibliotheken.nl/id/thes/p070721505"],
+        "Spaan, Joannes van": ["http://data.bibliotheken.nl/id/thes/p070310300"]
     },
     "5720": {
         "Beyer, Gerrit": ["http://data.bibliotheken.nl/id/thes/p070721505"]
     },
     "5721": {
-        "Beyer, Gerrit": ["http://data.bibliotheken.nl/id/thes/p070721505"]
+        "Beyer, Gerrit": ["http://data.bibliotheken.nl/id/thes/p070721505"],
+        "Spaan, Joannes van": ["http://data.bibliotheken.nl/id/thes/p070310300"]
     },
     "5739": {
-        "Beyer, Gerrit": ["http://data.bibliotheken.nl/id/thes/p070721505"]
+        "Beyer, Gerrit": ["http://data.bibliotheken.nl/id/thes/p070721505"],
+        "Spaan, Reinier van": ["http://data.bibliotheken.nl/id/thes/p070013748"]
     },
     "5790": {
         "Beyer, Gerrit": ["http://data.bibliotheken.nl/id/thes/p070721505"]
@@ -6124,7 +6249,9 @@
     },
     "6601": {
         "Bilderdijk, Catharina Rebecca, geb. Woesthoven": ["http://data.bibliotheken.nl/id/thes/p06847685X"],
-        "Stockum, Wilhelmus Petrus van": ["http://data.bibliotheken.nl/id/thes/p071558608"]
+        "Stockum, Wilhelmus Petrus van": ["http://data.bibliotheken.nl/id/thes/p071558608"],
+        "Outhuys, Gerard": ["http://data.bibliotheken.nl/id/thes/p070412278"],
+        "Sobels, Johan Matthys": ["http://data.bibliotheken.nl/id/thes/p070659478"]
     },
     "5661": {
         "Bilderdijk, Izaak": ["http://data.bibliotheken.nl/id/thes/p086517813"],
@@ -6150,7 +6277,8 @@
     },
     "3656": {
         "Blankert, Segert": ["http://data.bibliotheken.nl/id/thes/p182882799"],
-        "Boon van Engelant, Kornelis": ["http://data.bibliotheken.nl/id/thes/p069877777"]
+        "Boon van Engelant, Kornelis": ["http://data.bibliotheken.nl/id/thes/p069877777"],
+        "Slingeland, Kornelis van": ["http://data.bibliotheken.nl/id/thes/p18375025X"]
     },
     "6063": {
         "Bleecker, Dani\u00ebl": ["http://data.bibliotheken.nl/id/thes/p074943278"]
@@ -6159,7 +6287,8 @@
         "Bleecker, Dani\u00ebl": ["http://data.bibliotheken.nl/id/thes/p074943278"]
     },
     "3688": {
-        "Blondeel, Valentijn Jan": ["http://data.bibliotheken.nl/id/thes/p068126735"]
+        "Blondeel, Valentijn Jan": ["http://data.bibliotheken.nl/id/thes/p068126735"],
+        "Pagenstecher, Bernhardus": ["http://data.bibliotheken.nl/id/thes/p07340506X"]
     },
     "4647": {
         "Bluss\u00e9, Abraham": ["http://data.bibliotheken.nl/id/thes/p069941580"]
@@ -6168,7 +6297,8 @@
         "Bluss\u00e9, Abraham": ["http://data.bibliotheken.nl/id/thes/p069941580"]
     },
     "4945": {
-        "Bluss\u00e9, Abraham": ["http://data.bibliotheken.nl/id/thes/p069941580"]
+        "Bluss\u00e9, Abraham": ["http://data.bibliotheken.nl/id/thes/p069941580"],
+        "Slingeland, Kornelis van": ["http://data.bibliotheken.nl/id/thes/p18375025X"]
     },
     "4947": {
         "Bluss\u00e9, Abraham": ["http://data.bibliotheken.nl/id/thes/p069941580"]
@@ -6189,11 +6319,13 @@
     },
     "1552": {
         "Bochoven, Fran\u00e7ois van": ["http://data.bibliotheken.nl/id/thes/p070371989"],
-        "Braam, Joannes van": ["http://data.bibliotheken.nl/id/thes/p071990968"]
+        "Braam, Joannes van": ["http://data.bibliotheken.nl/id/thes/p071990968"],
+        "Slingeland, Blasius van": ["http://data.bibliotheken.nl/id/thes/p236505173"]
     },
     "1559": {
         "Bochoven, Fran\u00e7ois van": ["http://data.bibliotheken.nl/id/thes/p070371989"],
-        "Suderman, Joan": ["http://data.bibliotheken.nl/id/thes/p073528293"]
+        "Suderman, Joan": ["http://data.bibliotheken.nl/id/thes/p073528293"],
+        "Pars, Adriaan": ["http://data.bibliotheken.nl/id/thes/p069409692"]
     },
     "1579": {
         "Bochoven, Fran\u00e7ois van": ["http://data.bibliotheken.nl/id/thes/p070371989"],
@@ -6263,7 +6395,8 @@
         "Boon van Engelant, Kornelis": ["http://data.bibliotheken.nl/id/thes/p069877777"]
     },
     "1315": {
-        "Boon van Engelant, Kornelis": ["http://data.bibliotheken.nl/id/thes/p069877777"]
+        "Boon van Engelant, Kornelis": ["http://data.bibliotheken.nl/id/thes/p069877777"],
+        "Smids, Ludolph": ["http://data.bibliotheken.nl/id/thes/p069828393"]
     },
     "1349": {
         "Boon van Engelant, Kornelis": ["http://data.bibliotheken.nl/id/thes/p069877777"]
@@ -6307,7 +6440,9 @@
         "Boot, Willem": ["http://data.bibliotheken.nl/id/thes/p190736453"]
     },
     "4089": {
-        "Borckeloo, Johan Gerard van": ["http://data.bibliotheken.nl/id/thes/p303948078"]
+        "Borckeloo, Johan Gerard van": ["http://data.bibliotheken.nl/id/thes/p303948078"],
+        "Ouryk, Hendrik van": ["http://data.bibliotheken.nl/id/thes/p157135446"],
+        "Paludanus, Theodorus": ["http://data.bibliotheken.nl/id/thes/p074318764"]
     },
     "4090": {
         "Borckeloo, Johan Gerard van": ["http://data.bibliotheken.nl/id/thes/p303948078"]
@@ -6352,7 +6487,8 @@
         "Bosch, Bernardus": ["http://data.bibliotheken.nl/id/thes/p069824290"]
     },
     "2949": {
-        "Bosch, Bernardus de": ["http://data.bibliotheken.nl/id/thes/p069948046"]
+        "Bosch, Bernardus de": ["http://data.bibliotheken.nl/id/thes/p069948046"],
+        "Schelling, Pieter van der": ["http://data.bibliotheken.nl/id/thes/p069975574"]
     },
     "3001": {
         "Bosch, Bernardus de": ["http://data.bibliotheken.nl/id/thes/p069948046"]
@@ -6393,7 +6529,8 @@
     },
     "3985": {
         "Bosch, Bernardus de": ["http://data.bibliotheken.nl/id/thes/p069948046"],
-        "Winter, Nicolaas Simon van": ["http://data.bibliotheken.nl/id/thes/p070054681"]
+        "Winter, Nicolaas Simon van": ["http://data.bibliotheken.nl/id/thes/p070054681"],
+        "Sena, Agatha Maria": ["http://data.bibliotheken.nl/id/thes/p18348360X"]
     },
     "4012": {
         "Bosch, Bernardus de": ["http://data.bibliotheken.nl/id/thes/p069948046"],
@@ -6444,7 +6581,8 @@
     },
     "6507": {
         "Bosch, Hieronymus de": ["http://data.bibliotheken.nl/id/thes/p069671451"],
-        "Winter, Pieter (Nicolaas Simonsz) van": ["http://data.bibliotheken.nl/id/thes/p070054711"]
+        "Winter, Pieter (Nicolaas Simonsz) van": ["http://data.bibliotheken.nl/id/thes/p070054711"],
+        "Siegenbeek, Matthys": ["http://data.bibliotheken.nl/id/thes/p068914997"]
     },
     "6614": {
         "Bosch, Hieronymus de": ["http://data.bibliotheken.nl/id/thes/p069671451"]
@@ -6480,7 +6618,8 @@
         "Braam, Joannes van": ["http://data.bibliotheken.nl/id/thes/p071990968"]
     },
     "1398": {
-        "Braam, Joannes van": ["http://data.bibliotheken.nl/id/thes/p071990968"]
+        "Braam, Joannes van": ["http://data.bibliotheken.nl/id/thes/p071990968"],
+        "Outrein, Johannes d'": ["http://data.bibliotheken.nl/id/thes/p069950172"]
     },
     "1458": {
         "Braam, Joannes van": ["http://data.bibliotheken.nl/id/thes/p071990968"]
@@ -6527,7 +6666,8 @@
         "Braam, Joannes van": ["http://data.bibliotheken.nl/id/thes/p071990968"]
     },
     "2745": {
-        "Braam, Joannes van": ["http://data.bibliotheken.nl/id/thes/p071990968"]
+        "Braam, Joannes van": ["http://data.bibliotheken.nl/id/thes/p071990968"],
+        "Son, Henricus Stephanus van": ["http://data.bibliotheken.nl/id/thes/p240020022"]
     },
     "2878": {
         "Braam, Joannes van": ["http://data.bibliotheken.nl/id/thes/p071990968"],
@@ -6561,10 +6701,12 @@
         "Braam, Joannes van": ["http://data.bibliotheken.nl/id/thes/p071990968"]
     },
     "4308": {
-        "Braam, Joannes van": ["http://data.bibliotheken.nl/id/thes/p071990968"]
+        "Braam, Joannes van": ["http://data.bibliotheken.nl/id/thes/p071990968"],
+        "Ouryk, Hendrik van": ["http://data.bibliotheken.nl/id/thes/p157135446"]
     },
     "5744": {
-        "Braam, Pieter van": ["http://data.bibliotheken.nl/id/thes/p069878218"]
+        "Braam, Pieter van": ["http://data.bibliotheken.nl/id/thes/p069878218"],
+        "Repelaer, Jonas Andries": ["http://data.bibliotheken.nl/id/thes/p07333426X"]
     },
     "5782": {
         "Braam, Pieter van": ["http://data.bibliotheken.nl/id/thes/p069878218"]
@@ -6579,7 +6721,8 @@
         "Braam, Pieter van": ["http://data.bibliotheken.nl/id/thes/p069878218"]
     },
     "6030": {
-        "Braam, Pieter van": ["http://data.bibliotheken.nl/id/thes/p069878218"]
+        "Braam, Pieter van": ["http://data.bibliotheken.nl/id/thes/p069878218"],
+        "Repelaer, Jonas Andries": ["http://data.bibliotheken.nl/id/thes/p07333426X"]
     },
     "6329": {
         "Braam, Pieter van": ["http://data.bibliotheken.nl/id/thes/p069878218"]
@@ -6588,7 +6731,8 @@
         "Braam, Pieter van": ["http://data.bibliotheken.nl/id/thes/p069878218"]
     },
     "6845": {
-        "Braam, Pieter van": ["http://data.bibliotheken.nl/id/thes/p069878218"]
+        "Braam, Pieter van": ["http://data.bibliotheken.nl/id/thes/p069878218"],
+        "Repelaer, Jonas Andries": ["http://data.bibliotheken.nl/id/thes/p07333426X"]
     },
     "6688": {
         "Braam, Pieter van": ["http://data.bibliotheken.nl/id/thes/p069878218"]
@@ -6633,7 +6777,8 @@
         "Brakel, Johannes": ["http://data.bibliotheken.nl/id/thes/p072870656"]
     },
     "6797": {
-        "Brakel, Johannes": ["http://data.bibliotheken.nl/id/thes/p072870656"]
+        "Brakel, Johannes": ["http://data.bibliotheken.nl/id/thes/p072870656"],
+        "Spaan, Gelinus van": ["http://data.bibliotheken.nl/id/thes/p073580511"]
     },
     "6294": {
         "Brakel, Johannes": ["http://data.bibliotheken.nl/id/thes/p072870656"]
@@ -6661,7 +6806,8 @@
         "Brandt, Caspar": ["http://data.bibliotheken.nl/id/thes/p069591377"]
     },
     "1038": {
-        "Brandt, Caspar": ["http://data.bibliotheken.nl/id/thes/p069591377"]
+        "Brandt, Caspar": ["http://data.bibliotheken.nl/id/thes/p069591377"],
+        "Rabus, Pieter": ["http://data.bibliotheken.nl/id/thes/p068651775"]
     },
     "4900": {
         "Brans, Johannes Henricus": ["http://data.bibliotheken.nl/id/thes/p071489991"]
@@ -6732,14 +6878,17 @@
         "Spinniker, Adriaan": ["http://data.bibliotheken.nl/id/thes/p075122804"]
     },
     "1364": {
-        "Spinniker, Adriaan": ["http://data.bibliotheken.nl/id/thes/p075122804"]
+        "Spinniker, Adriaan": ["http://data.bibliotheken.nl/id/thes/p075122804"],
+        "Smids, Ludolph": ["http://data.bibliotheken.nl/id/thes/p069828393"],
+        "Smout, Dirk": ["http://data.bibliotheken.nl/id/thes/p06956826X"]
     },
     "1366": {
         "Spinniker, Adriaan": ["http://data.bibliotheken.nl/id/thes/p075122804"]
     },
     "1571": {
         "Spinniker, Adriaan": ["http://data.bibliotheken.nl/id/thes/p075122804"],
-        "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"]
+        "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"],
+        "Smids, Ludolph": ["http://data.bibliotheken.nl/id/thes/p069828393"]
     },
     "1592": {
         "Spinniker, Adriaan": ["http://data.bibliotheken.nl/id/thes/p075122804"]
@@ -6777,13 +6926,15 @@
         "Steen, Dirk van der": ["http://data.bibliotheken.nl/id/thes/p156824116"]
     },
     "4656": {
-        "Steen, Dirk van der": ["http://data.bibliotheken.nl/id/thes/p156824116"]
+        "Steen, Dirk van der": ["http://data.bibliotheken.nl/id/thes/p156824116"],
+        "Spaan, Gelinus van": ["http://data.bibliotheken.nl/id/thes/p073580511"]
     },
     "4719": {
         "Steen, Dirk van der": ["http://data.bibliotheken.nl/id/thes/p156824116"]
     },
     "4927": {
-        "Steen, Dirk van der": ["http://data.bibliotheken.nl/id/thes/p156824116"]
+        "Steen, Dirk van der": ["http://data.bibliotheken.nl/id/thes/p156824116"],
+        "Spaan, Gelinus van": ["http://data.bibliotheken.nl/id/thes/p073580511"]
     },
     "5038": {
         "Steen, Dirk van der": ["http://data.bibliotheken.nl/id/thes/p156824116"]
@@ -6795,10 +6946,12 @@
         "Steenbergen, Henricus van": ["http://data.bibliotheken.nl/id/thes/p075065665"]
     },
     "1783": {
-        "Steengracht, Johan": ["http://data.bibliotheken.nl/id/thes/p184572789"]
+        "Steengracht, Johan": ["http://data.bibliotheken.nl/id/thes/p184572789"],
+        "Snakenburg, Hendrik": ["http://data.bibliotheken.nl/id/thes/p070467013"]
     },
     "2125": {
-        "Steengracht, Johan": ["http://data.bibliotheken.nl/id/thes/p184572789"]
+        "Steengracht, Johan": ["http://data.bibliotheken.nl/id/thes/p184572789"],
+        "Snakenburg, Hendrik": ["http://data.bibliotheken.nl/id/thes/p070467013"]
     },
     "3935": {
         "Steengracht, Johan": ["http://data.bibliotheken.nl/id/thes/p184572789"]
@@ -6840,13 +6993,15 @@
         "Steversloot, Laurens": ["http://data.bibliotheken.nl/id/thes/p074909444"]
     },
     "2424": {
-        "Steversloot, Laurens": ["http://data.bibliotheken.nl/id/thes/p074909444"]
+        "Steversloot, Laurens": ["http://data.bibliotheken.nl/id/thes/p074909444"],
+        "Schroder, Johannes": ["http://data.bibliotheken.nl/id/thes/p089418220"]
     },
     "2562": {
         "Steversloot, Laurens": ["http://data.bibliotheken.nl/id/thes/p074909444"]
     },
     "2576": {
-        "Steversloot, Laurens": ["http://data.bibliotheken.nl/id/thes/p074909444"]
+        "Steversloot, Laurens": ["http://data.bibliotheken.nl/id/thes/p074909444"],
+        "Schroder, Johannes": ["http://data.bibliotheken.nl/id/thes/p089418220"]
     },
     "2895": {
         "Steversloot, Laurens": ["http://data.bibliotheken.nl/id/thes/p074909444"]
@@ -6858,7 +7013,8 @@
         "Steversloot, Laurens": ["http://data.bibliotheken.nl/id/thes/p074909444"]
     },
     "3008": {
-        "Steversloot, Laurens": ["http://data.bibliotheken.nl/id/thes/p074909444"]
+        "Steversloot, Laurens": ["http://data.bibliotheken.nl/id/thes/p074909444"],
+        "Schroder, Gerardus": ["http://data.bibliotheken.nl/id/thes/p07492642X"]
     },
     "3254": {
         "Steversloot, Laurens": ["http://data.bibliotheken.nl/id/thes/p074909444"],
@@ -6883,13 +7039,15 @@
         "Stouw, Joan": ["http://data.bibliotheken.nl/id/thes/p074970798"]
     },
     "4876": {
-        "Stouw, Joan": ["http://data.bibliotheken.nl/id/thes/p074970798"]
+        "Stouw, Joan": ["http://data.bibliotheken.nl/id/thes/p074970798"],
+        "Roscam, Jan Willem": ["http://data.bibliotheken.nl/id/thes/p204263697"]
     },
     "4905": {
         "Stouw, Joan": ["http://data.bibliotheken.nl/id/thes/p074970798"]
     },
     "4910": {
-        "Stouw, Joan": ["http://data.bibliotheken.nl/id/thes/p074970798"]
+        "Stouw, Joan": ["http://data.bibliotheken.nl/id/thes/p074970798"],
+        "Roscam, Jan Willem": ["http://data.bibliotheken.nl/id/thes/p204263697"]
     },
     "4973": {
         "Stouw, Joan": ["http://data.bibliotheken.nl/id/thes/p074970798"]
@@ -6920,7 +7078,8 @@
         "Straat, Pieter": ["http://data.bibliotheken.nl/id/thes/p104139242"]
     },
     "1938": {
-        "Straat, Pieter": ["http://data.bibliotheken.nl/id/thes/p104139242"]
+        "Straat, Pieter": ["http://data.bibliotheken.nl/id/thes/p104139242"],
+        "Smids, Ludolph": ["http://data.bibliotheken.nl/id/thes/p069828393"]
     },
     "2045": {
         "Straat, Pieter": ["http://data.bibliotheken.nl/id/thes/p104139242"]
@@ -6984,7 +7143,8 @@
         "Stryen, Joan Hugo van": ["http://data.bibliotheken.nl/id/thes/p074907239"]
     },
     "4997": {
-        "Styl, Simon": ["http://data.bibliotheken.nl/id/thes/p069601712"]
+        "Styl, Simon": ["http://data.bibliotheken.nl/id/thes/p069601712"],
+        "Roullaud, Henri Jean": ["http://data.bibliotheken.nl/id/thes/p073766720"]
     },
     "5021": {
         "Styl, Simon": ["http://data.bibliotheken.nl/id/thes/p069601712"]
@@ -7005,7 +7165,8 @@
         "Suderman, Joan": ["http://data.bibliotheken.nl/id/thes/p073528293"]
     },
     "1648": {
-        "Suderman, Joan": ["http://data.bibliotheken.nl/id/thes/p073528293"]
+        "Suderman, Joan": ["http://data.bibliotheken.nl/id/thes/p073528293"],
+        "Smout, Dirk": ["http://data.bibliotheken.nl/id/thes/p06956826X"]
     },
     "1866": {
         "Suderman, Joan": ["http://data.bibliotheken.nl/id/thes/p073528293"]
@@ -7088,7 +7249,8 @@
         "Tatum, Jan Hendrik": ["http://data.bibliotheken.nl/id/thes/p067807178"]
     },
     "2150": {
-        "Teeckman, Jan Frederik": ["http://data.bibliotheken.nl/id/thes/p073405310"]
+        "Teeckman, Jan Frederik": ["http://data.bibliotheken.nl/id/thes/p073405310"],
+        "Outrein, Johannes d'": ["http://data.bibliotheken.nl/id/thes/p069950172"]
     },
     "5109": {
         "Temminck, Cornelis Jacob": ["http://data.bibliotheken.nl/id/thes/p204498732"]
@@ -7103,7 +7265,8 @@
         "Temminck, Mattheus": ["http://data.bibliotheken.nl/id/thes/p171398718"]
     },
     "4966": {
-        "Temminck, Matthias": ["http://data.bibliotheken.nl/id/thes/p070031975"]
+        "Temminck, Matthias": ["http://data.bibliotheken.nl/id/thes/p070031975"],
+        "Outman van Aalst, Janus": ["http://data.bibliotheken.nl/id/thes/p185946674"]
     },
     "5561": {
         "Temminck, Matthias": ["http://data.bibliotheken.nl/id/thes/p070031975"]
@@ -7159,7 +7322,8 @@
         "Titsingh, Abraham": ["http://data.bibliotheken.nl/id/thes/p115228101"]
     },
     "2555": {
-        "Titsingh, Abraham": ["http://data.bibliotheken.nl/id/thes/p115228101"]
+        "Titsingh, Abraham": ["http://data.bibliotheken.nl/id/thes/p115228101"],
+        "Poot, Hubert Kornelisz": ["http://data.bibliotheken.nl/id/thes/p06968510X"]
     },
     "2591": {
         "Titsingh, Abraham": ["http://data.bibliotheken.nl/id/thes/p115228101"]
@@ -7189,7 +7353,8 @@
         "Titsingh, Abraham": ["http://data.bibliotheken.nl/id/thes/p115228101"]
     },
     "3234": {
-        "Titsingh, Abraham": ["http://data.bibliotheken.nl/id/thes/p115228101"]
+        "Titsingh, Abraham": ["http://data.bibliotheken.nl/id/thes/p115228101"],
+        "Rotterdam, Johannes": ["http://data.bibliotheken.nl/id/thes/p163936374"]
     },
     "3278": {
         "Titsingh, Abraham": ["http://data.bibliotheken.nl/id/thes/p115228101"]
@@ -7231,10 +7396,12 @@
         "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"]
     },
     "1442": {
-        "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"]
+        "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"],
+        "Smids, Ludolph": ["http://data.bibliotheken.nl/id/thes/p069828393"]
     },
     "1448": {
-        "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"]
+        "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"],
+        "Smids, Ludolph": ["http://data.bibliotheken.nl/id/thes/p069828393"]
     },
     "1466": {
         "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"]
@@ -7246,7 +7413,8 @@
         "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"]
     },
     "1569": {
-        "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"]
+        "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"],
+        "Smids, Ludolph": ["http://data.bibliotheken.nl/id/thes/p069828393"]
     },
     "1583": {
         "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"]
@@ -7259,7 +7427,8 @@
         "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"]
     },
     "1596": {
-        "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"]
+        "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"],
+        "Smout, Dirk": ["http://data.bibliotheken.nl/id/thes/p06956826X"]
     },
     "1630": {
         "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"]
@@ -7278,13 +7447,18 @@
         "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"]
     },
     "1747": {
-        "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"]
+        "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"],
+        "Rutgers, Daniel": ["http://data.bibliotheken.nl/id/thes/p180765345"],
+        "Smids, Ludolph": ["http://data.bibliotheken.nl/id/thes/p069828393"]
     },
     "1760": {
-        "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"]
+        "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"],
+        "Rutgers, Daniel": ["http://data.bibliotheken.nl/id/thes/p180765345"],
+        "Smids, Ludolph": ["http://data.bibliotheken.nl/id/thes/p069828393"]
     },
     "1766": {
-        "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"]
+        "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"],
+        "Smids, Ludolph": ["http://data.bibliotheken.nl/id/thes/p069828393"]
     },
     "1789": {
         "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"]
@@ -7312,10 +7486,13 @@
         "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"]
     },
     "1920": {
-        "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"]
+        "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"],
+        "Smids, Ludolph": ["http://data.bibliotheken.nl/id/thes/p069828393"],
+        "Smout, Dirk": ["http://data.bibliotheken.nl/id/thes/p06956826X"]
     },
     "1921": {
-        "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"]
+        "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"],
+        "Smids, Ludolph": ["http://data.bibliotheken.nl/id/thes/p069828393"]
     },
     "1955": {
         "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"]
@@ -7324,19 +7501,24 @@
         "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"]
     },
     "1981": {
-        "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"]
+        "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"],
+        "Smids, Ludolph": ["http://data.bibliotheken.nl/id/thes/p069828393"]
     },
     "2006": {
-        "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"]
+        "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"],
+        "Smids, Ludolph": ["http://data.bibliotheken.nl/id/thes/p069828393"]
     },
     "2014": {
-        "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"]
+        "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"],
+        "Smids, Ludolph": ["http://data.bibliotheken.nl/id/thes/p069828393"]
     },
     "2027": {
-        "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"]
+        "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"],
+        "Smids, Ludolph": ["http://data.bibliotheken.nl/id/thes/p069828393"]
     },
     "2056": {
-        "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"]
+        "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"],
+        "Smids, Ludolph": ["http://data.bibliotheken.nl/id/thes/p069828393"]
     },
     "2096": {
         "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"]
@@ -7346,7 +7528,8 @@
     },
     "2169": {
         "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"],
-        "Westerbaen, Kornelis Willemsz": ["http://data.bibliotheken.nl/id/thes/p070381607"]
+        "Westerbaen, Kornelis Willemsz": ["http://data.bibliotheken.nl/id/thes/p070381607"],
+        "Schelling, Pieter van der": ["http://data.bibliotheken.nl/id/thes/p069975574"]
     },
     "2187": {
         "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"]
@@ -7355,13 +7538,15 @@
         "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"]
     },
     "2232": {
-        "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"]
+        "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"],
+        "Smids, Ludolph": ["http://data.bibliotheken.nl/id/thes/p069828393"]
     },
     "2240": {
         "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"]
     },
     "2297": {
-        "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"]
+        "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"],
+        "Smids, Ludolph": ["http://data.bibliotheken.nl/id/thes/p069828393"]
     },
     "2324": {
         "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"]
@@ -7400,7 +7585,8 @@
         "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"]
     },
     "2540": {
-        "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"]
+        "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"],
+        "Schelling, Pieter van der": ["http://data.bibliotheken.nl/id/thes/p069975574"]
     },
     "2541": {
         "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"]
@@ -7481,7 +7667,8 @@
         "Westerbaen, Kornelis Willemsz": ["http://data.bibliotheken.nl/id/thes/p070381607"]
     },
     "2303": {
-        "Westerbaen, Kornelis Willemsz": ["http://data.bibliotheken.nl/id/thes/p070381607"]
+        "Westerbaen, Kornelis Willemsz": ["http://data.bibliotheken.nl/id/thes/p070381607"],
+        "Snakenburg, Hendrik": ["http://data.bibliotheken.nl/id/thes/p070467013"]
     },
     "2518": {
         "Westerbaen, Kornelis Willemsz": ["http://data.bibliotheken.nl/id/thes/p070381607"]
@@ -7521,10 +7708,12 @@
         "Westerhovius, Arnoldus Henricus": ["http://data.bibliotheken.nl/id/thes/p071880496"]
     },
     "2694": {
-        "Westerhovius, Arnoldus Henricus": ["http://data.bibliotheken.nl/id/thes/p071880496"]
+        "Westerhovius, Arnoldus Henricus": ["http://data.bibliotheken.nl/id/thes/p071880496"],
+        "Schelling, Pieter van der": ["http://data.bibliotheken.nl/id/thes/p069975574"]
     },
     "2819": {
-        "Westerhovius, Arnoldus Henricus": ["http://data.bibliotheken.nl/id/thes/p071880496"]
+        "Westerhovius, Arnoldus Henricus": ["http://data.bibliotheken.nl/id/thes/p071880496"],
+        "Paludanus, Theodorus": ["http://data.bibliotheken.nl/id/thes/p074318764"]
     },
     "2931": {
         "Westerhovius, Arnoldus Henricus": ["http://data.bibliotheken.nl/id/thes/p071880496"]
@@ -7533,13 +7722,16 @@
         "Westerhovius, Arnoldus Henricus": ["http://data.bibliotheken.nl/id/thes/p071880496"]
     },
     "3061": {
-        "Westerhovius, Arnoldus Henricus": ["http://data.bibliotheken.nl/id/thes/p071880496"]
+        "Westerhovius, Arnoldus Henricus": ["http://data.bibliotheken.nl/id/thes/p071880496"],
+        "Schelling, Pieter van der": ["http://data.bibliotheken.nl/id/thes/p069975574"],
+        "Snakenburg, Theodoor van": ["http://data.bibliotheken.nl/id/thes/p115342788"]
     },
     "3220": {
         "Westerhovius, Arnoldus Henricus": ["http://data.bibliotheken.nl/id/thes/p071880496"]
     },
     "3305": {
-        "Westerhovius, Arnoldus Henricus": ["http://data.bibliotheken.nl/id/thes/p071880496"]
+        "Westerhovius, Arnoldus Henricus": ["http://data.bibliotheken.nl/id/thes/p071880496"],
+        "Paludanus, Theodorus": ["http://data.bibliotheken.nl/id/thes/p074318764"]
     },
     "2160": {
         "Westerwyk, Gerard": ["http://data.bibliotheken.nl/id/thes/p097285714"]
@@ -7560,10 +7752,12 @@
         "Weyler, Pieter van": ["http://data.bibliotheken.nl/id/thes/p183103246"]
     },
     "18": {
-        "Wijckhuys, Charles van": ["http://data.bibliotheken.nl/id/thes/p06960195X"]
+        "Wijckhuys, Charles van": ["http://data.bibliotheken.nl/id/thes/p06960195X"],
+        "Sergeant, Thomas Jacobsz": ["http://data.bibliotheken.nl/id/thes/p070046034"]
     },
     "6832": {
-        "Wijckhuys, Charles van": ["http://data.bibliotheken.nl/id/thes/p06960195X"]
+        "Wijckhuys, Charles van": ["http://data.bibliotheken.nl/id/thes/p06960195X"],
+        "Sergeant, Thomas Jacobsz": ["http://data.bibliotheken.nl/id/thes/p070046034"]
     },
     "4891": {
         "Wilde, O.B. de": ["http://data.bibliotheken.nl/id/thes/p183222725"]
@@ -7581,7 +7775,8 @@
         "Willemsen, Jacobus": ["http://data.bibliotheken.nl/id/thes/p068410115"]
     },
     "4989": {
-        "Willemsen, Jacobus": ["http://data.bibliotheken.nl/id/thes/p068410115"]
+        "Willemsen, Jacobus": ["http://data.bibliotheken.nl/id/thes/p068410115"],
+        "Sevenhoven, Martinus van": ["http://data.bibliotheken.nl/id/thes/p156655721"]
     },
     "6751": {
         "Willemsen, Jacobus": ["http://data.bibliotheken.nl/id/thes/p068410115"]
@@ -7620,7 +7815,8 @@
         "Willis, Arnold": ["http://data.bibliotheken.nl/id/thes/p072395257"]
     },
     "3205": {
-        "Willis, Arnold": ["http://data.bibliotheken.nl/id/thes/p072395257"]
+        "Willis, Arnold": ["http://data.bibliotheken.nl/id/thes/p072395257"],
+        "Rotterdam, Johannes": ["http://data.bibliotheken.nl/id/thes/p163936374"]
     },
     "3224": {
         "Willis, Arnold": ["http://data.bibliotheken.nl/id/thes/p072395257"]
@@ -7629,7 +7825,8 @@
         "Winter, Nicolaas Simon van": ["http://data.bibliotheken.nl/id/thes/p070054681"]
     },
     "4038": {
-        "Winter, Nicolaas Simon van": ["http://data.bibliotheken.nl/id/thes/p070054681"]
+        "Winter, Nicolaas Simon van": ["http://data.bibliotheken.nl/id/thes/p070054681"],
+        "Sena, Agatha Maria": ["http://data.bibliotheken.nl/id/thes/p18348360X"]
     },
     "4092": {
         "Winter, Nicolaas Simon van": ["http://data.bibliotheken.nl/id/thes/p070054681"]
@@ -7644,7 +7841,8 @@
         "Winter, Nicolaas Simon van": ["http://data.bibliotheken.nl/id/thes/p070054681"]
     },
     "5481": {
-        "Wit, Abraham Everhardus de": ["http://data.bibliotheken.nl/id/thes/p183103688"]
+        "Wit, Abraham Everhardus de": ["http://data.bibliotheken.nl/id/thes/p183103688"],
+        "Schut, Jan Hendrik": ["http://data.bibliotheken.nl/id/thes/p183103963"]
     },
     "5488": {
         "Wit, Abraham Everhardus de": ["http://data.bibliotheken.nl/id/thes/p183103688"]
@@ -7665,7 +7863,8 @@
         "Wolffganck, Isaac Wz": ["http://data.bibliotheken.nl/id/thes/p183141601"]
     },
     "5291": {
-        "Woordhouder, Toussaint": ["http://data.bibliotheken.nl/id/thes/p070056579"]
+        "Woordhouder, Toussaint": ["http://data.bibliotheken.nl/id/thes/p070056579"],
+        "Schonck, Everard Jan Benjamin": ["http://data.bibliotheken.nl/id/thes/p070733538"]
     },
     "5343": {
         "Woordhouder, Toussaint": ["http://data.bibliotheken.nl/id/thes/p070056579"]
@@ -7743,7 +7942,9 @@
         "Wynbeek, Abraham": ["http://data.bibliotheken.nl/id/thes/p15729787X"]
     },
     "2642": {
-        "Wys, Jan de": ["http://data.bibliotheken.nl/id/thes/p189113162"]
+        "Wys, Jan de": ["http://data.bibliotheken.nl/id/thes/p189113162"],
+        "Ouryk, Hendrik van": ["http://data.bibliotheken.nl/id/thes/p157135446"],
+        "Poot, Hubert Kornelisz": ["http://data.bibliotheken.nl/id/thes/p06968510X"]
     },
     "30": {
         "Yselveer, Willem Jansz van": ["http://data.bibliotheken.nl/id/thes/p069939845"]
@@ -7786,5 +7987,897 @@
     },
     "5765": {
         "Zweerts, Bruno": ["http://data.bibliotheken.nl/id/thes/p071572341"]
+    },
+    "2167": {
+        "Orville, Jacobus Philippus d'": ["http://data.bibliotheken.nl/id/thes/p069947112"],
+        "Orville, Petrus d'": ["http://data.bibliotheken.nl/id/thes/p069949883"]
+    },
+    "2260": {
+        "Orville, Jacobus Philippus d'": ["http://data.bibliotheken.nl/id/thes/p069947112"]
+    },
+    "2926": {
+        "Orville, Jacobus Philippus d'": ["http://data.bibliotheken.nl/id/thes/p069947112"],
+        "Oudendorp, Franciscus van": ["http://data.bibliotheken.nl/id/thes/p069950148"],
+        "Snakenburg, Hendrik": ["http://data.bibliotheken.nl/id/thes/p070467013"]
+    },
+    "2502": {
+        "Orville, Petrus d'": ["http://data.bibliotheken.nl/id/thes/p069949883"],
+        "Schaak, Petrus": ["http://data.bibliotheken.nl/id/thes/p183140885"]
+    },
+    "2589": {
+        "Orville, Petrus d'": ["http://data.bibliotheken.nl/id/thes/p069949883"],
+        "Oudendorp, Franciscus van": ["http://data.bibliotheken.nl/id/thes/p069950148"]
+    },
+    "3150": {
+        "Ostens, Willem": ["http://data.bibliotheken.nl/id/thes/p292750145"]
+    },
+    "3248": {
+        "Ostens, Willem": ["http://data.bibliotheken.nl/id/thes/p292750145"]
+    },
+    "713": {
+        "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/thes/p069905428"]
+    },
+    "2274": {
+        "Oudendorp, Franciscus van": ["http://data.bibliotheken.nl/id/thes/p069950148"]
+    },
+    "2404": {
+        "Oudendorp, Franciscus van": ["http://data.bibliotheken.nl/id/thes/p069950148"],
+        "Snakenburg, Hendrik": ["http://data.bibliotheken.nl/id/thes/p070467013"],
+        "Snakenburg, Theodoor van": ["http://data.bibliotheken.nl/id/thes/p115342788"]
+    },
+    "2780": {
+        "Oudendorp, Franciscus van": ["http://data.bibliotheken.nl/id/thes/p069950148"],
+        "Royen, Adrianus van": ["http://data.bibliotheken.nl/id/thes/p070278199"],
+        "Schroder, Johannes": ["http://data.bibliotheken.nl/id/thes/p089418220"],
+        "Snakenburg, Hendrik": ["http://data.bibliotheken.nl/id/thes/p070467013"],
+        "Snakenburg, Theodoor van": ["http://data.bibliotheken.nl/id/thes/p115342788"]
+    },
+    "3290": {
+        "Oudendorp, Franciscus van": ["http://data.bibliotheken.nl/id/thes/p069950148"],
+        "Snakenburg, Hendrik": ["http://data.bibliotheken.nl/id/thes/p070467013"]
+    },
+    "1705": {
+        "Ouryk, Hendrik van": ["http://data.bibliotheken.nl/id/thes/p157135446"]
+    },
+    "1827": {
+        "Ouryk, Hendrik van": ["http://data.bibliotheken.nl/id/thes/p157135446"],
+        "Snakenburg, Theodoor van": ["http://data.bibliotheken.nl/id/thes/p115342788"]
+    },
+    "1887": {
+        "Ouryk, Hendrik van": ["http://data.bibliotheken.nl/id/thes/p157135446"]
+    },
+    "2010": {
+        "Ouryk, Hendrik van": ["http://data.bibliotheken.nl/id/thes/p157135446"]
+    },
+    "2037": {
+        "Ouryk, Hendrik van": ["http://data.bibliotheken.nl/id/thes/p157135446"]
+    },
+    "2054": {
+        "Ouryk, Hendrik van": ["http://data.bibliotheken.nl/id/thes/p157135446"]
+    },
+    "2103": {
+        "Ouryk, Hendrik van": ["http://data.bibliotheken.nl/id/thes/p157135446"]
+    },
+    "2386": {
+        "Ouryk, Hendrik van": ["http://data.bibliotheken.nl/id/thes/p157135446"]
+    },
+    "2647": {
+        "Ouryk, Hendrik van": ["http://data.bibliotheken.nl/id/thes/p157135446"]
+    },
+    "3961": {
+        "Ouryk, Hendrik van": ["http://data.bibliotheken.nl/id/thes/p157135446"]
+    },
+    "992": {
+        "Outhof, Gerardus": ["http://data.bibliotheken.nl/id/thes/p068996160"]
+    },
+    "2998": {
+        "Outhof, Gerardus": ["http://data.bibliotheken.nl/id/thes/p068996160"]
+    },
+    "3120": {
+        "Outhof, Gerardus": ["http://data.bibliotheken.nl/id/thes/p068996160"]
+    },
+    "6856": {
+        "Outhuys, Gerard": ["http://data.bibliotheken.nl/id/thes/p070412278"],
+        "Sobels, Johan Matthys": ["http://data.bibliotheken.nl/id/thes/p070659478"]
+    },
+    "6520": {
+        "Outhuys, Gerard": ["http://data.bibliotheken.nl/id/thes/p070412278"]
+    },
+    "6871": {
+        "Outhuys, Gerard": ["http://data.bibliotheken.nl/id/thes/p070412278"]
+    },
+    "6616": {
+        "Outhuys, Gerard": ["http://data.bibliotheken.nl/id/thes/p070412278"]
+    },
+    "6658": {
+        "Outhuys, Gerard": ["http://data.bibliotheken.nl/id/thes/p070412278"]
+    },
+    "5247": {
+        "Outman van Aalst, Janus": ["http://data.bibliotheken.nl/id/thes/p185946674"]
+    },
+    "1167": {
+        "Outrein, Johannes d'": ["http://data.bibliotheken.nl/id/thes/p069950172"]
+    },
+    "5785": {
+        "Overstraten, Adriana van": ["http://data.bibliotheken.nl/id/thes/p069950199"]
+    },
+    "5840": {
+        "Overstraten, Adriana van": ["http://data.bibliotheken.nl/id/thes/p069950199"]
+    },
+    "5843": {
+        "Overstraten, Adriana van": ["http://data.bibliotheken.nl/id/thes/p069950199"]
+    },
+    "5941": {
+        "Overstraten, Adriana van": ["http://data.bibliotheken.nl/id/thes/p069950199"]
+    },
+    "6360": {
+        "Overstraten, Adriana van": ["http://data.bibliotheken.nl/id/thes/p069950199"]
+    },
+    "6437": {
+        "Overstraten, Adriana van": ["http://data.bibliotheken.nl/id/thes/p069950199"]
+    },
+    "5814": {
+        "Paape, Gerrit": ["http://data.bibliotheken.nl/id/thes/p070254273"]
+    },
+    "5820": {
+        "Paape, Gerrit": ["http://data.bibliotheken.nl/id/thes/p070254273"]
+    },
+    "6796": {
+        "Paape, Gerrit": ["http://data.bibliotheken.nl/id/thes/p070254273"]
+    },
+    "5883": {
+        "Paape, Gerrit": ["http://data.bibliotheken.nl/id/thes/p070254273"]
+    },
+    "6811": {
+        "Paape, Gerrit": ["http://data.bibliotheken.nl/id/thes/p070254273"]
+    },
+    "6053": {
+        "Paape, Gerrit": ["http://data.bibliotheken.nl/id/thes/p070254273"]
+    },
+    "6817": {
+        "Paape, Gerrit": ["http://data.bibliotheken.nl/id/thes/p070254273"]
+    },
+    "6163": {
+        "Paape, Gerrit": ["http://data.bibliotheken.nl/id/thes/p070254273"]
+    },
+    "3731": {
+        "Pagenstecher, Bernhardus": ["http://data.bibliotheken.nl/id/thes/p07340506X"]
+    },
+    "2773": {
+        "Paludanus, Theodorus": ["http://data.bibliotheken.nl/id/thes/p074318764"]
+    },
+    "3163": {
+        "Paludanus, Theodorus": ["http://data.bibliotheken.nl/id/thes/p074318764"]
+    },
+    "595": {
+        "Pars, Adriaan": ["http://data.bibliotheken.nl/id/thes/p069409692"]
+    },
+    "803": {
+        "Pars, Adriaan": ["http://data.bibliotheken.nl/id/thes/p069409692"]
+    },
+    "805": {
+        "Pars, Adriaan": ["http://data.bibliotheken.nl/id/thes/p069409692"]
+    },
+    "1368": {
+        "Pars, Adriaan": ["http://data.bibliotheken.nl/id/thes/p069409692"]
+    },
+    "3368": {
+        "Petraeus, Johannes": ["http://data.bibliotheken.nl/id/thes/p182885348"]
+    },
+    "3446": {
+        "Petraeus, Johannes": ["http://data.bibliotheken.nl/id/thes/p182885348"]
+    },
+    "3530": {
+        "Petraeus, Johannes": ["http://data.bibliotheken.nl/id/thes/p182885348"]
+    },
+    "3763": {
+        "Petraeus, Johannes": ["http://data.bibliotheken.nl/id/thes/p182885348"],
+        "Snakenburg, Hendrik": ["http://data.bibliotheken.nl/id/thes/p070467013"]
+    },
+    "478": {
+        "Poll, Lucas van de": ["http://data.bibliotheken.nl/id/thes/p069551014"]
+    },
+    "1111": {
+        "Poll, Lucas van de": ["http://data.bibliotheken.nl/id/thes/p069551014"]
+    },
+    "1912": {
+        "Poot, Hendrik van": ["http://data.bibliotheken.nl/id/thes/p164033599"]
+    },
+    "1927": {
+        "Poot, Hendrik van": ["http://data.bibliotheken.nl/id/thes/p164033599"]
+    },
+    "2426": {
+        "Poot, Hendrik van": ["http://data.bibliotheken.nl/id/thes/p164033599"]
+    },
+    "2243": {
+        "Poot, Hubert Kornelisz": ["http://data.bibliotheken.nl/id/thes/p06968510X"]
+    },
+    "2449": {
+        "Poot, Hubert Kornelisz": ["http://data.bibliotheken.nl/id/thes/p06968510X"]
+    },
+    "2550": {
+        "Poot, Hubert Kornelisz": ["http://data.bibliotheken.nl/id/thes/p06968510X"],
+        "Sluyter, Adolph": ["http://data.bibliotheken.nl/id/thes/p184246911"]
+    },
+    "2583": {
+        "Poot, Hubert Kornelisz": ["http://data.bibliotheken.nl/id/thes/p06968510X"]
+    },
+    "2592": {
+        "Poot, Hubert Kornelisz": ["http://data.bibliotheken.nl/id/thes/p06968510X"]
+    },
+    "2747": {
+        "Poot, Hubert Kornelisz": ["http://data.bibliotheken.nl/id/thes/p06968510X"]
+    },
+    "2820": {
+        "Poot, Hubert Kornelisz": ["http://data.bibliotheken.nl/id/thes/p06968510X"]
+    },
+    "2823": {
+        "Poot, Hubert Kornelisz": ["http://data.bibliotheken.nl/id/thes/p06968510X"]
+    },
+    "2946": {
+        "Poot, Hubert Kornelisz": ["http://data.bibliotheken.nl/id/thes/p06968510X"]
+    },
+    "3064": {
+        "Poot, Hubert Kornelisz": ["http://data.bibliotheken.nl/id/thes/p06968510X"]
+    },
+    "948": {
+        "Rabus, Pieter": ["http://data.bibliotheken.nl/id/thes/p068651775"]
+    },
+    "1024": {
+        "Rabus, Pieter": ["http://data.bibliotheken.nl/id/thes/p068651775"]
+    },
+    "2672": {
+        "Reitz, Wilhelm Otto": ["http://data.bibliotheken.nl/id/thes/p06996419X"],
+        "Schelling, Pieter van der": ["http://data.bibliotheken.nl/id/thes/p069975574"]
+    },
+    "3121": {
+        "Reitz, Wilhelm Otto": ["http://data.bibliotheken.nl/id/thes/p06996419X"]
+    },
+    "3390": {
+        "Reitz, Wilhelm Otto": ["http://data.bibliotheken.nl/id/thes/p06996419X"]
+    },
+    "6392": {
+        "Rensselaar, Jan Jacob van": ["http://data.bibliotheken.nl/id/thes/p151744203"]
+    },
+    "6455": {
+        "Rensselaar, Jan Jacob van": ["http://data.bibliotheken.nl/id/thes/p151744203"]
+    },
+    "4659": {
+        "Repelaer, Jonas Andries": ["http://data.bibliotheken.nl/id/thes/p07333426X"]
+    },
+    "5135": {
+        "Repelaer, Jonas Andries": ["http://data.bibliotheken.nl/id/thes/p07333426X"]
+    },
+    "4109": {
+        "Rhoer, Jacobus de": ["http://data.bibliotheken.nl/id/thes/p069427402"]
+    },
+    "4170": {
+        "Rhoer, Jacobus de": ["http://data.bibliotheken.nl/id/thes/p069427402"]
+    },
+    "4562": {
+        "Rhoer, Jacobus de": ["http://data.bibliotheken.nl/id/thes/p069427402"]
+    },
+    "106": {
+        "Rodenburg, Theodoor": ["http://data.bibliotheken.nl/id/thes/p069797447"]
+    },
+    "127": {
+        "Rodenburg, Theodoor": ["http://data.bibliotheken.nl/id/thes/p069797447"]
+    },
+    "143": {
+        "Rodenburg, Theodoor": ["http://data.bibliotheken.nl/id/thes/p069797447"]
+    },
+    "144": {
+        "Rodenburg, Theodoor": ["http://data.bibliotheken.nl/id/thes/p069797447"]
+    },
+    "1456": {
+        "R\u00f6ell, Dionysius Andreas": ["http://data.bibliotheken.nl/id/thes/p186031521"],
+        "R\u00f6ell, Joannes Alexander": ["http://data.bibliotheken.nl/id/thes/p073238856"]
+    },
+    "4332": {
+        "Roscam, Jan Willem": ["http://data.bibliotheken.nl/id/thes/p204263697"],
+        "Roullaud, Henri Jean": ["http://data.bibliotheken.nl/id/thes/p073766720"]
+    },
+    "5657": {
+        "Roscam, Jan Willem": ["http://data.bibliotheken.nl/id/thes/p204263697"]
+    },
+    "1317": {
+        "Rotgans, Lucas": ["http://data.bibliotheken.nl/id/thes/p06868438X"]
+    },
+    "1329": {
+        "Rotgans, Lucas": ["http://data.bibliotheken.nl/id/thes/p06868438X"]
+    },
+    "1386": {
+        "Rotgans, Lucas": ["http://data.bibliotheken.nl/id/thes/p06868438X"]
+    },
+    "1434": {
+        "Rotgans, Lucas": ["http://data.bibliotheken.nl/id/thes/p06868438X"]
+    },
+    "1530": {
+        "Rotgans, Lucas": ["http://data.bibliotheken.nl/id/thes/p06868438X"]
+    },
+    "1575": {
+        "Rotgans, Lucas": ["http://data.bibliotheken.nl/id/thes/p06868438X"]
+    },
+    "1635": {
+        "Rotgans, Lucas": ["http://data.bibliotheken.nl/id/thes/p06868438X"]
+    },
+    "2463": {
+        "Rotterdam, Johannes": ["http://data.bibliotheken.nl/id/thes/p163936374"]
+    },
+    "2653": {
+        "Rotterdam, Johannes": ["http://data.bibliotheken.nl/id/thes/p163936374"]
+    },
+    "2702": {
+        "Rotterdam, Johannes": ["http://data.bibliotheken.nl/id/thes/p163936374"]
+    },
+    "2885": {
+        "Rotterdam, Johannes": ["http://data.bibliotheken.nl/id/thes/p163936374"]
+    },
+    "2973": {
+        "Rotterdam, Johannes": ["http://data.bibliotheken.nl/id/thes/p163936374"]
+    },
+    "3069": {
+        "Rotterdam, Johannes": ["http://data.bibliotheken.nl/id/thes/p163936374"]
+    },
+    "3085": {
+        "Rotterdam, Johannes": ["http://data.bibliotheken.nl/id/thes/p163936374"]
+    },
+    "3196": {
+        "Rotterdam, Johannes": ["http://data.bibliotheken.nl/id/thes/p163936374"]
+    },
+    "3227": {
+        "Rotterdam, Johannes": ["http://data.bibliotheken.nl/id/thes/p163936374"]
+    },
+    "3302": {
+        "Rotterdam, Johannes": ["http://data.bibliotheken.nl/id/thes/p163936374"]
+    },
+    "3473": {
+        "Rotterdam, Johannes": ["http://data.bibliotheken.nl/id/thes/p163936374"]
+    },
+    "3590": {
+        "Rotterdam, Johannes": ["http://data.bibliotheken.nl/id/thes/p163936374"]
+    },
+    "3668": {
+        "Rotterdam, Johannes": ["http://data.bibliotheken.nl/id/thes/p163936374"]
+    },
+    "4446": {
+        "Roullaud, Henri Jean": ["http://data.bibliotheken.nl/id/thes/p073766720"]
+    },
+    "4472": {
+        "Roullaud, Henri Jean": ["http://data.bibliotheken.nl/id/thes/p073766720"]
+    },
+    "4519": {
+        "Roullaud, Henri Jean": ["http://data.bibliotheken.nl/id/thes/p073766720"]
+    },
+    "4534": {
+        "Roullaud, Henri Jean": ["http://data.bibliotheken.nl/id/thes/p073766720"]
+    },
+    "4611": {
+        "Roullaud, Henri Jean": ["http://data.bibliotheken.nl/id/thes/p073766720"]
+    },
+    "4648": {
+        "Roullaud, Henri Jean": ["http://data.bibliotheken.nl/id/thes/p073766720"]
+    },
+    "4841": {
+        "Roullaud, Henri Jean": ["http://data.bibliotheken.nl/id/thes/p073766720"]
+    },
+    "5160": {
+        "Roullaud, Henri Jean": ["http://data.bibliotheken.nl/id/thes/p073766720"]
+    },
+    "5163": {
+        "Roullaud, Henri Jean": ["http://data.bibliotheken.nl/id/thes/p073766720"]
+    },
+    "5199": {
+        "Ruloffs, Bartholomeus": ["http://data.bibliotheken.nl/id/thes/p071543635"]
+    },
+    "5267": {
+        "Ruloffs, Bartholomeus": ["http://data.bibliotheken.nl/id/thes/p071543635"],
+        "Sels, Willem Hendrik": ["http://data.bibliotheken.nl/id/thes/p108756440"]
+    },
+    "5328": {
+        "Ruloffs, Bartholomeus": ["http://data.bibliotheken.nl/id/thes/p071543635"]
+    },
+    "5637": {
+        "Ruloffs, Bartholomeus": ["http://data.bibliotheken.nl/id/thes/p071543635"]
+    },
+    "5654": {
+        "Ruloffs, Bartholomeus": ["http://data.bibliotheken.nl/id/thes/p071543635"]
+    },
+    "5944": {
+        "Ruloffs, Bartholomeus": ["http://data.bibliotheken.nl/id/thes/p071543635"]
+    },
+    "5945": {
+        "Ruloffs, Bartholomeus": ["http://data.bibliotheken.nl/id/thes/p071543635"]
+    },
+    "6180": {
+        "Ruloffs, Bartholomeus": ["http://data.bibliotheken.nl/id/thes/p071543635"]
+    },
+    "6225": {
+        "Ruloffs, Bartholomeus": ["http://data.bibliotheken.nl/id/thes/p071543635"]
+    },
+    "6259": {
+        "Ruloffs, Bartholomeus": ["http://data.bibliotheken.nl/id/thes/p071543635"]
+    },
+    "6291": {
+        "Ruloffs, Bartholomeus": ["http://data.bibliotheken.nl/id/thes/p071543635"]
+    },
+    "6542": {
+        "Ruloffs, Bartholomeus": ["http://data.bibliotheken.nl/id/thes/p071543635"]
+    },
+    "6588": {
+        "Ruloffs, Bartholomeus": ["http://data.bibliotheken.nl/id/thes/p071543635"]
+    },
+    "6629": {
+        "Ruloffs, Bartholomeus": ["http://data.bibliotheken.nl/id/thes/p071543635"]
+    },
+    "6634": {
+        "Ruloffs, Bartholomeus": ["http://data.bibliotheken.nl/id/thes/p071543635"]
+    },
+    "6641": {
+        "Ruloffs, Bartholomeus": ["http://data.bibliotheken.nl/id/thes/p071543635"]
+    },
+    "6678": {
+        "Ruloffs, Bartholomeus": ["http://data.bibliotheken.nl/id/thes/p071543635"]
+    },
+    "6706": {
+        "Ruloffs, Bartholomeus": ["http://data.bibliotheken.nl/id/thes/p071543635"]
+    },
+    "1462": {
+        "Sande, Joan": ["http://data.bibliotheken.nl/id/thes/p069341699"]
+    },
+    "2439": {
+        "Sande, Joan": ["http://data.bibliotheken.nl/id/thes/p069341699"]
+    },
+    "5259": {
+        "Santen, Laurens van": ["http://data.bibliotheken.nl/id/thes/p069964807"]
+    },
+    "5896": {
+        "Santen, Laurens van": ["http://data.bibliotheken.nl/id/thes/p069964807"]
+    },
+    "6323": {
+        "Santen, Laurens van": ["http://data.bibliotheken.nl/id/thes/p069964807"]
+    },
+    "6535": {
+        "Santen, Laurens van": ["http://data.bibliotheken.nl/id/thes/p069964807"]
+    },
+    "5736": {
+        "Scharp, Jan": ["http://data.bibliotheken.nl/id/thes/p069975493"]
+    },
+    "6228": {
+        "Scharp, Jan": ["http://data.bibliotheken.nl/id/thes/p069975493"]
+    },
+    "6367": {
+        "Scharp, Jan": ["http://data.bibliotheken.nl/id/thes/p069975493"]
+    },
+    "6675": {
+        "Scharp, Jan": ["http://data.bibliotheken.nl/id/thes/p069975493"]
+    },
+    "4306": {
+        "Schelle, Gysbert Pietersz van": ["http://data.bibliotheken.nl/id/thes/p207130833"]
+    },
+    "4342": {
+        "Schelle, Gysbert Pietersz van": ["http://data.bibliotheken.nl/id/thes/p207130833"],
+        "Smits, Dirk": ["http://data.bibliotheken.nl/id/thes/p070007403"]
+    },
+    "4470": {
+        "Schelle, Gysbert Pietersz van": ["http://data.bibliotheken.nl/id/thes/p207130833"]
+    },
+    "4549": {
+        "Schelle, Gysbert Pietersz van": ["http://data.bibliotheken.nl/id/thes/p207130833"]
+    },
+    "4643": {
+        "Schelle, Gysbert Pietersz van": ["http://data.bibliotheken.nl/id/thes/p207130833"]
+    },
+    "4713": {
+        "Schelle, Gysbert Pietersz van": ["http://data.bibliotheken.nl/id/thes/p207130833"]
+    },
+    "5239": {
+        "Schelle, Gysbert Pietersz van": ["http://data.bibliotheken.nl/id/thes/p207130833"],
+        "Schelle, Pieter van": ["http://data.bibliotheken.nl/id/thes/p070294046"]
+    },
+    "4015": {
+        "Schelle, Joannes van": ["http://data.bibliotheken.nl/id/thes/p07336455X"]
+    },
+    "4216": {
+        "Schelle, Joannes van": ["http://data.bibliotheken.nl/id/thes/p07336455X"]
+    },
+    "4265": {
+        "Schelle, Joannes van": ["http://data.bibliotheken.nl/id/thes/p07336455X"],
+        "Smits, Dirk": ["http://data.bibliotheken.nl/id/thes/p070007403"]
+    },
+    "6288": {
+        "Schelle, Pieter van": ["http://data.bibliotheken.nl/id/thes/p070294046"]
+    },
+    "2770": {
+        "Schelling, Pieter van der": ["http://data.bibliotheken.nl/id/thes/p069975574"]
+    },
+    "3422": {
+        "Schelling, Pieter van der": ["http://data.bibliotheken.nl/id/thes/p069975574"]
+    },
+    "3559": {
+        "Schelling, Pieter van der": ["http://data.bibliotheken.nl/id/thes/p069975574"],
+        "Smits, Dirk": ["http://data.bibliotheken.nl/id/thes/p070007403"]
+    },
+    "3659": {
+        "Schelling, Pieter van der": ["http://data.bibliotheken.nl/id/thes/p069975574"]
+    },
+    "1422": {
+        "Schellinger, Jakob": ["http://data.bibliotheken.nl/id/thes/p181086093"]
+    },
+    "1518": {
+        "Schellinger, Jakob": ["http://data.bibliotheken.nl/id/thes/p181086093"]
+    },
+    "1616": {
+        "Schellinger, Jakob": ["http://data.bibliotheken.nl/id/thes/p181086093"]
+    },
+    "2317": {
+        "Schellinger, Jakob": ["http://data.bibliotheken.nl/id/thes/p181086093"]
+    },
+    "3803": {
+        "Schoon, Cornelis": ["http://data.bibliotheken.nl/id/thes/p071912134"]
+    },
+    "3856": {
+        "Schoon, Cornelis": ["http://data.bibliotheken.nl/id/thes/p071912134"]
+    },
+    "3928": {
+        "Schoon, Cornelis": ["http://data.bibliotheken.nl/id/thes/p071912134"]
+    },
+    "3960": {
+        "Schoon, Cornelis": ["http://data.bibliotheken.nl/id/thes/p071912134"]
+    },
+    "4286": {
+        "Schoon, Cornelis": ["http://data.bibliotheken.nl/id/thes/p071912134"]
+    },
+    "1989": {
+        "Schouten, Floris": ["http://data.bibliotheken.nl/id/thes/p19495904X"],
+        "Schroder, Johannes": ["http://data.bibliotheken.nl/id/thes/p089418220"]
+    },
+    "3781": {
+        "Schrader, Johannes": ["http://data.bibliotheken.nl/id/thes/p070296863"]
+    },
+    "3832": {
+        "Schrader, Johannes": ["http://data.bibliotheken.nl/id/thes/p070296863"]
+    },
+    "3838": {
+        "Schrader, Johannes": ["http://data.bibliotheken.nl/id/thes/p070296863"]
+    },
+    "4341": {
+        "Schrader, Johannes": ["http://data.bibliotheken.nl/id/thes/p070296863"]
+    },
+    "2912": {
+        "Schroder, Gerardus": ["http://data.bibliotheken.nl/id/thes/p07492642X"]
+    },
+    "2980": {
+        "Schroder, Gerardus": ["http://data.bibliotheken.nl/id/thes/p07492642X"]
+    },
+    "3443": {
+        "Schroder, Gerardus": ["http://data.bibliotheken.nl/id/thes/p07492642X"]
+    },
+    "3560": {
+        "Schroder, Gerardus": ["http://data.bibliotheken.nl/id/thes/p07492642X"]
+    },
+    "1871": {
+        "Schroder, Johannes": ["http://data.bibliotheken.nl/id/thes/p089418220"]
+    },
+    "2142": {
+        "Schroder, Johannes": ["http://data.bibliotheken.nl/id/thes/p089418220"]
+    },
+    "2417": {
+        "Schroder, Johannes": ["http://data.bibliotheken.nl/id/thes/p089418220"]
+    },
+    "2566": {
+        "Schroder, Johannes": ["http://data.bibliotheken.nl/id/thes/p089418220"]
+    },
+    "2947": {
+        "Schroder, Johannes": ["http://data.bibliotheken.nl/id/thes/p089418220"]
+    },
+    "2976": {
+        "Schroder, Johannes": ["http://data.bibliotheken.nl/id/thes/p089418220"]
+    },
+    "3824": {
+        "Schroder, Johannes": ["http://data.bibliotheken.nl/id/thes/p089418220"]
+    },
+    "3917": {
+        "Schroder, Johannes": ["http://data.bibliotheken.nl/id/thes/p089418220"]
+    },
+    "3331": {
+        "Schutte, Rutger": ["http://data.bibliotheken.nl/id/thes/p073585564"]
+    },
+    "4782": {
+        "Schutte, Rutger": ["http://data.bibliotheken.nl/id/thes/p073585564"]
+    },
+    "5627": {
+        "Schutte, Rutger": ["http://data.bibliotheken.nl/id/thes/p073585564"]
+    },
+    "4108": {
+        "Sevenhoven, Martinus van": ["http://data.bibliotheken.nl/id/thes/p156655721"]
+    },
+    "4360": {
+        "Sieben, Bartholomaeus": ["http://data.bibliotheken.nl/id/thes/p18565987X"]
+    },
+    "6547": {
+        "Siegenbeek, Matthys": ["http://data.bibliotheken.nl/id/thes/p068914997"]
+    },
+    "4118": {
+        "Sloterdyck, Daniel van": ["http://data.bibliotheken.nl/id/thes/p154350168"]
+    },
+    "4277": {
+        "Sloterdyck, Daniel van": ["http://data.bibliotheken.nl/id/thes/p154350168"]
+    },
+    "2457": {
+        "Sluyter, Adolph": ["http://data.bibliotheken.nl/id/thes/p184246911"]
+    },
+    "2775": {
+        "Sluyter, Adolph": ["http://data.bibliotheken.nl/id/thes/p184246911"]
+    },
+    "2835": {
+        "Sluyter, Adolph": ["http://data.bibliotheken.nl/id/thes/p184246911"]
+    },
+    "2843": {
+        "Sluyter, Adolph": ["http://data.bibliotheken.nl/id/thes/p184246911"]
+    },
+    "2943": {
+        "Sluyter, Adolph": ["http://data.bibliotheken.nl/id/thes/p184246911"]
+    },
+    "2997": {
+        "Sluyter, Adolph": ["http://data.bibliotheken.nl/id/thes/p184246911"]
+    },
+    "3145": {
+        "Sluyter, Adolph": ["http://data.bibliotheken.nl/id/thes/p184246911"]
+    },
+    "3168": {
+        "Sluyter, Adolph": ["http://data.bibliotheken.nl/id/thes/p184246911"]
+    },
+    "3293": {
+        "Sluyter, Adolph": ["http://data.bibliotheken.nl/id/thes/p184246911"]
+    },
+    "3297": {
+        "Sluyter, Adolph": ["http://data.bibliotheken.nl/id/thes/p184246911"]
+    },
+    "3327": {
+        "Sluyter, Adolph": ["http://data.bibliotheken.nl/id/thes/p184246911"]
+    },
+    "3506": {
+        "Sluyter, Adolph": ["http://data.bibliotheken.nl/id/thes/p184246911"]
+    },
+    "2330": {
+        "Sluyter, H.A.": ["http://data.bibliotheken.nl/id/thes/p153419091"]
+    },
+    "2379": {
+        "Sluyter, H.A.": ["http://data.bibliotheken.nl/id/thes/p153419091"]
+    },
+    "2395": {
+        "Sluyter, H.A.": ["http://data.bibliotheken.nl/id/thes/p153419091"]
+    },
+    "1015": {
+        "Smids, Ludolph": ["http://data.bibliotheken.nl/id/thes/p069828393"]
+    },
+    "1211": {
+        "Smids, Ludolph": ["http://data.bibliotheken.nl/id/thes/p069828393"]
+    },
+    "1255": {
+        "Smids, Ludolph": ["http://data.bibliotheken.nl/id/thes/p069828393"]
+    },
+    "1403": {
+        "Smids, Ludolph": ["http://data.bibliotheken.nl/id/thes/p069828393"]
+    },
+    "1429": {
+        "Smids, Ludolph": ["http://data.bibliotheken.nl/id/thes/p069828393"]
+    },
+    "1438": {
+        "Smids, Ludolph": ["http://data.bibliotheken.nl/id/thes/p069828393"]
+    },
+    "1445": {
+        "Smids, Ludolph": ["http://data.bibliotheken.nl/id/thes/p069828393"]
+    },
+    "1474": {
+        "Smids, Ludolph": ["http://data.bibliotheken.nl/id/thes/p069828393"]
+    },
+    "1557": {
+        "Smids, Ludolph": ["http://data.bibliotheken.nl/id/thes/p069828393"]
+    },
+    "1590": {
+        "Smids, Ludolph": ["http://data.bibliotheken.nl/id/thes/p069828393"]
+    },
+    "1604": {
+        "Smids, Ludolph": ["http://data.bibliotheken.nl/id/thes/p069828393"],
+        "Smout, Dirk": ["http://data.bibliotheken.nl/id/thes/p06956826X"]
+    },
+    "1849": {
+        "Smids, Ludolph": ["http://data.bibliotheken.nl/id/thes/p069828393"]
+    },
+    "1956": {
+        "Smids, Ludolph": ["http://data.bibliotheken.nl/id/thes/p069828393"]
+    },
+    "2222": {
+        "Smids, Ludolph": ["http://data.bibliotheken.nl/id/thes/p069828393"]
+    },
+    "2372": {
+        "Smient, N.": ["http://data.bibliotheken.nl/id/thes/p193164507"]
+    },
+    "2844": {
+        "Smits, Dirk": ["http://data.bibliotheken.nl/id/thes/p070007403"]
+    },
+    "2937": {
+        "Smits, Dirk": ["http://data.bibliotheken.nl/id/thes/p070007403"]
+    },
+    "3029": {
+        "Smits, Dirk": ["http://data.bibliotheken.nl/id/thes/p070007403"]
+    },
+    "3082": {
+        "Smits, Dirk": ["http://data.bibliotheken.nl/id/thes/p070007403"]
+    },
+    "3352": {
+        "Smits, Dirk": ["http://data.bibliotheken.nl/id/thes/p070007403"]
+    },
+    "3373": {
+        "Smits, Dirk": ["http://data.bibliotheken.nl/id/thes/p070007403"]
+    },
+    "3574": {
+        "Smits, Dirk": ["http://data.bibliotheken.nl/id/thes/p070007403"]
+    },
+    "3771": {
+        "Smits, Dirk": ["http://data.bibliotheken.nl/id/thes/p070007403"]
+    },
+    "3984": {
+        "Smits, Dirk": ["http://data.bibliotheken.nl/id/thes/p070007403"]
+    },
+    "4116": {
+        "Smits, Dirk": ["http://data.bibliotheken.nl/id/thes/p070007403"]
+    },
+    "4249": {
+        "Smits, Dirk": ["http://data.bibliotheken.nl/id/thes/p070007403"]
+    },
+    "4407": {
+        "Smits, Dirk": ["http://data.bibliotheken.nl/id/thes/p070007403"]
+    },
+    "1030": {
+        "Smout, Dirk": ["http://data.bibliotheken.nl/id/thes/p06956826X"]
+    },
+    "1361": {
+        "Smout, Dirk": ["http://data.bibliotheken.nl/id/thes/p06956826X"]
+    },
+    "1374": {
+        "Smout, Dirk": ["http://data.bibliotheken.nl/id/thes/p06956826X"]
+    },
+    "1424": {
+        "Smout, Dirk": ["http://data.bibliotheken.nl/id/thes/p06956826X"]
+    },
+    "1725": {
+        "Smout, Dirk": ["http://data.bibliotheken.nl/id/thes/p06956826X"]
+    },
+    "1970": {
+        "Smout, Dirk": ["http://data.bibliotheken.nl/id/thes/p06956826X"]
+    },
+    "2267": {
+        "Smout, Dirk": ["http://data.bibliotheken.nl/id/thes/p06956826X"]
+    },
+    "2270": {
+        "Smout, Dirk": ["http://data.bibliotheken.nl/id/thes/p06956826X"]
+    },
+    "2636": {
+        "Smout, Dirk": ["http://data.bibliotheken.nl/id/thes/p06956826X"]
+    },
+    "2721": {
+        "Smout, Dirk": ["http://data.bibliotheken.nl/id/thes/p06956826X"]
+    },
+    "2929": {
+        "Smout, Dirk": ["http://data.bibliotheken.nl/id/thes/p06956826X"]
+    },
+    "1226": {
+        "Snakenburg, Hendrik": ["http://data.bibliotheken.nl/id/thes/p070467013"]
+    },
+    "1463": {
+        "Snakenburg, Hendrik": ["http://data.bibliotheken.nl/id/thes/p070467013"]
+    },
+    "1491": {
+        "Snakenburg, Hendrik": ["http://data.bibliotheken.nl/id/thes/p070467013"]
+    },
+    "1782": {
+        "Snakenburg, Hendrik": ["http://data.bibliotheken.nl/id/thes/p070467013"]
+    },
+    "1963": {
+        "Snakenburg, Hendrik": ["http://data.bibliotheken.nl/id/thes/p070467013"],
+        "Snakenburg, Theodoor van": ["http://data.bibliotheken.nl/id/thes/p115342788"]
+    },
+    "1999": {
+        "Snakenburg, Hendrik": ["http://data.bibliotheken.nl/id/thes/p070467013"]
+    },
+    "2035": {
+        "Snakenburg, Hendrik": ["http://data.bibliotheken.nl/id/thes/p070467013"]
+    },
+    "2275": {
+        "Snakenburg, Hendrik": ["http://data.bibliotheken.nl/id/thes/p070467013"]
+    },
+    "2301": {
+        "Snakenburg, Hendrik": ["http://data.bibliotheken.nl/id/thes/p070467013"]
+    },
+    "2509": {
+        "Snakenburg, Hendrik": ["http://data.bibliotheken.nl/id/thes/p070467013"],
+        "Snakenburg, Theodoor van": ["http://data.bibliotheken.nl/id/thes/p115342788"]
+    },
+    "2972": {
+        "Snakenburg, Hendrik": ["http://data.bibliotheken.nl/id/thes/p070467013"]
+    },
+    "3172": {
+        "Snakenburg, Hendrik": ["http://data.bibliotheken.nl/id/thes/p070467013"]
+    },
+    "3173": {
+        "Snakenburg, Hendrik": ["http://data.bibliotheken.nl/id/thes/p070467013"]
+    },
+    "3594": {
+        "Snakenburg, Hendrik": ["http://data.bibliotheken.nl/id/thes/p070467013"]
+    },
+    "3733": {
+        "Snakenburg, Hendrik": ["http://data.bibliotheken.nl/id/thes/p070467013"]
+    },
+    "4131": {
+        "Snakenburg, Hendrik": ["http://data.bibliotheken.nl/id/thes/p070467013"]
+    },
+    "4171": {
+        "Snakenburg, Hendrik": ["http://data.bibliotheken.nl/id/thes/p070467013"]
+    },
+    "2264": {
+        "Snakenburg, Theodoor van": ["http://data.bibliotheken.nl/id/thes/p115342788"]
+    },
+    "3934": {
+        "Snakenburg, Theodoor van": ["http://data.bibliotheken.nl/id/thes/p115342788"]
+    },
+    "4199": {
+        "Snakenburg, Theodoor van": ["http://data.bibliotheken.nl/id/thes/p115342788"]
+    },
+    "4273": {
+        "Snakenburg, Theodoor van": ["http://data.bibliotheken.nl/id/thes/p115342788"]
+    },
+    "3585": {
+        "Snauwaardt, Jan": ["http://data.bibliotheken.nl/id/thes/p184610664"]
+    },
+    "6609": {
+        "Sobels, Johan Matthys": ["http://data.bibliotheken.nl/id/thes/p070659478"]
+    },
+    "6669": {
+        "Sobels, Johan Matthys": ["http://data.bibliotheken.nl/id/thes/p070659478"]
+    },
+    "6694": {
+        "Sobels, Johan Matthys": ["http://data.bibliotheken.nl/id/thes/p070659478"]
+    },
+    "6701": {
+        "Sobels, Johan Matthys": ["http://data.bibliotheken.nl/id/thes/p070659478"]
+    },
+    "2421": {
+        "Son, Henricus Stephanus van": ["http://data.bibliotheken.nl/id/thes/p240020022"]
+    },
+    "3249": {
+        "Son, Henricus Stephanus van": ["http://data.bibliotheken.nl/id/thes/p240020022"]
+    },
+    "6526": {
+        "Sonsbeeck, Jan Willem van": ["http://data.bibliotheken.nl/id/thes/p074106147"]
+    },
+    "6612": {
+        "Sonsbeeck, Jan Willem van": ["http://data.bibliotheken.nl/id/thes/p074106147"]
+    },
+    "5278": {
+        "Spaan, Gelinus van": ["http://data.bibliotheken.nl/id/thes/p073580511"]
+    },
+    "5300": {
+        "Spaan, Gelinus van": ["http://data.bibliotheken.nl/id/thes/p073580511"]
+    },
+    "5366": {
+        "Spaan, Gelinus van": ["http://data.bibliotheken.nl/id/thes/p073580511"]
+    },
+    "5991": {
+        "Spaan, Gelinus van": ["http://data.bibliotheken.nl/id/thes/p073580511"],
+        "Spaan, Joannes van": ["http://data.bibliotheken.nl/id/thes/p070310300"],
+        "Spaan, Reinier van": ["http://data.bibliotheken.nl/id/thes/p070013748"]
+    },
+    "5656": {
+        "Spaan, Joannes van": ["http://data.bibliotheken.nl/id/thes/p070310300"],
+        "Spaan, Reinier van": ["http://data.bibliotheken.nl/id/thes/p070013748"]
+    },
+    "5802": {
+        "Spaan, Joannes van": ["http://data.bibliotheken.nl/id/thes/p070310300"]
+    },
+    "5987": {
+        "Spaan, Joannes van": ["http://data.bibliotheken.nl/id/thes/p070310300"]
     }
 }
