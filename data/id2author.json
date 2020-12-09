@@ -517,7 +517,7 @@
     },
     "6342": {
         "Houtkamp, Meinardus": ["http://data.bibliotheken.nl/id/thes/p07174679X"],
-        "Alphen, Hieronymus van (1746-1803)": ["http://data.bibliotheken.nl/id/thes/p069101930"]
+        "Alphen, Hieronymus van (1746-1803)": ["http://data.bibliotheken.nl/id/thes/p069101930", "http://data.bibliotheken.nl/id/thes/p163793875"]
     },
     "3100": {
         "Lankeren, Martinus van": ["http://data.bibliotheken.nl/id/thes/p18915280X"]
@@ -1735,7 +1735,7 @@
         "Blondeel, Valentijn Jan": ["http://data.bibliotheken.nl/id/thes/p068126735"]
     },
     "5682": {
-        "Alphen, Hieronymus van (1746-1803)": ["http://data.bibliotheken.nl/id/thes/p069101930"]
+        "Alphen, Hieronymus van (1746-1803)": ["http://data.bibliotheken.nl/id/thes/p069101930", "http://data.bibliotheken.nl/id/thes/p20511525X"]
     },
     "955": {
         "Bredenburg, Johannes (Jr)": ["http://data.bibliotheken.nl/id/thes/p074713183"]
@@ -2113,7 +2113,7 @@
         "Borgesius, Joachim": ["http://data.bibliotheken.nl/id/thes/p149019254"]
     },
     "6695": {
-        "Alphen, Hieronymus van (1746-1803)": ["http://data.bibliotheken.nl/id/thes/p069101930"]
+        "Alphen, Hieronymus van (1746-1803)": ["http://data.bibliotheken.nl/id/thes/p069101930", "http://data.bibliotheken.nl/id/thes/p163793875"]
     },
     "1415": {
         "Bongardt, Christiaan": ["http://data.bibliotheken.nl/id/thes/p236488961"]
@@ -2431,7 +2431,7 @@
         "Braam, Pieter van": ["http://data.bibliotheken.nl/id/thes/p069878218"]
     },
     "5963": {
-        "Mulder, Jan": ["http://data.bibliotheken.nl/id/thes/p182319660"]
+        "Mulder, Jan": ["http://data.bibliotheken.nl/id/thes/p075034964", "http://data.bibliotheken.nl/id/thes/p182319660"]
     },
     "6461": {
         "Woordhouder, Toussaint": ["http://data.bibliotheken.nl/id/thes/p070056579"],
@@ -4047,7 +4047,7 @@
         "Braam, Joannes van": ["http://data.bibliotheken.nl/id/thes/p071990968"]
     },
     "5996": {
-        "Alphen, Hieronymus van (1746-1803)": ["http://data.bibliotheken.nl/id/thes/p069101930"]
+        "Alphen, Hieronymus van (1746-1803)": ["http://data.bibliotheken.nl/id/thes/p069101930", "http://data.bibliotheken.nl/id/thes/p20511525X"]
     },
     "5732": {
         "Arends, Roelof": ["http://data.bibliotheken.nl/id/thes/p074100173"]
@@ -4190,10 +4190,10 @@
         "Bilderdijk, Willem": ["http://data.bibliotheken.nl/id/thes/p06847685X"]
     },
     "3636": {
-        "Trip, Lucas": ["http://data.bibliotheken.nl/id/thes/p070335117"]
+        "Trip, Lucas": ["http://data.bibliotheken.nl/id/thes/p070335117", "http://data.bibliotheken.nl/id/thes/p126652376"]
     },
     "3634": {
-        "Trip, Lucas": ["http://data.bibliotheken.nl/id/thes/p070335117"]
+        "Trip, Lucas": ["http://data.bibliotheken.nl/id/thes/p070335117", "http://data.bibliotheken.nl/id/thes/p298977699"]
     },
     "3637": {
         "Gockinga, Henricus": ["http://data.bibliotheken.nl/id/thes/p070051925"]
@@ -5113,7 +5113,7 @@
         "Hoogeveen, Jan (1736-)": ["http://data.bibliotheken.nl/id/thes/p071545964"]
     },
     "6631": {
-        "Alphen, Hieronymus van (1746-1803)": ["http://data.bibliotheken.nl/id/thes/p069101930"]
+        "Alphen, Hieronymus van (1746-1803)": ["http://data.bibliotheken.nl/id/thes/p069101930", "http://data.bibliotheken.nl/id/thes/p20511525X"]
     },
     "5803": {
         "Nieuwland, Pieter (1764-1794)": ["http://data.bibliotheken.nl/id/thes/p070161801"]
@@ -5303,7 +5303,7 @@
         "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/thes/p071865772", "http://data.bibliotheken.nl/id/thes/p308232615"]
     },
     "2922": {
-        "Burch, Jacobus van der (1747-1776)": ["http://data.bibliotheken.nl/id/thes/p274397536", "http://data.bibliotheken.nl/id/thes/p317650580", "http://data.bibliotheken.nl/id/thes/p353537381"]
+        "Burch, Jacobus van der (1747-1776)": ["http://data.bibliotheken.nl/id/thes/p274397536", "http://data.bibliotheken.nl/id/thes/p353537381"]
     },
     "3362": {
         "Dussen, Nicolaas van der (1718-1770)": ["http://data.bibliotheken.nl/id/thes/p239819152"]
@@ -5343,5 +5343,65 @@
     },
     "4369": {
         "Broes, Petrus (1726-1797)": ["http://data.bibliotheken.nl/id/thes/p07038634X"]
+    },
+    "4513": {
+        "Trip, Lucas": ["http://data.bibliotheken.nl/id/thes/p298792540"]
+    },
+    "883": {
+        "Burgh, Petrus van der": ["http://data.bibliotheken.nl/id/thes/p12616231X"]
+    },
+    "5000": {
+        "Philaletes": ["http://data.bibliotheken.nl/id/thes/p165670096"]
+    },
+    "5381": {
+        "Wit, Joannes de": ["http://data.bibliotheken.nl/id/thes/p237957809"]
+    },
+    "5715": {
+        "Bruine, Johannes de": ["http://data.bibliotheken.nl/id/thes/p16771502X"]
+    },
+    "5730": {
+        "Trip, Lucas": ["http://data.bibliotheken.nl/id/thes/p298977699"]
+    },
+    "5916": {
+        "Bruine, Johannes de": ["http://data.bibliotheken.nl/id/thes/p16771502X"]
+    },
+    "5964": {
+        "Mulder, Jan": ["http://data.bibliotheken.nl/id/thes/p075034964"]
+    },
+    "6131": {
+        "Velde, Johannes van de": ["http://data.bibliotheken.nl/id/thes/p170680665"]
+    },
+    "6164": {
+        "Driessen, Antonius": ["http://data.bibliotheken.nl/id/thes/p071398619"]
+    },
+    "6209": {
+        "Bruine, Johannes de": ["http://data.bibliotheken.nl/id/thes/p16771502X"]
+    },
+    "1104": {
+        "Jansz, Cornelis": ["http://data.bibliotheken.nl/id/thes/p069306966"]
+    },
+    "1303": {
+        "Schrevelius, Cornelius": ["http://data.bibliotheken.nl/id/thes/p299115240"]
+    },
+    "1304": {
+        "Schrevelius, Cornelius": ["http://data.bibliotheken.nl/id/thes/p299115240"]
+    },
+    "2508": {
+        "Philaletes": ["http://data.bibliotheken.nl/id/thes/p291913725"]
+    },
+    "2554": {
+        "Leeuwen, Johannes van": ["http://data.bibliotheken.nl/id/thes/p300615078"]
+    },
+    "3377": {
+        "Trip, Lucas": ["http://data.bibliotheken.nl/id/thes/p126652376"]
+    },
+    "3665": {
+        "Trip, Lucas": ["http://data.bibliotheken.nl/id/thes/p298977699"]
+    },
+    "3901": {
+        "Trip, Lucas": ["http://data.bibliotheken.nl/id/thes/p298977699"]
+    },
+    "4086": {
+        "Santen, Hendrik van": ["http://data.bibliotheken.nl/id/thes/p310176417"]
     }
 }
