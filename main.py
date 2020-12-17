@@ -11,8 +11,6 @@ ggddoc = Namespace('http://data.bibliotheken.nl/doc/dataset/ggd/')
 
 bio = Namespace("http://purl.org/vocab/bio/0.1/")
 schema = Namespace('http://schema.org/')
-void = Namespace('http://rdfs.org/ns/void#')
-foaf = Namespace('http://xmlns.com/foaf/0.1/')
 sem = Namespace('http://semanticweb.cs.vu.nl/2009/11/sem/')
 pnv = Namespace('https://w3id.org/pnv#')
 
@@ -40,9 +38,11 @@ class Thing(rdfSubject):
     description = rdfSingle(schema.description)
 
     sameAs = rdfMultiple(OWL.sameAs)
-    inDataset = rdfSingle(void.inDataset)
+    isPartOf = rdfSingle(schema.isPartOf)
+    license = rdfSingle(schema.license)
+    publisher = rdfSingle(schema.publisher)
 
-    isPrimaryTopicOf = rdfSingle(foaf.isPrimaryTopicOf)
+    mainEntityOfPage = rdfSingle(schema.mainEntityOfPage)
 
     dateCreated = rdfSingle(schema.dateCreated)
     dateModified = rdfSingle(schema.dateModified)
@@ -108,9 +108,9 @@ class PublicationEvent(Thing):
 
 
 class Document(Thing):
-    rdf_type = foaf.Document
+    rdf_type = schema.WebPage, schema.Dataset
 
-    primaryTopic = rdfSingle(foaf.primaryTopic)
+    mainEntity = rdfSingle(schema.mainEntity)
 
     identifier = rdfMultiple(schema.identifier)
 
@@ -147,7 +147,7 @@ class PropertyValue(Thing):
 
 
 class Item(Thing):
-    rdf_type = (schema.Book, schema.ArchiveComponent)
+    rdf_type = (schema.Book, schema.IndividualProduct, schema.ArchiveComponent)
 
     itemLocation = rdfSingle(schema.itemLocation)
     holdingArchive = rdfSingle(schema.holdingArchive)
@@ -479,7 +479,7 @@ def toRdf(filepath: str, target: str):
                 personSameAs += [URIRef(i) for i in p['rkd']]
 
                 # wd
-                personSameAs.append(URIRef(p['wd']))
+                personSameAs += [URIRef(i) for i in p['wd']]
 
                 person = Person(ggdPerson.term(str(next(personCounter))),
                                 label=labelInverseName,
@@ -532,21 +532,19 @@ def toRdf(filepath: str, target: str):
             comment=r.get('comments'),
             identifier=identifiers,
             sameAs=[ggddoc.term(r['id'])],
-            inDataset=URIRef("http://data.bibliotheken.nl/id/dataset/ggd"),
+            isPartOf=URIRef("http://data.bibliotheken.nl/id/dataset/ggd"),
             dateCreated=Literal(r['created'], datatype=XSD.date),
             dateModified=Literal(r['modified'], datatype=XSD.date))
 
-        book.isPrimaryTopicOf = document
-        document.primaryTopic = book
+        book.mainEntityOfPage = document
+        document.mainEntity = book
 
         # STCN
         if r['stcn']:
             book.sameAs = [URIRef(r['stcn'])]
 
-    g.bind('foaf', foaf)
     g.bind('schema', schema)
     g.bind('kbdef', kbdef)
-    g.bind('void', void)
     g.bind('owl', OWL)
     g.bind('xsd', XSD)
     g.bind('sem', sem)
