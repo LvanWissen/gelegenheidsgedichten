@@ -284,6 +284,20 @@ def parsePersonName(nameString, identifier=None):
     return pns, labels
 
 
+def getRoleType(roleName):
+
+    if roleName:
+        uniqueString = "".join(
+            [i for i in roleName.lower() if i in 'abcdefghijklmnopqrstuvwxyz'])
+    else:
+        uniqueString = "Unknown"
+        roleName = "Unknown"
+
+    rt = SemRoleType(BNode(uniqueString), label=[roleName])
+
+    return rt
+
+
 def toRdf(filepath: str, target: str):
 
     g = rdfSubject.db = Graph()
@@ -326,10 +340,16 @@ def toRdf(filepath: str, target: str):
             else:
                 authorSameAs = []
 
+            if a['gender']:
+                gender = URIRef(a['gender'])
+            else:
+                gender = None
+
             author = Person(ggdAuthor.term(str(next(authorCounter))),
                             label=labelInverseName,
                             name=pnLabels,
                             hasName=pn,
+                            gender=gender,
                             sameAs=authorSameAs)
 
             # authorsDict[a['person']] = (author, pn, pnLabels)
@@ -465,13 +485,6 @@ def toRdf(filepath: str, target: str):
                 else:
                     personSameAs = []
 
-                if p['gender'] == 'male':
-                    gender = schema.Male
-                elif p['gender'] == 'female':
-                    gender = schema.Female
-                else:
-                    gender = None
-
                 # otr
                 personSameAs += [URIRef(i) for i in p['otr']]
 
@@ -480,6 +493,11 @@ def toRdf(filepath: str, target: str):
 
                 # wd
                 personSameAs += [URIRef(i) for i in p['wd']]
+
+                if p['gender']:
+                    gender = URIRef(p['gender'])
+                else:
+                    gender = None
 
                 person = Person(ggdPerson.term(str(next(personCounter))),
                                 label=labelInverseName,
@@ -497,13 +515,10 @@ def toRdf(filepath: str, target: str):
 
                 # Attach them to the event
                 semRoles.append(
-                    SemRole(
-                        None,
-                        value=person,
-                        name=pnLabels,
-                        roleType=SemRoleType(
-                            None,
-                            label=[p['role']] if p['role'] else ["Unknown"])))
+                    SemRole(None,
+                            value=person,
+                            name=pnLabels,
+                            roleType=getRoleType(p['role'])))
 
         book.about = abouts
         pubEvent.publishedBy = printers
