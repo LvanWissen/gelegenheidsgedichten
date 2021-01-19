@@ -1,5 +1,6 @@
 import re
 import json
+import uuid
 from itertools import count
 
 from rdflib import Graph, Namespace, OWL, Literal, URIRef, BNode, XSD, RDFS, RDF
@@ -175,6 +176,15 @@ class PersonName(Thing):
     surname = rdfSingle(pnv.surname)
 
 
+def unique(*args):
+
+    identifier = "".join(str(i) for i in args)  # order matters
+
+    unique_id = uuid.uuid5(uuid.NAMESPACE_X500, identifier)
+
+    return BNode(unique_id)
+
+
 def parsePersonName(nameString, identifier=None):
     """
     Parse a capitalised Notary Name from the notorial acts to pnv format. 
@@ -190,7 +200,7 @@ def parsePersonName(nameString, identifier=None):
     labels = []
 
     if '(' in nameString:
-        nameString = re.sub(' ?\(.*\) ?', '', nameString)
+        nameString = re.sub(r' ?\(.*\) ?', '', nameString)
 
     if ',' in nameString:
         last, first = nameString.split(',', 1)
@@ -303,18 +313,18 @@ def toRdf(filepath: str, target: str):
     g = rdfSubject.db = Graph()
     eventTypesDict = dict()
 
-    authorsDict = dict()
-    placesDict = dict()
-    organizationsDict = dict()
-
     with open(filepath) as infile:
         data = json.load(infile)
 
     itemCounter = count(1)
-    eventCounter = count(1)
     authorCounter = count(1)
     printerCounter = count(1)
     personCounter = count(1)
+
+    # same thesaurus entry hields same uri
+    author2uri = dict()
+    printer2uri = dict()
+    person2uri = dict()
 
     for r in data:
 
@@ -331,21 +341,32 @@ def toRdf(filepath: str, target: str):
             # if authorvalues:
             #     author, pn, pnLabels = authorvalues
             # else:
-            pn, pnLabels = parsePersonName(a['person'])
-
-            labelInverseName = [a['person']]
 
             if a['thesaurus']:
                 authorSameAs = [URIRef(i) for i in a['thesaurus']]
+
+                authorURI = author2uri.get(tuple(sorted(a['thesaurus'])))
+
+                if authorURI is None:
+                    authorURI = ggdAuthor.term(str(next(authorCounter)))
+                    author2uri[tuple(sorted(a['thesaurus']))] = authorURI
+
             else:
                 authorSameAs = []
+
+                authorURI = ggdAuthor.term(str(next(authorCounter)))
+
+            # Single name to unique person
+            pn, pnLabels = parsePersonName(a['person'],
+                                           identifier=unique(str(authorURI)))
+            labelInverseName = [a['person']]
 
             if a['gender']:
                 gender = URIRef(a['gender'])
             else:
                 gender = None
 
-            author = Person(ggdAuthor.term(str(next(authorCounter))),
+            author = Person(authorURI,
                             label=labelInverseName,
                             name=pnLabels,
                             hasName=pn,
@@ -449,10 +470,6 @@ def toRdf(filepath: str, target: str):
 
         for p in r.get('person', []):
 
-            pn, pnLabels = parsePersonName(p['person'])
-
-            labelInverseName = [p['person']]
-
             if p['role'] == 'Drukker/uitgever':
 
                 # printer = organizationsDict.get(p['person'])
@@ -460,11 +477,24 @@ def toRdf(filepath: str, target: str):
                 if p['thesaurus']:
 
                     printerSameAs = [URIRef(i) for i in p['thesaurus']]
+                    printerURI = printer2uri.get(tuple(sorted(p['thesaurus'])))
+
+                    if printerURI is None:
+                        printerURI = ggdPrinter.term(str(next(printerCounter)))
+                        printer2uri[tuple(sorted(p['thesaurus']))] = printerURI
+
                 else:
                     printerSameAs = []
 
-                printer = Organization(ggdPrinter.term(
-                    str(next(printerCounter))),
+                    printerURI = ggdPrinter.term(str(next(printerCounter)))
+
+                # Single name to unique person
+                pn, pnLabels = parsePersonName(p['person'],
+                                               identifier=unique(
+                                                   str(printerURI)))
+                labelInverseName = [p['person']]
+
+                printer = Organization(printerURI,
                                        label=labelInverseName,
                                        name=pnLabels,
                                        hasName=pn,
@@ -478,12 +508,24 @@ def toRdf(filepath: str, target: str):
                          hasName=pn))
             else:
 
-                # pn, pnLabels = parsePersonName(p['person'])
-
                 if p['thesaurus']:
                     personSameAs = [URIRef(i) for i in p['thesaurus']]
+
+                    personURI = person2uri.get(tuple(sorted(p['thesaurus'])))
+
+                    if personURI is None:
+                        personURI = ggdPerson.term(str(next(personCounter)))
+                        person2uri[tuple(sorted(p['thesaurus']))] = personURI
+
                 else:
                     personSameAs = []
+                    personURI = ggdPerson.term(str(next(personCounter)))
+
+                # Single name to unique person
+                pn, pnLabels = parsePersonName(p['person'],
+                                               identifier=unique(
+                                                   str(personURI)))
+                labelInverseName = [p['person']]
 
                 # otr
                 personSameAs += [URIRef(i) for i in p['otr']]
@@ -499,7 +541,7 @@ def toRdf(filepath: str, target: str):
                 else:
                     gender = None
 
-                person = Person(ggdPerson.term(str(next(personCounter))),
+                person = Person(personURI,
                                 label=labelInverseName,
                                 hasName=pn,
                                 name=pnLabels,
