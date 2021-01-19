@@ -814,7 +814,7 @@
         "Vollenhove, Bernard": ["http://data.bibliotheken.nl/id/thes/p070142939"]
     },
     "487": {
-        "Elgersma, Regnerus": ["http://data.bibliotheken.nl/id/thes/p067601464"]
+        "Elgersma, Regnerus": []
     },
     "489": {
         "Hoogstraten, Samuel van": ["http://data.bibliotheken.nl/id/thes/p069222096"],
@@ -4464,7 +4464,7 @@
         "Snakenburg, Hendrik": ["http://data.bibliotheken.nl/id/thes/p070467013"]
     },
     "1783": {
-        "Steengracht, Johan": ["http://data.bibliotheken.nl/id/thes/p184572789"],
+        "Steengracht, Johan": ["http://data.bibliotheken.nl/id/thes/p162853491"],
         "Snakenburg, Hendrik": ["http://data.bibliotheken.nl/id/thes/p070467013"]
     },
     "1784": {
@@ -5586,7 +5586,7 @@
     },
     "2115": {
         "Boddaert, Pieter (1694-1760)": ["http://data.bibliotheken.nl/id/thes/p069869375"],
-        "Steengracht, Johan": ["http://data.bibliotheken.nl/id/thes/p184572789"],
+        "Steengracht, Johan": ["http://data.bibliotheken.nl/id/thes/p162853491"],
         "La Ru\u00eb, Pieter de": ["http://data.bibliotheken.nl/id/thes/p069970742"]
     },
     "2116": {
@@ -5614,7 +5614,7 @@
         "With, Katharina Johanna de": ["http://data.bibliotheken.nl/id/thes/p073527882"]
     },
     "2125": {
-        "Steengracht, Johan": ["http://data.bibliotheken.nl/id/thes/p184572789"],
+        "Steengracht, Johan": ["http://data.bibliotheken.nl/id/thes/p162853491"],
         "Snakenburg, Hendrik": ["http://data.bibliotheken.nl/id/thes/p070467013"]
     },
     "2126": {
@@ -11040,7 +11040,7 @@
         "Buys, Sibrecht": ["http://data.bibliotheken.nl/id/thes/p10471123X"]
     },
     "3739": {
-        "Apostool, Samuel": ["http://data.bibliotheken.nl/id/thes/p075160579"],
+        "Apostool, Samuel": [],
         "Klinkhamer, Govert": ["http://data.bibliotheken.nl/id/thes/p07414958X"],
         "Pater, Lucas": ["http://data.bibliotheken.nl/id/thes/p070248923"],
         "Strengh, Jacobus van der": ["http://data.bibliotheken.nl/id/thes/p115204768"],
@@ -11709,7 +11709,7 @@
         "Snakenburg, Theodoor van": ["http://data.bibliotheken.nl/id/thes/p115342788"]
     },
     "3935": {
-        "Steengracht, Johan": ["http://data.bibliotheken.nl/id/thes/p184572789"],
+        "Steengracht, Johan": ["http://data.bibliotheken.nl/id/thes/p162853491"],
         "Schorer, Lucas Frederik": ["http://data.bibliotheken.nl/id/thes/p150843879"]
     },
     "3937": {
@@ -11853,7 +11853,7 @@
         "Sloot, Augustus van der": ["http://data.bibliotheken.nl/id/thes/p096662239"]
     },
     "3987": {
-        "Steengracht, Johan": ["http://data.bibliotheken.nl/id/thes/p184572789"],
+        "Steengracht, Johan": ["http://data.bibliotheken.nl/id/thes/p162853491"],
         "Andriessen, Jakob Johan": ["http://data.bibliotheken.nl/id/thes/p095059431"]
     },
     "3988": {
@@ -11921,7 +11921,7 @@
         "Stryen, Joan Hugo van": ["http://data.bibliotheken.nl/id/thes/p074907239"]
     },
     "4007": {
-        "Steengracht, Johan": ["http://data.bibliotheken.nl/id/thes/p184572789"],
+        "Steengracht, Johan": ["http://data.bibliotheken.nl/id/thes/p162853491"],
         "Dathenus, Petrus": ["http://data.bibliotheken.nl/id/thes/p283037369"],
         "Fiers Kappeine, David": ["http://data.bibliotheken.nl/id/thes/p236509047"],
         "Schorer, Lucas Frederik": ["http://data.bibliotheken.nl/id/thes/p150843879"]
@@ -12074,7 +12074,7 @@
         "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/thes/p071865772", "http://data.bibliotheken.nl/id/thes/p308232615"]
     },
     "4053": {
-        "Steengracht, Johan": ["http://data.bibliotheken.nl/id/thes/p184572789"]
+        "Steengracht, Johan": ["http://data.bibliotheken.nl/id/thes/p162853491"]
     },
     "4054": {
         "Broek, Pieter van den": ["http://data.bibliotheken.nl/id/thes/p298110741"],
@@ -12200,7 +12200,7 @@
         "Ommering, Adriaan Jacobsz van": ["http://data.bibliotheken.nl/id/thes/p17424133X"]
     },
     "4094": {
-        "Hogersius, Theophilus": ["http://data.bibliotheken.nl/id/thes/p070086745"],
+        "Hogersius, Theophilus": [],
         "Trip, Lucas": ["http://data.bibliotheken.nl/id/thes/p070335117"]
     },
     "4095": {
@@ -12450,7 +12450,7 @@
         "Broek, Pieter van den": ["http://data.bibliotheken.nl/id/thes/p298110741"]
     },
     "4159": {
-        "Steengracht, Johan": ["http://data.bibliotheken.nl/id/thes/p184572789"],
+        "Steengracht, Johan": ["http://data.bibliotheken.nl/id/thes/p162853491"],
         "Schorer, Lucas Frederik": ["http://data.bibliotheken.nl/id/thes/p150843879"]
     },
     "4160": {
@@ -13908,7 +13908,7 @@
         "Velde, Bernardus van der": ["http://data.bibliotheken.nl/id/thes/p297797859"]
     },
     "4608": {
-        "Arntzenius, Petrus Nicolaas": ["http://data.bibliotheken.nl/id/thes/p069862222"]
+        "Arntzenius, Petrus Nicolaas": ["http://data.bibliotheken.nl/id/thes/p205111955"]
     },
     "4610": {
         "Evenhuis, Meinardus": ["http://data.bibliotheken.nl/id/thes/p128728078"],
@@ -15548,7 +15548,7 @@
         "Hamelsveld, Ysbrand van": ["http://data.bibliotheken.nl/id/thes/p070072612"]
     },
     "5189": {
-        "Arntzenius, Petrus Nicolaas": ["http://data.bibliotheken.nl/id/thes/p069862222"]
+        "Arntzenius, Petrus Nicolaas": ["http://data.bibliotheken.nl/id/thes/p205111955"]
     },
     "5190": {
         "Haakman, Joannes Hermannus": ["http://data.bibliotheken.nl/id/thes/p203624130"]
@@ -16026,12 +16026,12 @@
         "Burgvliet, Lukas Jakob": ["http://data.bibliotheken.nl/id/thes/p071490019"],
         "Leuter, Pieter": ["http://data.bibliotheken.nl/id/thes/p14335986X"],
         "Palm, Kornelis van der": ["http://data.bibliotheken.nl/id/thes/p161980023"],
-        "Quack, Jan de": ["http://data.bibliotheken.nl/id/thes/p070270392"],
+        "Quack, Jan de": [],
         "Verveer, Jan": ["http://data.bibliotheken.nl/id/thes/p072043784"],
         "Vygh, Daniel": ["http://data.bibliotheken.nl/id/thes/p296196878"]
     },
     "5372": {
-        "Arntzenius, Petrus Nicolaas": ["http://data.bibliotheken.nl/id/thes/p069862222"]
+        "Arntzenius, Petrus Nicolaas": ["http://data.bibliotheken.nl/id/thes/p205111955"]
     },
     "5373": {
         "Oosterdyk, Hermannus Gerardus": ["http://data.bibliotheken.nl/id/thes/p069949662"]
@@ -16111,7 +16111,7 @@
         "Baalde, Steven Jacobus": ["http://data.bibliotheken.nl/id/thes/p135447445"]
     },
     "5396": {
-        "Arntzenius, Petrus Nicolaas": ["http://data.bibliotheken.nl/id/thes/p069862222"],
+        "Arntzenius, Petrus Nicolaas": ["http://data.bibliotheken.nl/id/thes/p205111955"],
         "Bas, F.P. de": ["http://data.bibliotheken.nl/id/thes/p138345902"],
         "Hamerster, Maria Agnes": ["http://data.bibliotheken.nl/id/thes/p16461950X"],
         "Kasteele, Pieter Leonard van de": ["http://data.bibliotheken.nl/id/thes/p070081093"]
@@ -18754,7 +18754,7 @@
         "Hoeufft, Jacobus Henricus": ["http://data.bibliotheken.nl/id/thes/p069683263"]
     },
     "6342": {
-        "Alphen, Hieronymus van (1746-1803)": ["http://data.bibliotheken.nl/id/thes/p069101930", "http://data.bibliotheken.nl/id/thes/p163793875"],
+        "Alphen, Hieronymus van (1746-1803)": ["http://data.bibliotheken.nl/id/thes/p069101930", "http://data.bibliotheken.nl/id/thes/p20511525X5"],
         "Houtkamp, Meinardus": ["http://data.bibliotheken.nl/id/thes/p07174679X"]
     },
     "6344": {
@@ -19596,7 +19596,7 @@
         "Sobels, Johan Matthys": ["http://data.bibliotheken.nl/id/thes/p070659478"]
     },
     "6695": {
-        "Alphen, Hieronymus van (1746-1803)": ["http://data.bibliotheken.nl/id/thes/p069101930", "http://data.bibliotheken.nl/id/thes/p163793875"]
+        "Alphen, Hieronymus van (1746-1803)": ["http://data.bibliotheken.nl/id/thes/p069101930", "http://data.bibliotheken.nl/id/thes/p20511525X5"]
     },
     "6696": {
         "Posthumus, Jacob Pietersz": ["http://data.bibliotheken.nl/id/thes/p270127100"],
