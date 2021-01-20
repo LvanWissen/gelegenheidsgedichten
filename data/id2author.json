@@ -9298,7 +9298,7 @@
         "Schelling, Pieter van der": ["http://data.bibliotheken.nl/id/thes/p069975574"],
         "Smits, Dirk": ["http://data.bibliotheken.nl/id/thes/p070007403"],
         "Hoogvliet, Arnold": ["http://data.bibliotheken.nl/id/thes/p070088039"],
-        "Koen, Gysbertus": ["http://data.bibliotheken.nl/id/thes/p070100373"],
+        "Koen, Gysbertus": [],
         "Lomannus, Johannes": ["http://data.bibliotheken.nl/id/thes/p369538021"],
         "Schim, Hendrik": ["http://data.bibliotheken.nl/id/thes/p073528692"],
         "Versteeg, Nikolaes": ["http://data.bibliotheken.nl/id/thes/p070063729"],
@@ -10765,7 +10765,7 @@
     },
     "3616": {
         "Jungius, Jan Huibert": ["http://data.bibliotheken.nl/id/thes/p070072647"],
-        "Croonenberg, Anna Richardina": ["http://data.bibliotheken.nl/id/thes/p07162371X"]
+        "Croonenberg, Anna Richardina": []
     },
     "3617": {
         "Pagenstecher, Bernhardus": ["http://data.bibliotheken.nl/id/thes/p07340506X"]
