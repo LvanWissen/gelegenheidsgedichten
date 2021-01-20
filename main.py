@@ -297,8 +297,10 @@ def parsePersonName(nameString, identifier=None):
 def getRoleType(roleName):
 
     if roleName:
-        uniqueString = "".join(
-            [i for i in roleName.lower() if i in 'abcdefghijklmnopqrstuvwxyz'])
+        uniqueString = "".join([
+            i for i in roleName.lower()
+            if i in '123456789-abcdefghijklmnopqrstuvwxyz'
+        ])
     else:
         uniqueString = "Unknown"
         roleName = "Unknown"
@@ -447,7 +449,7 @@ def toRdf(filepath: str, target: str):
             places.append(Place(placeURI, name=[placeName]))
 
         event = Event(
-            ggdEvent.term(str(r['id'])),
+            ggdEvent.term(str(r['event']['eventid'])),
             hasTimeStamp=Literal(r['event']['timeStamp'], datatype=XSD.date)
             if r['event']['timeStamp'] else None,
             hasEarliestBeginTimeStamp=Literal(
@@ -510,16 +512,19 @@ def toRdf(filepath: str, target: str):
 
                 if p['thesaurus']:
                     personSameAs = [URIRef(i) for i in p['thesaurus']]
-
-                    personURI = person2uri.get(tuple(sorted(p['thesaurus'])))
-
-                    if personURI is None:
-                        personURI = ggdPerson.term(str(next(personCounter)))
-                        person2uri[tuple(sorted(p['thesaurus']))] = personURI
+                    pmatch = tuple(sorted(p['thesaurus']))
 
                 else:
+                    # for persons, being in the same event also counts
+                    pmatch = tuple([r['event']['eventid'], p['person']])
                     personSameAs = []
+
+                # print(pmatch)
+                personURI = person2uri.get(pmatch)
+
+                if personURI is None:
                     personURI = ggdPerson.term(str(next(personCounter)))
+                    person2uri[pmatch] = personURI
 
                 # Single name to unique person
                 pn, pnLabels = parsePersonName(p['person'],
@@ -548,7 +553,7 @@ def toRdf(filepath: str, target: str):
                                 gender=gender,
                                 sameAs=personSameAs)
 
-                role = Role(None,
+                role = Role(unique(str(personURI) + 'role'),
                             about=person,
                             roleName=p['role'],
                             name=pnLabels,
@@ -557,7 +562,7 @@ def toRdf(filepath: str, target: str):
 
                 # Attach them to the event
                 semRoles.append(
-                    SemRole(None,
+                    SemRole(unique(str(personURI) + 'semrole'),
                             value=person,
                             name=pnLabels,
                             roleType=getRoleType(p['role'])))

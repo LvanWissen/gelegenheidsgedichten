@@ -201,10 +201,24 @@ def getPersons(persons, role=False, recordID=None):
 
 def getEvent(record):
 
+    if record['date'][10:]:
+        # Example: 1781-02-01-5-c
+        eventid = record['date'][:12]
+        record['date'] = record['date'][:10]
+    else:
+        eventid = record['date']
+
     if record['date'].endswith('00-00'):
         timeStamp = None
-        earliestBeginTimeStamp = record['date'][:4] + '-01-01'
-        latestEndTimeStamp = record['date'][:4] + '-12-31'
+
+        if 'X-' in record['date'].upper():
+            earliestBeginTimeStamp = record['date'].upper().replace(
+                'X-', '0-')[:4] + '-01-01'
+            latestEndTimeStamp = record['date'].upper().replace(
+                'X-', '9-')[:4] + '-12-31'
+        else:
+            earliestBeginTimeStamp = record['date'][:4] + '-01-01'
+            latestEndTimeStamp = record['date'][:4] + '-12-31'
 
     elif record['date'].endswith('00'):
         timeStamp = None
@@ -233,6 +247,7 @@ def getEvent(record):
         eType = record.get('event', [])
 
     return {
+        'eventid': eventid,
         'timeStamp': timeStamp,
         'earliestBeginTimeStamp': earliestBeginTimeStamp,
         'latestEndTimeStamp': latestEndTimeStamp,
@@ -254,7 +269,7 @@ def parseRecord(record: dict):
             record[k] = None
 
     # dates
-    record['date'] = record['date'][:10]
+    record['date'] = record['date']
     record['created'] = datetime.strptime(record['created'],
                                           '%d-%m-%Y').strftime('%Y-%m-%d')
     record['modified'] = datetime.strptime(record['modified'],
