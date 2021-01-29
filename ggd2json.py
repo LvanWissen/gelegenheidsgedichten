@@ -75,6 +75,9 @@ with open('data/ggd2stcn.json') as infile:
 with open('data/id2person.json') as infile:
     ID2PERSON = json.load(infile)
 
+with open('data/id2ecartico.json') as infile:
+    ID2ECARTICO = json.load(infile)
+
 with open('data/id2author.json') as infile:
     ID2AUTHOR = json.load(infile)
 
@@ -182,9 +185,14 @@ def getPersons(persons, role=False, recordID=None):
             rkd = []
 
         if recordID and recordID in ID2WIKIDATA:
-            wd = ID2WIKIDATA[recordID].get(person, [])
+            wikidata = ID2WIKIDATA[recordID].get(person, [])
         else:
-            wd = []
+            wikidata = []
+
+        if recordID and recordID in ID2ECARTICO:
+            ecartico = ID2ECARTICO[recordID].get(person, [])
+        else:
+            ecartico = []
 
         plist.append({
             'person': person,
@@ -193,7 +201,8 @@ def getPersons(persons, role=False, recordID=None):
             'gender': gender,
             'otr': otr,
             'rkd': rkd,
-            'wd': wd
+            'wikidata': wikidata,
+            'ecartico': ecartico
         })
 
     return plist

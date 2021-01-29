@@ -538,8 +538,11 @@ def toRdf(filepath: str, target: str):
                 # rkd
                 personSameAs += [URIRef(i) for i in p['rkd']]
 
-                # wd
-                personSameAs += [URIRef(i) for i in p['wd']]
+                # wikidata
+                personSameAs += [URIRef(i) for i in p['wikidata']]
+
+                # ecartico
+                personSameAs += [URIRef(i) for i in p['ecartico']]
 
                 if p['gender']:
                     gender = URIRef(p['gender'])
