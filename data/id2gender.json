@@ -4302,8 +4302,8 @@
     },
     "898": {
         "Balen, Matthys Jansz": "http://schema.org/Male",
-        "Linde, Simon onder de. Drukker/uitgever": "http://schema.org/Male",
-        "Burch, Johan van der (1618-1688). Overlijden.": "http://schema.org/Male"
+        "Linde, Simon onder de": "http://schema.org/Male",
+        "Burch, Johan van der (1618-1688)": "http://schema.org/Male"
     },
     "899": {
         "Targier, Sara": "http://schema.org/Female",
@@ -18165,7 +18165,7 @@
     "3250": {
         "Velde, Josyna van de": "http://schema.org/Female",
         "Brakenburg, Jacobus": "http://schema.org/Male",
-        "Ensched\u00e9, Izaak, Drukker/uitgever": "http://schema.org/Male"
+        "Ensched\u00e9, Izaak": "http://schema.org/Male"
     },
     "3251": {
         "Laurentius, Anna Maria": "http://schema.org/Female",
@@ -36909,7 +36909,7 @@
         "Boer, Adriaan van den": "http://schema.org/Male"
     },
     "6551": {
-        "Duytsch, Gijsbert Al;bert": "http://schema.org/Male",
+        "Duytsch, Gijsbert Albert": "http://schema.org/Male",
         "Sel, Dirk de": "http://schema.org/Male",
         "Boer, Adriaan van den": "http://schema.org/Male",
         "Thibaut, J": null
@@ -37797,7 +37797,7 @@
         "Welsing, Abraham": "http://schema.org/Male"
     },
     "6739": {
-        "Velzenaar, Kornelia.Huwelijk": "http://schema.org/Female",
+        "Velzenaar, Kornelia": "http://schema.org/Female",
         "Buys, Sibrecht": "http://schema.org/Male",
         "Yzendoorn, Kornelis van": "http://schema.org/Male"
     },
@@ -38209,14 +38209,13 @@
     },
     "6812": {
         "Aar de Sterke, Anna van der": "http://schema.org/Female",
-        "Aar de Sterke, Anna van der.7-j Huwelijk": "http://schema.org/Female",
         "'s-Gravesande, Maximiliaan": "http://schema.org/Male",
         "Pot, Cornelis van der (1736-1805)": "http://schema.org/Male",
         "Feith, Rhijnvis": "http://schema.org/Male",
         "Onderdewyngaart, Canzius": "http://schema.org/Male",
         "Paape, Gerrit": "http://schema.org/Male",
         "Webbers, Carel": "http://schema.org/Male",
-        "Pot, Cornelis van der. Overige functies": "http://schema.org/Male"
+        "Pot, Cornelis van der": "http://schema.org/Male"
     },
     "6813": {
         "Le Francq van Berkhey, Johannes": "http://schema.org/Male",
@@ -38617,7 +38616,7 @@
     },
     "6884": {
         "Waal, Justus de": "http://schema.org/Male",
-        "Bachiene, Philip Jan. Overlijden.": "http://schema.org/Male"
+        "Bachiene, Philip Jan": "http://schema.org/Male"
     },
     "6885": {
         "Elter, Maria Petronella, geb. Woesthoven": "http://schema.org/Female",
@@ -38628,12 +38627,11 @@
         "Velde, Willem van de": "http://schema.org/Male",
         "Jordens, Jan": "http://schema.org/Male",
         "Brink, Jan Gerritsz ten": "http://schema.org/Male",
-        "Brink, Jan Gerritsz ten. Drukker/uitgever": "http://schema.org/Male",
         "Haastert, Isaac van. Overige functies": "http://schema.org/Male"
     },
     "6886": {
         "Croonenberg, Anna Richardina": "http://schema.org/Female",
-        "Saakes, Antony Bernard. Drukker/uitgever": "http://schema.org/Male"
+        "Saakes, Antony Bernard": "http://schema.org/Male"
     },
     "6887": {
         "Staveren, Daniel van": "http://schema.org/Male",
@@ -38678,8 +38676,7 @@
     },
     "6896": {
         "Braam, Pieter van": "http://schema.org/Male",
-        "Repelaer, Jonas Andries": "http://schema.org/Male",
-        "Braam, Pieter van, Drukker/uitgever": "http://schema.org/Male"
+        "Repelaer, Jonas Andries": "http://schema.org/Male"
     },
     "6897": {
         "La Faille, Alida Johanna de, geb. Brand": "http://schema.org/Female",

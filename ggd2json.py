@@ -87,6 +87,9 @@ with open('data/id2printer.json') as infile:
 with open('data/id2gender.json') as infile:
     ID2GENDER = json.load(infile)
 
+with open('data/id2doop.json') as infile:
+    ID2DOOP = json.load(infile)
+
 with open('data/id2otr.json') as infile:
     ID2OTR = json.load(infile)
 
@@ -179,6 +182,11 @@ def getPersons(persons, role=False, recordID=None):
         else:
             otr = []
 
+        if recordID and recordID in ID2DOOP:
+            doop = ID2DOOP[recordID].get(person, [])
+        else:
+            doop = []
+
         if recordID and recordID in ID2RKD:
             rkd = ID2RKD[recordID].get(person, [])
         else:
@@ -200,6 +208,7 @@ def getPersons(persons, role=False, recordID=None):
             'thesaurus': thesaurus,
             'gender': gender,
             'otr': otr,
+            'doop': doop,
             'rkd': rkd,
             'wikidata': wikidata,
             'ecartico': ecartico
@@ -220,7 +229,10 @@ def getEvent(record):
     if record['date'].endswith('00-00'):
         timeStamp = None
 
-        if 'X-' in record['date'].upper():
+        if 'XX-' in record['date'].upper():
+            earliestBeginTimeStamp = record['date'][:2] + '00-01-01'
+            latestEndTimeStamp = record['date'][:2] + '99-12-31'
+        elif 'X-' in record['date'].upper():
             earliestBeginTimeStamp = record['date'].upper().replace(
                 'X-', '0-')[:4] + '-01-01'
             latestEndTimeStamp = record['date'].upper().replace(
@@ -336,6 +348,14 @@ def parseRecord(record: dict):
     else:
         otr = []
     record['event']['otr'] = otr
+
+    # doop
+    doop = ID2DOOP.get(record['id'])
+    if doop and doop.get('doop'):
+        doop = doop['doop']
+    else:
+        doop = []
+    record['event']['doop'] = doop
 
     # impressum place
     if record['id'] in IMPRESSUMDATA:

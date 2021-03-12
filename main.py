@@ -125,6 +125,7 @@ class Event(Thing):
     eventType = rdfMultiple(sem.eventType)
 
     precedingEvent = rdfMultiple(bio.precedingEvent)
+    followingEvent = rdfMultiple(bio.followingEvent)
 
 
 class EventType(Thing):
@@ -310,7 +311,7 @@ def getRoleType(roleName):
     return rt
 
 
-def toRdf(filepath: str, target: str):
+def toRdf(filepath: str, target: str, temporalConstraint=False):
 
     g = rdfSubject.db = Graph()
     eventTypesDict = dict()
@@ -328,7 +329,18 @@ def toRdf(filepath: str, target: str):
     printer2uri = dict()
     person2uri = dict()
 
+    if temporalConstraint:
+        beginConstraint, endConstraint = temporalConstraint
+    else:
+        beginConstraint, endConstraint = 0, 3000
+
     for r in data:
+
+        ### Timporal constraint
+        year = int(r['event']['earliestBeginTimeStamp'][:4])
+        if year < beginConstraint or year >= endConstraint:
+            continue
+        ### Timporal constraint
 
         abouts = []
         semRoles = []
@@ -345,13 +357,22 @@ def toRdf(filepath: str, target: str):
             # else:
 
             if a['thesaurus']:
-                authorSameAs = [URIRef(i) for i in a['thesaurus']]
 
-                authorURI = author2uri.get(tuple(sorted(a['thesaurus'])))
+                authorSameAs = []
+                authorURI = None
+
+                for i in a['thesaurus']:
+                    if 'data.bibliotheken.nl/id/thes/' in i and authorURI is None:
+                        authorURI = URIRef(i)
+                    else:
+                        authorSameAs.append(URIRef(i))
 
                 if authorURI is None:
-                    authorURI = ggdAuthor.term(str(next(authorCounter)))
-                    author2uri[tuple(sorted(a['thesaurus']))] = authorURI
+                    authorURI = author2uri.get(tuple(sorted(a['thesaurus'])))
+
+                    if authorURI is None:
+                        authorURI = ggdAuthor.term(str(next(authorCounter)))
+                        author2uri[tuple(sorted(a['thesaurus']))] = authorURI
 
             else:
                 authorSameAs = []
@@ -460,7 +481,8 @@ def toRdf(filepath: str, target: str):
             eventType=eTypes,
             subjectOf=book,
             label=[Literal(i, lang='nl') for i in r['event']['type'] if i],
-            precedingEvent=[URIRef(i) for i in r['event']['otr']])
+            precedingEvent=[URIRef(i) for i in r['event']['otr']],
+            followingEvent=[URIRef(i) for i in r['event']['doop']])
         abouts.append(event)
 
         identifiers = [PropertyValue(None, name=['GGD id'], value=r['id'])]
@@ -534,6 +556,9 @@ def toRdf(filepath: str, target: str):
 
                 # otr
                 personSameAs += [URIRef(i) for i in p['otr']]
+
+                # doop
+                personSameAs += [URIRef(i) for i in p['doop']]
 
                 # rkd
                 personSameAs += [URIRef(i) for i in p['rkd']]
@@ -621,7 +646,15 @@ def toRdf(filepath: str, target: str):
 
 
 def main():
-    toRdf(filepath=JSONFILE, target='ttl/ggd.ttl')
+
+    # for temp in [(1620, 1630), (1625, 1635), (1630, 1640), (1635, 1645),
+    #              (1640, 1650), (1645, 1655), (1650, 1660), (1655, 1665),
+    #              (1660, 1670)]:
+    #     toRdf(filepath=JSONFILE,
+    #           target=f'ttl/ggd_{temp[0]}-{temp[1]}.ttl',
+    #           temporalConstraint=temp)
+
+    toRdf(filepath=JSONFILE, target=f'ttl/ggd.ttl')
 
 
 if __name__ == "__main__":
