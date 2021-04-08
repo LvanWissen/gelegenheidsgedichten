@@ -48,7 +48,7 @@ class Thing(rdfSubject):
     dateCreated = rdfSingle(schema.dateCreated)
     dateModified = rdfSingle(schema.dateModified)
 
-    subjectOf = rdfSingle(schema.subjectOf)
+    subjectOf = rdfMultiple(schema.subjectOf)
 
     value = rdfSingle(RDF.value)
 
@@ -479,7 +479,7 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
                                           datatype=XSD.date),
             hasPlace=places,
             eventType=eTypes,
-            subjectOf=book,
+            subjectOf=[book],
             label=[Literal(i, lang='nl') for i in r['event']['type'] if i],
             precedingEvent=[URIRef(i) for i in r['event']['otr']],
             followingEvent=[URIRef(i) for i in r['event']['doop']])
@@ -524,12 +524,14 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
                                        hasName=pn,
                                        sameAs=printerSameAs)
 
-                printers.append(
-                    Role(None,
-                         label=labelInverseName,
-                         name=pnLabels,
-                         publishedBy=printer,
-                         hasName=pn))
+                # printers.append(
+                #     Role(None,
+                #          label=labelInverseName,
+                #          name=pnLabels,
+                #          publishedBy=printer,
+                #          hasName=pn))
+                printers.append(printer)
+
             else:
 
                 if p['thesaurus']:
