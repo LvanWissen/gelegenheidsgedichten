@@ -532,21 +532,32 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
                 #          hasName=pn))
                 printers.append(printer)
 
-            else:
+            elif p['role'] != 'Overige functies':
+
+                # for persons, being in the same event also counts
+                pmatch = tuple([r['event']['eventid'], p['person']])
 
                 if p['thesaurus']:
-                    personSameAs = [URIRef(i) for i in p['thesaurus']]
-                    pmatch = tuple(sorted(p['thesaurus']))
+                    personSameAs = []
+                    personURI = None
+
+                    for i in p['thesaurus']:
+                        if 'data.bibliotheken.nl/id/thes/' in i and personURI is None:
+                            personURI = URIRef(i)
+                        else:
+                            personSameAs.append(URIRef(i))
+
+                    if personURI is None:
+                        personURI = person2uri.get(pmatch)
+
+                        if personURI is None:
+                            personURI = ggdPerson.term(str(
+                                next(personCounter)))
+                            person2uri[pmatch] = personURI
 
                 else:
-                    # for persons, being in the same event also counts
-                    pmatch = tuple([r['event']['eventid'], p['person']])
                     personSameAs = []
 
-                # print(pmatch)
-                personURI = person2uri.get(pmatch)
-
-                if personURI is None:
                     personURI = ggdPerson.term(str(next(personCounter)))
                     person2uri[pmatch] = personURI
 
