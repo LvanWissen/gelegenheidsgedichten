@@ -140,7 +140,7 @@ def getRecords(filepath: str):
     return records
 
 
-def getPersons(persons, role=False, recordID=None):
+def getPersons(persons, getRole=False, recordID=None):
 
     plist = []
 
@@ -149,7 +149,8 @@ def getPersons(persons, role=False, recordID=None):
 
     for person in persons:
 
-        if role and '. ' in person:
+        if getRole and '. ' in person:
+
             if person.count('.') > 1:
                 # initials
                 person, role = person.rsplit('.', 1)
@@ -309,7 +310,7 @@ def parseRecord(record: dict):
     if record.get('person'):
         record['person'] = getPersons(record['person'],
                                       recordID=record['id'],
-                                      role=True)
+                                      getRole=True)
 
     if record.get('author'):
         record['author'] = getPersons(record['author'], recordID=record['id'])
