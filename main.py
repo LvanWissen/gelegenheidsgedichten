@@ -532,7 +532,7 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
                 #          hasName=pn))
                 printers.append(printer)
 
-            elif p['role'] != 'Overige functies':
+            elif p['role'] not in ('Overige functies', 'Comp', 'Med', 'Pap'):
 
                 # for persons, being in the same event also counts
                 pmatch = tuple([r['event']['eventid'], p['person']])
@@ -594,7 +594,7 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
                                 gender=gender,
                                 sameAs=personSameAs)
 
-                role = Role(unique(str(personURI) + 'role'),
+                role = Role(unique(p['person'] + r['id'] + 'semrole'),
                             about=person,
                             roleName=p['role'],
                             name=pnLabels,
@@ -603,7 +603,8 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
 
                 # Attach them to the event
                 semRoles.append(
-                    SemRole(unique(str(personURI) + 'semrole'),
+                    SemRole(unique(p['person'] + r['event']['eventid'] +
+                                   'semrole'),
                             value=person,
                             name=pnLabels,
                             roleType=getRoleType(p['role'])))
