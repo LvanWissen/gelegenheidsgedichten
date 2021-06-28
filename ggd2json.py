@@ -154,7 +154,8 @@ def getPersons(persons, getRole=False, recordID=None):
             if person.count('.') > 1:
                 # initials
                 person, role = person.rsplit('.', 1)
-                person += '.'
+                if not person.endswith(')'):  # e.g. (wed.)
+                    person += '.'
             else:
                 person, role = person.rsplit('. ', 1)
 
@@ -305,6 +306,9 @@ def parseRecord(record: dict):
         record['language'] = [languages[record['language']]]
     else:
         record['language'] = [languages[i] for i in record['language']]
+
+    if type(record.get('melody')) != list and record.get('melody'):
+        record['melody'] = [record['melody']]
 
     # persons/roles
     if record.get('person'):
