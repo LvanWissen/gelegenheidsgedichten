@@ -264,7 +264,7 @@
         "Heyn, Pieter Pietersz": ["http://data.bibliotheken.nl/id/thes/p072560029"]
     },
     "202": {
-        "Ernst Casimir (stadh. van Friesland, Groningen en Drente).": ["http://data.bibliotheken.nl/id/thes/p070361401"]
+        "Ernst Casimir (stadh. van Friesland, Groningen en Drente)": ["http://data.bibliotheken.nl/id/thes/p070361401"]
     },
     "206": {
         "Henricides, Guilielmus": ["http://data.bibliotheken.nl/id/thes/p149073836"]
@@ -1606,7 +1606,7 @@
         "Teyler, Jacob": ["http://data.bibliotheken.nl/id/thes/p38104324X"]
     },
     "924": {
-        "Haes, Frans de (c.1658-1690).": ["http://data.bibliotheken.nl/id/thes/p070117322"]
+        "Haes, Frans de (c.1658-1690)": ["http://data.bibliotheken.nl/id/thes/p070117322"]
     },
     "925": {
         "Gargon, Mathys": ["http://data.bibliotheken.nl/id/thes/p070043876"]
@@ -6563,7 +6563,7 @@
         "Basen, Adriaan Zeger": ["http://data.bibliotheken.nl/id/thes/p370155505"]
     },
     "3478": {
-        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/thes/p308232615", "http://data.bibliotheken.nl/id/thes/p071865772"]
+        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/thes/p308232615"]
     },
     "3479": {
         "Harmes, George": ["http://data.bibliotheken.nl/id/thes/p380673533"],
@@ -6940,7 +6940,7 @@
         "Citters, Cornelis van": ["http://data.bibliotheken.nl/id/thes/p239730127"]
     },
     "3677": {
-        "Haes, Frans de (c.1658-1690).": ["http://data.bibliotheken.nl/id/thes/p070117322"],
+        "Haes, Frans de (c.1658-1690)": ["http://data.bibliotheken.nl/id/thes/p070117322"],
         "Haes, Joan de": ["http://data.bibliotheken.nl/id/thes/p070070814"]
     },
     "3678": {
@@ -14377,7 +14377,7 @@
         "Janssens, Micha\u00ebl": ["http://data.bibliotheken.nl/id/thes/p274371995"]
     },
     "6791": {
-        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/thes/p071865772", "http://data.bibliotheken.nl/id/thes/p308232615"],
+        "Haen, Abraham de (1707-1748)": ["http://data.bibliotheken.nl/id/thes/p308232615"],
         "Hartsen, Anthony": ["http://data.bibliotheken.nl/id/thes/p070075956"],
         "Hooft, Louisa": ["http://data.bibliotheken.nl/id/thes/p283034688"],
         "Pater, Lucas": ["http://data.bibliotheken.nl/id/thes/p070248923"]
@@ -14714,8 +14714,7 @@
         "Marck, J.C.J. van der.": ["http://data.bibliotheken.nl/id/thes/p279973233"]
     },
     "6884": {
-        "Bachiene, Philip Jan": ["http://data.bibliotheken.nl/id/thes/p069898057"],
-        "Bachiene, Philip Jan. Overlijden.": ["http://data.bibliotheken.nl/id/thes/p069898057"]
+        "Bachiene, Philip Jan": ["http://data.bibliotheken.nl/id/thes/p069898057"]
     },
     "6885": {
         "Brink, Jan Gerritsz ten": ["http://data.bibliotheken.nl/id/thes/p072942061"],
@@ -14736,7 +14735,7 @@
         "Boomhuys, Jan": ["http://data.bibliotheken.nl/id/thes/p091361036"]
     },
     "6889": {
-        "Gockinga, Scato (c.1720-1799).": ["http://data.bibliotheken.nl/id/thes/p280019599"]
+        "Gockinga, Scato (c.1720-1799)": ["http://data.bibliotheken.nl/id/thes/p280019599"]
     },
     "6890": {
         "Pot, Cornelis van der (1797-1799)": ["http://data.bibliotheken.nl/id/thes/p073530808"],
