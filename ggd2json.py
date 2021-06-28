@@ -154,7 +154,7 @@ def getPersons(persons, getRole=False, recordID=None):
             if person.count('.') > 1:
                 # initials
                 person, role = person.rsplit('.', 1)
-                if not person.endswith(')'):  # e.g. (wed.)
+                if not person.endswith((')', 'van', 'de')):  # e.g. (wed.)
                     person += '.'
             else:
                 person, role = person.rsplit('. ', 1)
