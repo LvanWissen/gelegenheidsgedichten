@@ -1,4 +1,10 @@
 {
+    "1": {
+        "Cervicornus, Eucharius": ["http://thesaurus.cerl.org/record/cni00019600"]
+    },
+    "2": {
+        "Quentel, Heinrich (erven)": ["http://thesaurus.cerl.org/record/cni00024659"]
+    },
     "3": {
         "Raphelengius, Franciscus I": ["http://data.bibliotheken.nl/id/thes/p075556928"]
     },
@@ -45,6 +51,9 @@
     "22": {
         "Haestens, Henrick Lodewijcxsz van": ["http://data.bibliotheken.nl/id/thes/p075547597"],
         "Marcus, Jacob": ["http://data.bibliotheken.nl/id/thes/p075553325"]
+    },
+    "23": {
+        "Paets, Jan Jacobsz": ["http://thesaurus.cerl.org/record/cni00091899"]
     },
     "24": {
         "Maire, Joannes": ["http://data.bibliotheken.nl/id/thes/p075553252"],
@@ -569,6 +578,9 @@
     "226": {
         "Does, Jan Pietersz de": ["http://data.bibliotheken.nl/id/thes/p075544288"]
     },
+    "227": {
+        "Commelin, Isaac": ["http://thesaurus.cerl.org/record/cni00008161"]
+    },
     "228": {
         "Wieringen, Nicolaes van": ["http://data.bibliotheken.nl/id/thes/p075564823"]
     },
@@ -813,6 +825,9 @@
     },
     "315": {
         "Roman, Aegidius": ["http://data.bibliotheken.nl/id/thes/p075557231"]
+    },
+    "317": {
+        "Crivellari, Giulio": ["http://thesaurus.cerl.org/record/cni00034759"]
     },
     "318": {
         "Matthijsz, Paulus (erven)": ["http://data.bibliotheken.nl/id/thes/p075553511"],
@@ -1072,6 +1087,9 @@
     "412": {
         "Paddenburgh, Amelis Janssz van": ["http://data.bibliotheken.nl/id/thes/p075555123"]
     },
+    "415": {
+        "C\u00f6llen, Jan": ["http://thesaurus.cerl.org/record/cni00028574"]
+    },
     "417": {
         "Rex, Jozua": ["http://data.bibliotheken.nl/id/thes/p075557177"],
         "Roest, Adriaen Hermansz": ["http://data.bibliotheken.nl/id/thes/p075565757"]
@@ -1131,6 +1149,9 @@
     },
     "439": {
         "Geervliet, Abraham": ["http://data.bibliotheken.nl/id/thes/p07554637X"]
+    },
+    "441": {
+        "C\u00f6llen, Jan": ["http://thesaurus.cerl.org/record/cni00028574"]
     },
     "442": {
         "Wild', Baltus de": ["http://data.bibliotheken.nl/id/thes/p075564858"]
@@ -1301,6 +1322,9 @@
     "510": {
         "Vlacq, Adriaen": ["http://data.bibliotheken.nl/id/thes/p075563118"]
     },
+    "511": {
+        "Wees, Abraham de (wed.)": ["http://thesaurus.cerl.org/record/cni00098273"]
+    },
     "512": {
         "Wellens, Johannes": ["http://data.bibliotheken.nl/id/thes/p075564513"]
     },
@@ -1343,6 +1367,9 @@
     },
     "528": {
         "Croy, Philippe de": ["http://data.bibliotheken.nl/id/thes/p075543656"]
+    },
+    "529": {
+        "Wees, Abraham de I (wed.)": ["http://thesaurus.cerl.org/record/cni00098273"]
     },
     "530": {
         "Colomp, Jan": ["http://data.bibliotheken.nl/id/thes/p075542773"]
@@ -2174,6 +2201,9 @@
     "914": {
         "Rieuwertsz, Jan II": ["http://data.bibliotheken.nl/id/thes/p075565587"]
     },
+    "915": {
+        "Commelin, Caspar": ["http://thesaurus.cerl.org/record/cni00062633"]
+    },
     "916": {
         "Linde, Simon onder de": ["http://data.bibliotheken.nl/id/thes/p07555254X"]
     },
@@ -2769,6 +2799,9 @@
     },
     "1201": {
         "Damme, Hendrik van I (wed.)": ["http://data.bibliotheken.nl/id/thes/p075543826"]
+    },
+    "1203": {
+        "Schelte, Antoine (erven)": ["http://thesaurus.cerl.org/record/cni00010131"]
     },
     "1204": {
         "Coup, Willem de": ["http://data.bibliotheken.nl/id/thes/p075543419"]
@@ -3396,6 +3429,9 @@
     "1499": {
         "Hoogenhuysen, Cornelis van": ["http://data.bibliotheken.nl/id/thes/p075549042"]
     },
+    "1500": {
+        "Ratelband, Johannes I": ["http://thesaurus.cerl.org/record/cni00042988"]
+    },
     "1501": {
         "Damme, Andries van": ["http://data.bibliotheken.nl/id/thes/p075543796"]
     },
@@ -3688,6 +3724,9 @@
     "1646": {
         "Velsen, Johannes van": ["http://data.bibliotheken.nl/id/thes/p137175949"]
     },
+    "1650": {
+        "Cattepoel, Johann (erven)": ["http://thesaurus.cerl.org/record/cni00033188"]
+    },
     "1652": {
         "Geldorp, Jan Gerritsz (wed.)": ["http://data.bibliotheken.nl/id/thes/p075546426"]
     },
@@ -3714,6 +3753,9 @@
     },
     "1664": {
         "Water, Willem van de I": ["http://data.bibliotheken.nl/id/thes/p07556436X"]
+    },
+    "1666": {
+        "Wiering, Thomas van (erven)": ["http://thesaurus.cerl.org/record/cni00032288"]
     },
     "1674": {
         "Berge, Pieter van den II": ["http://data.bibliotheken.nl/id/thes/p075538954"]
@@ -3926,7 +3968,8 @@
         "Gaete, Hendrik van de": ["http://data.bibliotheken.nl/id/thes/p135790581"]
     },
     "1811": {
-        "Fritsch, Caspar": ["http://data.bibliotheken.nl/id/thes/p075567318"]
+        "Fritsch, Caspar": ["http://data.bibliotheken.nl/id/thes/p075567318"],
+        "B\u00f6hm, Michel": ["http://thesaurus.cerl.org/record/cni00081600"]
     },
     "1812": {
         "Doesburg, Reinier van": ["http://data.bibliotheken.nl/id/thes/p075544296"]
@@ -4466,6 +4509,9 @@
     "2198": {
         "Velsen, Johannes van": ["http://data.bibliotheken.nl/id/thes/p137175949"]
     },
+    "2199": {
+        "B\u00f6hm, Michel": ["http://thesaurus.cerl.org/record/cni00081600"]
+    },
     "2200": {
         "Bos, Nicolaas (wed.)": ["http://data.bibliotheken.nl/id/thes/p134541219"]
     },
@@ -4487,6 +4533,9 @@
     "2207": {
         "Bos, Barent": ["http://data.bibliotheken.nl/id/thes/p075539934"]
     },
+    "2208": {
+        "B\u00f6hm, Michel": ["http://thesaurus.cerl.org/record/cni00081600"]
+    },
     "2209": {
         "Oosterwyk, Joannes": ["http://data.bibliotheken.nl/id/thes/p07555495X"]
     },
@@ -4496,8 +4545,17 @@
     "2211": {
         "Oosterwyk, Joannes": ["http://data.bibliotheken.nl/id/thes/p07555495X"]
     },
+    "2212": {
+        "Cattepoel, Johann (erven)": ["http://thesaurus.cerl.org/record/cni00033188"]
+    },
+    "2214": {
+        "Cattepoel, Johann (erven)": ["http://thesaurus.cerl.org/record/cni00033188"]
+    },
     "2216": {
         "Gaete, Hendrik van de": ["http://data.bibliotheken.nl/id/thes/p135790581"]
+    },
+    "2220": {
+        "Cattepoel, Johann (erven)": ["http://thesaurus.cerl.org/record/cni00033188"]
     },
     "2222": {
         "Oosterwyk, Joannes": ["http://data.bibliotheken.nl/id/thes/p07555495X"]
@@ -4537,6 +4595,9 @@
     },
     "2242": {
         "Paddenburg, Gijsbert van": ["http://data.bibliotheken.nl/id/thes/p136569374"]
+    },
+    "2243": {
+        "B\u00f6hm, Michel": ["http://thesaurus.cerl.org/record/cni00081600"]
     },
     "2244": {
         "Slaats, Gerrit (wed.)": ["http://data.bibliotheken.nl/id/thes/p137054769"]
@@ -4689,6 +4750,9 @@
     },
     "2346": {
         "Poulle, A\u00e4ron van II": ["http://data.bibliotheken.nl/id/thes/p13658909X"]
+    },
+    "2349": {
+        "B\u00f6hm, Michel": ["http://thesaurus.cerl.org/record/cni00081600"]
     },
     "2350": {
         "Hofhout, Johannes I": ["http://data.bibliotheken.nl/id/thes/p13633606X"]
@@ -5451,6 +5515,9 @@
     "2868": {
         "Houten, Jan ten I": ["http://data.bibliotheken.nl/id/thes/p136416551"]
     },
+    "2869": {
+        "Ratelband, Johannes I": ["http://thesaurus.cerl.org/record/cni00042988"]
+    },
     "2870": {
         "Lobedanius, Arnoldus": ["http://data.bibliotheken.nl/id/thes/p18107348X"]
     },
@@ -5965,6 +6032,9 @@
     },
     "3245": {
         "Spijck, Joan van der": ["http://data.bibliotheken.nl/id/thes/p075559900"]
+    },
+    "3250": {
+        "Ensched\u00e9, Izaak": ["http://thesaurus.cerl.org/record/cni00038712"]
     },
     "3256": {
         "Esch, Willem van": ["http://data.bibliotheken.nl/id/thes/p135784042"],
@@ -6718,6 +6788,10 @@
         "Gerrevink, Bernardus van": ["http://data.bibliotheken.nl/id/thes/p136048366"],
         "Ratelband, Johannes I (erven)": ["http://data.bibliotheken.nl/id/thes/p13659395X"]
     },
+    "3957": {
+        "Harmes, Heinrich": ["http://thesaurus.cerl.org/record/cni00076585"],
+        "H\u00fcter": ["http://thesaurus.cerl.org/record/cni00077105"]
+    },
     "3958": {
         "Semeins, Meinard": ["http://data.bibliotheken.nl/id/thes/p137051409"]
     },
@@ -7024,7 +7098,8 @@
         "Meyer, Pieter": ["http://data.bibliotheken.nl/id/thes/p136534724"]
     },
     "4189": {
-        "Ensched\u00e9, Johannes I": ["http://data.bibliotheken.nl/id/thes/p135772885"]
+        "Ensched\u00e9, Johannes I": ["http://data.bibliotheken.nl/id/thes/p135772885"],
+        "Ensched\u00e9, Izaak": ["http://thesaurus.cerl.org/record/cni00038712"]
     },
     "4190": {
         "Crajenschot, Theodorus": ["http://data.bibliotheken.nl/id/thes/p135390338"]
@@ -7258,7 +7333,8 @@
     },
     "4368": {
         "Swerus, Harmanus": ["http://data.bibliotheken.nl/id/thes/p137098324"],
-        "Bemmel, Ms. van": ["http://data.bibliotheken.nl/id/thes/p128182342"]
+        "Bemmel, Ms. van": ["http://data.bibliotheken.nl/id/thes/p128182342"],
+        "Bemmel, Ms. van.": ["http://data.bibliotheken.nl/id/thes/p128182342"]
     },
     "4370": {
         "Tirion, Isaak": ["http://data.bibliotheken.nl/id/thes/p137121547"]
@@ -7536,6 +7612,9 @@
     },
     "4566": {
         "Woude, Joris van der": ["http://data.bibliotheken.nl/id/thes/p138341877"]
+    },
+    "4568": {
+        "Winter, Johann Christian": ["http://thesaurus.cerl.org/record/cni00030957"]
     },
     "4569": {
         "Taillefert, Louis Davidsz": ["http://data.bibliotheken.nl/id/thes/p137102275"]
@@ -8049,7 +8128,8 @@
         "Broekhuysen, Jan": ["http://data.bibliotheken.nl/id/thes/p134791819"],
         "Tjallingius, Tjalling": ["http://data.bibliotheken.nl/id/thes/p137121652"],
         "Bosch, Jacobus": ["http://data.bibliotheken.nl/id/thes/p134540891"],
-        "Beukelman, Reinier (wed.)": ["http://data.bibliotheken.nl/id/thes/p128213116"]
+        "Beukelman, Reinier (wed.)": ["http://data.bibliotheken.nl/id/thes/p128213116"],
+        "Beukelman, wed. Reinier.": ["http://data.bibliotheken.nl/id/thes/p128213116"]
     },
     "4913": {
         "Gaillard, Mattheus": ["http://data.bibliotheken.nl/id/thes/p135790891"]
@@ -9878,6 +9958,9 @@
     "6351": {
         "Paddenburg, Abraham van": ["http://data.bibliotheken.nl/id/thes/p075576481"]
     },
+    "6352": {
+        "Stryckwant, Ae.C.": ["http://thesaurus.cerl.org/record/cni00085991"]
+    },
     "6354": {
         "Uylenbroek, Pieter Johannes": ["http://data.bibliotheken.nl/id/thes/p137125771"]
     },
@@ -9982,7 +10065,8 @@
         "Sluyter, Johannes Albertus": ["http://data.bibliotheken.nl/id/thes/p137055870"]
     },
     "6481": {
-        "Ginkel, As.Js. van": ["http://data.bibliotheken.nl/id/thes/p136052762"]
+        "Ginkel, As.Js. van": ["http://data.bibliotheken.nl/id/thes/p136052762"],
+        "Ginkel, As.Js. van.": ["http://data.bibliotheken.nl/id/thes/p136052762"]
     },
     "6484": {
         "Jongh, Izaak de": ["http://data.bibliotheken.nl/id/thes/p136443125"]
@@ -10016,6 +10100,9 @@
     },
     "6551": {
         "Schoonhoven, Johannes van (wed.)": ["http://data.bibliotheken.nl/id/thes/p137047185"]
+    },
+    "6553": {
+        "Ensched\u00e9, Johannes II": ["http://thesaurus.cerl.org/record/cni00096914"]
     },
     "6581": {
         "Kraefft, Johan Philip": ["http://data.bibliotheken.nl/id/thes/p13539015X"]
