@@ -1503,7 +1503,7 @@
     },
     "766": {
         "Hoogstraten, David van": ["http://data.bibliotheken.nl/id/thes/p070087822"],
-        "Bracht, Pieter van": ["http://data.bibliotheken.nl/id/thes/p297240099"],
+        "Bracht, Pieter van": ["http://data.bibliotheken.nl/id/thes/p394446100"],
         "Hoogstraeten, Fran\u00e7ois van": ["http://data.bibliotheken.nl/id/thes/p068382472"],
         "Hoogstraten, Jan van": ["http://data.bibliotheken.nl/id/thes/p070466181"]
     },
@@ -2025,7 +2025,7 @@
         "Bredenburg, Johannes (Jr)": ["http://data.bibliotheken.nl/id/thes/p074713183"]
     },
     "965": {
-        "Bredenburg, Johannes (Jr)": ["http://data.bibliotheken.nl/id/thes/p069671176", "http://data.bibliotheken.nl/id/thes/p074713183"],
+        "Bredenburg, Johannes (Jr)": ["http://data.bibliotheken.nl/id/thes/p074713183"],
         "Oudaan, Joachim (1628-1692)": ["http://data.bibliotheken.nl/id/thes/p069905428"],
         "Brandt, Caspar": ["http://data.bibliotheken.nl/id/thes/p069591377"],
         "Geel, Joost van": ["http://data.bibliotheken.nl/id/thes/p069523347"],
@@ -3700,7 +3700,7 @@
         "Bochoven, Fran\u00e7ois van": ["http://data.bibliotheken.nl/id/thes/p070371989"]
     },
     "1535": {
-        "Witt, Joan de (1694-1751)": ["http://data.bibliotheken.nl/id/thes/p074857983", "http://data.bibliotheken.nl/id/thes/p239810570"]
+        "Witt, Joan de (1694-1751)": ["http://data.bibliotheken.nl/id/thes/p239810570"]
     },
     "1536": {
         "Hoogstraten, David van": ["http://data.bibliotheken.nl/id/thes/p070087822"]
@@ -5716,7 +5716,7 @@
         "Braam, Joannes van": ["http://data.bibliotheken.nl/id/thes/p071990968"]
     },
     "2127": {
-        "Borsboom, Hendrik": ["http://data.bibliotheken.nl/id/thes/p193146231"],
+        "Borsboom, Hendrik": ["http://data.bibliotheken.nl/id/thes/p07489885X"],
         "Borsboom, Kornelis": ["http://data.bibliotheken.nl/id/thes/p193146231"]
     },
     "2128": {
@@ -7238,7 +7238,7 @@
         "Langendyk, Pieter": ["http://data.bibliotheken.nl/id/thes/p068228619"],
         "Bruin, Claas": ["http://data.bibliotheken.nl/id/thes/p069956782"],
         "Geldorp, Jan": ["http://data.bibliotheken.nl/id/thes/p294509275"],
-        "Tideman, Johannes": ["http://data.bibliotheken.nl/id/thes/p310290481"]
+        "Tideman, Johannes": []
     },
     "2540": {
         "Wellekens, Jan Baptista": ["http://data.bibliotheken.nl/id/thes/p070069492"],
@@ -7867,7 +7867,7 @@
     },
     "2696": {
         "Orville, Jacobus Philippus d'": ["http://data.bibliotheken.nl/id/thes/p069947112"],
-        "Orville, Petrus d'": ["http://data.bibliotheken.nl/id/thes/p069947112", "http://data.bibliotheken.nl/id/thes/p069949883"]
+        "Orville, Petrus d'": ["http://data.bibliotheken.nl/id/thes/p069949883"]
     },
     "2697": {
         "Lam, Claas 't": ["http://data.bibliotheken.nl/id/thes/p338655654"]
@@ -8729,11 +8729,11 @@
         "Tam\u00e9, Tileman": ["http://data.bibliotheken.nl/id/thes/p174239084"]
     },
     "2961": {
-        "Hoogeveen, Jan (1736-)": ["http://data.bibliotheken.nl/id/thes/p304004952"],
+        "Hoogeveen, Jan (1736-)": ["http://data.bibliotheken.nl/id/thes/p071545964"],
         "Hoogeveen, Jan (1671-1730)": ["http://data.bibliotheken.nl/id/thes/p304004952"]
     },
     "2962": {
-        "Hoogeveen, Jan (1736-)": ["http://data.bibliotheken.nl/id/thes/p304004952"],
+        "Hoogeveen, Jan (1736-)": ["http://data.bibliotheken.nl/id/thes/p071545964"],
         "Hoogeveen, Jan (1671-1730)": ["http://data.bibliotheken.nl/id/thes/p304004952"]
     },
     "2963": {
@@ -9325,7 +9325,7 @@
     },
     "3145": {
         "Sluyter, Adolph": ["http://data.bibliotheken.nl/id/thes/p184246911"],
-        "Coets, Fransina Jacoba, geb. van Westrem,": ["http://data.bibliotheken.nl/id/thes/p069982325"]
+        "Coets, Fransina Jacoba, geb. van Westrem": ["http://data.bibliotheken.nl/id/thes/p069982325"]
     },
     "3147": {
         "Bosch, Bernardus de": ["http://data.bibliotheken.nl/id/thes/p069948046"],
@@ -9333,7 +9333,7 @@
         "Smidt, Petrus": ["http://data.bibliotheken.nl/id/thes/p10960234X"]
     },
     "3148": {
-        "Coets, Fransina Jacoba, geb. van Westrem,": ["http://data.bibliotheken.nl/id/thes/p069982325"]
+        "Coets, Fransina Jacoba, geb. van Westrem": ["http://data.bibliotheken.nl/id/thes/p069982325"]
     },
     "3149": {
         "Langendyk, Pieter": ["http://data.bibliotheken.nl/id/thes/p068228619"]
@@ -9361,7 +9361,7 @@
         "Alberti, Joan": ["http://data.bibliotheken.nl/id/thes/p069861463"],
         "Groe, Simon Lodewyk van der": ["http://data.bibliotheken.nl/id/thes/p273419129"],
         "Haverkamp, Abraham Sigebertsz": ["http://data.bibliotheken.nl/id/thes/p070076758"],
-        "Haverkamp, Everhard Sigebertsz": ["http://data.bibliotheken.nl/id/thes/p070076758"],
+        "Haverkamp, Everhard Sigebertsz": ["http://data.bibliotheken.nl/id/thes/p07170616X"],
         "Ravesteyn, Katharina Lusia van": ["http://data.bibliotheken.nl/id/thes/p074906224"]
     },
     "3159": {
@@ -9556,7 +9556,7 @@
     },
     "3218": {
         "Haverkamp, Abraham Sigebertsz": ["http://data.bibliotheken.nl/id/thes/p070076758"],
-        "Haverkamp, Everhard Sigebertsz": ["http://data.bibliotheken.nl/id/thes/p070076758"],
+        "Haverkamp, Everhard Sigebertsz": ["http://data.bibliotheken.nl/id/thes/p07170616X"],
         "Orsoy, Jan Arnold van": ["http://data.bibliotheken.nl/id/thes/p239811224"]
     },
     "3219": {
@@ -11860,7 +11860,7 @@
         "Verlaan, Hilbrand": ["http://data.bibliotheken.nl/id/thes/p189199563"]
     },
     "3945": {
-        "Verlaan, Cornelia": ["http://data.bibliotheken.nl/id/thes/p338646523"],
+        "Verlaan, Cornelia": ["http://data.bibliotheken.nl/id/thes/p33864654X"],
         "Verlaan, Simon": ["http://data.bibliotheken.nl/id/thes/p338646523"],
         "Verlaan, Jan (Jr)": ["http://data.bibliotheken.nl/id/thes/p338646566"]
     },
@@ -11951,8 +11951,8 @@
     },
     "3981": {
         "Groot, Christiaen de (Antoonz)": ["http://data.bibliotheken.nl/id/thes/p191563544"],
-        "Groot, Steven de (Antoonz)": ["http://data.bibliotheken.nl/id/thes/p191563544"],
-        "Groot, Willem de (Antoonz)": ["http://data.bibliotheken.nl/id/thes/p191563544"]
+        "Groot, Steven de (Antoonz)": ["http://data.bibliotheken.nl/id/thes/p191563684"],
+        "Groot, Willem de (Antoonz)": ["http://data.bibliotheken.nl/id/thes/p191563641"]
     },
     "3982": {
         "Higt, Ernst Willem": ["http://data.bibliotheken.nl/id/thes/p069955034"],
@@ -12105,7 +12105,7 @@
     },
     "4025": {
         "Luzac, Elie (1723-1796)": ["http://data.bibliotheken.nl/id/thes/p070122520"],
-        "Luzac, Elie (1684-1759)": ["http://data.bibliotheken.nl/id/thes/p070122520"],
+        "Luzac, Elie (1684-1759)": [],
         "Luzac, Etienne": ["http://data.bibliotheken.nl/id/thes/p069855935"],
         "Luzac, Isaac-Elie": ["http://data.bibliotheken.nl/id/thes/p344732525"]
     },
@@ -14369,7 +14369,7 @@
         "Vliet, Jan van": ["http://data.bibliotheken.nl/id/thes/p11522730X"]
     },
     "4730": {
-        "Oosterdyk, Hermannus Joannesz": ["http://data.bibliotheken.nl/id/thes/p069949662"],
+        "Oosterdyk, Hermannus Joannesz": ["http://data.bibliotheken.nl/id/thes/p193150999"],
         "Oosterdyk, Hermannus Gerardus": ["http://data.bibliotheken.nl/id/thes/p069949662"]
     },
     "4731": {
@@ -14515,7 +14515,7 @@
     },
     "4788": {
         "Keppel, Henricus Hubertus": ["http://data.bibliotheken.nl/id/thes/p19499113X"],
-        "Keppel, Margareta Petronella": ["http://data.bibliotheken.nl/id/thes/p19499113X"]
+        "Keppel, Margareta Petronella": ["http://data.bibliotheken.nl/id/thes/p194991180"]
     },
     "4789": {
         "Mill, Susanna Maria": ["http://data.bibliotheken.nl/id/thes/p189534583"],
@@ -15110,7 +15110,7 @@
         "Zweerts, Philip": ["http://data.bibliotheken.nl/id/thes/p087429624"]
     },
     "4981": {
-        "Keppel, Margareta Petronella": ["http://data.bibliotheken.nl/id/thes/p19499113X"]
+        "Keppel, Margareta Petronella": ["http://data.bibliotheken.nl/id/thes/p194991180"]
     },
     "4982": {
         "Zweerts, Philip (Jr)": ["http://data.bibliotheken.nl/id/thes/p087429624"],
@@ -15332,7 +15332,7 @@
     },
     "5046": {
         "Keppel, Henricus Hubertus": ["http://data.bibliotheken.nl/id/thes/p19499113X"],
-        "Keppel, Margareta Petronella": ["http://data.bibliotheken.nl/id/thes/p19499113X"],
+        "Keppel, Margareta Petronella": ["http://data.bibliotheken.nl/id/thes/p194991180"],
         "Nahuys, Gerard Johan": ["http://data.bibliotheken.nl/id/thes/p07167070X"],
         "Nahuys, Rudolphus Henricus": ["http://data.bibliotheken.nl/id/thes/p205153615"]
     },
@@ -15366,7 +15366,7 @@
     },
     "5055": {
         "Breur, Maria": ["http://data.bibliotheken.nl/id/thes/p363979204"],
-        "Keppel, Margareta Petronella": ["http://data.bibliotheken.nl/id/thes/p19499113X"],
+        "Keppel, Margareta Petronella": ["http://data.bibliotheken.nl/id/thes/p194991180"],
         "Reguleth, Daniel Albert": ["http://data.bibliotheken.nl/id/thes/p068543352"]
     },
     "5056": {
@@ -15450,7 +15450,7 @@
     },
     "5092": {
         "Keppel, Henricus Hubertus": ["http://data.bibliotheken.nl/id/thes/p19499113X"],
-        "Keppel, Margareta Petronella": ["http://data.bibliotheken.nl/id/thes/p19499113X"]
+        "Keppel, Margareta Petronella": ["http://data.bibliotheken.nl/id/thes/p194991180"]
     },
     "5093": {
         "Callenburch Baartmans, Hester Wilhelmina": ["http://data.bibliotheken.nl/id/thes/p071623302"],
@@ -15511,7 +15511,7 @@
     },
     "5122": {
         "Keppel, Henricus Hubertus": ["http://data.bibliotheken.nl/id/thes/p19499113X"],
-        "Keppel, Margareta Petronella": ["http://data.bibliotheken.nl/id/thes/p19499113X"]
+        "Keppel, Margareta Petronella": ["http://data.bibliotheken.nl/id/thes/p194991180"]
     },
     "5123": {
         "Groeneveldt, Jan": ["http://data.bibliotheken.nl/id/thes/p194923185"]
@@ -15925,7 +15925,7 @@
     },
     "5290": {
         "Keppel, Henricus Hubertus": ["http://data.bibliotheken.nl/id/thes/p19499113X"],
-        "Keppel, Margareta Petronella": ["http://data.bibliotheken.nl/id/thes/p19499113X"]
+        "Keppel, Margareta Petronella": ["http://data.bibliotheken.nl/id/thes/p194991180"]
     },
     "5291": {
         "Woordhouder, Toussaint": ["http://data.bibliotheken.nl/id/thes/p070056579"],
@@ -16058,7 +16058,7 @@
     },
     "5339": {
         "Keppel, Henricus Hubertus": ["http://data.bibliotheken.nl/id/thes/p19499113X"],
-        "Keppel, Margareta Petronella": ["http://data.bibliotheken.nl/id/thes/p19499113X"]
+        "Keppel, Margareta Petronella": ["http://data.bibliotheken.nl/id/thes/p194991180"]
     },
     "5343": {
         "Woordhouder, Toussaint": ["http://data.bibliotheken.nl/id/thes/p070056579"],
@@ -16154,7 +16154,7 @@
     },
     "5369": {
         "Keppel, Henricus Hubertus": ["http://data.bibliotheken.nl/id/thes/p19499113X"],
-        "Keppel, Margareta Petronella": ["http://data.bibliotheken.nl/id/thes/p19499113X"]
+        "Keppel, Margareta Petronella": ["http://data.bibliotheken.nl/id/thes/p194991180"]
     },
     "5370": {
         "Boskoop, Bartholomeus van": ["http://data.bibliotheken.nl/id/thes/p185347142"]
@@ -16366,7 +16366,7 @@
     },
     "5440": {
         "Keppel, Henricus Hubertus": ["http://data.bibliotheken.nl/id/thes/p19499113X"],
-        "Keppel, Margareta Petronella": ["http://data.bibliotheken.nl/id/thes/p19499113X"]
+        "Keppel, Margareta Petronella": ["http://data.bibliotheken.nl/id/thes/p194991180"]
     },
     "5441": {
         "Mareeuw, Jacobus": ["http://data.bibliotheken.nl/id/thes/p15683507X"]
@@ -16686,7 +16686,7 @@
     },
     "5564": {
         "Hoogeveen, Henricus": ["http://data.bibliotheken.nl/id/thes/p069292256"],
-        "Hoogeveen, Jan (1736-)": ["http://data.bibliotheken.nl/id/thes/p069292256", "http://data.bibliotheken.nl/id/thes/p071545964"]
+        "Hoogeveen, Jan (1736-)": ["http://data.bibliotheken.nl/id/thes/p071545964"]
     },
     "5565": {
         "Bas, Willem de": ["http://data.bibliotheken.nl/id/thes/p19711654X"]
@@ -18715,7 +18715,7 @@
         "Scholl, Eberhardus Henricus": ["http://data.bibliotheken.nl/id/thes/p185673902"]
     },
     "6270": {
-        "Bilderdijk, Catharina Rebecca, geb. Woesthoven": ["http://data.bibliotheken.nl/id/thes/p06847685X"],
+        "Bilderdijk, Catharina Rebecca, geb. Woesthoven": ["http://data.bibliotheken.nl/id/thes/p070666415"],
         "Bilderdijk, Willem": ["http://data.bibliotheken.nl/id/thes/p06847685X"]
     },
     "6271": {
@@ -19500,7 +19500,7 @@
         "Ruloffs, Bartholomeus": ["http://data.bibliotheken.nl/id/thes/p071543635"]
     },
     "6601": {
-        "Bilderdijk, Catharina Rebecca, geb. Woesthoven": ["http://data.bibliotheken.nl/id/thes/p06847685X"],
+        "Bilderdijk, Catharina Rebecca, geb. Woesthoven": ["http://data.bibliotheken.nl/id/thes/p070666415"],
         "Stockum, Wilhelmus Petrus van": ["http://data.bibliotheken.nl/id/thes/p071558608"],
         "Outhuys, Gerard": ["http://data.bibliotheken.nl/id/thes/p070412278"],
         "Sobels, Johan Matthys": ["http://data.bibliotheken.nl/id/thes/p070659478"],
@@ -19854,7 +19854,7 @@
         "Tegneus, Frederika Alida": ["http://data.bibliotheken.nl/id/thes/p273781847"]
     },
     "6736": {
-        "Bronkhorst, Isaac*": ["http://data.bibliotheken.nl/id/thes/p273781065"],
+        "Bronkhorst, Isaac": ["http://data.bibliotheken.nl/id/thes/p273781065"],
         "Elikink, Bernardus": ["http://data.bibliotheken.nl/id/thes/p070018685"]
     },
     "6738": {

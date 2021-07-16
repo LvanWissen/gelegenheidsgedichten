@@ -856,7 +856,7 @@
         "Pesser, Johan": ["http://data.bibliotheken.nl/id/thes/p138430802"]
     },
     "616": {
-        "Broen, Gerrit de": ["http://data.bibliotheken.nl/id/thes/p069754373"]
+        "Broen, Gerrit de": []
     },
     "617": {
         "Brienen, Margareta van": ["http://data.bibliotheken.nl/id/thes/p380729059"],
@@ -3222,7 +3222,7 @@
     },
     "1632": {
         "Witt, Cornelis de (1623-1672)": ["http://data.bibliotheken.nl/id/thes/p069501068"],
-        "Witt, Joan de (1694-1751)": ["http://data.bibliotheken.nl/id/thes/p239810570", "http://data.bibliotheken.nl/id/thes/p074857983"],
+        "Witt, Joan de (1694-1751)": ["http://data.bibliotheken.nl/id/thes/p239810570"],
         "Muys van Holy, Simon": ["http://viaf.org/viaf/8841157342856310100004"],
         "Witt, Cornelis de (1696-1769)": ["http://data.bibliotheken.nl/id/thes/p070055262"],
         "Witt, Joan de (1625-1672)": ["http://data.bibliotheken.nl/id/thes/p068632320"]
@@ -6853,7 +6853,7 @@
         "Tooren, Adriana van der": ["http://data.bibliotheken.nl/id/thes/p380670720"]
     },
     "3633": {
-        "Bosschaart, Martinus": ["https://viaf.org/processed/NTA%7C431207291"]
+        "Bosschaart, Martinus": ["http://data.bibliotheken.nl/id/thes/p431207291"]
     },
     "3634": {
         "Alberthoma, Albertus (1687-1758)": ["http://data.bibliotheken.nl/id/thes/p074100785"]
@@ -7295,7 +7295,7 @@
         "Clemens, Herman Gideon": ["http://data.bibliotheken.nl/id/thes/p081484607"]
     },
     "3852": {
-        "Bosschaart, Martinus": ["https://viaf.org/processed/NTA%7C431207291"]
+        "Bosschaart, Martinus": ["http://data.bibliotheken.nl/id/thes/p431207291"]
     },
     "3853": {
         "Hartsinck, Jan Jacob": ["http://data.bibliotheken.nl/id/thes/p070075999"]
@@ -7857,7 +7857,7 @@
         "Wigman, Antonius de": ["http://data.bibliotheken.nl/id/thes/p240676467"]
     },
     "4088": {
-        "Schippers, Petrus Leonardus": ["https://www.google.com/search?q=128648589&rlz=1C1GGRV_enNL751NL751&oq=128648589&aqs=chrome..69i57j69i60.313j0j4&sourceid=chrome&ie=UTF-8"]
+        "Schippers, Petrus Leonardus": []
     },
     "4089": {
         "Groenhout, Theodora Maria": ["http://data.bibliotheken.nl/id/thes/p242737587"],
@@ -13638,7 +13638,7 @@
         "Moens, Adriana": ["http://data.bibliotheken.nl/id/thes/p353183857"]
     },
     "6549": {
-        "Bilderdijk, Catharina Rebecca, geb": ["http://data.bibliotheken.nl/id/thes/p070666415"]
+        "Bilderdijk, Catharina Rebecca, geb. Woesthoven": ["http://data.bibliotheken.nl/id/thes/p070666415"]
     },
     "6550": {
         "Olkers, H.E.": ["http://data.bibliotheken.nl/id/thes/p212390988"],

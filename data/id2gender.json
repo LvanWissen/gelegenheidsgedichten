@@ -35571,7 +35571,7 @@
     "6270": {
         "Bilderdijk, Wilhelmina Photina Elisabeth": "http://schema.org/Female",
         "Bilderdijk, Willem": "http://schema.org/Male",
-        "Bilderdijk, Catharina Rebecca, geb. Woesthoven": "http://schema.org/Male"
+        "Bilderdijk, Catharina Rebecca, geb. Woesthoven": "http://schema.org/Female"
     },
     "6271": {
         "Haverkorn, Willem Willemsz": "http://schema.org/Male",
@@ -37119,7 +37119,7 @@
         "Os, Jan van": "http://schema.org/Male",
         "Boon van Ostade, Gerrit": "http://schema.org/Male",
         "Epen, Cornelius van": "http://schema.org/Male",
-        "Bilderdijk, Catharina Rebecca, geb. Woesthoven": "http://schema.org/Male",
+        "Bilderdijk, Catharina Rebecca, geb. Woesthoven": "http://schema.org/Female",
         "Bolderman, Joannes": "http://schema.org/Male",
         "Woesthof, Arnoldus Albertus": "http://schema.org/Male",
         "Outhuys, Gerard": "http://schema.org/Male",
@@ -37786,7 +37786,7 @@
         "Kampen, Johanna van": "http://schema.org/Female",
         "Elikink, Bernardus": "http://schema.org/Male",
         "Kampen, Michael Johan van": "http://schema.org/Male",
-        "Bronkhorst, Isaac*": "http://schema.org/Male"
+        "Bronkhorst, Isaac": "http://schema.org/Male"
     },
     "6737": {
         "Bronkhorst, Adriana Charlotta van": "http://schema.org/Female",
