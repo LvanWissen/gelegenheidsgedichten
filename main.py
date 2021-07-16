@@ -21,10 +21,9 @@ gaThes = Namespace(
 
 ggdItem = Namespace('http://data.bibliotheken.nl/id/dataset/ggd/item/')
 ggdEvent = Namespace('http://data.bibliotheken.nl/id/dataset/ggd/event/')
-ggdAuthor = Namespace('http://data.bibliotheken.nl/id/dataset/ggd/author/')
-ggdPrinter = Namespace('http://data.bibliotheken.nl/id/dataset/ggd/printer/')
-ggdPerson = Namespace('http://data.bibliotheken.nl/id/dataset/ggd/person/')
-ggdPlace = Namespace('http://data.bibliotheken.nl/id/dataset/ggd/place/')
+ggdAuthor = Namespace('https://data.create.humanities.uva.nl/id/ggd/author/')
+ggdPrinter = Namespace('https://data.create.humanities.uva.nl/id/ggd/printer/')
+ggdPerson = Namespace('https://data.create.humanities.uva.nl/id/ggd/person/')
 
 JSONFILE = 'data/ggd.json'
 
@@ -175,6 +174,13 @@ class PersonName(Thing):
     disambiguatingDescription = rdfSingle(pnv.disambiguatingDescription)
     patronym = rdfSingle(pnv.patronym)
     surname = rdfSingle(pnv.surname)
+
+
+class MusicComposition(Thing):
+    rdf_type = schema.MusicComposition
+
+    musicArrangement = rdfMultiple(schema.musicArrangement)
+    lyrics = rdfMultiple(schema.lyrics)
 
 
 def unique(*args):
@@ -407,6 +413,7 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
 
         book = Book(ggd.term(r['id']),
                     name=[r['title']] if r['title'] else [],
+                    label=[r['title']] if r['title'] else [],
                     inLanguage=r['language'],
                     author=authors,
                     bibliographicFormat=r.get('format'),
@@ -427,9 +434,12 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
         if printPlace:
             if printPlace['thesaurus']:
                 printPlace = Place(URIRef(printPlace['thesaurus']),
-                                   name=[printPlace['name']])
+                                   name=[printPlace['name']],
+                                   label=[printPlace['name']])
             else:
-                printPlace = Place(None, name=[printPlace['name']])
+                printPlace = Place(None,
+                                   name=[printPlace['name']],
+                                   label=[printPlace['name']])
 
         if printYear:
             earliestBeginTimeStampPrint = Literal(f"{printYear}-01-01",
@@ -442,6 +452,7 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
 
         pubEvent = PublicationEvent(
             None,
+            label=[f"{impressum or ''} ({printYear or '?'})"],
             description=impressum,
             location=printPlace,
             startDate=printYear,
@@ -480,17 +491,45 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
             hasPlace=places,
             eventType=eTypes,
             subjectOf=[book],
-            label=[Literal(i, lang='nl') for i in r['event']['type'] if i],
+            label=[
+                Literal(f"{i} ({r['event']['year']})", lang='nl')
+                for i in r['event']['type'] if i
+            ],
             precedingEvent=[URIRef(i) for i in r['event']['otr']],
             followingEvent=[URIRef(i) for i in r['event']['doop']])
         abouts.append(event)
 
-        identifiers = [PropertyValue(None, name=['GGD id'], value=r['id'])]
+        identifiers = [
+            PropertyValue(None,
+                          name=['GGD id'],
+                          value=r['id'],
+                          label=[f"{r['id']} (GGD id)"])
+        ]
         if r.get('steurid'):
             identifiers.append(
                 PropertyValue(None,
                               name=['Van der Steur id'],
+                              label=[f"{r['steurid']} (Van der Steur id)"],
                               value=r['steurid']))
+
+        # melody
+        if r.get('melody'):
+            for m in r['melody']:
+
+                # The melody is arranged for this particular occasion
+                arrangement = MusicComposition(
+                    unique(m, r['id']),
+                    name=[Literal(f"{r['title']} (Melodie: {m})", lang='nl')],
+                    label=[Literal(f"{r['title']} (Melodie: {m})", lang='nl')],
+                    lyrics=[book])
+
+                # melody (MusicComposition) --> arrangement (MusicComposition) --> lyrics (Book)
+                melody = MusicComposition(unique(m),
+                                          name=[m],
+                                          label=[m],
+                                          musicArrangement=[arrangement])
+
+        # persons
 
         for p in r.get('person', []):
 
@@ -500,12 +539,24 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
 
                 if p['thesaurus']:
 
-                    printerSameAs = [URIRef(i) for i in p['thesaurus']]
-                    printerURI = printer2uri.get(tuple(sorted(p['thesaurus'])))
+                    printerSameAs = []
+                    printerURI = None
+
+                    for i in p['thesaurus']:
+                        if 'data.bibliotheken.nl/id/thes/' in i and printerURI is None:
+                            printerURI = URIRef(i)
+                        else:
+                            printerSameAs.append(URIRef(i))
 
                     if printerURI is None:
-                        printerURI = ggdPrinter.term(str(next(printerCounter)))
-                        printer2uri[tuple(sorted(p['thesaurus']))] = printerURI
+                        printerURI = printer2uri.get(
+                            tuple(sorted(p['thesaurus'])))
+
+                        if printerURI is None:
+                            printerURI = ggdPrinter.term(
+                                str(next(printerCounter)))
+                            printer2uri[tuple(sorted(
+                                p['thesaurus']))] = printerURI
 
                 else:
                     printerSameAs = []
@@ -544,6 +595,7 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
                     for i in p['thesaurus']:
                         if 'data.bibliotheken.nl/id/thes/' in i and personURI is None:
                             personURI = URIRef(i)
+                            break  # just one is
                         else:
                             personSameAs.append(URIRef(i))
 
@@ -598,6 +650,7 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
                             about=person,
                             roleName=p['role'],
                             name=pnLabels,
+                            label=pnLabels,
                             hasName=pn)
                 abouts.append(role)
 
@@ -607,6 +660,7 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
                                    'semrole'),
                             value=person,
                             name=pnLabels,
+                            label=pnLabels,
                             roleType=getRoleType(p['role'])))
 
         book.about = abouts
@@ -623,6 +677,7 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
 
             workExample = Item(ggdItem.term(str(next(itemCounter))),
                                name=label,
+                               label=label,
                                holdingArchive=holdingArchive,
                                itemLocation=itemLocation,
                                comment=item.get('comment'),

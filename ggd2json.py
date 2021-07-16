@@ -228,6 +228,8 @@ def getEvent(record):
     else:
         eventid = record['date']
 
+    year = record['date'][:4]
+
     if record['date'].endswith('00-00'):
         timeStamp = None
 
@@ -271,6 +273,7 @@ def getEvent(record):
 
     return {
         'eventid': eventid,
+        'year': year,
         'timeStamp': timeStamp,
         'earliestBeginTimeStamp': earliestBeginTimeStamp,
         'latestEndTimeStamp': latestEndTimeStamp,
