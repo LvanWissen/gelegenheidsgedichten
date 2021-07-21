@@ -524,6 +524,11 @@
         "Coulon, Jan": ["https://archief.amsterdam/indexen/deeds/cb95baa8-5ce1-453a-bbc0-bb55a0787fe3?person=961f6b23-6043-53f7-e053-b784100aa83b"],
         "Kempen, Antonette van": ["https://archief.amsterdam/indexen/deeds/cb95baa8-5ce1-453a-bbc0-bb55a0787fe3?person=961f6b23-6044-53f7-e053-b784100aa83b"]
     },
+    "499": {
+        "otr": ["https://archief.amsterdam/indexen/deeds/9b75cef0-81eb-4ace-a92d-7735b56dc456?event=Event1"],
+        "Broeck, Cornelis": ["https://archief.amsterdam/indexen/deeds/9b75cef0-81eb-4ace-a92d-7735b56dc456?person=961f6b1d-474b-53f7-e053-b784100aa83b"],
+        "Bardoel, Hester": ["https://archief.amsterdam/indexen/deeds/9b75cef0-81eb-4ace-a92d-7735b56dc456?person=961f6b1d-474c-53f7-e053-b784100aa83b"]
+    },
     "500": {
         "otr": ["https://archief.amsterdam/indexen/deeds/9b75cef0-81eb-4ace-a92d-7735b56dc456?event=Event1"],
         "Broeck, Cornelis": ["https://archief.amsterdam/indexen/deeds/9b75cef0-81eb-4ace-a92d-7735b56dc456?person=961f6b1d-474b-53f7-e053-b784100aa83b"],
@@ -1754,6 +1759,11 @@
         "Neufville, David Mattheus de": ["https://archief.amsterdam/indexen/deeds/fba65344-390f-465d-9bf0-30c6c00322c1?person=961f6b19-546d-53f7-e053-b784100aa83b"],
         "Gelder, Jacoba van": ["https://archief.amsterdam/indexen/deeds/fba65344-390f-465d-9bf0-30c6c00322c1?person=961f6b19-546e-53f7-e053-b784100aa83b"]
     },
+    "1571": {
+        "otr": ["https://archief.amsterdam/indexen/deeds/2008db3d-101c-4d0a-b5ae-89569dd33665?event=Event1"],
+        "Oosterwyk, Jacob van": ["https://archief.amsterdam/indexen/deeds/2008db3d-101c-4d0a-b5ae-89569dd33665?person=961f6b16-4d9d-53f7-e053-b784100aa83b"],
+        "Bruyn, Anna": ["https://archief.amsterdam/indexen/deeds/2008db3d-101c-4d0a-b5ae-89569dd33665?person=961f6b16-4d9e-53f7-e053-b784100aa83b"]
+    },
     "1572": {
         "otr": ["https://archief.amsterdam/indexen/deeds/2008db3d-101c-4d0a-b5ae-89569dd33665?event=Event1"],
         "Oosterwyk, Jacob van": ["https://archief.amsterdam/indexen/deeds/2008db3d-101c-4d0a-b5ae-89569dd33665?person=961f6b16-4d9d-53f7-e053-b784100aa83b"],
@@ -1938,6 +1948,16 @@
         "otr": ["https://archief.amsterdam/indexen/deeds/a058bb7d-124e-4508-830b-0bd64ad372fa?event=Event1"],
         "Hoesen, Leonard van": ["https://archief.amsterdam/indexen/deeds/a058bb7d-124e-4508-830b-0bd64ad372fa?person=961f6b20-d2fc-53f7-e053-b784100aa83b"],
         "Kuysten, Maria": ["https://archief.amsterdam/indexen/deeds/a058bb7d-124e-4508-830b-0bd64ad372fa?person=961f6b20-d2fd-53f7-e053-b784100aa83b"]
+    },
+    "1747": {
+        "otr": ["https://archief.amsterdam/indexen/deeds/47286730-cec4-442e-bfee-4ae8500f2c79?event=Event1"],
+        "Lennep, Jacob Aarnoudsz van": ["https://archief.amsterdam/indexen/deeds/47286730-cec4-442e-bfee-4ae8500f2c79?person=961f6b1c-54a6-53f7-e053-b784100aa83b"],
+        "Neufville, Petronella de": ["https://archief.amsterdam/indexen/deeds/47286730-cec4-442e-bfee-4ae8500f2c79?person=961f6b1c-54a7-53f7-e053-b784100aa83b"]
+    },
+    "1748": {
+        "otr": ["https://archief.amsterdam/indexen/deeds/47286730-cec4-442e-bfee-4ae8500f2c79?event=Event1"],
+        "Lennep, Jacob Aarnoudsz van": ["https://archief.amsterdam/indexen/deeds/47286730-cec4-442e-bfee-4ae8500f2c79?person=961f6b1c-54a6-53f7-e053-b784100aa83b"],
+        "Neufville, Petronella de": ["https://archief.amsterdam/indexen/deeds/47286730-cec4-442e-bfee-4ae8500f2c79?person=961f6b1c-54a7-53f7-e053-b784100aa83b"]
     },
     "1749": {
         "otr": ["https://archief.amsterdam/indexen/deeds/47286730-cec4-442e-bfee-4ae8500f2c79?event=Event1"],
@@ -2889,6 +2909,11 @@
         "Vink, Matthys": ["https://archief.amsterdam/indexen/deeds/aab7eb52-b276-4774-ab87-b3a755ad0997?person=961f6b1d-fede-53f7-e053-b784100aa83b"],
         "Steenhoolen, Cornelia van": ["https://archief.amsterdam/indexen/deeds/aab7eb52-b276-4774-ab87-b3a755ad0997?person=961f6b1d-fedf-53f7-e053-b784100aa83b"]
     },
+    "2512": {
+        "otr": ["https://archief.amsterdam/indexen/deeds/e034e0d8-31f6-4efd-bb1d-f0f68ffa6318?event=Event1"],
+        "Elias, Pieter": ["https://archief.amsterdam/indexen/deeds/e034e0d8-31f6-4efd-bb1d-f0f68ffa6318?person=961f6b1d-bc93-53f7-e053-b784100aa83b"],
+        "Tongeren, Maria Philippina van": ["https://archief.amsterdam/indexen/deeds/e034e0d8-31f6-4efd-bb1d-f0f68ffa6318?person=961f6b1d-bc94-53f7-e053-b784100aa83b"]
+    },
     "2513": {
         "otr": ["https://archief.amsterdam/indexen/deeds/e034e0d8-31f6-4efd-bb1d-f0f68ffa6318?event=Event1"],
         "Elias, Pieter": ["https://archief.amsterdam/indexen/deeds/e034e0d8-31f6-4efd-bb1d-f0f68ffa6318?person=961f6b1d-bc93-53f7-e053-b784100aa83b"],
@@ -3168,6 +3193,11 @@
         "otr": ["https://archief.amsterdam/indexen/deeds/d59fd3e5-92f2-40b8-b67b-ccd2ea213c4a?event=Event1"],
         "Merct, Hendrik van der": ["https://archief.amsterdam/indexen/deeds/d59fd3e5-92f2-40b8-b67b-ccd2ea213c4a?person=961f6b17-cbf4-53f7-e053-b784100aa83b"],
         "Merct, Anna Maria van der": ["https://archief.amsterdam/indexen/deeds/d59fd3e5-92f2-40b8-b67b-ccd2ea213c4a?person=961f6b17-cbf5-53f7-e053-b784100aa83b"]
+    },
+    "2676": {
+        "otr": ["https://archief.amsterdam/indexen/deeds/fa11f880-5681-4b5e-9af4-171e9dce086a?event=Event1"],
+        "Kinderen, Jacob der": ["https://archief.amsterdam/indexen/deeds/fa11f880-5681-4b5e-9af4-171e9dce086a?person=961f6b19-448f-53f7-e053-b784100aa83b"],
+        "Vledder, Margareta van": ["https://archief.amsterdam/indexen/deeds/fa11f880-5681-4b5e-9af4-171e9dce086a?person=961f6b19-4490-53f7-e053-b784100aa83b"]
     },
     "2677": {
         "otr": ["https://archief.amsterdam/indexen/deeds/fa11f880-5681-4b5e-9af4-171e9dce086a?event=Event1"],
@@ -4664,6 +4694,11 @@
         "Orsoy, Christiaen van": ["https://archief.amsterdam/indexen/deeds/b0183e77-989e-4821-91fb-5877bf8186bb?person=961f6b22-72e3-53f7-e053-b784100aa83b"],
         "Noordhoorn, Cornelia": ["https://archief.amsterdam/indexen/deeds/b0183e77-989e-4821-91fb-5877bf8186bb?person=961f6b22-72e4-53f7-e053-b784100aa83b"]
     },
+    "3978": {
+        "otr": ["https://archief.amsterdam/indexen/deeds/ec77e34c-f373-4f39-b7b7-42624d3f3756?event=Event1"],
+        "Schellinger, Elias": ["https://archief.amsterdam/indexen/deeds/ec77e34c-f373-4f39-b7b7-42624d3f3756?person=961f6b17-de02-53f7-e053-b784100aa83b"],
+        "Buys, Elizabeth": ["https://archief.amsterdam/indexen/deeds/ec77e34c-f373-4f39-b7b7-42624d3f3756?person=961f6b17-de03-53f7-e053-b784100aa83b"]
+    },
     "3979": {
         "otr": ["https://archief.amsterdam/indexen/deeds/ec77e34c-f373-4f39-b7b7-42624d3f3756?event=Event1"],
         "Schellinger, Elias": ["https://archief.amsterdam/indexen/deeds/ec77e34c-f373-4f39-b7b7-42624d3f3756?person=961f6b17-de02-53f7-e053-b784100aa83b"],
@@ -4803,6 +4838,11 @@
         "otr": ["https://archief.amsterdam/indexen/deeds/c0736a36-286c-4cc9-9938-4cd312f4c8a9?event=Event1"],
         "Bilstyn, Johannes": ["https://archief.amsterdam/indexen/deeds/c0736a36-286c-4cc9-9938-4cd312f4c8a9?person=961f6b14-90e9-53f7-e053-b784100aa83b"],
         "Bruyn, Agneta de": ["https://archief.amsterdam/indexen/deeds/c0736a36-286c-4cc9-9938-4cd312f4c8a9?person=961f6b14-90ea-53f7-e053-b784100aa83b"]
+    },
+    "4194": {
+        "otr": ["https://archief.amsterdam/indexen/deeds/81aedfe3-60ed-4868-a018-75a085d6f1c9?event=Event1"],
+        "Warin, Nicolaas": ["https://archief.amsterdam/indexen/deeds/81aedfe3-60ed-4868-a018-75a085d6f1c9?person=961f6b16-6ac2-53f7-e053-b784100aa83b"],
+        "Poll, Johanna Catharina van de": ["https://archief.amsterdam/indexen/deeds/81aedfe3-60ed-4868-a018-75a085d6f1c9?person=961f6b16-6ac3-53f7-e053-b784100aa83b"]
     },
     "4195": {
         "otr": ["https://archief.amsterdam/indexen/deeds/81aedfe3-60ed-4868-a018-75a085d6f1c9?event=Event1"],
@@ -5229,6 +5269,26 @@
         "Marcus, Jan Joost": ["https://archief.amsterdam/indexen/deeds/2b794637-d583-4c24-b10f-042f44094b03?person=961f6b22-d72d-53f7-e053-b784100aa83b"],
         "Steenberg, Clara Catharina": ["https://archief.amsterdam/indexen/deeds/2b794637-d583-4c24-b10f-042f44094b03?person=961f6b22-d72e-53f7-e053-b784100aa83b"]
     },
+    "4768": {
+        "otr": ["https://archief.amsterdam/indexen/deeds/6e7b94d5-3b7b-4642-926a-632ead24a937?event=Event1"],
+        "Geelvinck, Lieve (1730-1757)": ["https://archief.amsterdam/indexen/deeds/6e7b94d5-3b7b-4642-926a-632ead24a937?person=961f6b16-8f9a-53f7-e053-b784100aa83b"],
+        "Hasselaer, Catharina Elisabeth": ["https://archief.amsterdam/indexen/deeds/6e7b94d5-3b7b-4642-926a-632ead24a937?person=961f6b16-8f9b-53f7-e053-b784100aa83b"]
+    },
+    "4769": {
+        "otr": ["https://archief.amsterdam/indexen/deeds/6e7b94d5-3b7b-4642-926a-632ead24a937?event=Event1"],
+        "Geelvinck, Lieve (1730-1757)": ["https://archief.amsterdam/indexen/deeds/6e7b94d5-3b7b-4642-926a-632ead24a937?person=961f6b16-8f9a-53f7-e053-b784100aa83b"],
+        "Hasselaer, Catharina Elisabeth": ["https://archief.amsterdam/indexen/deeds/6e7b94d5-3b7b-4642-926a-632ead24a937?person=961f6b16-8f9b-53f7-e053-b784100aa83b"]
+    },
+    "4770": {
+        "otr": ["https://archief.amsterdam/indexen/deeds/6e7b94d5-3b7b-4642-926a-632ead24a937?event=Event1"],
+        "Geelvinck, Lieve (1730-1757)": ["https://archief.amsterdam/indexen/deeds/6e7b94d5-3b7b-4642-926a-632ead24a937?person=961f6b16-8f9a-53f7-e053-b784100aa83b"],
+        "Hasselaer, Catharina Elisabeth": ["https://archief.amsterdam/indexen/deeds/6e7b94d5-3b7b-4642-926a-632ead24a937?person=961f6b16-8f9b-53f7-e053-b784100aa83b"]
+    },
+    "4771": {
+        "otr": ["https://archief.amsterdam/indexen/deeds/6e7b94d5-3b7b-4642-926a-632ead24a937?event=Event1"],
+        "Geelvinck, Lieve (1730-1757)": ["https://archief.amsterdam/indexen/deeds/6e7b94d5-3b7b-4642-926a-632ead24a937?person=961f6b16-8f9a-53f7-e053-b784100aa83b"],
+        "Hasselaer, Catharina Elisabeth": ["https://archief.amsterdam/indexen/deeds/6e7b94d5-3b7b-4642-926a-632ead24a937?person=961f6b16-8f9b-53f7-e053-b784100aa83b"]
+    },
     "4772": {
         "otr": ["https://archief.amsterdam/indexen/deeds/6e7b94d5-3b7b-4642-926a-632ead24a937?event=Event1"],
         "Geelvinck, Lieve (1730-1757)": ["https://archief.amsterdam/indexen/deeds/6e7b94d5-3b7b-4642-926a-632ead24a937?person=961f6b16-8f9a-53f7-e053-b784100aa83b"],
@@ -5579,6 +5639,26 @@
         "Wiglaar, Jacobus": ["https://archief.amsterdam/indexen/deeds/113725e4-3439-4197-b7d1-33218523616e?person=961f6b1c-f58b-53f7-e053-b784100aa83b"],
         "Houtman, Jacoba": ["https://archief.amsterdam/indexen/deeds/113725e4-3439-4197-b7d1-33218523616e?person=961f6b1c-f58c-53f7-e053-b784100aa83b"]
     },
+    "5224": {
+        "otr": ["https://archief.amsterdam/indexen/deeds/cb1e5d69-d136-4c59-a48a-df2005a9c833?event=Event1"],
+        "Meyring, Johannes Hermanus Frederick": ["https://archief.amsterdam/indexen/deeds/cb1e5d69-d136-4c59-a48a-df2005a9c833?person=961f6b22-daa9-53f7-e053-b784100aa83b"],
+        "Muller, Barbara": ["https://archief.amsterdam/indexen/deeds/cb1e5d69-d136-4c59-a48a-df2005a9c833?person=961f6b22-daaa-53f7-e053-b784100aa83b"]
+    },
+    "5225": {
+        "otr": ["https://archief.amsterdam/indexen/deeds/cb1e5d69-d136-4c59-a48a-df2005a9c833?event=Event1"],
+        "Meyring, Johannes Hermanus Frederick": ["https://archief.amsterdam/indexen/deeds/cb1e5d69-d136-4c59-a48a-df2005a9c833?person=961f6b22-daa9-53f7-e053-b784100aa83b"],
+        "Muller, Barbara": ["https://archief.amsterdam/indexen/deeds/cb1e5d69-d136-4c59-a48a-df2005a9c833?person=961f6b22-daaa-53f7-e053-b784100aa83b"]
+    },
+    "5226": {
+        "otr": ["https://archief.amsterdam/indexen/deeds/cb1e5d69-d136-4c59-a48a-df2005a9c833?event=Event1"],
+        "Meyring, Johannes Hermanus Frederick": ["https://archief.amsterdam/indexen/deeds/cb1e5d69-d136-4c59-a48a-df2005a9c833?person=961f6b22-daa9-53f7-e053-b784100aa83b"],
+        "Muller, Barbara": ["https://archief.amsterdam/indexen/deeds/cb1e5d69-d136-4c59-a48a-df2005a9c833?person=961f6b22-daaa-53f7-e053-b784100aa83b"]
+    },
+    "5227": {
+        "otr": ["https://archief.amsterdam/indexen/deeds/cb1e5d69-d136-4c59-a48a-df2005a9c833?event=Event1"],
+        "Meyring, Johannes Hermanus Frederick": ["https://archief.amsterdam/indexen/deeds/cb1e5d69-d136-4c59-a48a-df2005a9c833?person=961f6b22-daa9-53f7-e053-b784100aa83b"],
+        "Muller, Barbara": ["https://archief.amsterdam/indexen/deeds/cb1e5d69-d136-4c59-a48a-df2005a9c833?person=961f6b22-daaa-53f7-e053-b784100aa83b"]
+    },
     "5228": {
         "otr": ["https://archief.amsterdam/indexen/deeds/cb1e5d69-d136-4c59-a48a-df2005a9c833?event=Event1"],
         "Meyring, Johannes Hermanus Frederick": ["https://archief.amsterdam/indexen/deeds/cb1e5d69-d136-4c59-a48a-df2005a9c833?person=961f6b22-daa9-53f7-e053-b784100aa83b"],
@@ -5718,6 +5798,13 @@
         "otr": ["https://archief.amsterdam/indexen/deeds/829c2356-6ef9-45b5-a8c1-064828bded0e?event=Event1"],
         "Wees, Hendrik van": ["https://archief.amsterdam/indexen/deeds/829c2356-6ef9-45b5-a8c1-064828bded0e?person=961f6b16-e061-53f7-e053-b784100aa83b"],
         "Roy, Anna Maria de": ["https://archief.amsterdam/indexen/deeds/829c2356-6ef9-45b5-a8c1-064828bded0e?person=961f6b16-e062-53f7-e053-b784100aa83b"]
+    },
+    "5424": {
+        "otr": ["https://archief.amsterdam/indexen/deeds/15587b1d-1b09-46f3-b938-ef535ebc40b3?event=Event1"],
+        "Bosch, Bernardus Jeronim\u00f4sz de": ["https://archief.amsterdam/indexen/deeds/15587b1d-1b09-46f3-b938-ef535ebc40b3?person=961f6b1e-137f-53f7-e053-b784100aa83b"],
+        "Vries, Christina Susanna de": ["https://archief.amsterdam/indexen/deeds/15587b1d-1b09-46f3-b938-ef535ebc40b3?person=961f6b1e-1380-53f7-e053-b784100aa83b"],
+        "Vries, Gerrit de": ["https://archief.amsterdam/indexen/deeds/db7abb8c-f52e-4d4b-8250-1fba4304685e?person=961f6b1b-6c80-53f7-e053-b784100aa83b"],
+        "Bosch, Judith de": ["https://archief.amsterdam/indexen/deeds/db7abb8c-f52e-4d4b-8250-1fba4304685e?person=961f6b1b-6c81-53f7-e053-b784100aa83b"]
     },
     "5425": {
         "otr": ["https://archief.amsterdam/indexen/deeds/15587b1d-1b09-46f3-b938-ef535ebc40b3?event=Event1"],
