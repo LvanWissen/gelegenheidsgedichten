@@ -56,7 +56,7 @@
         "Marcus, Jacob": ["http://data.bibliotheken.nl/id/thes/p075553325"]
     },
     "23": {
-        "Paets, Jan Jacobsz": ["http://thesaurus.cerl.org/record/cni00091899"]
+        "Paets, Jan Jacobsz": ["http://thesaurus.cerl.org/record/cni00091899", "http://data.bibliotheken.nl/id/thes/p075555204"]
     },
     "24": {
         "Maire, Joannes": ["http://data.bibliotheken.nl/id/thes/p075553252"],
@@ -148,6 +148,9 @@
     },
     "61": {
         "Pers, Dirck Pietersz": ["http://data.bibliotheken.nl/id/thes/p07555559X"]
+    },
+    "63": {
+        "Andriesz, Jan": ["http://data.bibliotheken.nl/id/thes/p075542382"]
     },
     "64": {
         "Ravesteyn, Paulus Aertsz van": ["http://data.bibliotheken.nl/id/thes/p075556987"]
@@ -585,7 +588,7 @@
         "Does, Jan Pietersz de": ["http://data.bibliotheken.nl/id/thes/p075544288"]
     },
     "227": {
-        "Commelin, Isaac": ["http://thesaurus.cerl.org/record/cni00008161"]
+        "Commelin, Isaac": ["http://thesaurus.cerl.org/record/cni00008161", "http://data.bibliotheken.nl/id/thes/p075542919"]
     },
     "228": {
         "Wieringen, Nicolaes van": ["http://data.bibliotheken.nl/id/thes/p075564823"]
@@ -1111,6 +1114,9 @@
     "421": {
         "Esch, Hendrick van": ["http://data.bibliotheken.nl/id/thes/p075545586"]
     },
+    "423": {
+        "Lescailje, Jacob": ["http://data.bibliotheken.nl/id/thes/p075552302"]
+    },
     "424": {
         "Colomp, Jan": ["http://data.bibliotheken.nl/id/thes/p075542773"]
     },
@@ -1174,6 +1180,9 @@
     },
     "446": {
         "Hardomans, Frans": ["http://data.bibliotheken.nl/id/thes/p075547813"]
+    },
+    "447": {
+        "Lescailje, Jacob": ["http://data.bibliotheken.nl/id/thes/p075552302"]
     },
     "448": {
         "Nes, Nicolaus van": ["http://data.bibliotheken.nl/id/thes/p075567261"]
@@ -1676,6 +1685,9 @@
     "670": {
         "Naeranus, Isaac": ["http://data.bibliotheken.nl/id/thes/p075554364"]
     },
+    "671": {
+        "Lescailje, Jacob": ["http://data.bibliotheken.nl/id/thes/p075552302"]
+    },
     "672": {
         "Pluymer, Joost I (wed.)": ["http://data.bibliotheken.nl/id/thes/p075556340"],
         "Jonge, Jacob de": ["http://data.bibliotheken.nl/id/thes/p075551128"]
@@ -1700,6 +1712,9 @@
     },
     "684": {
         "Lescailje, Jacob": ["http://data.bibliotheken.nl/id/thes/p075552302"]
+    },
+    "685": {
+        "Dale, Johannes": ["http://data.bibliotheken.nl/id/thes/p075543753"]
     },
     "686": {
         "Clerck, Willem": ["http://data.bibliotheken.nl/id/thes/p075542307"]
@@ -1795,8 +1810,17 @@
     "729": {
         "Rammazeyn, Gerrit": ["http://data.bibliotheken.nl/id/thes/p075556871"]
     },
+    "730": {
+        "Dale, Johannes": ["http://data.bibliotheken.nl/id/thes/p075543753"]
+    },
     "731": {
         "Wees, Pieter de": ["http://data.bibliotheken.nl/id/thes/p075564483"]
+    },
+    "732": {
+        "Dale, Johannes": ["http://data.bibliotheken.nl/id/thes/p075543753"]
+    },
+    "733": {
+        "Moel\u00e9, Christiaen": ["http://data.bibliotheken.nl/id/thes/p075553937"]
     },
     "734": {
         "Leeuwen, Maarten van": ["http://data.bibliotheken.nl/id/thes/p07555206X"]
@@ -1910,6 +1934,9 @@
     "776": {
         "Voorstad, Andries": ["http://data.bibliotheken.nl/id/thes/p075563398"]
     },
+    "777": {
+        "Kellenaar, Johannes van de": ["http://data.bibliotheken.nl/id/thes/p075541653"]
+    },
     "778": {
         "Paddenburgh, Johannes van": ["http://data.bibliotheken.nl/id/thes/p07555514X"]
     },
@@ -2015,6 +2042,9 @@
     "825": {
         "Sweerts, Hieronymus": ["http://data.bibliotheken.nl/id/thes/p075560631"]
     },
+    "828": {
+        "Magnus, Albert": ["http://data.bibliotheken.nl/id/thes/p07555321X"]
+    },
     "829": {
         "Sweerts, Hieronymus": ["http://data.bibliotheken.nl/id/thes/p075560631"]
     },
@@ -2050,6 +2080,9 @@
     },
     "841": {
         "Wees, Abraham de I (wed.)": ["http://data.bibliotheken.nl/id/thes/p075564440"]
+    },
+    "842": {
+        "Magnus, Albert": ["http://data.bibliotheken.nl/id/thes/p07555321X"]
     },
     "843": {
         "Olofsz, Abraham": ["http://data.bibliotheken.nl/id/thes/p075554860"]
@@ -2420,6 +2453,9 @@
     },
     "1013": {
         "Boeteman, Dirk": ["http://data.bibliotheken.nl/id/thes/p075539543"]
+    },
+    "1016": {
+        "Harmensz, Hendrik": ["http://data.bibliotheken.nl/id/thes/p075540045"]
     },
     "1017": {
         "Kellenaar, Johannes van de": ["http://data.bibliotheken.nl/id/thes/p075541653"]
@@ -2869,11 +2905,17 @@
     "1223": {
         "Lescailje, Jacob (erven)": ["http://data.bibliotheken.nl/id/thes/p075552310"]
     },
+    "1224": {
+        "Endenburgh, Johannes": ["http://data.bibliotheken.nl/id/thes/p075545527"]
+    },
     "1227": {
         "Lescailje, Jacob (erven)": ["http://data.bibliotheken.nl/id/thes/p075552310"]
     },
     "1228": {
         "Hardenberg, Jacobus van": ["http://data.bibliotheken.nl/id/thes/p075547805"]
+    },
+    "1229": {
+        "Endenburgh, Johannes": ["http://data.bibliotheken.nl/id/thes/p075545527"]
     },
     "1230": {
         "Damme, Jan van": ["http://data.bibliotheken.nl/id/thes/p075543850"]
@@ -2935,6 +2977,9 @@
     "1257": {
         "Lescailje, Jacob (erven)": ["http://data.bibliotheken.nl/id/thes/p075552310"]
     },
+    "1259": {
+        "Endenburgh, Johannes": ["http://data.bibliotheken.nl/id/thes/p075545527"]
+    },
     "1260": {
         "Damme, Jan van": ["http://data.bibliotheken.nl/id/thes/p075543850"]
     },
@@ -2989,6 +3034,9 @@
     "1283": {
         "Vries, Enoch de (wed.)": ["http://data.bibliotheken.nl/id/thes/p138234574"]
     },
+    "1284": {
+        "Endenburgh, Johannes": ["http://data.bibliotheken.nl/id/thes/p075545527"]
+    },
     "1285": {
         "Clerck, Willem (wed.)": ["http://data.bibliotheken.nl/id/thes/p075542315"]
     },
@@ -3007,6 +3055,9 @@
         "Visscher, Barent": ["http://data.bibliotheken.nl/id/thes/p075562987"]
     },
     "1295": {
+        "Endenburgh, Johannes": ["http://data.bibliotheken.nl/id/thes/p075545527"]
+    },
+    "1296": {
         "Endenburgh, Johannes": ["http://data.bibliotheken.nl/id/thes/p075545527"]
     },
     "1298": {
@@ -3490,6 +3541,12 @@
     "1517": {
         "Limburg, Gillis van": ["http://data.bibliotheken.nl/id/thes/p075552531"]
     },
+    "1518": {
+        "Verheyde, Jacobus": ["http://data.bibliotheken.nl/id/thes/p137178441"]
+    },
+    "1519": {
+        "Verheyde, Jacobus": ["http://data.bibliotheken.nl/id/thes/p137178441"]
+    },
     "1520": {
         "Lescailje, Jacob (erven)": ["http://data.bibliotheken.nl/id/thes/p075552310"]
     },
@@ -3685,11 +3742,11 @@
     "1601": {
         "Alphen, Pieter van": ["http://data.bibliotheken.nl/id/thes/p075537664"]
     },
-    "1603": {
-        "Kellenaar, Johannes van de": ["http://data.bibliotheken.nl/id/thes/p075541653"]
-    },
     "1602": {
         "Oosterwyk, Joannes": ["http://data.bibliotheken.nl/id/thes/p07555495X"]
+    },
+    "1603": {
+        "Kellenaar, Johannes van de": ["http://data.bibliotheken.nl/id/thes/p075541653"]
     },
     "1606": {
         "Oosterwyk, Joannes": ["http://data.bibliotheken.nl/id/thes/p07555495X"]
@@ -3785,7 +3842,7 @@
         "Wiering, Thomas van (erven)": ["http://thesaurus.cerl.org/record/cni00032288"]
     },
     "1671": {
-        "Willis, Arnold": []
+        "Willis, Arnold": ["http://data.bibliotheken.nl/id/thes/p145808483"]
     },
     "1674": {
         "Berge, Pieter van den II": ["http://data.bibliotheken.nl/id/thes/p075538954"]
@@ -4210,6 +4267,9 @@
     "1943": {
         "Ketel, Jacobus": ["http://data.bibliotheken.nl/id/thes/p134903293"]
     },
+    "1946": {
+        "Dale, Johannes": ["http://data.bibliotheken.nl/id/thes/p075543753"]
+    },
     "1950": {
         "Gaete, Hendrik van de": ["http://data.bibliotheken.nl/id/thes/p135790581"]
     },
@@ -4287,7 +4347,8 @@
         "Lotten, Justus van": ["http://data.bibliotheken.nl/id/thes/p075552876"]
     },
     "1992": {
-        "Endenburgh, Andries II": ["http://data.bibliotheken.nl/id/thes/p135772559"]
+        "Endenburgh, Andries II": ["http://data.bibliotheken.nl/id/thes/p135772559"],
+        "Endenburgh, Johannes": ["http://data.bibliotheken.nl/id/thes/p075545527"]
     },
     "1993": {
         "Bos, Nicolaas": ["http://data.bibliotheken.nl/id/thes/p134541189"]
@@ -4462,6 +4523,9 @@
     "2141": {
         "Voorstad, Andries": ["http://data.bibliotheken.nl/id/thes/p075563398"]
     },
+    "2143": {
+        "Verheyde, Jacobus": ["http://data.bibliotheken.nl/id/thes/p137178441"]
+    },
     "2145": {
         "Gaete, Hendrik van de": ["http://data.bibliotheken.nl/id/thes/p135790581"]
     },
@@ -4526,6 +4590,9 @@
     },
     "2188": {
         "Ensched\u00e9, Izaak": ["http://data.bibliotheken.nl/id/thes/p135772745"]
+    },
+    "2191": {
+        "Verheyde, Jacobus": ["http://data.bibliotheken.nl/id/thes/p137178441"]
     },
     "2193": {
         "Damme, Jan van": ["http://data.bibliotheken.nl/id/thes/p075543850"]
@@ -5284,6 +5351,9 @@
     "2677": {
         "Bosch, Hendrik": ["http://data.bibliotheken.nl/id/thes/p13454076X"]
     },
+    "2678": {
+        "Verheyde, Jacobus": ["http://data.bibliotheken.nl/id/thes/p137178441"]
+    },
     "2679": {
         "Oosterwyk, Joannes": ["http://data.bibliotheken.nl/id/thes/p07555495X"]
     },
@@ -5346,6 +5416,9 @@
     "2721": {
         "Poolsum, Jacob van": ["http://data.bibliotheken.nl/id/thes/p075567350"]
     },
+    "2723": {
+        "Septeren, Johannes van": ["http://data.bibliotheken.nl/id/thes/p137051689"]
+    },
     "2726": {
         "Strander, Johannes I": ["http://data.bibliotheken.nl/id/thes/p075560372"]
     },
@@ -5404,6 +5477,9 @@
     },
     "2759": {
         "Oosterwyk, Joannes": ["http://data.bibliotheken.nl/id/thes/p07555495X"]
+    },
+    "2761": {
+        "Schryver, Michiel": ["http://data.bibliotheken.nl/id/thes/p137050003"]
     },
     "2762": {
         "Damme, Jan van": ["http://data.bibliotheken.nl/id/thes/p075543850"]
@@ -5467,6 +5543,9 @@
     },
     "2810": {
         "Oosterwyk, Joannes": ["http://data.bibliotheken.nl/id/thes/p07555495X"]
+    },
+    "2813": {
+        "Septeren, Johannes van": ["http://data.bibliotheken.nl/id/thes/p137051689"]
     },
     "2815": {
         "Oosterwyk, Joannes": ["http://data.bibliotheken.nl/id/thes/p07555495X"]
@@ -5661,6 +5740,9 @@
     },
     "2940": {
         "Berge, Pieter van den II": ["http://data.bibliotheken.nl/id/thes/p075538954"]
+    },
+    "2941": {
+        "Elama, Gesina": ["http://data.bibliotheken.nl/id/thes/p128173912"]
     },
     "2943": {
         "Boekholt, Adriaan van": ["http://data.bibliotheken.nl/id/thes/p128559926"]
@@ -5876,6 +5958,9 @@
     "3107": {
         "Oosterwyk, Joannes": ["http://data.bibliotheken.nl/id/thes/p07555495X"]
     },
+    "3108": {
+        "Schryver, Michiel": ["http://data.bibliotheken.nl/id/thes/p137050003"]
+    },
     "3113": {
         "Velsen, Johannes van (wed.)": ["http://data.bibliotheken.nl/id/thes/p137176007"]
     },
@@ -5910,6 +5995,9 @@
     "3132": {
         "Oosterwyk, Joannes": ["http://data.bibliotheken.nl/id/thes/p07555495X"]
     },
+    "3134": {
+        "Schryver, Michiel": ["http://data.bibliotheken.nl/id/thes/p137050003"]
+    },
     "3135": {
         "Willis, Arnold": ["http://data.bibliotheken.nl/id/thes/p145808483"]
     },
@@ -5941,6 +6029,9 @@
     "3158": {
         "Egmont, Jacobus van I (wed.)": ["http://data.bibliotheken.nl/id/thes/p135771021"]
     },
+    "3159": {
+        "Septeren, Johannes van": ["http://data.bibliotheken.nl/id/thes/p137051689"]
+    },
     "3160": {
         "Ditmer, Harder van (wed.)": ["http://data.bibliotheken.nl/id/thes/p135749476"]
     },
@@ -5954,7 +6045,7 @@
         "Eynden, Theodorus van den": ["http://data.bibliotheken.nl/id/thes/p075545756"]
     },
     "3166": {
-        "Schryver, Michiel": []
+        "Schryver, Michiel": ["http://data.bibliotheken.nl/id/thes/p137050003"]
     },
     "3167": {
         "Goor, Hendrik van": ["http://data.bibliotheken.nl/id/thes/p075576015"]
@@ -5964,6 +6055,9 @@
     },
     "3169": {
         "Bouman, Gerrit": ["http://data.bibliotheken.nl/id/thes/p13454305X"]
+    },
+    "3174": {
+        "Verheyde, Jacobus": ["http://data.bibliotheken.nl/id/thes/p137178441"]
     },
     "3179": {
         "Oosterwyk, Joannes": ["http://data.bibliotheken.nl/id/thes/p07555495X"]
@@ -6070,7 +6164,7 @@
         "Spijck, Joan van der": ["http://data.bibliotheken.nl/id/thes/p075559900"]
     },
     "3250": {
-        "Ensched\u00e9, Izaak": ["http://thesaurus.cerl.org/record/cni00038712"]
+        "Ensched\u00e9, Izaak": ["http://thesaurus.cerl.org/record/cni00038712", "http://data.bibliotheken.nl/id/thes/p135772745"]
     },
     "3256": {
         "Esch, Willem van": ["http://data.bibliotheken.nl/id/thes/p135784042"],
@@ -6136,7 +6230,6 @@
     "3291": {
         "Tirion, Isaak": ["http://data.bibliotheken.nl/id/thes/p137121547"]
     },
-    "3293": {},
     "3295": {
         "Ruarus, David": ["http://data.bibliotheken.nl/id/thes/p136933858"]
     },
@@ -6358,6 +6451,9 @@
     "3538": {
         "Broen, Gerred de I": ["http://data.bibliotheken.nl/id/thes/p085304549"]
     },
+    "3539": {
+        "Schryver, Michiel": ["http://data.bibliotheken.nl/id/thes/p137050003"]
+    },
     "3546": {
         "Muntendam, Pieter I": ["http://data.bibliotheken.nl/id/thes/p136551068"]
     },
@@ -6506,6 +6602,9 @@
     },
     "3669": {
         "Boman, Willem": ["http://data.bibliotheken.nl/id/thes/p128564636"]
+    },
+    "3678": {
+        "Elama, Gesina": ["http://data.bibliotheken.nl/id/thes/p128173912"]
     },
     "3682": {
         "Dathenus, Petrus": ["http://data.bibliotheken.nl/id/thes/p075577305"]
@@ -7028,6 +7127,9 @@
     "4092": {
         "Loveringh, Jacobus": ["http://data.bibliotheken.nl/id/thes/p136528287"]
     },
+    "4095": {
+        "Elama, Gesina": ["http://data.bibliotheken.nl/id/thes/p128173912"]
+    },
     "4099": {
         "Waldorp, Antoni": ["http://data.bibliotheken.nl/id/thes/p13825365X"]
     },
@@ -7138,7 +7240,7 @@
     },
     "4189": {
         "Ensched\u00e9, Johannes I": ["http://data.bibliotheken.nl/id/thes/p135772885"],
-        "Ensched\u00e9, Izaak": ["http://thesaurus.cerl.org/record/cni00038712"]
+        "Ensched\u00e9, Izaak": ["http://thesaurus.cerl.org/record/cni00038712", "http://data.bibliotheken.nl/id/thes/p135772745"]
     },
     "4190": {
         "Crajenschot, Theodorus": ["http://data.bibliotheken.nl/id/thes/p135390338"]
@@ -9069,7 +9171,8 @@
         "Heyligert, Cornelis": ["http://data.bibliotheken.nl/id/thes/p136333273"],
         "Kroe, Albert van der": ["http://data.bibliotheken.nl/id/thes/p135704650"],
         "Eichhorn, Anthonie": ["http://data.bibliotheken.nl/id/thes/p13577134X"],
-        "Pruys, Jacobus Wilhelmus (wed.)": ["http://data.bibliotheken.nl/id/thes/p136591213"]
+        "Pruys, Jacobus Wilhelmus (wed.)": ["http://data.bibliotheken.nl/id/thes/p136591213"],
+        "Keijzer, Harmanus": ["http://data.bibliotheken.nl/id/thes/p13490382X"]
     },
     "5541": {
         "Egmont, Jacobus van I (wed., erven van)": ["http://data.bibliotheken.nl/id/thes/p135771080"]
@@ -9303,6 +9406,9 @@
     "5710": {
         "Hengst, Petrus den": ["http://data.bibliotheken.nl/id/thes/p07713124X"],
         "Mens, Anthony Jansz": ["http://data.bibliotheken.nl/id/thes/p13653371X"]
+    },
+    "5711": {
+        "Keijzer, Harmanus": ["http://data.bibliotheken.nl/id/thes/p13490382X"]
     },
     "5713": {
         "Borchers, Albrecht": ["http://data.bibliotheken.nl/id/thes/p134539907"]
@@ -9605,7 +9711,7 @@
         "Toll, A.J. van": ["http://data.bibliotheken.nl/id/thes/p137104677"]
     },
     "5993": {
-        "Keijzer, Harmanus": []
+        "Keijzer, Harmanus": ["http://data.bibliotheken.nl/id/thes/p13490382X"]
     },
     "5998": {
         "Met, Joannes": ["http://data.bibliotheken.nl/id/thes/p136534333"]
