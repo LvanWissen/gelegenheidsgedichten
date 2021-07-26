@@ -1036,7 +1036,8 @@
         "Pesser, Johan": ["http://data.bibliotheken.nl/id/thes/p138430802"]
     },
     "697": {
-        "Breeman, Christophelina": ["http://data.bibliotheken.nl/id/thes/p380440520"]
+        "Breeman, Christophelina": ["http://data.bibliotheken.nl/id/thes/p380440520"],
+        "Duchesne, Mathurin Blandin de": ["http://data.bibliotheken.nl/id/thes/p380440474"]
     },
     "702": {
         "Groot, Pieter de (1615-1678)": ["http://data.bibliotheken.nl/id/thes/p071378618"]
@@ -1533,8 +1534,7 @@
         "Witsen, Nicolaes": ["http://data.bibliotheken.nl/id/thes/p06844530X"]
     },
     "898": {
-        "Burch, Johan van der (1618-1688). Overlijden.": ["http://data.bibliotheken.nl/id/thes/p070339074"],
-        "Linde, Simon onder de. Drukker/uitgever": ["http://viaf.org/viaf/304942684"]
+        "Burch, Johan van der (1618-1688)": ["http://data.bibliotheken.nl/id/thes/p070339074"]
     },
     "899": {
         "Ney, Tieleman van ter": ["http://data.bibliotheken.nl/id/thes/p371056381"],
@@ -2741,11 +2741,12 @@
         "Linden, Anna van der": ["http://data.bibliotheken.nl/id/thes/p369972856"]
     },
     "1396": {
-        "Edens, Pieter": ["http://data.bibliotheken.nl/id/thes/p364244186"],
+        "Dirck Bruininck": ["http://data.bibliotheken.nl/id/thes/p371171822"],
         "Inses, Catharina": ["http://data.bibliotheken.nl/id/thes/p364244224"]
     },
     "1397": {
-        "Edens, Pieter": ["http://data.bibliotheken.nl/id/thes/p364244186"]
+        "Dirck Bruininck": ["http://data.bibliotheken.nl/id/thes/p371171822"],
+        "Inses, Catharina": ["http://data.bibliotheken.nl/id/thes/p364244224"]
     },
     "1398": {
         "Valentyn, Fran\u00e7ois": ["http://data.bibliotheken.nl/id/thes/p069351325"]
@@ -14799,7 +14800,8 @@
         "Cyrus, Johannes jacobus": ["http://data.bibliotheken.nl/id/thes/p122140087"]
     },
     "6908": {
-        "Montyn, Cornelia. 25-jarig huwelijk": ["http://data.bibliotheken.nl/id/thes/p278644473"]
+        "Langerak, Cornelis": ["http://data.bibliotheken.nl/id/thes/p278644457"],
+        "Montyn, Cornelia": ["http://data.bibliotheken.nl/id/thes/p278644473"]
     },
     "6909": {
         "Dussen, Aegidius van der": ["http://data.bibliotheken.nl/id/thes/p162995148"]

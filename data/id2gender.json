@@ -8468,7 +8468,8 @@
     "1661": {
         "Eppenhoff, Geertruit": "http://schema.org/Female",
         "Visscher, Evert": "http://schema.org/Male",
-        "Hofkens, Hendrik": "http://schema.org/Male"
+        "Hofkens, Hendrik": "http://schema.org/Male",
+        "Willink, F.": "http://schema.org/Male"
     },
     "1662": {
         "Zeeus, Jakob": "http://schema.org/Male",
@@ -38728,6 +38729,7 @@
         "Cyrus, Johannes jacobus": "http://schema.org/Male"
     },
     "6908": {
+        "Langerak, Cornelis": "http://schema.org/Male",
         "Langerak, Willemina": "http://schema.org/Female",
         "Ingen, Willem van": "http://schema.org/Male"
     },

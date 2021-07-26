@@ -1101,10 +1101,7 @@
         "Jonas, Zuzanna": ["https://archief.amsterdam/indexen/deeds/0735cdd9-9b1a-4090-b92a-84ba7cf07010?person=961f6ace-7a11-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/0768bd4a-3a11-4911-9ae1-b5685efd54c8?person=961f6b09-8ef2-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/a7193542-434b-4530-8109-20aacf7c83b4?person=961f6af3-bdfc-53f7-e053-b784100aa83b"],
         "doop": ["https://archief.amsterdam/indexen/deeds/0735cdd9-9b1a-4090-b92a-84ba7cf07010?event=Event1", "https://archief.amsterdam/indexen/deeds/0768bd4a-3a11-4911-9ae1-b5685efd54c8?event=Event1"]
     },
-    "1848": {
-        "Leeuwen, Johanna van": ["https://archief.amsterdam/indexen/deeds/3786bda7-fdbe-4e20-85bf-b730398b1787?person=961f6aec-4709-53f7-e053-b784100aa83b"],
-        "doop": ["https://archief.amsterdam/indexen/deeds/3786bda7-fdbe-4e20-85bf-b730398b1787?event=Event1"]
-    },
+    "1848": {},
     "1849": {
         "Lups, Leonard": ["https://archief.amsterdam/indexen/deeds/2aeaa5a3-a2d2-4580-adf9-245dbd098ac9?person=961f6aca-28fd-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/360c7a64-b3db-49b7-97ab-e5637ef484bd?person=961f6b0d-55eb-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/368dd1e4-b137-41c0-8980-c023762f80f1?person=961f6ad9-187e-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/480f15fe-283d-4c5c-9ecf-7c048ed7abcc?person=961f6ad1-9fb0-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/5d1c9950-366a-43f0-a7fc-6848c31a08c0?person=961f6afe-6a4d-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/cd44c166-f27c-418c-b7e7-c1e489fd42be?person=961f6af6-f304-53f7-e053-b784100aa83b"],
         "Rutgers, Cornelia": ["https://archief.amsterdam/indexen/deeds/2aeaa5a3-a2d2-4580-adf9-245dbd098ac9?person=961f6aca-28fe-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/360c7a64-b3db-49b7-97ab-e5637ef484bd?person=961f6b0d-55ec-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/368dd1e4-b137-41c0-8980-c023762f80f1?person=961f6ad9-187f-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/480f15fe-283d-4c5c-9ecf-7c048ed7abcc?person=961f6ad1-9fb1-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/5d1c9950-366a-43f0-a7fc-6848c31a08c0?person=961f6afe-6a4e-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/cd44c166-f27c-418c-b7e7-c1e489fd42be?person=961f6af6-f305-53f7-e053-b784100aa83b"],
@@ -1778,10 +1775,7 @@
         "Straalman, Fran\u00e7ois": ["https://archief.amsterdam/indexen/deeds/8d3d41c6-70c7-4691-94bd-374a40b84a07?person=961f6aef-7b5f-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/9e800917-3bdd-4be6-b2d5-692e3b9de369?person=961f6ae8-0594-53f7-e053-b784100aa83b"],
         "doop": ["https://archief.amsterdam/indexen/deeds/8d3d41c6-70c7-4691-94bd-374a40b84a07?event=Event1", "https://archief.amsterdam/indexen/deeds/9e800917-3bdd-4be6-b2d5-692e3b9de369?event=Event1"]
     },
-    "2389": {
-        "Leeuwen, Johanna van": ["https://archief.amsterdam/indexen/deeds/3786bda7-fdbe-4e20-85bf-b730398b1787?person=961f6aec-4709-53f7-e053-b784100aa83b"],
-        "doop": ["https://archief.amsterdam/indexen/deeds/3786bda7-fdbe-4e20-85bf-b730398b1787?event=Event1"]
-    },
+    "2389": {},
     "239": {
         "Beuningen, Anna van": ["https://archief.amsterdam/indexen/deeds/df052d4f-079c-4bb7-9a6b-d4bb3b664148?person=961f6ae0-0538-53f7-e053-b784100aa83b"],
         "Du Pr\u00e9, Martin": ["https://archief.amsterdam/indexen/deeds/df052d4f-079c-4bb7-9a6b-d4bb3b664148?person=961f6ae0-0537-53f7-e053-b784100aa83b"],
@@ -3546,8 +3540,8 @@
         "doop": ["https://archief.amsterdam/indexen/deeds/159e2658-f3d8-4b92-83a2-3e4e892fe719?event=Event1", "https://archief.amsterdam/indexen/deeds/7d2f9e96-599f-49b1-b2b6-aa2b8d41a23e?event=Event1", "https://archief.amsterdam/indexen/deeds/a75b2501-2fc7-4a87-b54f-74eb28e7929b?event=Event1", "https://archief.amsterdam/indexen/deeds/b51aa376-61b4-41b7-a6a8-7e08eb45805e?event=Event1", "https://archief.amsterdam/indexen/deeds/be17deea-8986-4d25-8152-2da99a67e9cf?event=Event1", "https://archief.amsterdam/indexen/deeds/ef65b3bd-def1-4f62-a175-375a93460f9f?event=Event1", "https://archief.amsterdam/indexen/deeds/f7d983cb-2014-4ee5-bb64-3568da2366e2?event=Event1"]
     },
     "3708": {
-        "Koekebakker, Adriaan": ["https://archief.amsterdam/indexen/deeds/1f429839-df9c-4f20-8cbc-086b81cab4c9?person=961f6adc-266b-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/23e459b9-da72-40b7-b9b1-6b44910d5182?person=961f6adc-2129-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/38332e2f-241a-4eae-9e98-c747aa95e285?person=961f6b0e-e5b3-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/7d0dec26-be66-470b-8318-1d510842deb2?person=961f6adb-a86d-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/83082297-a3f0-4104-ba5b-35579dad4a7e?person=961f6afa-2d27-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/e53b0536-5aad-4cff-b73a-d9f8aad7ad5b?person=961f6aea-e0bc-53f7-e053-b784100aa83b"],
-        "Koekebakker, Jan Adriaan": ["https://archief.amsterdam/indexen/deeds/1f429839-df9c-4f20-8cbc-086b81cab4c9?person=961f6adc-266b-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/23e459b9-da72-40b7-b9b1-6b44910d5182?person=961f6adc-2129-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/38332e2f-241a-4eae-9e98-c747aa95e285?person=961f6b0e-e5b3-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/7d0dec26-be66-470b-8318-1d510842deb2?person=961f6adb-a86d-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/83082297-a3f0-4104-ba5b-35579dad4a7e?person=961f6afa-2d27-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/e53b0536-5aad-4cff-b73a-d9f8aad7ad5b?person=961f6aea-e0bc-53f7-e053-b784100aa83b"],
+        "Koekebakker, Jan Adriaan": ["https://archief.amsterdam/indexen/deeds/38332e2f-241a-4eae-9e98-c747aa95e285?person=961f6b0e-e5b3-53f7-e053-b784100aa83b"],
+        "Koekebakker, Adriaan": ["https://archief.amsterdam/indexen/deeds/1f429839-df9c-4f20-8cbc-086b81cab4c9?person=961f6adc-266b-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/23e459b9-da72-40b7-b9b1-6b44910d5182?person=961f6adc-2129-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/7d0dec26-be66-470b-8318-1d510842deb2?person=961f6adb-a86d-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/83082297-a3f0-4104-ba5b-35579dad4a7e?person=961f6afa-2d27-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/e53b0536-5aad-4cff-b73a-d9f8aad7ad5b?person=961f6aea-e0bc-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/1e82ee7b-f78d-4b65-8173-125efe1f5d39?person=961f6ad3-15d2-53f7-e053-b784100aa83b"],
         "Luykink, Elizabeth": ["https://archief.amsterdam/indexen/deeds/38332e2f-241a-4eae-9e98-c747aa95e285?person=961f6b0e-e5b4-53f7-e053-b784100aa83b"],
         "Luykink, Jacoba Maria": ["https://archief.amsterdam/indexen/deeds/1f429839-df9c-4f20-8cbc-086b81cab4c9?person=961f6adc-266c-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/23e459b9-da72-40b7-b9b1-6b44910d5182?person=961f6adc-212a-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/7d0dec26-be66-470b-8318-1d510842deb2?person=961f6adb-a86e-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/83082297-a3f0-4104-ba5b-35579dad4a7e?person=961f6afa-2d28-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/e53b0536-5aad-4cff-b73a-d9f8aad7ad5b?person=961f6aea-e0bd-53f7-e053-b784100aa83b"],
         "doop": ["https://archief.amsterdam/indexen/deeds/1f429839-df9c-4f20-8cbc-086b81cab4c9?event=Event1", "https://archief.amsterdam/indexen/deeds/23e459b9-da72-40b7-b9b1-6b44910d5182?event=Event1", "https://archief.amsterdam/indexen/deeds/38332e2f-241a-4eae-9e98-c747aa95e285?event=Event1", "https://archief.amsterdam/indexen/deeds/7d0dec26-be66-470b-8318-1d510842deb2?event=Event1", "https://archief.amsterdam/indexen/deeds/83082297-a3f0-4104-ba5b-35579dad4a7e?event=Event1", "https://archief.amsterdam/indexen/deeds/e53b0536-5aad-4cff-b73a-d9f8aad7ad5b?event=Event1"]
@@ -3568,7 +3562,7 @@
         "doop": ["https://archief.amsterdam/indexen/deeds/361a9324-fb62-4bcf-a3ae-b83413382abb?event=Event1", "https://archief.amsterdam/indexen/deeds/59fb0e34-f9c1-4447-90d4-3987dfc2402b?event=Event1"]
     },
     "3745": {
-        "Linden, Simon onder de": ["https://archief.amsterdam/indexen/deeds/431a0962-3adf-4793-bcae-db87dfd5463f?person=961f6ae1-fa4d-53f7-e053-b784100aa83b"],
+        "Linden, Simon onder de": [],
         "Raven, Mondina den": ["https://archief.amsterdam/indexen/deeds/431a0962-3adf-4793-bcae-db87dfd5463f?person=961f6ae1-fa4e-53f7-e053-b784100aa83b"],
         "doop": ["https://archief.amsterdam/indexen/deeds/431a0962-3adf-4793-bcae-db87dfd5463f?event=Event1"]
     },
@@ -3626,7 +3620,7 @@
     },
     "3819": {
         "Houthoff, Cornelia": ["https://archief.amsterdam/indexen/deeds/85608d9f-da42-49ac-b4bf-045418740836?person=961f6b0f-433c-53f7-e053-b784100aa83b"],
-        "Nolk, Pieter van der": ["https://archief.amsterdam/indexen/deeds/85608d9f-da42-49ac-b4bf-045418740836?person=961f6b0f-433b-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/7ef0d413-e272-4f8e-968d-92b8684260c2?person=961f6b00-9c15-53f7-e053-b784100aa83b"],
+        "Nolk, Pieter van der": ["https://archief.amsterdam/indexen/deeds/85608d9f-da42-49ac-b4bf-045418740836?person=961f6b0f-433b-53f7-e053-b784100aa83b"],
         "doop": ["https://archief.amsterdam/indexen/deeds/85608d9f-da42-49ac-b4bf-045418740836?event=Event1"]
     },
     "3820": {
@@ -4299,7 +4293,7 @@
         "doop": ["https://archief.amsterdam/indexen/deeds/f6220be7-8154-46ed-9371-6c03b6d1835c?event=Event1"]
     },
     "4509": {
-        "Koekebakker, Adriaan": ["https://archief.amsterdam/indexen/deeds/1e82ee7b-f78d-4b65-8173-125efe1f5d39?person=961f6ad3-15d2-53f7-e053-b784100aa83b"],
+        "Koekebakker, Adriaan": ["https://archief.amsterdam/indexen/deeds/1f429839-df9c-4f20-8cbc-086b81cab4c9?person=961f6adc-266b-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/23e459b9-da72-40b7-b9b1-6b44910d5182?person=961f6adc-2129-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/7d0dec26-be66-470b-8318-1d510842deb2?person=961f6adb-a86d-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/83082297-a3f0-4104-ba5b-35579dad4a7e?person=961f6afa-2d27-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/e53b0536-5aad-4cff-b73a-d9f8aad7ad5b?person=961f6aea-e0bc-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/1e82ee7b-f78d-4b65-8173-125efe1f5d39?person=961f6ad3-15d2-53f7-e053-b784100aa83b"],
         "Okhuysen, Sara Maria": ["https://archief.amsterdam/indexen/deeds/1e82ee7b-f78d-4b65-8173-125efe1f5d39?person=961f6ad3-15d3-53f7-e053-b784100aa83b"]
     },
     "4511": {
@@ -5661,7 +5655,7 @@
     },
     "691": {
         "Booner, Abraham": ["https://archief.amsterdam/indexen/deeds/742bf9cc-4327-48ff-96de-6b906f109114?person=961f6b0b-6e19-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/7e67f911-c7cf-4e9a-a4fc-3d81400d8cfd?person=961f6b03-ffc9-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/95301b63-481d-4d8a-8ac4-ce628949a643?person=961f6ad7-a76d-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/aab862dc-6644-4c29-8ec6-02f8c4a2ff88?person=961f6b04-1492-53f7-e053-b784100aa83b"],
-        "Brandt, Cornelia": ["https://archief.amsterdam/indexen/deeds/742bf9cc-4327-48ff-96de-6b906f109114?person=961f6b0b-6e1a-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/7e67f911-c7cf-4e9a-a4fc-3d81400d8cfd?person=961f6b03-ffca-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/95301b63-481d-4d8a-8ac4-ce628949a643?person=961f6ad7-a76e-53f7-e053-b784100aa83b"],
+        "Brandt, Cornelia": [],
         "Steen, Cornelia": ["https://archief.amsterdam/indexen/deeds/742bf9cc-4327-48ff-96de-6b906f109114?person=961f6b0b-6e1a-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/7e67f911-c7cf-4e9a-a4fc-3d81400d8cfd?person=961f6b03-ffca-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/95301b63-481d-4d8a-8ac4-ce628949a643?person=961f6ad7-a76e-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/aab862dc-6644-4c29-8ec6-02f8c4a2ff88?person=961f6b04-1493-53f7-e053-b784100aa83b"],
         "doop": ["https://archief.amsterdam/indexen/deeds/742bf9cc-4327-48ff-96de-6b906f109114?event=Event1", "https://archief.amsterdam/indexen/deeds/7e67f911-c7cf-4e9a-a4fc-3d81400d8cfd?event=Event1", "https://archief.amsterdam/indexen/deeds/95301b63-481d-4d8a-8ac4-ce628949a643?event=Event1", "https://archief.amsterdam/indexen/deeds/aab862dc-6644-4c29-8ec6-02f8c4a2ff88?event=Event1"]
     },
