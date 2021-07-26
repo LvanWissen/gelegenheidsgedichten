@@ -50,6 +50,7 @@ class Thing(rdfSubject):
     subjectOf = rdfMultiple(schema.subjectOf)
 
     value = rdfSingle(RDF.value)
+    url = rdfSingle(schema.url)
 
     startDate = rdfSingle(schema.startDate)
     hasTimeStamp = rdfSingle(sem.hasTimeStamp)
@@ -183,13 +184,30 @@ class MusicComposition(Thing):
     lyrics = rdfMultiple(schema.lyrics)
 
 
-def unique(*args):
+def unique(*args, ns=None):
+    """
+    Get a unique identifier (BNode or URIRef) for an entity based on an ordered
+    list of values. Specify the namespace (ns) attribute to return a URIRef. 
+
+    Args:
+        *args: Variable length argument list of values.
+        ns: If given, return a URIRef on this namespace. Otherwise, return a BNode.
+    
+    Returns:
+        A BNode or URIRef.
+    """
 
     identifier = "".join(str(i) for i in args)  # order matters
 
-    unique_id = uuid.uuid5(uuid.NAMESPACE_X500, identifier)
+    if not identifier:
+        unique_id = uuid.uuid4()
+    else:
+        unique_id = uuid.uuid5(uuid.NAMESPACE_X500, identifier)
 
-    return BNode(unique_id)
+    if ns:
+        return URIRef(ns + str(unique_id))
+    else:
+        return BNode(unique_id)
 
 
 def parsePersonName(nameString, identifier=None):
@@ -367,8 +385,8 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
                 authorSameAs = []
                 authorURI = None
 
-                for i in a['thesaurus']:
-                    if 'data.bibliotheken.nl/id/thes/' in i and authorURI is None:
+                for i in sorted(a['thesaurus'], reverse=True):
+                    if 'data.bibliotheken.nl/id/thes/' in i or 'viaf.org' in i and authorURI is None:
                         authorURI = URIRef(i)
                     else:
                         authorSameAs.append(URIRef(i))
@@ -513,21 +531,26 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
                               value=r['steurid']))
 
         # melody
-        if r.get('melody'):
-            for m in r['melody']:
+        for m in r['melody']:
 
-                # The melody is arranged for this particular occasion
-                arrangement = MusicComposition(
-                    unique(m, r['id']),
-                    name=[Literal(f"{r['title']} (Melodie: {m})", lang='nl')],
-                    label=[Literal(f"{r['title']} (Melodie: {m})", lang='nl')],
-                    lyrics=[book])
+            # The melody is arranged for this particular occasion
+            arrangement = MusicComposition(
+                unique(m, r['id']),
+                name=[
+                    Literal(f"{r['title']} (Melodie: {m['label']})", lang='nl')
+                ],
+                label=[
+                    Literal(f"{r['title']} (Melodie: {m['label']})", lang='nl')
+                ],
+                lyrics=[book])
 
-                # melody (MusicComposition) --> arrangement (MusicComposition) --> lyrics (Book)
-                melody = MusicComposition(unique(m),
-                                          name=[m],
-                                          label=[m],
-                                          musicArrangement=[arrangement])
+            # melody (MusicComposition) --> arrangement (MusicComposition) --> lyrics (Book)
+            melody = MusicComposition(
+                unique(m['label']),
+                name=[m['label']],
+                label=[m['label']],
+                url=URIRef(m['liederenbank']) if m['liederenbank'] else None,
+                musicArrangement=[arrangement])
 
         # persons
 
@@ -586,38 +609,9 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
             elif p['role'] not in ('Overige functies', 'Comp', 'Med', 'Pap'):
 
                 # for persons, being in the same event also counts
+                personURI = None
                 pmatch = tuple([r['event']['eventid'], p['person']])
-
-                if p['thesaurus']:
-                    personSameAs = []
-                    personURI = None
-
-                    for i in p['thesaurus']:
-                        if 'data.bibliotheken.nl/id/thes/' in i and personURI is None:
-                            personURI = URIRef(i)
-                            break  # just one is
-                        else:
-                            personSameAs.append(URIRef(i))
-
-                    if personURI is None:
-                        personURI = person2uri.get(pmatch)
-
-                        if personURI is None:
-                            personURI = ggdPerson.term(str(
-                                next(personCounter)))
-                            person2uri[pmatch] = personURI
-
-                else:
-                    personSameAs = []
-
-                    personURI = ggdPerson.term(str(next(personCounter)))
-                    person2uri[pmatch] = personURI
-
-                # Single name to unique person
-                pn, pnLabels = parsePersonName(p['person'],
-                                               identifier=unique(
-                                                   str(personURI)))
-                labelInverseName = [p['person']]
+                personSameAs = []
 
                 # otr
                 personSameAs += [URIRef(i) for i in p['otr']]
@@ -633,6 +627,34 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
 
                 # ecartico
                 personSameAs += [URIRef(i) for i in p['ecartico']]
+
+                if p['thesaurus']:
+
+                    for i in sorted(p['thesaurus'], reverse=True):
+                        if 'data.bibliotheken.nl/id/thes/' in i or 'viaf.org' in i and personURI is None:
+                            personURI = URIRef(i)
+                        else:
+                            personSameAs.append(URIRef(i))
+
+                    if personURI is None:
+                        personURI = person2uri.get(pmatch)
+
+                        # if personURI is None:
+                        #     personURI = ggdPerson.term(str(
+                        #         next(personCounter)))
+                        #     person2uri[pmatch] = personURI
+
+                if personURI is None:
+                    # else:
+
+                    personURI = unique(*sorted(personSameAs), ns=ggdPerson)
+                    person2uri[pmatch] = personURI
+
+                # Single name to unique person
+                pn, pnLabels = parsePersonName(p['person'],
+                                               identifier=unique(
+                                                   str(personURI)))
+                labelInverseName = [p['person']]
 
                 if p['gender']:
                     gender = URIRef(p['gender'])

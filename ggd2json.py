@@ -99,6 +99,9 @@ with open('data/id2rkd.json') as infile:
 with open('data/id2wikidata.json') as infile:
     ID2WIKIDATA = json.load(infile)
 
+with open('data/id2melodie.json') as infile:
+    ID2MELODIE = json.load(infile)
+
 ID2THESAURUS = defaultdict(lambda: defaultdict(lambda: defaultdict(list)))
 for ggdid in ID2PERSON:
     for name in ID2PERSON[ggdid]:
@@ -166,11 +169,11 @@ def getPersons(persons, getRole=False, recordID=None):
 
         if recordID and recordID in ID2THESAURUS:
             if role == 'Drukker/uitgever':
-                thesaurus = ID2THESAURUS[recordID]['printer'].get(person)
+                thesaurus = ID2THESAURUS[recordID]['printer'].get(person, [])
             elif role is None:
-                thesaurus = ID2THESAURUS[recordID]['author'].get(person)
+                thesaurus = ID2THESAURUS[recordID]['author'].get(person, [])
             else:
-                thesaurus = ID2THESAURUS[recordID]['person'].get(person)
+                thesaurus = ID2THESAURUS[recordID]['person'].get(person, [])
         else:
             thesaurus = []
 
@@ -310,8 +313,16 @@ def parseRecord(record: dict):
     else:
         record['language'] = [languages[i] for i in record['language']]
 
+    # melody (single)
     if type(record.get('melody')) != list and record.get('melody'):
         record['melody'] = [record['melody']]
+
+    record['melody'] = [{
+        'label':
+        i,
+        'liederenbank':
+        ID2MELODIE.get(record['id'], {}).get(i)
+    } for i in record.get('melody', [])]
 
     # persons/roles
     if record.get('person'):
