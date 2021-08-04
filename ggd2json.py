@@ -93,6 +93,9 @@ with open('data/id2doop.json') as infile:
 with open('data/id2otr.json') as infile:
     ID2OTR = json.load(infile)
 
+with open('data/id2begraaf.json') as infile:
+    ID2BEGRAAF = json.load(infile)
+
 with open('data/id2rkd.json') as infile:
     ID2RKD = json.load(infile)
 
@@ -191,6 +194,11 @@ def getPersons(persons, getRole=False, recordID=None):
             doop = ID2DOOP[recordID].get(person, [])
         else:
             doop = []
+
+        if recordID and recordID in ID2BEGRAAF:
+            otr = ID2BEGRAAF[recordID].get(person, [])
+        else:
+            otr = []
 
         if recordID and recordID in ID2RKD:
             rkd = ID2RKD[recordID].get(person, [])
@@ -375,6 +383,14 @@ def parseRecord(record: dict):
     else:
         doop = []
     record['event']['doop'] = doop
+
+    # begraaf
+    begraaf = ID2BEGRAAF.get(record['id'])
+    if begraaf and begraaf.get('begraaf'):
+        begraaf = begraaf['begraaf']
+    else:
+        begraaf = []
+    record['event']['begraaf'] = begraaf
 
     # impressum place
     if record['id'] in IMPRESSUMDATA:

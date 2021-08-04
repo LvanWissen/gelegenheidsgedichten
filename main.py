@@ -514,7 +514,9 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
                 for i in r['event']['type'] if i
             ],
             precedingEvent=[URIRef(i) for i in r['event']['otr']],
-            followingEvent=[URIRef(i) for i in r['event']['doop']])
+            followingEvent=[
+                URIRef(i) for i in r['event']['doop'] + r['event']['begraaf']
+            ])
         abouts.append(event)
 
         identifiers = [
