@@ -71,10 +71,6 @@
         "Hudde, Joannes": ["https://archief.amsterdam/indexen/deeds/70d5deee-69a3-4b1a-951b-b1840bf820a9?person=99e87e1c-d89d-2bb2-e053-b784100a6a2e"],
         "begraaf": ["https://archief.amsterdam/indexen/deeds/70d5deee-69a3-4b1a-951b-b1840bf820a9?event=Event1"]
     },
-    "626": {
-        "Cats, Elisabeth": ["https://archief.amsterdam/indexen/deeds/49fd727b-7330-4229-b44a-bfd9d4ac99ae?person=99e87e1c-97de-2bb2-e053-b784100a6a2e"],
-        "begraaf": ["https://archief.amsterdam/indexen/deeds/49fd727b-7330-4229-b44a-bfd9d4ac99ae?event=Event1"]
-    },
     "631": {
         "Sweers, Isaac": ["https://archief.amsterdam/indexen/deeds/f2e1afd3-ddbe-4432-b808-99041f74138e?person=99e87e15-e80c-2bb2-e053-b784100a6a2e"],
         "begraaf": ["https://archief.amsterdam/indexen/deeds/f2e1afd3-ddbe-4432-b808-99041f74138e?event=Event1"]
@@ -127,10 +123,6 @@
         "Papenbroek, Philips van": ["https://archief.amsterdam/indexen/deeds/9e32c3a1-f684-42d7-8dc5-c116c5a8f7a1?person=99e87e25-e974-2bb2-e053-b784100a6a2e"],
         "begraaf": ["https://archief.amsterdam/indexen/deeds/9e32c3a1-f684-42d7-8dc5-c116c5a8f7a1?event=Event1"]
     },
-    "785": {
-        "Gerrits, Maartje": ["https://archief.amsterdam/indexen/deeds/97934937-34f3-4173-8b48-169bd9a4a151?person=99e87e16-b7b4-2bb2-e053-b784100a6a2e"],
-        "begraaf": ["https://archief.amsterdam/indexen/deeds/97934937-34f3-4173-8b48-169bd9a4a151?event=Event1"]
-    },
     "791": {
         "Vroede, Fran\u00e7ois de": ["https://archief.amsterdam/indexen/deeds/3c69770b-4388-4c10-a141-68ff4326de9f?person=99e87e15-b188-2bb2-e053-b784100a6a2e"],
         "begraaf": ["https://archief.amsterdam/indexen/deeds/3c69770b-4388-4c10-a141-68ff4326de9f?event=Event1"]
@@ -142,10 +134,6 @@
     "824": {
         "Somer, Bernardus": ["https://archief.amsterdam/indexen/deeds/df9a8c00-d92a-413f-81de-166e77aa7dc5?person=99e87e1c-9a4e-2bb2-e053-b784100a6a2e"],
         "begraaf": ["https://archief.amsterdam/indexen/deeds/df9a8c00-d92a-413f-81de-166e77aa7dc5?event=Event1"]
-    },
-    "835": {
-        "Brandt, Joannes (1660-1708)": ["https://archief.amsterdam/indexen/deeds/aaf009ec-e81a-4cc2-967d-fa92ed2a26af?person=99e87e15-be4d-2bb2-e053-b784100a6a2e"],
-        "begraaf": ["https://archief.amsterdam/indexen/deeds/aaf009ec-e81a-4cc2-967d-fa92ed2a26af?event=Event1"]
     },
     "867": {
         "Huydecoper, Joan": ["https://archief.amsterdam/indexen/deeds/1244396c-90e0-4d4e-ba98-18df7cc673b4?person=99e87e13-9b20-2bb2-e053-b784100a6a2e"],
@@ -180,21 +168,17 @@
         "Cloeck, Cornelis": ["https://archief.amsterdam/indexen/deeds/0eab47be-d20e-477b-a1ac-7a83620019b5?person=99e87e1e-ebaa-2bb2-e053-b784100a6a2e"],
         "begraaf": ["https://archief.amsterdam/indexen/deeds/0eab47be-d20e-477b-a1ac-7a83620019b5?event=Event1"]
     },
-    "1043": {
-        "Anslaar, Guiljelmus": ["https://archief.amsterdam/indexen/deeds/3cf2ede9-4aa4-4b77-bf48-d37bc0b02f8b?person=99e87e1e-fa3d-2bb2-e053-b784100a6a2e"],
-        "begraaf": ["https://archief.amsterdam/indexen/deeds/3cf2ede9-4aa4-4b77-bf48-d37bc0b02f8b?event=Event1"]
-    },
     "1066": {
-        "Gent, Gouda van": ["https://archief.amsterdam/indexen/deeds/08170aaf-378f-444f-ad7a-e991f4c8bc3e?person=99e87e25-dccd-2bb2-e053-b784100a6a2e", "https://archief.amsterdam/indexen/deeds/d467c698-990b-4907-a826-77beaf152eb6?person=99e87e23-8e8a-2bb2-e053-b784100a6a2e"],
-        "begraaf": ["https://archief.amsterdam/indexen/deeds/08170aaf-378f-444f-ad7a-e991f4c8bc3e?event=Event1", "https://archief.amsterdam/indexen/deeds/d467c698-990b-4907-a826-77beaf152eb6?event=Event1"]
+        "Gent, Gouda van": ["https://archief.amsterdam/indexen/deeds/08170aaf-378f-444f-ad7a-e991f4c8bc3e?person=99e87e25-dccd-2bb2-e053-b784100a6a2e"],
+        "begraaf": ["https://archief.amsterdam/indexen/deeds/08170aaf-378f-444f-ad7a-e991f4c8bc3e?event=Event1"]
     },
     "1067": {
-        "Gent, Gouda van": ["https://archief.amsterdam/indexen/deeds/08170aaf-378f-444f-ad7a-e991f4c8bc3e?person=99e87e25-dccd-2bb2-e053-b784100a6a2e", "https://archief.amsterdam/indexen/deeds/d467c698-990b-4907-a826-77beaf152eb6?person=99e87e23-8e8a-2bb2-e053-b784100a6a2e"],
-        "begraaf": ["https://archief.amsterdam/indexen/deeds/08170aaf-378f-444f-ad7a-e991f4c8bc3e?event=Event1", "https://archief.amsterdam/indexen/deeds/d467c698-990b-4907-a826-77beaf152eb6?event=Event1"]
+        "Gent, Gouda van": ["https://archief.amsterdam/indexen/deeds/08170aaf-378f-444f-ad7a-e991f4c8bc3e?person=99e87e25-dccd-2bb2-e053-b784100a6a2e"],
+        "begraaf": ["https://archief.amsterdam/indexen/deeds/08170aaf-378f-444f-ad7a-e991f4c8bc3e?event=Event1"]
     },
     "1068": {
-        "Gent, Gouda van": ["https://archief.amsterdam/indexen/deeds/08170aaf-378f-444f-ad7a-e991f4c8bc3e?person=99e87e25-dccd-2bb2-e053-b784100a6a2e", "https://archief.amsterdam/indexen/deeds/d467c698-990b-4907-a826-77beaf152eb6?person=99e87e23-8e8a-2bb2-e053-b784100a6a2e"],
-        "begraaf": ["https://archief.amsterdam/indexen/deeds/08170aaf-378f-444f-ad7a-e991f4c8bc3e?event=Event1", "https://archief.amsterdam/indexen/deeds/d467c698-990b-4907-a826-77beaf152eb6?event=Event1"]
+        "Gent, Gouda van": ["https://archief.amsterdam/indexen/deeds/08170aaf-378f-444f-ad7a-e991f4c8bc3e?person=99e87e25-dccd-2bb2-e053-b784100a6a2e"],
+        "begraaf": ["https://archief.amsterdam/indexen/deeds/08170aaf-378f-444f-ad7a-e991f4c8bc3e?event=Event1"]
     },
     "1077": {
         "Fortgens, Michael": ["https://archief.amsterdam/indexen/deeds/272ca03c-f6bf-4052-aa73-1107e0df38a9?person=99e87e11-7e87-2bb2-e053-b784100a6a2e"],
@@ -207,10 +191,6 @@
     "1099": {
         "Schelling, Juliana van der": ["https://archief.amsterdam/indexen/deeds/21f7f5cf-b3fb-4397-acef-c7f50d06e0f7?person=99e87e1f-2791-2bb2-e053-b784100a6a2e"],
         "begraaf": ["https://archief.amsterdam/indexen/deeds/21f7f5cf-b3fb-4397-acef-c7f50d06e0f7?event=Event1"]
-    },
-    "1104": {
-        "Ploegh, Cornelis": ["https://archief.amsterdam/indexen/deeds/1c10b532-ffa6-4e0a-a71a-da6f210a74b0?person=99e87e11-a0df-2bb2-e053-b784100a6a2e"],
-        "begraaf": ["https://archief.amsterdam/indexen/deeds/1c10b532-ffa6-4e0a-a71a-da6f210a74b0?event=Event1"]
     },
     "1118": {
         "Abrahamsz, Galenus": ["https://archief.amsterdam/indexen/deeds/617bc3d1-9120-4474-9153-70868945a172?person=99e87e18-00de-2bb2-e053-b784100a6a2e"],
@@ -245,8 +225,8 @@
         "begraaf": ["https://archief.amsterdam/indexen/deeds/70d5deee-69a3-4b1a-951b-b1840bf820a9?event=Event1"]
     },
     "1207": {
-        "Gent, Gouda van": ["https://archief.amsterdam/indexen/deeds/08170aaf-378f-444f-ad7a-e991f4c8bc3e?person=99e87e25-dccd-2bb2-e053-b784100a6a2e", "https://archief.amsterdam/indexen/deeds/d467c698-990b-4907-a826-77beaf152eb6?person=99e87e23-8e8a-2bb2-e053-b784100a6a2e"],
-        "begraaf": ["https://archief.amsterdam/indexen/deeds/08170aaf-378f-444f-ad7a-e991f4c8bc3e?event=Event1", "https://archief.amsterdam/indexen/deeds/d467c698-990b-4907-a826-77beaf152eb6?event=Event1"]
+        "Gent, Gouda van": ["https://archief.amsterdam/indexen/deeds/08170aaf-378f-444f-ad7a-e991f4c8bc3e?person=99e87e25-dccd-2bb2-e053-b784100a6a2e"],
+        "begraaf": ["https://archief.amsterdam/indexen/deeds/08170aaf-378f-444f-ad7a-e991f4c8bc3e?event=Event1"]
     },
     "1211": {
         "Geelvinck, Lieve (1676-1743)": ["https://archief.amsterdam/indexen/deeds/04b9708e-28de-4dbc-bf6f-f0e9ea0b44af?person=99e87e1f-0edf-2bb2-e053-b784100a6a2e"],
@@ -347,14 +327,6 @@
     "1525": {
         "Ryk, Mattheus de": ["https://archief.amsterdam/indexen/deeds/b481825a-e0e9-48cb-9b25-e28d4dbdc110?person=99e87e26-17d9-2bb2-e053-b784100a6a2e"],
         "begraaf": ["https://archief.amsterdam/indexen/deeds/b481825a-e0e9-48cb-9b25-e28d4dbdc110?event=Event1"]
-    },
-    "1544": {
-        "Brandt, Joannes (1660-1708)": ["https://archief.amsterdam/indexen/deeds/aaf009ec-e81a-4cc2-967d-fa92ed2a26af?person=99e87e15-be4d-2bb2-e053-b784100a6a2e"],
-        "begraaf": ["https://archief.amsterdam/indexen/deeds/aaf009ec-e81a-4cc2-967d-fa92ed2a26af?event=Event1"]
-    },
-    "1545": {
-        "Brandt, Joannes (1660-1708)": ["https://archief.amsterdam/indexen/deeds/aaf009ec-e81a-4cc2-967d-fa92ed2a26af?person=99e87e15-be4d-2bb2-e053-b784100a6a2e"],
-        "begraaf": ["https://archief.amsterdam/indexen/deeds/aaf009ec-e81a-4cc2-967d-fa92ed2a26af?event=Event1"]
     },
     "1566": {
         "Vries, Joan de": ["https://archief.amsterdam/indexen/deeds/7e9d42c0-b1f9-4d68-9f2e-5e757260521c?person=99e87e15-eb29-2bb2-e053-b784100a6a2e"],
@@ -517,8 +489,8 @@
         "begraaf": ["https://archief.amsterdam/indexen/deeds/a68a1998-6105-4d90-ae63-a87d0bcd1510?event=Event1"]
     },
     "2143": {
-        "Deurhoff, Willem": ["https://archief.amsterdam/indexen/deeds/6dc49978-2970-4529-8c06-992c76ee93eb?person=99e87e27-9191-2bb2-e053-b784100a6a2e", "https://archief.amsterdam/indexen/deeds/d5cf4425-50a5-4c82-8e0a-3a31429bfb79?person=99e87e1c-d97c-2bb2-e053-b784100a6a2e"],
-        "begraaf": ["https://archief.amsterdam/indexen/deeds/6dc49978-2970-4529-8c06-992c76ee93eb?event=Event1", "https://archief.amsterdam/indexen/deeds/d5cf4425-50a5-4c82-8e0a-3a31429bfb79?event=Event1"]
+        "Deurhoff, Willem": ["https://archief.amsterdam/indexen/deeds/d5cf4425-50a5-4c82-8e0a-3a31429bfb79?person=99e87e1c-d97c-2bb2-e053-b784100a6a2e"],
+        "begraaf": ["https://archief.amsterdam/indexen/deeds/d5cf4425-50a5-4c82-8e0a-3a31429bfb79?event=Event1"]
     },
     "2157": {
         "Slicher, Elbert": ["https://archief.amsterdam/indexen/deeds/5cd1e01b-61b1-45ab-9db3-24ee02235f26?person=99e87e13-9bfa-2bb2-e053-b784100a6a2e"],
@@ -564,10 +536,6 @@
         "Geelvinck, Lieve (1676-1743)": ["https://archief.amsterdam/indexen/deeds/04b9708e-28de-4dbc-bf6f-f0e9ea0b44af?person=99e87e1f-0edf-2bb2-e053-b784100a6a2e"],
         "begraaf": ["https://archief.amsterdam/indexen/deeds/04b9708e-28de-4dbc-bf6f-f0e9ea0b44af?event=Event1"]
     },
-    "2405": {
-        "Muilman, Willem": ["https://archief.amsterdam/indexen/deeds/fbb20e7b-27ae-40fd-9327-622d1330c0b0?person=99e87e13-47e9-2bb2-e053-b784100a6a2e"],
-        "begraaf": ["https://archief.amsterdam/indexen/deeds/fbb20e7b-27ae-40fd-9327-622d1330c0b0?event=Event1"]
-    },
     "2409": {
         "Sluyter, Geertruid": ["https://archief.amsterdam/indexen/deeds/1530fed8-c986-455f-8ca8-efacb9f676dc?person=99e87e15-bf35-2bb2-e053-b784100a6a2e"],
         "begraaf": ["https://archief.amsterdam/indexen/deeds/1530fed8-c986-455f-8ca8-efacb9f676dc?event=Event1"]
@@ -579,10 +547,6 @@
     "2483": {
         "Lomannus, Wilhelmina Katarina": ["https://archief.amsterdam/indexen/deeds/5d4eb489-0fe9-42bd-ac9f-57afc3bf43ce?person=99e87e23-9da5-2bb2-e053-b784100a6a2e"],
         "begraaf": ["https://archief.amsterdam/indexen/deeds/5d4eb489-0fe9-42bd-ac9f-57afc3bf43ce?event=Event1"]
-    },
-    "2511": {
-        "Alberts, Grietje": ["https://archief.amsterdam/indexen/deeds/4ba9e988-6498-42bb-bcca-0d8e77d15aea?person=99e87e21-a3f6-2bb2-e053-b784100a6a2e", "https://archief.amsterdam/indexen/deeds/9a2d4a5e-cb05-4063-bb0d-045c7382dee9?person=99e87e12-340c-2bb2-e053-b784100a6a2e"],
-        "begraaf": ["https://archief.amsterdam/indexen/deeds/4ba9e988-6498-42bb-bcca-0d8e77d15aea?event=Event1", "https://archief.amsterdam/indexen/deeds/9a2d4a5e-cb05-4063-bb0d-045c7382dee9?event=Event1"]
     },
     "2519": {
         "Kroll, Rachel": ["https://archief.amsterdam/indexen/deeds/e980f89f-0479-4cf8-bd25-02b43539e467?person=99e87e1e-f09f-2bb2-e053-b784100a6a2e"],
@@ -605,8 +569,8 @@
         "begraaf": ["https://archief.amsterdam/indexen/deeds/2f133bf3-0d16-4229-87cb-008082158db6?event=Event1"]
     },
     "2684": {
-        "Staveren, Johannes van": ["https://archief.amsterdam/indexen/deeds/0a345e93-53ef-4e80-876c-7502e929b5e7?person=99e87e26-192b-2bb2-e053-b784100a6a2e", "https://archief.amsterdam/indexen/deeds/1decaf4e-7720-434c-bd44-d1a35f7bc4ae?person=99e87e1a-abd9-2bb2-e053-b784100a6a2e"],
-        "begraaf": ["https://archief.amsterdam/indexen/deeds/0a345e93-53ef-4e80-876c-7502e929b5e7?event=Event1", "https://archief.amsterdam/indexen/deeds/1decaf4e-7720-434c-bd44-d1a35f7bc4ae?event=Event1"]
+        "Staveren, Johannes van": ["https://archief.amsterdam/indexen/deeds/1decaf4e-7720-434c-bd44-d1a35f7bc4ae?person=99e87e1a-abd9-2bb2-e053-b784100a6a2e"],
+        "begraaf": ["https://archief.amsterdam/indexen/deeds/1decaf4e-7720-434c-bd44-d1a35f7bc4ae?event=Event1"]
     },
     "2689": {
         "Hoogstraten, David van": ["https://archief.amsterdam/indexen/deeds/31aeab3b-3e18-4186-ba2c-e344e27f54cf?person=99e87e1a-d97f-2bb2-e053-b784100a6a2e"],
@@ -643,10 +607,6 @@
     "2731": {
         "Walle, Christoffel van de": ["https://archief.amsterdam/indexen/deeds/19bca8dc-6f99-4ed1-b48d-44f0fec5f3af?person=99e87e23-fdf5-2bb2-e053-b784100a6a2e", "https://archief.amsterdam/indexen/deeds/90ae3094-f555-4890-aa14-927807499219?person=99e87e16-32ea-2bb2-e053-b784100a6a2e"],
         "begraaf": ["https://archief.amsterdam/indexen/deeds/19bca8dc-6f99-4ed1-b48d-44f0fec5f3af?event=Event1", "https://archief.amsterdam/indexen/deeds/90ae3094-f555-4890-aa14-927807499219?event=Event1"]
-    },
-    "2786": {
-        "Haer, Johan van der": ["https://archief.amsterdam/indexen/deeds/0abcfe95-5b90-4c38-bc01-44dcd2c77f39?person=99e87e17-2806-2bb2-e053-b784100a6a2e"],
-        "begraaf": ["https://archief.amsterdam/indexen/deeds/0abcfe95-5b90-4c38-bc01-44dcd2c77f39?event=Event1"]
     },
     "2790": {
         "Bremer, Johannes": ["https://archief.amsterdam/indexen/deeds/1ecaed43-3717-455f-8455-eded5155b8f0?person=99e87e1a-5f46-2bb2-e053-b784100a6a2e"],
@@ -688,8 +648,8 @@
         "begraaf": ["https://archief.amsterdam/indexen/deeds/490eb895-d052-4a08-9abc-e3f66d2a4467?event=Event1"]
     },
     "2944": {
-        "Vlak, Cornelia": ["https://archief.amsterdam/indexen/deeds/2a0a685b-0868-455c-98a6-2da6b386166b?person=99e87e23-9318-2bb2-e053-b784100a6a2e", "https://archief.amsterdam/indexen/deeds/46219a26-89fe-48e2-82d5-a739aca9c5a4?person=99e87e15-b4bd-2bb2-e053-b784100a6a2e"],
-        "begraaf": ["https://archief.amsterdam/indexen/deeds/2a0a685b-0868-455c-98a6-2da6b386166b?event=Event1", "https://archief.amsterdam/indexen/deeds/46219a26-89fe-48e2-82d5-a739aca9c5a4?event=Event1"]
+        "Vlak, Cornelia": ["https://archief.amsterdam/indexen/deeds/46219a26-89fe-48e2-82d5-a739aca9c5a4?person=99e87e15-b4bd-2bb2-e053-b784100a6a2e"],
+        "begraaf": ["https://archief.amsterdam/indexen/deeds/46219a26-89fe-48e2-82d5-a739aca9c5a4?event=Event1"]
     },
     "2949": {
         "Schyn, Hermannus": ["https://archief.amsterdam/indexen/deeds/5c5adda4-e8cd-4456-bf88-dbf17992b347?person=99e87e1e-f1a0-2bb2-e053-b784100a6a2e"],
@@ -719,10 +679,6 @@
         "Hasselaer, Gerard Aarnoud": ["https://archief.amsterdam/indexen/deeds/f71755ef-7c93-4926-aa83-5e8d4961e74d?person=99e87e1d-06a4-2bb2-e053-b784100a6a2e"],
         "begraaf": ["https://archief.amsterdam/indexen/deeds/f71755ef-7c93-4926-aa83-5e8d4961e74d?event=Event1"]
     },
-    "3031": {
-        "Pot, Cornelis van der (1707-1728)": ["https://archief.amsterdam/indexen/deeds/97fb15c6-dac4-483d-a448-5f0abb470bf1?person=99e87e23-32dc-2bb2-e053-b784100a6a2e"],
-        "begraaf": ["https://archief.amsterdam/indexen/deeds/97fb15c6-dac4-483d-a448-5f0abb470bf1?event=Event1"]
-    },
     "3043": {
         "Six, Jan (1668-1750)": ["https://archief.amsterdam/indexen/deeds/90d4a16e-caeb-4dcd-bf85-cbd18e3fd24c?person=99e87e13-8336-2bb2-e053-b784100a6a2e"],
         "begraaf": ["https://archief.amsterdam/indexen/deeds/90d4a16e-caeb-4dcd-bf85-cbd18e3fd24c?event=Event1"]
@@ -742,10 +698,6 @@
     "3047": {
         "Six, Jan (1668-1750)": ["https://archief.amsterdam/indexen/deeds/90d4a16e-caeb-4dcd-bf85-cbd18e3fd24c?person=99e87e13-8336-2bb2-e053-b784100a6a2e"],
         "begraaf": ["https://archief.amsterdam/indexen/deeds/90d4a16e-caeb-4dcd-bf85-cbd18e3fd24c?event=Event1"]
-    },
-    "3051": {
-        "Dussen, Jacob van der (1670-1728)": ["https://archief.amsterdam/indexen/deeds/47b6dbf3-b9c7-48fc-ae55-11d9cf126966?person=99e87e1b-c6ac-2bb2-e053-b784100a6a2e"],
-        "begraaf": ["https://archief.amsterdam/indexen/deeds/47b6dbf3-b9c7-48fc-ae55-11d9cf126966?event=Event1"]
     },
     "3057": {
         "Uylenbroek, Maria": ["https://archief.amsterdam/indexen/deeds/c9fb3994-50f2-405c-aaa7-7d4da45b0ba5?person=99e87e18-91df-2bb2-e053-b784100a6a2e"],
@@ -861,10 +813,6 @@
         "Le Clerc, Jean": ["https://archief.amsterdam/indexen/deeds/24ee9978-6f9b-45e8-b58d-0aeb94416e8f?person=99e87e1c-b7f7-2bb2-e053-b784100a6a2e"],
         "begraaf": ["https://archief.amsterdam/indexen/deeds/24ee9978-6f9b-45e8-b58d-0aeb94416e8f?event=Event1"]
     },
-    "3556": {
-        "Muilman, Willem": ["https://archief.amsterdam/indexen/deeds/fbb20e7b-27ae-40fd-9327-622d1330c0b0?person=99e87e13-47e9-2bb2-e053-b784100a6a2e"],
-        "begraaf": ["https://archief.amsterdam/indexen/deeds/fbb20e7b-27ae-40fd-9327-622d1330c0b0?event=Event1"]
-    },
     "3559": {
         "Fontein, Pieter": ["https://archief.amsterdam/indexen/deeds/9a1c5c12-0924-40df-80bb-0822717f0f0b?person=99e87e1d-1272-2bb2-e053-b784100a6a2e"],
         "begraaf": ["https://archief.amsterdam/indexen/deeds/9a1c5c12-0924-40df-80bb-0822717f0f0b?event=Event1"]
@@ -931,10 +879,6 @@
         "Beels, Leonard": ["https://archief.amsterdam/indexen/deeds/a4c9edf8-cdd8-46aa-9a5b-57ce81250dfa?person=99e87e21-d386-2bb2-e053-b784100a6a2e"],
         "begraaf": ["https://archief.amsterdam/indexen/deeds/a4c9edf8-cdd8-46aa-9a5b-57ce81250dfa?event=Event1"]
     },
-    "3775": {
-        "Ruyter, Cornelis": ["https://archief.amsterdam/indexen/deeds/2f5bc1ed-0835-4987-83d7-54bd1b9fd6a5?person=99e87e1e-969b-2bb2-e053-b784100a6a2e"],
-        "begraaf": ["https://archief.amsterdam/indexen/deeds/2f5bc1ed-0835-4987-83d7-54bd1b9fd6a5?event=Event1"]
-    },
     "3777": {
         "Graafland, Johanna Jacoba": ["https://archief.amsterdam/indexen/deeds/ce8fc956-23eb-476c-b0ad-0a482175b908?person=99e87e23-b007-2bb2-e053-b784100a6a2e"],
         "begraaf": ["https://archief.amsterdam/indexen/deeds/ce8fc956-23eb-476c-b0ad-0a482175b908?event=Event1"]
@@ -950,10 +894,6 @@
     "3783": {
         "Vorm, Johannes van der": ["https://archief.amsterdam/indexen/deeds/cc1308c8-0a59-417c-8253-146efa9faa8f?person=99e87e13-f587-2bb2-e053-b784100a6a2e"],
         "begraaf": ["https://archief.amsterdam/indexen/deeds/cc1308c8-0a59-417c-8253-146efa9faa8f?event=Event1"]
-    },
-    "3793": {
-        "Aerssen, Cornelis van (1721-1740)": ["https://archief.amsterdam/indexen/deeds/5a6c16bc-7e77-4185-89c1-415d5f263bfe?person=99e87e20-22c3-2bb2-e053-b784100a6a2e"],
-        "begraaf": ["https://archief.amsterdam/indexen/deeds/5a6c16bc-7e77-4185-89c1-415d5f263bfe?event=Event1"]
     },
     "3812": {
         "Heemskerck, Hillegonda Cornelia": ["https://archief.amsterdam/indexen/deeds/152e1dbb-418f-48a4-947f-cf9e5da0fded?person=99e87e1f-0e91-2bb2-e053-b784100a6a2e"],
@@ -1045,9 +985,8 @@
     },
     "4039": {
         "Strengh, Maria Elisabeth van der": ["https://archief.amsterdam/indexen/deeds/731b5a00-fca3-4ed6-b97b-317d45f6300b?person=99e87e13-c763-2bb2-e053-b784100a6a2e"],
-        "begraaf": ["https://archief.amsterdam/indexen/deeds/731b5a00-fca3-4ed6-b97b-317d45f6300b?event=Event1", "https://archief.amsterdam/indexen/deeds/40517d81-989f-4a66-b8cc-d1819e9e7b8f?event=Event1", "https://archief.amsterdam/indexen/deeds/4ee627c4-3ac0-4749-8666-1c3a41f5f104?event=Event1"],
-        "Burman, Martinus Petrus": ["https://archief.amsterdam/indexen/deeds/40517d81-989f-4a66-b8cc-d1819e9e7b8f?person=99e87e1a-b44e-2bb2-e053-b784100a6a2e"],
-        "Burman, Maria": ["https://archief.amsterdam/indexen/deeds/4ee627c4-3ac0-4749-8666-1c3a41f5f104?person=99e87e20-ea32-2bb2-e053-b784100a6a2e"]
+        "begraaf": ["https://archief.amsterdam/indexen/deeds/731b5a00-fca3-4ed6-b97b-317d45f6300b?event=Event1", "https://archief.amsterdam/indexen/deeds/40517d81-989f-4a66-b8cc-d1819e9e7b8f?event=Event1"],
+        "Burman, Martinus Petrus": ["https://archief.amsterdam/indexen/deeds/40517d81-989f-4a66-b8cc-d1819e9e7b8f?person=99e87e1a-b44e-2bb2-e053-b784100a6a2e"]
     },
     "4060": {
         "Bicker, Hendrik (1724-1745)": ["https://archief.amsterdam/indexen/deeds/2401dccc-05b7-451f-bd7e-590821f83324?person=99e87e13-9f2b-2bb2-e053-b784100a6a2e", "https://archief.amsterdam/indexen/deeds/da02df73-58ba-47e7-a6d3-517f2368ce09?person=99e87e23-76ed-2bb2-e053-b784100a6a2e"],
@@ -1080,10 +1019,6 @@
     "4140": {
         "Knuyse, Anna": ["https://archief.amsterdam/indexen/deeds/f72f1b59-f26c-4050-9613-1904ad1744ab?person=99e87e1c-c034-2bb2-e053-b784100a6a2e"],
         "begraaf": ["https://archief.amsterdam/indexen/deeds/f72f1b59-f26c-4050-9613-1904ad1744ab?event=Event1"]
-    },
-    "4142": {
-        "Heim, Anthoni van der": ["https://archief.amsterdam/indexen/deeds/0b213167-b446-4971-9a65-d0d84de618a6?person=99e87e1d-23f9-2bb2-e053-b784100a6a2e"],
-        "begraaf": ["https://archief.amsterdam/indexen/deeds/0b213167-b446-4971-9a65-d0d84de618a6?event=Event1"]
     },
     "4198": {
         "Willink, Judith": ["https://archief.amsterdam/indexen/deeds/2bde0766-a739-428f-99a6-cc449fe4515c?person=99e87e1f-741d-2bb2-e053-b784100a6a2e", "https://archief.amsterdam/indexen/deeds/ef2b513a-066b-4624-b94d-e72274f1e981?person=99e87e26-6990-2bb2-e053-b784100a6a2e"],
@@ -1340,10 +1275,6 @@
         "Hasselaer, Gerard Aarnoud": ["https://archief.amsterdam/indexen/deeds/f71755ef-7c93-4926-aa83-5e8d4961e74d?person=99e87e1d-06a4-2bb2-e053-b784100a6a2e"],
         "begraaf": ["https://archief.amsterdam/indexen/deeds/f71755ef-7c93-4926-aa83-5e8d4961e74d?event=Event1"]
     },
-    "4956": {
-        "Muilman, Willem": ["https://archief.amsterdam/indexen/deeds/fbb20e7b-27ae-40fd-9327-622d1330c0b0?person=99e87e13-47e9-2bb2-e053-b784100a6a2e"],
-        "begraaf": ["https://archief.amsterdam/indexen/deeds/fbb20e7b-27ae-40fd-9327-622d1330c0b0?event=Event1"]
-    },
     "4965": {
         "Munter, Willem": ["https://archief.amsterdam/indexen/deeds/7a977bf7-71d7-47a5-a33c-33db4b215aa0?person=99e87e11-66b5-2bb2-e053-b784100a6a2e"],
         "begraaf": ["https://archief.amsterdam/indexen/deeds/7a977bf7-71d7-47a5-a33c-33db4b215aa0?event=Event1"]
@@ -1485,8 +1416,8 @@
         "begraaf": ["https://archief.amsterdam/indexen/deeds/b09e3986-5910-4daa-9038-545113202664?event=Event1"]
     },
     "5279": {
-        "Bosch, Hendrik de": ["https://archief.amsterdam/indexen/deeds/87c8217f-6ca2-4fe0-a91d-3a17c9587c07?person=99e87e20-f554-2bb2-e053-b784100a6a2e", "https://archief.amsterdam/indexen/deeds/aecea78a-ee09-4ee5-8dac-3b490d6b13ba?person=99e87e13-d336-2bb2-e053-b784100a6a2e"],
-        "begraaf": ["https://archief.amsterdam/indexen/deeds/87c8217f-6ca2-4fe0-a91d-3a17c9587c07?event=Event1", "https://archief.amsterdam/indexen/deeds/aecea78a-ee09-4ee5-8dac-3b490d6b13ba?event=Event1"]
+        "Bosch, Hendrik de": ["https://archief.amsterdam/indexen/deeds/aecea78a-ee09-4ee5-8dac-3b490d6b13ba?person=99e87e13-d336-2bb2-e053-b784100a6a2e"],
+        "begraaf": ["https://archief.amsterdam/indexen/deeds/aecea78a-ee09-4ee5-8dac-3b490d6b13ba?event=Event1"]
     },
     "5280": {
         "Bosch, Jeronimo de": ["https://archief.amsterdam/indexen/deeds/08e54c2c-51c1-43a8-9953-49b077d9e8d2?person=99e87e11-82a6-2bb2-e053-b784100a6a2e", "https://archief.amsterdam/indexen/deeds/0be651e6-241c-46c3-8664-8dceb00ba391?person=99e87e1f-7741-2bb2-e053-b784100a6a2e"],
@@ -1602,8 +1533,8 @@
         "begraaf": ["https://archief.amsterdam/indexen/deeds/e7e173c6-ce44-4327-8c0c-a255f03a293a?event=Event1"]
     },
     "5537": {
-        "Bosch, Hendrik de": ["https://archief.amsterdam/indexen/deeds/87c8217f-6ca2-4fe0-a91d-3a17c9587c07?person=99e87e20-f554-2bb2-e053-b784100a6a2e", "https://archief.amsterdam/indexen/deeds/aecea78a-ee09-4ee5-8dac-3b490d6b13ba?person=99e87e13-d336-2bb2-e053-b784100a6a2e"],
-        "begraaf": ["https://archief.amsterdam/indexen/deeds/87c8217f-6ca2-4fe0-a91d-3a17c9587c07?event=Event1", "https://archief.amsterdam/indexen/deeds/aecea78a-ee09-4ee5-8dac-3b490d6b13ba?event=Event1"]
+        "Bosch, Hendrik de": ["https://archief.amsterdam/indexen/deeds/aecea78a-ee09-4ee5-8dac-3b490d6b13ba?person=99e87e13-d336-2bb2-e053-b784100a6a2e"],
+        "begraaf": ["https://archief.amsterdam/indexen/deeds/aecea78a-ee09-4ee5-8dac-3b490d6b13ba?event=Event1"]
     },
     "5539": {
         "Noordenhout, Willem": ["https://archief.amsterdam/indexen/deeds/6e484806-f72c-4fcf-9129-d076cd70dba5?person=99e87e24-6439-2bb2-e053-b784100a6a2e"],
@@ -2175,8 +2106,8 @@
         "begraaf": ["https://archief.amsterdam/indexen/deeds/883e2361-020c-4934-8059-7a9ac2db53b7?event=Event1", "https://archief.amsterdam/indexen/deeds/f5e2e24a-676c-4644-a061-b2a0e5fb6820?event=Event1"]
     },
     "6605": {
-        "Hooft, Elisabeth": ["https://archief.amsterdam/indexen/deeds/035b89ab-4061-48a5-8c45-da10f7408bcf?person=99e87e1d-756d-2bb2-e053-b784100a6a2e", "https://archief.amsterdam/indexen/deeds/6f501924-cd7a-4b1f-9abf-fe7187f8fe39?person=99e87e13-a549-2bb2-e053-b784100a6a2e", "https://archief.amsterdam/indexen/deeds/9334ebaa-2b5a-4b24-8a79-eefaa748e40b?person=99e87e11-697a-2bb2-e053-b784100a6a2e"],
-        "begraaf": ["https://archief.amsterdam/indexen/deeds/035b89ab-4061-48a5-8c45-da10f7408bcf?event=Event1", "https://archief.amsterdam/indexen/deeds/6f501924-cd7a-4b1f-9abf-fe7187f8fe39?event=Event1", "https://archief.amsterdam/indexen/deeds/9334ebaa-2b5a-4b24-8a79-eefaa748e40b?event=Event1"]
+        "Hooft, Elisabeth": ["https://archief.amsterdam/indexen/deeds/9334ebaa-2b5a-4b24-8a79-eefaa748e40b?person=99e87e11-697a-2bb2-e053-b784100a6a2e"],
+        "begraaf": ["https://archief.amsterdam/indexen/deeds/9334ebaa-2b5a-4b24-8a79-eefaa748e40b?event=Event1"]
     },
     "6612": {
         "Backer, Henri\u00ebtta Cornelia": ["https://archief.amsterdam/indexen/deeds/dddd3bfe-0b08-4634-8000-a1e99cf75700?person=99e87e26-21b6-2bb2-e053-b784100a6a2e"],
@@ -2238,14 +2169,6 @@
     "6709": {
         "Roos, Jan Adriaan": ["https://archief.amsterdam/indexen/deeds/855aea5b-e44c-4bbb-941f-2d29e606e3e7?person=99e87e16-6d8d-2bb2-e053-b784100a6a2e", "https://archief.amsterdam/indexen/deeds/d03102cc-0f14-4f64-993b-22c47c989014?person=99e87e1d-36b0-2bb2-e053-b784100a6a2e"],
         "begraaf": ["https://archief.amsterdam/indexen/deeds/855aea5b-e44c-4bbb-941f-2d29e606e3e7?event=Event1", "https://archief.amsterdam/indexen/deeds/d03102cc-0f14-4f64-993b-22c47c989014?event=Event1"]
-    },
-    "6719": {
-        "Hey, Jacob van der": ["https://archief.amsterdam/indexen/deeds/eee37f42-83da-4760-8060-48490f137f82?person=99e87e24-e1f7-2bb2-e053-b784100a6a2e"],
-        "begraaf": ["https://archief.amsterdam/indexen/deeds/eee37f42-83da-4760-8060-48490f137f82?event=Event1"]
-    },
-    "6751": {
-        "Butler, Cornelia": ["https://archief.amsterdam/indexen/deeds/84e484f2-7504-404d-9023-0c864d2f119c?person=99e87e17-ecba-2bb2-e053-b784100a6a2e", "https://archief.amsterdam/indexen/deeds/fa747c07-b045-41b4-824f-59f806fa45c5?person=99e87e13-c914-2bb2-e053-b784100a6a2e"],
-        "begraaf": ["https://archief.amsterdam/indexen/deeds/84e484f2-7504-404d-9023-0c864d2f119c?event=Event1", "https://archief.amsterdam/indexen/deeds/fa747c07-b045-41b4-824f-59f806fa45c5?event=Event1"]
     },
     "6802": {
         "Hooft, Gerrit (1708-1780)": ["https://archief.amsterdam/indexen/deeds/ecc40a76-384d-4376-9eb4-5ae1ea85ca9e?person=99e87e1f-4482-2bb2-e053-b784100a6a2e"],
