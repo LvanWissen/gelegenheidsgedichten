@@ -380,10 +380,14 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
             #     author, pn, pnLabels = authorvalues
             # else:
 
-            if a['thesaurus']:
+            # Attempt to also give the same URIs to authors with same name in
+            # poems for the the same event
+            authorURI = None
+            amatch = tuple([r['event']['eventid'], a['person']] +
+                           sorted(a['thesaurus']))
+            authorSameAs = []
 
-                authorSameAs = []
-                authorURI = None
+            if a['thesaurus']:
 
                 for i in sorted(a['thesaurus'], reverse=True):
                     if 'data.bibliotheken.nl/id/thes/' in i or 'viaf.org' in i and authorURI is None:
@@ -392,16 +396,18 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
                         authorSameAs.append(URIRef(i))
 
                 if authorURI is None:
-                    authorURI = author2uri.get(tuple(sorted(a['thesaurus'])))
+                    authorURI = author2uri.get(amatch)
 
                     if authorURI is None:
                         authorURI = ggdAuthor.term(str(next(authorCounter)))
-                        author2uri[tuple(sorted(a['thesaurus']))] = authorURI
+                        author2uri[amatch] = authorURI
 
             else:
-                authorSameAs = []
+                authorURI = author2uri.get(amatch)
 
-                authorURI = ggdAuthor.term(str(next(authorCounter)))
+                if authorURI is None:
+                    authorURI = ggdAuthor.term(str(next(authorCounter)))
+                    author2uri[amatch] = authorURI
 
             # Single name to unique person
             pn, pnLabels = parsePersonName(a['person'],
