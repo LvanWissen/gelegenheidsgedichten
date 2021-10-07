@@ -651,6 +651,11 @@
         "Vlak, Cornelia": ["https://archief.amsterdam/indexen/deeds/46219a26-89fe-48e2-82d5-a739aca9c5a4?person=99e87e15-b4bd-2bb2-e053-b784100a6a2e"],
         "begraaf": ["https://archief.amsterdam/indexen/deeds/46219a26-89fe-48e2-82d5-a739aca9c5a4?event=Event1"]
     },
+    "2945": {
+        "begraaf": ["https://archief.amsterdam/indexen/deeds/496faa6f-2746-4f87-8abb-198b20d0bd29"],
+        "Marez, Johanna Magtelina de": ["https://archief.amsterdam/indexen/deeds/496faa6f-2746-4f87-8abb-198b20d0bd29?person=99e87e26-1dff-2bb2-e053-b784100a6a2e"],
+        "Elzevier, Adriaan Johan": ["https://archief.amsterdam/indexen/deeds/496faa6f-2746-4f87-8abb-198b20d0bd29?person=99e87e26-1dff-2bb2-e053-b784100a6a2e"]
+    },
     "2949": {
         "Schyn, Hermannus": ["https://archief.amsterdam/indexen/deeds/5c5adda4-e8cd-4456-bf88-dbf17992b347?person=99e87e1e-f1a0-2bb2-e053-b784100a6a2e"],
         "begraaf": ["https://archief.amsterdam/indexen/deeds/5c5adda4-e8cd-4456-bf88-dbf17992b347?event=Event1"]
