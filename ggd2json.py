@@ -196,9 +196,9 @@ def getPersons(persons, getRole=False, recordID=None):
             doop = []
 
         if recordID and recordID in ID2BEGRAAF:
-            otr = ID2BEGRAAF[recordID].get(person, [])
+            begraaf = ID2BEGRAAF[recordID].get(person, [])
         else:
-            otr = []
+            begraaf = []
 
         if recordID and recordID in ID2RKD:
             rkd = ID2RKD[recordID].get(person, [])
@@ -222,6 +222,7 @@ def getPersons(persons, getRole=False, recordID=None):
             'gender': gender,
             'otr': otr,
             'doop': doop,
+            'begraaf': begraaf,
             'rkd': rkd,
             'wikidata': wikidata,
             'ecartico': ecartico
@@ -326,10 +327,8 @@ def parseRecord(record: dict):
         record['melody'] = [record['melody']]
 
     record['melody'] = [{
-        'label':
-        i,
-        'liederenbank':
-        ID2MELODIE.get(record['id'], {}).get(i)
+        'label': i,
+        'liederenbank': ID2MELODIE.get(record['id'], {}).get(i)
     } for i in record.get('melody', [])]
 
     # persons/roles

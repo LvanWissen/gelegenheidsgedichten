@@ -343,6 +343,9 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
     with open(filepath) as infile:
         data = json.load(infile)
 
+    with open('data/authorSameAs.json') as infile:
+        authorLinkList = json.load(infile)
+
     itemCounter = count(1)
     authorCounter = count(1)
     printerCounter = count(1)
@@ -403,10 +406,22 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
                         author2uri[amatch] = authorURI
 
             else:
+                # No thesaurus entry, but maybe this author is in the link file
+
+                # already defined?
                 authorURI = author2uri.get(amatch)
 
+                # not defined, try to find it in the link file
+                # btw, we need a database
                 if authorURI is None:
-                    authorURI = ggdAuthor.term(str(next(authorCounter)))
+                    for n, link in authorLinkList.items():
+                        if r['id'] in link.get(a['person'], []):
+                            authorURI = ggdAuthor.term('a' + n)
+                            break
+
+                    if authorURI is None:
+                        authorURI = ggdAuthor.term(str(next(authorCounter)))
+
                     author2uri[amatch] = authorURI
 
             # Single name to unique person
@@ -626,6 +641,9 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
 
                 # doop
                 personSameAs += [URIRef(i) for i in p['doop']]
+
+                # begraaf
+                personSameAs += [URIRef(i) for i in p['begraaf']]
 
                 # rkd
                 personSameAs += [URIRef(i) for i in p['rkd']]
