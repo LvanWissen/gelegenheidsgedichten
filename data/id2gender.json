@@ -5159,17 +5159,17 @@
     "1066": {
         "Jansen, Anthony": "http://schema.org/Male",
         "Beek, Jacob van": "http://schema.org/Male",
-        "Gent, Gouda van": "http://schema.org/Male"
+        "Gent, Gouda van": "http://schema.org/Female"
     },
     "1067": {
         "Feitama, Isaac": "http://schema.org/Male",
         "Feitama, Eduard": "http://schema.org/Male",
-        "Gent, Gouda van": "http://schema.org/Male",
+        "Gent, Gouda van": "http://schema.org/Female",
         "Beek, Jacob van": "http://schema.org/Male"
     },
     "1068": {
         "Beek, Jacob van": "http://schema.org/Male",
-        "Gent, Gouda van": "http://schema.org/Male"
+        "Gent, Gouda van": "http://schema.org/Female"
     },
     "1069": {
         "Jansen, Anthony": "http://schema.org/Male",
@@ -5834,7 +5834,7 @@
     },
     "1195": {
         "Willink, Abraham": "http://schema.org/Male",
-        "Apostool, Gouda": "http://schema.org/Male"
+        "Apostool, Gouda": "http://schema.org/Female"
     },
     "1196": {
         "Nispen, Mattheus van": "http://schema.org/Male"
@@ -5888,7 +5888,7 @@
     },
     "1207": {
         "Jansen, Anthony": "http://schema.org/Male",
-        "Gent, Gouda van": "http://schema.org/Male",
+        "Gent, Gouda van": "http://schema.org/Female",
         "Beek, Jacob van": "http://schema.org/Male"
     },
     "1208": {
@@ -18967,7 +18967,7 @@
     },
     "3383": {
         "Burghards, Pieter": "http://schema.org/Male",
-        "Zeyl, Jannetje van": "http://schema.org/Male",
+        "Zeyl, Jannetje van": "http://schema.org/Female",
         "Stam, Johannes": "http://schema.org/Male"
     },
     "3384": {
@@ -22198,7 +22198,7 @@
         "Son, Coenraad van": "http://schema.org/Male"
     },
     "3925": {
-        "Son Thomas van": "http://schema.org/Female",
+        "Son, Thomas van": "http://schema.org/Male",
         "Hollebeek, Anna": "http://schema.org/Female",
         "Son, Thomas Zegersz van": "http://schema.org/Male",
         "Wacker van Son, Hendrik de": "http://schema.org/Male",
@@ -24670,7 +24670,7 @@
     },
     "4337": {
         "Woude, Bernardus van der": "http://schema.org/Male",
-        "Harder, Jannetje de": "http://schema.org/Male",
+        "Harder, Jannetje de": "http://schema.org/Female",
         "Klasing, Hendrik": "http://schema.org/Male"
     },
     "4338": {
@@ -36505,7 +36505,7 @@
     },
     "6459": {
         "Altena, Theodora Maria van": "http://schema.org/Female",
-        "Schouten, Josia": "http://schema.org/Female",
+        "Schouten, Josia": "http://schema.org/Male",
         "Tol, Jacobus": "http://schema.org/Male",
         "Feith, Rhijnvis": "http://schema.org/Male"
     },
