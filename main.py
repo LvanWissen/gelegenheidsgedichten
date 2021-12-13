@@ -70,7 +70,7 @@ class Book(Thing):
     publication = rdfSingle(schema.publication)
 
     bibliographicFormat = rdfSingle(kbdef.bibliographicFormat)
-    hasCollationalFormula = rdfSingle(kbdef.hasCollationalFormula)
+    stcnCollationalFormula = rdfSingle(kbdef.stcnCollationalFormula)
 
     about = rdfMultiple(schema.about)
 
@@ -456,7 +456,7 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
                     inLanguage=r['language'],
                     author=authors,
                     bibliographicFormat=r.get('format'),
-                    hasCollationalFormula=r['collate'])
+                    stcnCollationalFormula=r['collate'])
 
         if r.get('pages'):
             pages, _ = r['pages'].split(' ', 1)
