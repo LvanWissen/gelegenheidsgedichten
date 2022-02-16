@@ -370,7 +370,7 @@ def parseRecord(record: dict):
     # otr
     otr = ID2OTR.get(record['id'])
     if otr:
-        otr = otr['otr']
+        otr = otr.get('otr', [])
     else:
         otr = []
     record['event']['otr'] = otr
