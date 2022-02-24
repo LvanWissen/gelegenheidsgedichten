@@ -4,28 +4,28 @@ import uuid
 from itertools import count
 
 from rdflib import Graph, Namespace, OWL, Literal, URIRef, BNode, XSD, RDFS, RDF
+from rdflib.term import skolem_genid
 from rdfalchemy import rdfSubject, rdfSingle, rdfMultiple
 
 # http://data.bibliotheken.nl/id/dataset/ggd/
-ggd = Namespace('http://data.bibliotheken.nl/id/dataset/ggd/')
-ggddoc = Namespace('http://data.bibliotheken.nl/doc/dataset/ggd/')
+ggd = Namespace("http://data.bibliotheken.nl/id/dataset/ggd/")
+ggddoc = Namespace("http://data.bibliotheken.nl/doc/dataset/ggd/")
 
 bio = Namespace("http://purl.org/vocab/bio/0.1/")
-schema = Namespace('http://schema.org/')
-sem = Namespace('http://semanticweb.cs.vu.nl/2009/11/sem/')
-pnv = Namespace('https://w3id.org/pnv#')
+schema = Namespace("http://schema.org/")
+sem = Namespace("http://semanticweb.cs.vu.nl/2009/11/sem/")
+pnv = Namespace("https://w3id.org/pnv#")
 
 kbdef = Namespace("http://data.bibliotheken.nl/def#")
-gaThes = Namespace(
-    "https://data.goldenagents.org/datasets/thesaurus/eventtype/")
+gaThes = Namespace("https://data.goldenagents.org/datasets/thesaurus/eventtype/")
 
-ggdItem = Namespace('http://data.bibliotheken.nl/id/dataset/ggd/item/')
-ggdEvent = Namespace('http://data.bibliotheken.nl/id/dataset/ggd/event/')
-ggdAuthor = Namespace('https://data.create.humanities.uva.nl/id/ggd/author/')
-ggdPrinter = Namespace('https://data.create.humanities.uva.nl/id/ggd/printer/')
-ggdPerson = Namespace('https://data.create.humanities.uva.nl/id/ggd/person/')
+ggdItem = Namespace("http://data.bibliotheken.nl/id/dataset/ggd/item/")
+ggdEvent = Namespace("http://data.bibliotheken.nl/id/dataset/ggd/event/")
+ggdAuthor = Namespace("https://data.create.humanities.uva.nl/id/ggd/author/")
+ggdPrinter = Namespace("https://data.create.humanities.uva.nl/id/ggd/printer/")
+ggdPerson = Namespace("https://data.create.humanities.uva.nl/id/ggd/person/")
 
-JSONFILE = 'data/ggd.json'
+JSONFILE = "data/ggd.json"
 
 
 class Thing(rdfSubject):
@@ -187,12 +187,12 @@ class MusicComposition(Thing):
 def unique(*args, ns=None):
     """
     Get a unique identifier (BNode or URIRef) for an entity based on an ordered
-    list of values. Specify the namespace (ns) attribute to return a URIRef. 
+    list of values. Specify the namespace (ns) attribute to return a URIRef.
 
     Args:
         *args: Variable length argument list of values.
         ns: If given, return a URIRef on this namespace. Otherwise, return a BNode.
-    
+
     Returns:
         A BNode or URIRef.
     """
@@ -212,8 +212,8 @@ def unique(*args, ns=None):
 
 def parsePersonName(nameString, identifier=None):
     """
-    Parse a capitalised Notary Name from the notorial acts to pnv format. 
-    
+    Parse a capitalised Notary Name from the notorial acts to pnv format.
+
     Args:
         full_name (str): Capitalised string
 
@@ -224,43 +224,45 @@ def parsePersonName(nameString, identifier=None):
     pns = []
     labels = []
 
-    if '(' in nameString:
-        nameString = re.sub(r' ?\(.*\) ?', '', nameString)
+    if "(" in nameString:
+        nameString = re.sub(r" ?\(.*\) ?", "", nameString)
 
-    if ',' in nameString:
-        last, first = nameString.split(',', 1)
+    if "," in nameString:
+        last, first = nameString.split(",", 1)
         nameString = " ".join([first, last]).strip()
 
-    for full_name in nameString.split(' / '):
+    for full_name in nameString.split(" / "):
 
         # Some static lists
-        dets = ['van', 'de', 'den', 'des', 'der', 'ten', "l'", "d'"]
-        prefixes = ['Mr.']
-        suffixes = ['Jr.', 'Sr.']
-        patronymfix = ('sz', 'sz.', 'szoon', 'dr.', 'dr', 'sdochter')
+        dets = ["van", "de", "den", "des", "der", "ten", "l'", "d'"]
+        prefixes = ["Mr."]
+        suffixes = ["Jr.", "Sr."]
+        patronymfix = ("sz", "sz.", "szoon", "dr.", "dr", "sdochter")
 
         # Correcting syntax errors
         # full_name = full_name.replace('.', '. ')
         full_name = full_name.replace("'", "' ")
-        full_name = full_name.replace('  ', ' ')
+        full_name = full_name.replace("  ", " ")
 
         # Tokenise
-        tokens = full_name.split(' ')
+        tokens = full_name.split(" ")
         tokens = [i.lower() for i in tokens]
         tokens = [i.title() if i not in dets else i for i in tokens]
         full_name = " ".join(
             tokens
         )  # ALL CAPS to normal name format (e.g. Mr. Jan van Tatenhove)
         full_name = full_name.replace(
-            "' ", "'")  # clunk back the apostrophe to the name
+            "' ", "'"
+        )  # clunk back the apostrophe to the name
 
         # -fixes
         infix = " ".join(i for i in tokens if i in dets).strip()
         prefix = " ".join(i for i in tokens if i in prefixes).strip()
         suffix = " ".join(i for i in tokens if i in suffixes).strip()
 
-        name_removed_fix = " ".join(i for i in tokens
-                                    if i not in prefixes and i not in suffixes)
+        name_removed_fix = " ".join(
+            i for i in tokens if i not in prefixes and i not in suffixes
+        )
 
         if infix and infix in name_removed_fix:
             name = name_removed_fix.split(infix)
@@ -268,7 +270,7 @@ def parsePersonName(nameString, identifier=None):
             family_name = name[1].strip()
 
         else:
-            name = name_removed_fix.split(' ', 1)
+            name = name_removed_fix.split(" ", 1)
             if len(name) == 1:
                 first_name = ""
                 family_name = name[0]
@@ -276,21 +278,25 @@ def parsePersonName(nameString, identifier=None):
                 first_name = name[0]
                 family_name = name[1]
 
-        family_name_split = family_name.split(' ')
-        first_name_split = first_name.split(' ')
+        family_name_split = family_name.split(" ")
+        first_name_split = first_name.split(" ")
 
         # build first name, family name, patronym and ignore -fixes
-        first_name = " ".join(i for i in first_name_split
-                              if not i.endswith(patronymfix)).strip()
-        family_name = " ".join(i for i in family_name_split
-                               if not i.endswith(patronymfix)).strip()
-        patronym = " ".join(i for i in first_name_split + family_name_split
-                            if i.endswith(patronymfix)).strip()
+        first_name = " ".join(
+            i for i in first_name_split if not i.endswith(patronymfix)
+        ).strip()
+        family_name = " ".join(
+            i for i in family_name_split if not i.endswith(patronymfix)
+        ).strip()
+        patronym = " ".join(
+            i for i in first_name_split + family_name_split if i.endswith(patronymfix)
+        ).strip()
 
-        full_name = " ".join(tokens).strip(
-        )  # ALL CAPS to normal name format (e.g. Mr. Jan van Tatenhove)
+        full_name = " ".join(
+            tokens
+        ).strip()  # ALL CAPS to normal name format (e.g. Mr. Jan van Tatenhove)
 
-        if first_name.endswith('.'):
+        if first_name.endswith("."):
             initials = first_name
             givenName = None
         elif first_name != "":
@@ -301,15 +307,15 @@ def parsePersonName(nameString, identifier=None):
 
         pn = PersonName(
             identifier,
-            literalName=full_name.strip()
-            if full_name is not None else "Unknown",
+            literalName=full_name.strip() if full_name is not None else "Unknown",
             prefix=prefix if prefix != "" else None,
             givenName=givenName,
             initials=initials,
             surnamePrefix=infix if infix != "" else None,
             baseSurname=family_name if family_name != "" else None,
             patronym=patronym if patronym != "" else None,
-            disambiguatingDescription=suffix if suffix != "" else None)
+            disambiguatingDescription=suffix if suffix != "" else None,
+        )
 
         pn.label = [pn.literalName]
 
@@ -322,10 +328,9 @@ def parsePersonName(nameString, identifier=None):
 def getRoleType(roleName):
 
     if roleName:
-        uniqueString = "".join([
-            i for i in roleName.lower()
-            if i in '123456789-abcdefghijklmnopqrstuvwxyz'
-        ])
+        uniqueString = "".join(
+            [i for i in roleName.lower() if i in "123456789-abcdefghijklmnopqrstuvwxyz"]
+        )
     else:
         uniqueString = "Unknown"
         roleName = "Unknown"
@@ -343,7 +348,7 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
     with open(filepath) as infile:
         data = json.load(infile)
 
-    with open('data/authorSameAs.json') as infile:
+    with open("data/authorSameAs.json") as infile:
         authorLinkList = json.load(infile)
 
     itemCounter = count(1)
@@ -364,7 +369,7 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
     for r in data:
 
         ### Timporal constraint
-        year = int(r['event']['earliestBeginTimeStamp'][:4])
+        year = int(r["event"]["earliestBeginTimeStamp"][:4])
         if year < beginConstraint or year >= endConstraint:
             continue
         ### Timporal constraint
@@ -376,7 +381,7 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
         workExamples = []
         authors = []
 
-        for a in r['author']:
+        for a in r["author"]:
 
             # authorvalues = authorsDict.get(a['person'])
             # if authorvalues:
@@ -386,14 +391,19 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
             # Attempt to also give the same URIs to authors with same name in
             # poems for the the same event
             authorURI = None
-            amatch = tuple([r['event']['eventid'], a['person']] +
-                           sorted(a['thesaurus']))
+            amatch = tuple(
+                [r["event"]["eventid"], a["person"]] + sorted(a["thesaurus"])
+            )
             authorSameAs = []
 
-            if a['thesaurus']:
+            if a["thesaurus"]:
 
-                for i in sorted(a['thesaurus'], reverse=True):
-                    if 'data.bibliotheken.nl/id/thes/' in i or 'viaf.org' in i and authorURI is None:
+                for i in sorted(a["thesaurus"], reverse=True):
+                    if (
+                        "data.bibliotheken.nl/id/thes/" in i
+                        or "viaf.org" in i
+                        and authorURI is None
+                    ):
                         authorURI = URIRef(i)
                     else:
                         authorSameAs.append(URIRef(i))
@@ -415,8 +425,8 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
                 # btw, we need a database
                 if authorURI is None:
                     for n, link in authorLinkList.items():
-                        if r['id'] in link.get(a['person'], []):
-                            authorURI = ggdAuthor.term('a' + n)
+                        if r["id"] in link.get(a["person"], []):
+                            authorURI = ggdAuthor.term("a" + n)
                             break
 
                     if authorURI is None:
@@ -425,41 +435,49 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
                     author2uri[amatch] = authorURI
 
             # Single name to unique person
-            pn, pnLabels = parsePersonName(a['person'],
-                                           identifier=unique(str(authorURI)))
-            labelInverseName = [a['person']]
+            pn, pnLabels = parsePersonName(
+                a["person"], identifier=unique(str(authorURI))
+            )
+            labelInverseName = [a["person"]]
 
-            if a['gender']:
-                gender = URIRef(a['gender'])
+            if a["gender"]:
+                gender = URIRef(a["gender"])
             else:
                 gender = None
 
-            author = Person(authorURI,
-                            label=labelInverseName,
-                            name=pnLabels,
-                            hasName=pn,
-                            gender=gender,
-                            sameAs=authorSameAs)
+            author = Person(
+                authorURI,
+                label=labelInverseName,
+                name=pnLabels,
+                hasName=pn,
+                gender=gender,
+                sameAs=authorSameAs,
+            )
 
             # authorsDict[a['person']] = (author, pn, pnLabels)
 
             authors.append(
-                Role(None,
-                     label=labelInverseName,
-                     name=pnLabels,
-                     author=[author],
-                     hasName=pn))
+                Role(
+                    None,
+                    label=labelInverseName,
+                    name=pnLabels,
+                    author=[author],
+                    hasName=pn,
+                )
+            )
 
-        book = Book(ggd.term(r['id']),
-                    name=[r['title']] if r['title'] else [],
-                    label=[r['title']] if r['title'] else [],
-                    inLanguage=r['language'],
-                    author=authors,
-                    bibliographicFormat=r.get('format'),
-                    stcnCollationalFormula=r['collate'])
+        book = Book(
+            ggd.term(r["id"]),
+            name=[r["title"]] if r["title"] else [],
+            label=[r["title"]] if r["title"] else [],
+            inLanguage=r["language"],
+            author=authors,
+            bibliographicFormat=r.get("format"),
+            stcnCollationalFormula=r["collate"],
+        )
 
-        if r.get('pages'):
-            pages, _ = r['pages'].split(' ', 1)
+        if r.get("pages"):
+            pages, _ = r["pages"].split(" ", 1)
             pages = int(pages)
         else:
             pages = None
@@ -467,24 +485,26 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
         book.numberOfPages = pages
 
         # Parsing impressum info
-        impressum = r['impressum']
-        printPlace, printYear = r['impressum_place'], r['impressum_year']
+        impressum = r["impressum"]
+        printPlace, printYear = r["impressum_place"], r["impressum_year"]
 
         if printPlace:
-            if printPlace['thesaurus']:
-                printPlace = Place(URIRef(printPlace['thesaurus']),
-                                   name=[printPlace['name']],
-                                   label=[printPlace['name']])
+            if printPlace["thesaurus"]:
+                printPlace = Place(
+                    URIRef(printPlace["thesaurus"]),
+                    name=[printPlace["name"]],
+                    label=[printPlace["name"]],
+                )
             else:
-                printPlace = Place(None,
-                                   name=[printPlace['name']],
-                                   label=[printPlace['name']])
+                printPlace = Place(
+                    None, name=[printPlace["name"]], label=[printPlace["name"]]
+                )
 
         if printYear:
-            earliestBeginTimeStampPrint = Literal(f"{printYear}-01-01",
-                                                  datatype=XSD.date)
-            latestEndTimeStampPrint = Literal(f"{printYear}-12-31",
-                                              datatype=XSD.date)
+            earliestBeginTimeStampPrint = Literal(
+                f"{printYear}-01-01", datatype=XSD.date
+            )
+            latestEndTimeStampPrint = Literal(f"{printYear}-12-31", datatype=XSD.date)
             printYear = Literal(printYear, datatype=XSD.gYear)
         else:
             earliestBeginTimeStampPrint, latestEndTimeStampPrint = None, None
@@ -496,113 +516,117 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
             location=printPlace,
             startDate=printYear,
             hasEarliestBeginTimeStamp=earliestBeginTimeStampPrint,
-            hasLatestEndTimeStamp=latestEndTimeStampPrint)
+            hasLatestEndTimeStamp=latestEndTimeStampPrint,
+        )
         book.publication = pubEvent
 
         eTypes = []
-        for eType in r['event']['type']:
+        for eType in r["event"]["type"]:
             eventType = eventTypesDict.get(eType)
             if eventType is None:
-                eventTypesDict[eType] = EventType(gaThes.term(
-                    eType.lower().replace(' ', '').replace(',', 'en')),
-                                                  label=[eType])
+                eventTypesDict[eType] = EventType(
+                    gaThes.term(eType.lower().replace(" ", "").replace(",", "en")),
+                    label=[eType],
+                )
                 eventType = eventTypesDict.get(eType)
             eTypes.append(eventType)
 
         places = []
-        for place in r['event']['place']:
-            placeName = place['name']
+        for place in r["event"]["place"]:
+            placeName = place["name"]
 
-            placeURI = place['thesaurus']
+            placeURI = place["thesaurus"]
             if placeURI:
                 placeURI = URIRef(placeURI)
 
             places.append(Place(placeURI, name=[placeName]))
 
         event = Event(
-            ggdEvent.term(str(r['event']['eventid'])),
-            hasTimeStamp=Literal(r['event']['timeStamp'], datatype=XSD.date)
-            if r['event']['timeStamp'] else None,
+            ggdEvent.term(str(r["event"]["eventid"])),
+            hasTimeStamp=Literal(r["event"]["timeStamp"], datatype=XSD.date)
+            if r["event"]["timeStamp"]
+            else None,
             hasEarliestBeginTimeStamp=Literal(
-                r['event']['earliestBeginTimeStamp'], datatype=XSD.date),
-            hasLatestEndTimeStamp=Literal(r['event']['latestEndTimeStamp'],
-                                          datatype=XSD.date),
+                r["event"]["earliestBeginTimeStamp"], datatype=XSD.date
+            ),
+            hasLatestEndTimeStamp=Literal(
+                r["event"]["latestEndTimeStamp"], datatype=XSD.date
+            ),
             hasPlace=places,
             eventType=eTypes,
             subjectOf=[book],
             label=[
-                Literal(f"{i} ({r['event']['year']})", lang='nl')
-                for i in r['event']['type'] if i
+                Literal(f"{i} ({r['event']['year']})", lang="nl")
+                for i in r["event"]["type"]
+                if i
             ],
-            precedingEvent=[URIRef(i) for i in r['event']['otr']],
+            precedingEvent=[URIRef(i) for i in r["event"]["otr"]],
             followingEvent=[
-                URIRef(i) for i in r['event']['doop'] + r['event']['begraaf']
-            ])
+                URIRef(i) for i in r["event"]["doop"] + r["event"]["begraaf"]
+            ],
+        )
         abouts.append(event)
 
         identifiers = [
-            PropertyValue(None,
-                          name=['GGD id'],
-                          value=r['id'],
-                          label=[f"{r['id']} (GGD id)"])
+            PropertyValue(
+                None, name=["GGD id"], value=r["id"], label=[f"{r['id']} (GGD id)"]
+            )
         ]
-        if r.get('steurid'):
+        if r.get("steurid"):
             identifiers.append(
-                PropertyValue(None,
-                              name=['Van der Steur id'],
-                              label=[f"{r['steurid']} (Van der Steur id)"],
-                              value=r['steurid']))
+                PropertyValue(
+                    None,
+                    name=["Van der Steur id"],
+                    label=[f"{r['steurid']} (Van der Steur id)"],
+                    value=r["steurid"],
+                )
+            )
 
         # melody
-        for m in r['melody']:
+        for m in r["melody"]:
 
             # The melody is arranged for this particular occasion
             arrangement = MusicComposition(
-                unique(m, r['id']),
-                name=[
-                    Literal(f"{r['title']} (Melodie: {m['label']})", lang='nl')
-                ],
-                label=[
-                    Literal(f"{r['title']} (Melodie: {m['label']})", lang='nl')
-                ],
-                lyrics=[book])
+                unique(m, r["id"]),
+                name=[Literal(f"{r['title']} (Melodie: {m['label']})", lang="nl")],
+                label=[Literal(f"{r['title']} (Melodie: {m['label']})", lang="nl")],
+                lyrics=[book],
+            )
 
             # melody (MusicComposition) --> arrangement (MusicComposition) --> lyrics (Book)
             melody = MusicComposition(
-                unique(m['label']),
-                name=[m['label']],
-                label=[m['label']],
-                url=URIRef(m['liederenbank']) if m['liederenbank'] else None,
-                musicArrangement=[arrangement])
+                unique(m["label"]),
+                name=[m["label"]],
+                label=[m["label"]],
+                url=URIRef(m["liederenbank"]) if m["liederenbank"] else None,
+                musicArrangement=[arrangement],
+            )
 
         # persons
 
-        for p in r.get('person', []):
+        for p in r.get("person", []):
 
-            if p['role'] == 'Drukker/uitgever':
+            if p["role"] == "Drukker/uitgever":
 
                 # printer = organizationsDict.get(p['person'])
 
-                if p['thesaurus']:
+                if p["thesaurus"]:
 
                     printerSameAs = []
                     printerURI = None
 
-                    for i in p['thesaurus']:
-                        if 'data.bibliotheken.nl/id/thes/' in i and printerURI is None:
+                    for i in p["thesaurus"]:
+                        if "data.bibliotheken.nl/id/thes/" in i and printerURI is None:
                             printerURI = URIRef(i)
                         else:
                             printerSameAs.append(URIRef(i))
 
                     if printerURI is None:
-                        printerURI = printer2uri.get(
-                            tuple(sorted(p['thesaurus'])))
+                        printerURI = printer2uri.get(tuple(sorted(p["thesaurus"])))
 
                         if printerURI is None:
-                            printerURI = ggdPrinter.term(
-                                str(next(printerCounter)))
-                            printer2uri[tuple(sorted(
-                                p['thesaurus']))] = printerURI
+                            printerURI = ggdPrinter.term(str(next(printerCounter)))
+                            printer2uri[tuple(sorted(p["thesaurus"]))] = printerURI
 
                 else:
                     printerSameAs = []
@@ -610,16 +634,18 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
                     printerURI = ggdPrinter.term(str(next(printerCounter)))
 
                 # Single name to unique person
-                pn, pnLabels = parsePersonName(p['person'],
-                                               identifier=unique(
-                                                   str(printerURI)))
-                labelInverseName = [p['person']]
+                pn, pnLabels = parsePersonName(
+                    p["person"], identifier=unique(str(printerURI))
+                )
+                labelInverseName = [p["person"]]
 
-                printer = Organization(printerURI,
-                                       label=labelInverseName,
-                                       name=pnLabels,
-                                       hasName=pn,
-                                       sameAs=printerSameAs)
+                printer = Organization(
+                    printerURI,
+                    label=labelInverseName,
+                    name=pnLabels,
+                    hasName=pn,
+                    sameAs=printerSameAs,
+                )
 
                 # printers.append(
                 #     Role(None,
@@ -629,35 +655,39 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
                 #          hasName=pn))
                 printers.append(printer)
 
-            elif p['role'] not in ('Overige functies', 'Comp', 'Med', 'Pap'):
+            elif p["role"] not in ("Overige functies", "Comp", "Med", "Pap"):
 
                 # for persons, being in the same event also counts
                 personURI = None
-                pmatch = tuple([r['event']['eventid'], p['person']])
+                pmatch = tuple([r["event"]["eventid"], p["person"]])
                 personSameAs = []
 
                 # otr
-                personSameAs += [URIRef(i) for i in p['otr']]
+                personSameAs += [URIRef(i) for i in p["otr"]]
 
                 # doop
-                personSameAs += [URIRef(i) for i in p['doop']]
+                personSameAs += [URIRef(i) for i in p["doop"]]
 
                 # begraaf
-                personSameAs += [URIRef(i) for i in p['begraaf']]
+                personSameAs += [URIRef(i) for i in p["begraaf"]]
 
                 # rkd
-                personSameAs += [URIRef(i) for i in p['rkd']]
+                personSameAs += [URIRef(i) for i in p["rkd"]]
 
                 # wikidata
-                personSameAs += [URIRef(i) for i in p['wikidata']]
+                personSameAs += [URIRef(i) for i in p["wikidata"]]
 
                 # ecartico
-                personSameAs += [URIRef(i) for i in p['ecartico']]
+                personSameAs += [URIRef(i) for i in p["ecartico"]]
 
-                if p['thesaurus']:
+                if p["thesaurus"]:
 
-                    for i in sorted(p['thesaurus'], reverse=True):
-                        if 'data.bibliotheken.nl/id/thes/' in i or 'viaf.org' in i and personURI is None:
+                    for i in sorted(p["thesaurus"], reverse=True):
+                        if (
+                            "data.bibliotheken.nl/id/thes/" in i
+                            or "viaf.org" in i
+                            and personURI is None
+                        ):
                             personURI = URIRef(i)
                         else:
                             personSameAs.append(URIRef(i))
@@ -677,89 +707,101 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
                     person2uri[pmatch] = personURI
 
                 # Single name to unique person
-                pn, pnLabels = parsePersonName(p['person'],
-                                               identifier=unique(
-                                                   str(personURI)))
-                labelInverseName = [p['person']]
+                pn, pnLabels = parsePersonName(
+                    p["person"], identifier=unique(str(personURI))
+                )
+                labelInverseName = [p["person"]]
 
-                if p['gender']:
-                    gender = URIRef(p['gender'])
+                if p["gender"]:
+                    gender = URIRef(p["gender"])
                 else:
                     gender = None
 
-                person = Person(personURI,
-                                label=labelInverseName,
-                                hasName=pn,
-                                name=pnLabels,
-                                gender=gender,
-                                sameAs=personSameAs)
+                person = Person(
+                    personURI,
+                    label=labelInverseName,
+                    hasName=pn,
+                    name=pnLabels,
+                    gender=gender,
+                    sameAs=personSameAs,
+                )
 
-                role = Role(unique(p['person'] + r['id'] + 'semrole'),
-                            about=person,
-                            roleName=p['role'],
-                            name=pnLabels,
-                            label=pnLabels,
-                            hasName=pn)
+                role = Role(
+                    unique(p["person"] + r["id"] + "semrole"),
+                    about=person,
+                    roleName=p["role"],
+                    name=pnLabels,
+                    label=pnLabels,
+                    hasName=pn,
+                )
                 abouts.append(role)
 
                 # Attach them to the event
                 semRoles.append(
-                    SemRole(unique(p['person'] + r['event']['eventid'] +
-                                   'semrole'),
-                            value=person,
-                            name=pnLabels,
-                            label=pnLabels,
-                            roleType=getRoleType(p['role'])))
+                    SemRole(
+                        unique(p["person"] + r["event"]["eventid"] + "semrole"),
+                        value=person,
+                        name=pnLabels,
+                        label=pnLabels,
+                        roleType=getRoleType(p["role"]),
+                    )
+                )
 
         book.about = abouts
         pubEvent.publishedBy = printers
 
         event.hasActor = semRoles
 
-        for item in r['item']:
+        for item in r["item"]:
 
-            holdingArchive = item['holdingArchive']
-            itemLocation = item['location']
+            holdingArchive = item["holdingArchive"]
+            itemLocation = item["location"]
 
             label = [f"{holdingArchive} {itemLocation}"]
 
-            workExample = Item(ggdItem.term(str(next(itemCounter))),
-                               name=label,
-                               label=label,
-                               holdingArchive=holdingArchive,
-                               itemLocation=itemLocation,
-                               comment=item.get('comment'),
-                               exampleOfWork=book)
+            workExample = Item(
+                ggdItem.term(str(next(itemCounter))),
+                name=label,
+                label=label,
+                holdingArchive=holdingArchive,
+                itemLocation=itemLocation,
+                comment=item.get("comment"),
+                exampleOfWork=book,
+            )
             workExamples.append(workExample)
         book.workExample = workExamples
 
         document = Document(
             None,
-            description=r.get('description'),
-            comment=r.get('comments'),
+            description=r.get("description"),
+            comment=r.get("comments"),
             identifier=identifiers,
-            sameAs=[ggddoc.term(r['id'])],
+            sameAs=[ggddoc.term(r["id"])],
             isPartOf=URIRef("http://data.bibliotheken.nl/id/dataset/ggd"),
-            dateCreated=Literal(r['created'], datatype=XSD.date),
-            dateModified=Literal(r['modified'], datatype=XSD.date))
+            dateCreated=Literal(r["created"], datatype=XSD.date),
+            dateModified=Literal(r["modified"], datatype=XSD.date),
+        )
 
         book.mainEntityOfPage = document
         document.mainEntity = book
 
         # STCN
-        if r['stcn']:
-            book.sameAs = [URIRef(r['stcn'])]
+        if r["stcn"]:
+            book.sameAs = [URIRef(r["stcn"])]
 
-    g.bind('schema', schema)
-    g.bind('kbdef', kbdef)
-    g.bind('owl', OWL)
-    g.bind('xsd', XSD)
-    g.bind('sem', sem)
-    g.bind('bio', bio)
-    g.bind('pnv', pnv)
+    # Skolemize BNodes
+    g = g.skolemize(authority="https://data.goldenagents.org/", basepath=skolem_genid)
+
+    g.bind("schema", schema)
+    g.bind("kbdef", kbdef)
+    g.bind("owl", OWL)
+    g.bind("xsd", XSD)
+    g.bind("sem", sem)
+    g.bind("bio", bio)
+    g.bind("pnv", pnv)
 
     print(f"Serializing to {target}")
-    g.serialize(target, format='turtle')
+    g.serialize(target, format="turtle")
 
 
 def main():
@@ -771,7 +813,7 @@ def main():
     #           target=f'ttl/ggd_{temp[0]}-{temp[1]}.ttl',
     #           temporalConstraint=temp)
 
-    toRdf(filepath=JSONFILE, target=f'ttl/ggd.ttl')
+    toRdf(filepath=JSONFILE, target=f"ttl/ggd.ttl")
 
 
 if __name__ == "__main__":
