@@ -105,6 +105,11 @@ with open('data/id2wikidata.json') as infile:
 with open('data/id2melodie.json') as infile:
     ID2MELODIE = json.load(infile)
 
+## NA
+
+with open('data/id2na_hv.json') as infile:
+    ID2NA_HV = json.load(infile)
+
 ID2THESAURUS = defaultdict(lambda: defaultdict(lambda: defaultdict(list)))
 for ggdid in ID2PERSON:
     for name in ID2PERSON[ggdid]:
@@ -215,6 +220,11 @@ def getPersons(persons, getRole=False, recordID=None):
         else:
             ecartico = []
 
+        # NA
+        na = []
+        if recordID and recordID in ID2NA_HV:
+            na += (ID2NA_HV[recordID].get(person, []))
+
         plist.append({
             'person': person,
             'role': role,
@@ -225,7 +235,8 @@ def getPersons(persons, getRole=False, recordID=None):
             'begraaf': begraaf,
             'rkd': rkd,
             'wikidata': wikidata,
-            'ecartico': ecartico
+            'ecartico': ecartico,
+            'na': na
         })
 
     return plist

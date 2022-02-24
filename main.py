@@ -680,6 +680,9 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
                 # ecartico
                 personSameAs += [URIRef(i) for i in p["ecartico"]]
 
+                # na
+                personSameAs += [URIRef(i) for i in p["na"]]
+
                 if p["thesaurus"]:
 
                     for i in sorted(p["thesaurus"], reverse=True):
