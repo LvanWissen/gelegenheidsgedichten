@@ -3844,6 +3844,9 @@
         "Dederiks, Arnout": ["https://archief.amsterdam/indexen/deeds/210f6b03-520a-4efa-bca2-74c22c685581?person=961f6b1a-af24-53f7-e053-b784100aa83b"],
         "Couck, Sara Susanna": ["https://archief.amsterdam/indexen/deeds/210f6b03-520a-4efa-bca2-74c22c685581?person=961f6b1a-af25-53f7-e053-b784100aa83b"]
     },
+    "2143": {
+        "Swildens, Jan": ["https://archief.amsterdam/indexen/deeds/00acba85-1eca-4f6f-9b8f-3452ed576109?person=961f6b16-61bc-53f7-e053-b784100aa83b"]
+    },
     "2145": {
         "otr": ["https://archief.amsterdam/indexen/deeds/5e181ccf-0fde-4274-ae75-1d1df16e2ca0?event=Event1"],
         "Louw, Catharina van": ["https://archief.amsterdam/indexen/deeds/5e181ccf-0fde-4274-ae75-1d1df16e2ca0?person=961f6b14-a4b5-53f7-e053-b784100aa83b"],
@@ -3949,7 +3952,7 @@
         "Thesingh, Eletta": ["https://archief.amsterdam/indexen/deeds/7d3e5a7b-be87-4ba3-b23f-58d194f814c5?person=961f6b1c-2b2d-53f7-e053-b784100aa83b"]
     },
     "2188": {
-        "Nikkelen, Eduard van": ["https://archief.amsterdam/indexen/deeds/c7a6115a-32d1-46a0-a618-bc4fbc544428?person=961f6b1a-da1b-53f7-e053-b784100aa83b"]
+        "Nikkelen, Eduard van": ["https://archief.amsterdam/indexen/deeds/c7a6115a-32d1-46a0-a618-bc4fbc544428?person=961f6b1a-da1b-53f7-e053-b784100aa83b", "https://data.goldenagents.org/datasets/jaikwil/records/65013-groom"]
     },
     "2191": {
         "otr": ["https://archief.amsterdam/indexen/deeds/9e11f687-47d9-402a-a402-78a33b6512e3?event=Event1", "https://archief.amsterdam/indexen/deeds/eb9880c9-bda6-473e-a9da-d83df56d71f3?event=Event1"],
@@ -4025,7 +4028,7 @@
         "otr": ["https://archief.amsterdam/indexen/deeds/1e7e4b45-7d3a-4480-b2c5-81c9ef8af672?event=Event1"],
         "Fortgens, Abraham": ["https://archief.amsterdam/indexen/deeds/1e7e4b45-7d3a-4480-b2c5-81c9ef8af672?person=961f6b14-a348-53f7-e053-b784100aa83b"],
         "Britten, Catharina van": ["https://archief.amsterdam/indexen/deeds/1e7e4b45-7d3a-4480-b2c5-81c9ef8af672?person=961f6b14-a349-53f7-e053-b784100aa83b"],
-        "Nikkelen, Eduard van": ["https://archief.amsterdam/indexen/deeds/c7a6115a-32d1-46a0-a618-bc4fbc544428?person=961f6b1a-da1b-53f7-e053-b784100aa83b"]
+        "Nikkelen, Eduard van": ["https://archief.amsterdam/indexen/deeds/c7a6115a-32d1-46a0-a618-bc4fbc544428?person=961f6b1a-da1b-53f7-e053-b784100aa83b", "https://data.goldenagents.org/datasets/jaikwil/records/65013-groom"]
     },
     "2235": {
         "otr": ["https://archief.amsterdam/indexen/deeds/7e2a4d82-379b-4444-a98d-fbe919341a5d?event=Event1"],
@@ -4231,7 +4234,7 @@
         "otr": ["https://archief.amsterdam/indexen/deeds/8e4f22cf-5721-4604-9811-ac2ed0e0c245?event=Event1"],
         "Schyn, Jacob": ["https://archief.amsterdam/indexen/deeds/8e4f22cf-5721-4604-9811-ac2ed0e0c245?person=961f6b16-5b52-53f7-e053-b784100aa83b"],
         "Heromans, Geertruida": ["https://archief.amsterdam/indexen/deeds/8e4f22cf-5721-4604-9811-ac2ed0e0c245?person=961f6b16-5b53-53f7-e053-b784100aa83b"],
-        "Nikkelen, Eduard van": ["https://archief.amsterdam/indexen/deeds/c7a6115a-32d1-46a0-a618-bc4fbc544428?person=961f6b1a-da1b-53f7-e053-b784100aa83b"]
+        "Nikkelen, Eduard van": ["https://archief.amsterdam/indexen/deeds/c7a6115a-32d1-46a0-a618-bc4fbc544428?person=961f6b1a-da1b-53f7-e053-b784100aa83b", "https://data.goldenagents.org/datasets/jaikwil/records/65013-groom"]
     },
     "2340": {
         "otr": ["https://archief.amsterdam/indexen/deeds/48a510be-3977-4c0b-b5f6-d263df2de4bf?event=Event1"],
@@ -4392,7 +4395,8 @@
     "2399": {
         "otr": ["https://archief.amsterdam/indexen/deeds/b9f5b30d-7300-4d87-a894-05c77d98e9ee?event=Event1"],
         "Limburg, Abraham van": ["https://archief.amsterdam/indexen/deeds/b9f5b30d-7300-4d87-a894-05c77d98e9ee?person=961f6b1c-55aa-53f7-e053-b784100aa83b"],
-        "Giffenig, Anna": ["https://archief.amsterdam/indexen/deeds/b9f5b30d-7300-4d87-a894-05c77d98e9ee?person=961f6b1c-55ab-53f7-e053-b784100aa83b"]
+        "Giffenig, Anna": ["https://archief.amsterdam/indexen/deeds/b9f5b30d-7300-4d87-a894-05c77d98e9ee?person=961f6b1c-55ab-53f7-e053-b784100aa83b"],
+        "Giffenig, David": ["https://archief.amsterdam/indexen/deeds/0a979971-3440-4fcc-b24f-f1f366784547?person=961f6b1a-b813-53f7-e053-b784100aa83b"]
     },
     "2403": {
         "otr": ["https://archief.amsterdam/indexen/deeds/99617a59-6b1a-4c2b-b5d4-1e0406387ae7?event=Event1"],
@@ -4735,7 +4739,7 @@
         "otr": ["https://archief.amsterdam/indexen/deeds/ad274f46-b272-43dd-963d-ea24e62bc960?event=Event1"],
         "Smedingh, Jan": ["https://archief.amsterdam/indexen/deeds/ad274f46-b272-43dd-963d-ea24e62bc960?person=961f6b16-5ce9-53f7-e053-b784100aa83b"],
         "Horsten, Seytje van": ["https://archief.amsterdam/indexen/deeds/ad274f46-b272-43dd-963d-ea24e62bc960?person=961f6b16-5cea-53f7-e053-b784100aa83b"],
-        "Nikkelen, Eduard van": ["https://archief.amsterdam/indexen/deeds/c7a6115a-32d1-46a0-a618-bc4fbc544428?person=961f6b1a-da1b-53f7-e053-b784100aa83b"]
+        "Nikkelen, Eduard van": ["https://archief.amsterdam/indexen/deeds/c7a6115a-32d1-46a0-a618-bc4fbc544428?person=961f6b1a-da1b-53f7-e053-b784100aa83b", "https://data.goldenagents.org/datasets/jaikwil/records/65013-groom"]
     },
     "2537": {
         "otr": ["https://archief.amsterdam/indexen/deeds/262a0175-2bd4-4aa9-934d-852a06c7ff19?event=Event1"],
@@ -4917,7 +4921,7 @@
         "otr": ["https://archief.amsterdam/indexen/deeds/f8214068-0b5f-484b-b449-5fcd9f09aa8f?event=Event1"],
         "Verbeek, Gesina": ["https://archief.amsterdam/indexen/deeds/f8214068-0b5f-484b-b449-5fcd9f09aa8f?person=961f6b14-d6bf-53f7-e053-b784100aa83b"],
         "Schyn, Jacob": ["https://archief.amsterdam/indexen/deeds/f8214068-0b5f-484b-b449-5fcd9f09aa8f?person=961f6b14-d6be-53f7-e053-b784100aa83b"],
-        "Nikkelen, Eduard van": ["https://archief.amsterdam/indexen/deeds/c7a6115a-32d1-46a0-a618-bc4fbc544428?person=961f6b1a-da1b-53f7-e053-b784100aa83b"]
+        "Nikkelen, Eduard van": ["https://archief.amsterdam/indexen/deeds/c7a6115a-32d1-46a0-a618-bc4fbc544428?person=961f6b1a-da1b-53f7-e053-b784100aa83b", "https://data.goldenagents.org/datasets/jaikwil/records/65013-groom"]
     },
     "2608": {
         "otr": ["https://archief.amsterdam/indexen/deeds/843ad0d3-35b8-48f3-b500-c6dd68d78062?event=Event1"],
@@ -4958,7 +4962,7 @@
         "Orville, Johanna Dorothea d'": ["https://archief.amsterdam/indexen/deeds/f1583229-9ec0-4ee6-afd7-1b0b118a126f?person=961f6b22-7e44-53f7-e053-b784100aa83b"]
     },
     "2627": {
-        "Nikkelen, Eduard van": ["https://archief.amsterdam/indexen/deeds/c7a6115a-32d1-46a0-a618-bc4fbc544428?person=961f6b1a-da1b-53f7-e053-b784100aa83b"]
+        "Nikkelen, Eduard van": ["https://archief.amsterdam/indexen/deeds/c7a6115a-32d1-46a0-a618-bc4fbc544428?person=961f6b1a-da1b-53f7-e053-b784100aa83b", "https://data.goldenagents.org/datasets/jaikwil/records/65013-groom"]
     },
     "2628": {
         "otr": ["https://archief.amsterdam/indexen/deeds/446b3000-f11b-41a2-b346-045e7cf795d2?event=Event1"],
@@ -5030,7 +5034,7 @@
         "otr": ["https://archief.amsterdam/indexen/deeds/33ed25b9-2004-4705-af21-e9535005de1d?event=Event1"],
         "Blok, Jan Adriaensz": ["https://archief.amsterdam/indexen/deeds/33ed25b9-2004-4705-af21-e9535005de1d?person=961f6b1a-a416-53f7-e053-b784100aa83b"],
         "Raad, Katharina van": ["https://archief.amsterdam/indexen/deeds/33ed25b9-2004-4705-af21-e9535005de1d?person=961f6b1a-a417-53f7-e053-b784100aa83b"],
-        "Nikkelen, Eduard van": ["https://archief.amsterdam/indexen/deeds/c7a6115a-32d1-46a0-a618-bc4fbc544428?person=961f6b1a-da1b-53f7-e053-b784100aa83b"]
+        "Nikkelen, Eduard van": ["https://archief.amsterdam/indexen/deeds/c7a6115a-32d1-46a0-a618-bc4fbc544428?person=961f6b1a-da1b-53f7-e053-b784100aa83b", "https://data.goldenagents.org/datasets/jaikwil/records/65013-groom"]
     },
     "2656": {
         "otr": ["https://archief.amsterdam/indexen/deeds/f8b80c11-4967-48e8-870e-6cb0f95cddb4?event=Event1"],
@@ -5125,7 +5129,8 @@
     "2703": {
         "otr": ["https://archief.amsterdam/indexen/deeds/14210220-97d7-4034-bff0-c5e436de74b4?event=Event1"],
         "Roemer, Pieter": ["https://archief.amsterdam/indexen/deeds/14210220-97d7-4034-bff0-c5e436de74b4?person=961f6b1c-67ee-53f7-e053-b784100aa83b"],
-        "Burger, Maria": ["https://archief.amsterdam/indexen/deeds/14210220-97d7-4034-bff0-c5e436de74b4?person=961f6b1c-67ef-53f7-e053-b784100aa83b"]
+        "Burger, Maria": ["https://archief.amsterdam/indexen/deeds/14210220-97d7-4034-bff0-c5e436de74b4?person=961f6b1c-67ef-53f7-e053-b784100aa83b"],
+        "Brinkman, Hendrik": ["https://archief.amsterdam/indexen/deeds/025e3a44-4b4d-44af-8f48-9b3923a6e088?person=961f6b14-fa01-53f7-e053-b784100aa83b"]
     },
     "2706": {
         "otr": ["https://archief.amsterdam/indexen/deeds/edf6f64b-aa4d-433f-946c-d230ab88def4?event=Event1"],
@@ -5379,7 +5384,7 @@
         "Spiering, Jan": ["https://archief.amsterdam/indexen/deeds/ab00618e-29db-4ba2-8c38-e52f04198453?person=961f6b1a-ec91-53f7-e053-b784100aa83b"],
         "Leeuwen, Christina van": ["https://archief.amsterdam/indexen/deeds/ab00618e-29db-4ba2-8c38-e52f04198453?person=961f6b1a-ec92-53f7-e053-b784100aa83b"],
         "Capelle, Nicolaas": ["https://archief.amsterdam/indexen/deeds/b111c2dc-5cab-4842-b7d7-8fb9fcf2b303?person=961f6b19-2621-53f7-e053-b784100aa83b"],
-        "Nikkelen, Eduard van": ["https://archief.amsterdam/indexen/deeds/c7a6115a-32d1-46a0-a618-bc4fbc544428?person=961f6b1a-da1b-53f7-e053-b784100aa83b"]
+        "Nikkelen, Eduard van": ["https://archief.amsterdam/indexen/deeds/c7a6115a-32d1-46a0-a618-bc4fbc544428?person=961f6b1a-da1b-53f7-e053-b784100aa83b", "https://data.goldenagents.org/datasets/jaikwil/records/65013-groom"]
     },
     "2799": {
         "otr": ["https://archief.amsterdam/indexen/deeds/0efafac6-3663-4b86-a707-2c07aa10fab0?event=Event1"],
@@ -5642,7 +5647,7 @@
         "Elzevier, Adriaan Johan": ["https://archief.amsterdam/indexen/deeds/0a6ebced-e4fa-4b73-bcef-eb97fa75aa37?person=961f6b17-aa82-53f7-e053-b784100aa83b"]
     },
     "2949": {
-        "Nikkelen, Eduard van": ["https://archief.amsterdam/indexen/deeds/c7a6115a-32d1-46a0-a618-bc4fbc544428?person=961f6b1a-da1b-53f7-e053-b784100aa83b"]
+        "Nikkelen, Eduard van": ["https://archief.amsterdam/indexen/deeds/c7a6115a-32d1-46a0-a618-bc4fbc544428?person=961f6b1a-da1b-53f7-e053-b784100aa83b", "https://data.goldenagents.org/datasets/jaikwil/records/65013-groom"]
     },
     "2953": {
         "otr": ["https://archief.amsterdam/indexen/deeds/e5b5c039-3594-45aa-b227-9d25859baa46?event=Event1"],
@@ -6080,7 +6085,7 @@
         "otr": ["https://archief.amsterdam/indexen/deeds/c0691388-03ae-4016-9db7-d130e4d7da41?event=Event1"],
         "Wiert, Gerardus van": ["https://archief.amsterdam/indexen/deeds/c0691388-03ae-4016-9db7-d130e4d7da41?person=961f6b16-6cb2-53f7-e053-b784100aa83b"],
         "Joris, Kornelia": ["https://archief.amsterdam/indexen/deeds/c0691388-03ae-4016-9db7-d130e4d7da41?person=961f6b16-6cb3-53f7-e053-b784100aa83b"],
-        "Nikkelen, Eduard van": ["https://archief.amsterdam/indexen/deeds/c7a6115a-32d1-46a0-a618-bc4fbc544428?person=961f6b1a-da1b-53f7-e053-b784100aa83b"]
+        "Nikkelen, Eduard van": ["https://archief.amsterdam/indexen/deeds/c7a6115a-32d1-46a0-a618-bc4fbc544428?person=961f6b1a-da1b-53f7-e053-b784100aa83b", "https://data.goldenagents.org/datasets/jaikwil/records/65013-groom"]
     },
     "3152": {
         "otr": ["https://archief.amsterdam/indexen/deeds/eb530783-8fb2-4274-be13-7442a5493de4?event=Event1"],
@@ -6516,7 +6521,8 @@
     "3357": {
         "otr": ["https://archief.amsterdam/indexen/deeds/3f0aad38-b1cf-4da4-9bfa-5f40c712dbf1?event=Event1"],
         "Bontekoning, Floris": ["https://archief.amsterdam/indexen/deeds/3f0aad38-b1cf-4da4-9bfa-5f40c712dbf1?person=961f6b1a-a574-53f7-e053-b784100aa83b"],
-        "Makreel, Catharina": ["https://archief.amsterdam/indexen/deeds/3f0aad38-b1cf-4da4-9bfa-5f40c712dbf1?person=961f6b1a-a575-53f7-e053-b784100aa83b"]
+        "Makreel, Catharina": ["https://archief.amsterdam/indexen/deeds/3f0aad38-b1cf-4da4-9bfa-5f40c712dbf1?person=961f6b1a-a575-53f7-e053-b784100aa83b"],
+        "Makreel, Jacob": ["https://archief.amsterdam/indexen/deeds/0b9c4b65-8b12-43e3-97ef-dfeca43ac7b2?person=961f6b1f-611c-53f7-e053-b784100aa83b"]
     },
     "3360": {
         "otr": ["https://archief.amsterdam/indexen/deeds/b162b70e-3cbe-4552-8479-b068d50aca84?event=Event1"],
@@ -6950,7 +6956,7 @@
         "Lynslager, Eva Elizabeth": ["https://archief.amsterdam/indexen/deeds/ab7bef67-b0bb-48fb-ac9e-0f5f71c386b6?person=961f6b22-8d4f-53f7-e053-b784100aa83b"]
     },
     "3727": {
-        "Nikkelen, Eduard van": ["https://archief.amsterdam/indexen/deeds/c7a6115a-32d1-46a0-a618-bc4fbc544428?person=961f6b1a-da1b-53f7-e053-b784100aa83b"]
+        "Nikkelen, Eduard van": ["https://archief.amsterdam/indexen/deeds/c7a6115a-32d1-46a0-a618-bc4fbc544428?person=961f6b1a-da1b-53f7-e053-b784100aa83b", "https://data.goldenagents.org/datasets/jaikwil/records/65013-groom"]
     },
     "3728": {
         "otr": ["https://archief.amsterdam/indexen/deeds/380b0031-6c89-4410-a57d-28a939cd1e30?event=Event1"],
@@ -7194,7 +7200,8 @@
         "otr": ["https://archief.amsterdam/indexen/deeds/e4119217-9c05-427c-9298-74ffb70b1a48?event=Event1"],
         "Das, Hendrik": ["https://archief.amsterdam/indexen/deeds/e4119217-9c05-427c-9298-74ffb70b1a48?person=961f6b16-20fc-53f7-e053-b784100aa83b"],
         "Luykink, Sara Bernardina": ["https://archief.amsterdam/indexen/deeds/e4119217-9c05-427c-9298-74ffb70b1a48?person=961f6b16-20fd-53f7-e053-b784100aa83b"],
-        "Koekebakker, Adriaan": ["https://archief.amsterdam/indexen/deeds/340a49c4-6f5f-435d-b2f7-ac42e0152afc?person=961f6b16-3ce8-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/8dd4380d-b5ba-40e2-bcce-de45bce0518e?person=961f6b18-2b88-53f7-e053-b784100aa83b"]
+        "Koekebakker, Adriaan": ["https://archief.amsterdam/indexen/deeds/340a49c4-6f5f-435d-b2f7-ac42e0152afc?person=961f6b16-3ce8-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/8dd4380d-b5ba-40e2-bcce-de45bce0518e?person=961f6b18-2b88-53f7-e053-b784100aa83b"],
+        "Koekebakker, Jan": ["https://archief.amsterdam/indexen/deeds/019341bb-e0ee-424a-a1b9-f15627cb2767?person=961f6b19-461b-53f7-e053-b784100aa83b"]
     },
     "3888": {
         "otr": ["https://archief.amsterdam/indexen/deeds/cb0f76e9-0dec-45d8-b954-df85db00a54c?event=Event1"],
@@ -7307,6 +7314,9 @@
         "otr": ["https://archief.amsterdam/indexen/deeds/ec77e34c-f373-4f39-b7b7-42624d3f3756?event=Event1"],
         "Schellinger, Elias": ["https://archief.amsterdam/indexen/deeds/ec77e34c-f373-4f39-b7b7-42624d3f3756?person=961f6b17-de02-53f7-e053-b784100aa83b"],
         "Buys, Elizabeth": ["https://archief.amsterdam/indexen/deeds/ec77e34c-f373-4f39-b7b7-42624d3f3756?person=961f6b17-de03-53f7-e053-b784100aa83b"]
+    },
+    "3981": {
+        "Groot, Jan de (Antoonz)": ["https://archief.amsterdam/indexen/deeds/03f52519-7ebb-4876-ad71-7c8a55e8fa7d?person=961f6b19-3567-53f7-e053-b784100aa83b"]
     },
     "3983": {
         "otr": ["https://archief.amsterdam/indexen/deeds/b4e71ae8-53e4-4b64-af48-06eb8310fd1e?event=Event1"],
@@ -7465,14 +7475,15 @@
         "otr": ["https://archief.amsterdam/indexen/deeds/8538de51-b234-449f-b2bd-6ef272794135?event=Event1", "https://archief.amsterdam/indexen/deeds/98f27e4b-a167-4df0-8589-363231e27d68?event=Event1"],
         "Moilives van der Noot, Jan": ["https://archief.amsterdam/indexen/deeds/8538de51-b234-449f-b2bd-6ef272794135?person=961f6b22-7151-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/98f27e4b-a167-4df0-8589-363231e27d68?person=961f6b17-ce12-53f7-e053-b784100aa83b"],
         "Denys, Elisabeth": ["https://archief.amsterdam/indexen/deeds/8538de51-b234-449f-b2bd-6ef272794135?person=961f6b22-7152-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/98f27e4b-a167-4df0-8589-363231e27d68?person=961f6b17-ce13-53f7-e053-b784100aa83b"],
-        "Nikkelen, Eduard van": ["https://archief.amsterdam/indexen/deeds/c7a6115a-32d1-46a0-a618-bc4fbc544428?person=961f6b1a-da1b-53f7-e053-b784100aa83b"]
+        "Nikkelen, Eduard van": ["https://archief.amsterdam/indexen/deeds/c7a6115a-32d1-46a0-a618-bc4fbc544428?person=961f6b1a-da1b-53f7-e053-b784100aa83b", "https://data.goldenagents.org/datasets/jaikwil/records/65013-groom"]
     },
     "4136": {
         "otr": ["https://archief.amsterdam/indexen/deeds/f393208e-7aa1-4174-89e3-3eae4cfc7d7b?event=Event1"],
         "Cramer, Hendrik Willem": ["https://archief.amsterdam/indexen/deeds/f393208e-7aa1-4174-89e3-3eae4cfc7d7b?person=961f6b20-c072-53f7-e053-b784100aa83b"],
         "Luykink, Catharina": ["https://archief.amsterdam/indexen/deeds/f393208e-7aa1-4174-89e3-3eae4cfc7d7b?person=961f6b20-c073-53f7-e053-b784100aa83b"],
         "Koekebakker, Adriaan": ["https://archief.amsterdam/indexen/deeds/340a49c4-6f5f-435d-b2f7-ac42e0152afc?person=961f6b16-3ce8-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/8dd4380d-b5ba-40e2-bcce-de45bce0518e?person=961f6b18-2b88-53f7-e053-b784100aa83b"],
-        "Cramer, Petrus Fredriksz": ["https://archief.amsterdam/indexen/deeds/ca309621-9dec-43de-b258-9ad2e9ccb46b?person=961f6b21-24ef-53f7-e053-b784100aa83b"]
+        "Cramer, Petrus Fredriksz": ["https://archief.amsterdam/indexen/deeds/ca309621-9dec-43de-b258-9ad2e9ccb46b?person=961f6b21-24ef-53f7-e053-b784100aa83b"],
+        "Koekebakker, Jan": ["https://archief.amsterdam/indexen/deeds/019341bb-e0ee-424a-a1b9-f15627cb2767?person=961f6b19-461b-53f7-e053-b784100aa83b"]
     },
     "4140": {
         "otr": ["https://archief.amsterdam/indexen/deeds/acf4d59e-c6ea-419d-bed6-d42c3de80c78?event=Event1"],
@@ -8038,7 +8049,8 @@
         "otr": ["https://archief.amsterdam/indexen/deeds/8dd4380d-b5ba-40e2-bcce-de45bce0518e?event=Event1"],
         "Koekebakker, Adriaan": ["https://archief.amsterdam/indexen/deeds/81603ada-c426-4f02-a21a-dd898bc2e24c?person=961f6b1a-cab9-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/8dd4380d-b5ba-40e2-bcce-de45bce0518e?person=961f6b18-2b88-53f7-e053-b784100aa83b"],
         "Okhuysen, Sara Maria": ["https://archief.amsterdam/indexen/deeds/8dd4380d-b5ba-40e2-bcce-de45bce0518e?person=961f6b18-2b89-53f7-e053-b784100aa83b"],
-        "Limburg, Abraham van": ["https://archief.amsterdam/indexen/deeds/aa123443-a6e8-49c4-9058-bed37c1cd81f?person=961f6b19-4c2d-53f7-e053-b784100aa83b", "https://data.goldenagents.org/datasets/ufab7d657a250e3461361c982ce9b38f3816e0c4b/saa_id_003_index_op_ondertrouwregisters/.well-known/genid/70a5bd38ccc661c19d7163e96fec78c5_node1f64s5l8ax113166396"]
+        "Limburg, Abraham van": ["https://archief.amsterdam/indexen/deeds/aa123443-a6e8-49c4-9058-bed37c1cd81f?person=961f6b19-4c2d-53f7-e053-b784100aa83b", "https://data.goldenagents.org/datasets/ufab7d657a250e3461361c982ce9b38f3816e0c4b/saa_id_003_index_op_ondertrouwregisters/.well-known/genid/70a5bd38ccc661c19d7163e96fec78c5_node1f64s5l8ax113166396"],
+        "Koekebakker, Jan": ["https://archief.amsterdam/indexen/deeds/019341bb-e0ee-424a-a1b9-f15627cb2767?person=961f6b19-461b-53f7-e053-b784100aa83b"]
     },
     "4511": {
         "otr": ["https://archief.amsterdam/indexen/deeds/1753e9f6-7739-4019-8f80-45b188b0819c?event=Event1"],
@@ -8580,7 +8592,7 @@
         "Bartelsman, Elisabeth": ["https://archief.amsterdam/indexen/deeds/dd07ec43-772c-4024-affd-a2f121a644da?person=961f6b16-ad95-53f7-e053-b784100aa83b"]
     },
     "4886": {
-        "Nikkelen, Eduard van": ["https://archief.amsterdam/indexen/deeds/c7a6115a-32d1-46a0-a618-bc4fbc544428?person=961f6b1a-da1b-53f7-e053-b784100aa83b"]
+        "Nikkelen, Eduard van": ["https://archief.amsterdam/indexen/deeds/c7a6115a-32d1-46a0-a618-bc4fbc544428?person=961f6b1a-da1b-53f7-e053-b784100aa83b", "https://data.goldenagents.org/datasets/jaikwil/records/65013-groom"]
     },
     "4887": {
         "otr": ["https://archief.amsterdam/indexen/deeds/5288bafa-df51-404b-8ab5-a17785fda5d9?event=Event1"],
@@ -8593,7 +8605,7 @@
         "Harencarspel, Susanna Jacoba van": ["https://archief.amsterdam/indexen/deeds/5288bafa-df51-404b-8ab5-a17785fda5d9?person=961f6b22-ee58-53f7-e053-b784100aa83b"]
     },
     "4894": {
-        "Lageman, Engelina Catharina": ["https://archief.amsterdam/indexen/deeds/a20ccab7-64e3-4e05-b1fa-55b5f29dcf82?person=961f6b1f-c5cd-53f7-e053-b784100aa83b"]
+        "Lageman, Engelina Catharina": ["https://archief.amsterdam/indexen/deeds/0662e7a2-1bc8-4549-b4e1-26650102d982?person=961f6b1e-083d-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/a20ccab7-64e3-4e05-b1fa-55b5f29dcf82?person=961f6b1f-c5cd-53f7-e053-b784100aa83b"]
     },
     "4897": {
         "otr": ["https://archief.amsterdam/indexen/deeds/5ca751ef-2b6d-40a3-a416-53b7ac1c9ef6?event=Event1"],
@@ -8608,6 +8620,9 @@
         "otr": ["https://archief.amsterdam/indexen/deeds/c3616c0c-28fb-4ebc-949a-8f11575b7ec6?event=Event1"],
         "Muller, Johan Everhard": ["https://archief.amsterdam/indexen/deeds/c3616c0c-28fb-4ebc-949a-8f11575b7ec6?person=961f6b1f-d3f8-53f7-e053-b784100aa83b"],
         "Puyt, Anna": ["https://archief.amsterdam/indexen/deeds/c3616c0c-28fb-4ebc-949a-8f11575b7ec6?person=961f6b1f-d3f9-53f7-e053-b784100aa83b"]
+    },
+    "4910": {
+        "Leeuw, Hendrik de": ["https://archief.amsterdam/indexen/deeds/03cf5dba-6a8e-41eb-83e7-521f8b0558f4?person=961f6b17-c646-53f7-e053-b784100aa83b"]
     },
     "4916": {
         "otr": ["https://archief.amsterdam/indexen/deeds/38fb4463-5446-4390-a545-99a9542a1402?event=Event1"],
@@ -8648,7 +8663,8 @@
     "4962": {
         "otr": ["https://archief.amsterdam/indexen/deeds/4efddeb1-b35b-4770-9924-0473f63026cb?event=Event1"],
         "Boussiere, Pieter": ["https://archief.amsterdam/indexen/deeds/4efddeb1-b35b-4770-9924-0473f63026cb?person=961f6b19-861f-53f7-e053-b784100aa83b"],
-        "Sondervan, Ermina": ["https://archief.amsterdam/indexen/deeds/4efddeb1-b35b-4770-9924-0473f63026cb?person=961f6b19-8620-53f7-e053-b784100aa83b"]
+        "Sondervan, Ermina": ["https://archief.amsterdam/indexen/deeds/4efddeb1-b35b-4770-9924-0473f63026cb?person=961f6b19-8620-53f7-e053-b784100aa83b"],
+        "Sondervan, Volkert": ["https://archief.amsterdam/indexen/deeds/05fed97c-ca35-4ada-84d6-4d46001b1888?person=961f6b22-f627-53f7-e053-b784100aa83b"]
     },
     "4964": {
         "otr": ["https://archief.amsterdam/indexen/deeds/9eed92c5-6c5f-4538-bec8-d65c95635e30?event=Event1"],
@@ -8668,7 +8684,8 @@
     "4972": {
         "otr": ["https://archief.amsterdam/indexen/deeds/80c4e390-1eed-48d7-bbe3-37d4964070e6?event=Event1", "https://archief.amsterdam/indexen/deeds/b8c1df1f-0cbb-4af0-a5ab-8c8515e69b01?event=Event1"],
         "Lublink, Nicolaas (Jr)": ["https://archief.amsterdam/indexen/deeds/80c4e390-1eed-48d7-bbe3-37d4964070e6?person=961f6b1e-47ee-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/b8c1df1f-0cbb-4af0-a5ab-8c8515e69b01?person=961f6b21-5125-53f7-e053-b784100aa83b"],
-        "Fogh, Angneta": ["https://archief.amsterdam/indexen/deeds/80c4e390-1eed-48d7-bbe3-37d4964070e6?person=961f6b1e-47ef-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/b8c1df1f-0cbb-4af0-a5ab-8c8515e69b01?person=961f6b21-5126-53f7-e053-b784100aa83b"]
+        "Fogh, Angneta": ["https://archief.amsterdam/indexen/deeds/80c4e390-1eed-48d7-bbe3-37d4964070e6?person=961f6b1e-47ef-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/b8c1df1f-0cbb-4af0-a5ab-8c8515e69b01?person=961f6b21-5126-53f7-e053-b784100aa83b"],
+        "Roeper Bosch, Laurens": ["https://archief.amsterdam/indexen/deeds/028a549d-bf44-45d2-bb55-8a50013864a5?person=961f6b1b-5487-53f7-e053-b784100aa83b"]
     },
     "4974": {
         "otr": ["https://archief.amsterdam/indexen/deeds/606d95c8-e0d7-4d51-b4a0-36da345aa395?event=Event1"],
@@ -8890,7 +8907,7 @@
     },
     "5119": {
         "Koekebakker, Adriaan": ["https://archief.amsterdam/indexen/deeds/340a49c4-6f5f-435d-b2f7-ac42e0152afc?person=961f6b16-3ce8-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/8dd4380d-b5ba-40e2-bcce-de45bce0518e?person=961f6b18-2b88-53f7-e053-b784100aa83b"],
-        "Koekebakker, Margareta Maria": ["https://archief.amsterdam/indexen/deeds/5eda7994-f967-4a43-92cd-3dc60039274d?person=961f6b1f-389b-53f7-e053-b784100aa83b"]
+        "Koekebakker, Margareta Maria": ["https://archief.amsterdam/indexen/deeds/015fac9a-a818-4210-aeea-f6ec5fd8b27a?person=961f6b1e-1688-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/5eda7994-f967-4a43-92cd-3dc60039274d?person=961f6b1f-389b-53f7-e053-b784100aa83b"]
     },
     "5137": {
         "otr": ["https://archief.amsterdam/indexen/deeds/2473aaeb-e4e1-4c6e-baa8-5d65d32e0d60?event=Event1"],
@@ -8922,6 +8939,9 @@
         "otr": ["https://archief.amsterdam/indexen/deeds/56c8c0cd-3860-4af8-b7ac-4b1e81ea7212?event=Event1", "https://archief.amsterdam/indexen/deeds/f0f301b7-bb6e-4916-92ce-e402564d9874?event=Event1"],
         "Elders, Dirk": ["https://archief.amsterdam/indexen/deeds/56c8c0cd-3860-4af8-b7ac-4b1e81ea7212?person=961f6b15-05f9-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/f0f301b7-bb6e-4916-92ce-e402564d9874?person=961f6b1e-21cf-53f7-e053-b784100aa83b"],
         "Rocheteau, Lidia Judith": ["https://archief.amsterdam/indexen/deeds/56c8c0cd-3860-4af8-b7ac-4b1e81ea7212?person=961f6b15-05fa-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/f0f301b7-bb6e-4916-92ce-e402564d9874?person=961f6b1e-21d0-53f7-e053-b784100aa83b"]
+    },
+    "5163": {
+        "Crajenschot, Jan": ["https://archief.amsterdam/indexen/deeds/02c4265d-0dd5-459c-b481-57e1bfd2cd9c?person=961f6b22-a967-53f7-e053-b784100aa83b"]
     },
     "5172": {
         "otr": ["https://archief.amsterdam/indexen/deeds/0372f0d4-4b07-454a-b316-ce8034b6ca5c?event=Event1"],
@@ -9324,7 +9344,8 @@
         "Binquebanc, Ernst Friederich": ["https://archief.amsterdam/indexen/deeds/a1334ebf-8d2b-4b08-88e9-c5a624e523ce?person=961f6b14-f419-53f7-e053-b784100aa83b"],
         "Wegener, Anna Catharina": ["https://archief.amsterdam/indexen/deeds/a1334ebf-8d2b-4b08-88e9-c5a624e523ce?person=961f6b14-f41a-53f7-e053-b784100aa83b"],
         "Binquebanc, Anna Regina": ["https://archief.amsterdam/indexen/deeds/394b5e50-4654-47ed-97b1-dd5a94bf1a32?person=961f6b18-6656-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/3e4d31e2-af46-44e7-9267-2881d493a0f4?person=961f6b19-ea93-53f7-e053-b784100aa83b"],
-        "Wegener, Bernhard Diderich": ["https://archief.amsterdam/indexen/deeds/bffdedf3-dd6d-4ca2-9b25-de6002ed7423?person=961f6b15-5c78-53f7-e053-b784100aa83b"]
+        "Wegener, Bernhard Diderich": ["https://archief.amsterdam/indexen/deeds/bffdedf3-dd6d-4ca2-9b25-de6002ed7423?person=961f6b15-5c78-53f7-e053-b784100aa83b"],
+        "Perband, Anna Catharina": ["https://archief.amsterdam/indexen/deeds/03db56fe-ef10-473e-ab7b-348428bb2bc8?person=961f6b16-e1ea-53f7-e053-b784100aa83b"]
     },
     "5478": {
         "otr": ["https://archief.amsterdam/indexen/deeds/3c42bfdf-097b-408c-b127-eceb08196f93?event=Event1"],
@@ -9564,7 +9585,8 @@
     },
     "5735": {
         "Udink, Maria Magdalena": ["https://archief.amsterdam/indexen/deeds/1d8de9b2-9a77-440a-bb86-3f16495f41b0?person=961f6b21-2a0e-53f7-e053-b784100aa83b"],
-        "Prasse, Jan Willem": ["https://archief.amsterdam/indexen/deeds/789c9bf7-5290-4abc-b16b-ee6da020e550?person=961f6b18-45d6-53f7-e053-b784100aa83b"]
+        "Prasse, Jan Willem": ["https://archief.amsterdam/indexen/deeds/789c9bf7-5290-4abc-b16b-ee6da020e550?person=961f6b18-45d6-53f7-e053-b784100aa83b"],
+        "Hartman, Catharina": ["https://data.goldenagents.org/datasets/jaikwil/records/2032-bride"]
     },
     "5738": {
         "otr": ["https://archief.amsterdam/indexen/deeds/4f054de3-9119-42e3-bbd3-65ee001e82da?event=Event1"],
@@ -9698,7 +9720,6 @@
         "Nierop, Gerard": ["https://archief.amsterdam/indexen/deeds/1b81d198-e20c-450d-aa97-8b4160447898?person=961f6b1b-47bd-53f7-e053-b784100aa83b"],
         "Rutgers, Johanna Elisabeth": ["https://archief.amsterdam/indexen/deeds/1b81d198-e20c-450d-aa97-8b4160447898?person=961f6b1b-47be-53f7-e053-b784100aa83b"]
     },
-    "6109": {},
     "6113": {
         "Kerkhoff, Magdalena": ["https://archief.amsterdam/indexen/deeds/e720863d-4466-44f2-a0f1-4d8cda4445be?person=961f6b21-1728-53f7-e053-b784100aa83b"]
     },
@@ -9769,6 +9790,9 @@
         "otr": ["https://archief.amsterdam/indexen/deeds/0b0ac894-618f-4191-bec5-cf27d652c9dc?event=Event1", "https://archief.amsterdam/indexen/deeds/993f6317-cc57-46c4-95da-49c0d11fca42?event=Event1"],
         "Ruhrman, Casper Hendrik": ["https://archief.amsterdam/indexen/deeds/0b0ac894-618f-4191-bec5-cf27d652c9dc?person=961f6b21-696f-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/993f6317-cc57-46c4-95da-49c0d11fca42?person=961f6b22-cbd5-53f7-e053-b784100aa83b"],
         "Cramer, Maria Christina": ["https://archief.amsterdam/indexen/deeds/0b0ac894-618f-4191-bec5-cf27d652c9dc?person=961f6b21-6970-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/993f6317-cc57-46c4-95da-49c0d11fca42?person=961f6b22-cbd6-53f7-e053-b784100aa83b"]
+    },
+    "6207": {
+        "Smit, Pieter": ["https://archief.amsterdam/indexen/deeds/0097263f-9e85-43b8-9cd1-c0394fb0b533?person=961f6b1e-66f6-53f7-e053-b784100aa83b"]
     },
     "6213": {
         "otr": ["https://archief.amsterdam/indexen/deeds/3830b2cc-b152-432a-afe1-49108ab8679d?event=Event1"],
@@ -9856,7 +9880,8 @@
     "6340": {
         "otr": ["https://archief.amsterdam/indexen/deeds/fdbbea63-662d-4439-a5ae-1b20b779ce98?event=Event1"],
         "Hill, Micha\u00ebl van": ["https://archief.amsterdam/indexen/deeds/fdbbea63-662d-4439-a5ae-1b20b779ce98?person=961f6b15-1645-53f7-e053-b784100aa83b"],
-        "Smit, Christina": ["https://archief.amsterdam/indexen/deeds/fdbbea63-662d-4439-a5ae-1b20b779ce98?person=961f6b15-1646-53f7-e053-b784100aa83b"]
+        "Smit, Christina": ["https://archief.amsterdam/indexen/deeds/fdbbea63-662d-4439-a5ae-1b20b779ce98?person=961f6b15-1646-53f7-e053-b784100aa83b"],
+        "Elink Sterk, Augustus": ["https://archief.amsterdam/indexen/deeds/059802e3-0d03-4390-97e9-cb8e950aad39?person=961f6b22-f87f-53f7-e053-b784100aa83b"]
     },
     "6348": {
         "otr": ["https://archief.amsterdam/indexen/deeds/6c061955-29c5-4521-92bb-107a9b75fd18?event=Event1"],
@@ -9888,6 +9913,9 @@
         "otr": ["https://archief.amsterdam/indexen/deeds/f0023537-ef06-49d7-9750-b12c98854d8b?event=Event1"],
         "Tobiasse, Aeilt Arend": ["https://archief.amsterdam/indexen/deeds/f0023537-ef06-49d7-9750-b12c98854d8b?person=961f6b1f-f3b0-53f7-e053-b784100aa83b"],
         "Brouwer, Catharina": ["https://archief.amsterdam/indexen/deeds/f0023537-ef06-49d7-9750-b12c98854d8b?person=961f6b1f-f3b1-53f7-e053-b784100aa83b"]
+    },
+    "6381": {
+        "Smit, Pieter": ["https://archief.amsterdam/indexen/deeds/0097263f-9e85-43b8-9cd1-c0394fb0b533?person=961f6b1e-66f6-53f7-e053-b784100aa83b"]
     },
     "6392": {
         "otr": ["https://archief.amsterdam/indexen/deeds/9cc0a0de-0689-4d98-9049-16b7b8795452?event=Event1"],
@@ -10174,7 +10202,7 @@
         "otr": ["https://archief.amsterdam/indexen/deeds/83442eaf-6cad-44bd-b186-963dbdc413bd?event=Event1"],
         "Witsen, Johannes": ["https://archief.amsterdam/indexen/deeds/83442eaf-6cad-44bd-b186-963dbdc413bd?person=961f6b15-5fee-53f7-e053-b784100aa83b"],
         "Lingen, Johanna van": ["https://archief.amsterdam/indexen/deeds/83442eaf-6cad-44bd-b186-963dbdc413bd?person=961f6b15-5fef-53f7-e053-b784100aa83b"],
-        "Lingen, Hendrika Elisabeth van": ["https://archief.amsterdam/indexen/deeds/87f31810-08bb-45f6-a7c6-fe98884f7e65?person=961f6b1e-0b77-53f7-e053-b784100aa83b"],
+        "Lingen, Hendrika Elisabeth van": ["https://archief.amsterdam/indexen/deeds/87f31810-08bb-45f6-a7c6-fe98884f7e65?person=961f6b1e-0b77-53f7-e053-b784100aa83b", "https://data.goldenagents.org/datasets/jaikwil/records/21875-bride"],
         "Wenkink, Paulus (Jr)": ["https://archief.amsterdam/indexen/deeds/adc54899-70b2-4e72-b3a8-0b50b8a50463?person=961f6b21-81da-53f7-e053-b784100aa83b"]
     },
     "6770": {
