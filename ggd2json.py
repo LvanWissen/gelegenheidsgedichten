@@ -110,6 +110,10 @@ with open("data/id2melodie.json") as infile:
 with open("data/id2na_hv.json") as infile:
     ID2NA_HV = json.load(infile)
 
+with open("data/id2na_boedel.json") as infile:
+    ID2NA_BOEDEL = json.load(infile)
+
+
 ID2THESAURUS = defaultdict(lambda: defaultdict(lambda: defaultdict(list)))
 for ggdid in ID2PERSON:
     for name in ID2PERSON[ggdid]:
@@ -224,6 +228,8 @@ def getPersons(persons, getRole=False, recordID=None):
         na = []
         if recordID and recordID in ID2NA_HV:
             na += ID2NA_HV[recordID].get(person, [])
+        if recordID and recordID in ID2NA_BOEDEL:
+            na += ID2NA_BOEDEL[recordID].get(person, [])
 
         plist.append(
             {
