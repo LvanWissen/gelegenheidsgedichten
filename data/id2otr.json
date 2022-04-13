@@ -3827,7 +3827,7 @@
     "2122": {
         "otr": ["https://archief.amsterdam/indexen/deeds/989339a5-1215-433f-99b1-765c934b33b4?event=Event1"],
         "Hoos, Pieter": ["https://archief.amsterdam/indexen/deeds/989339a5-1215-433f-99b1-765c934b33b4?person=961f6b1d-cb13-53f7-e053-b784100aa83b"],
-        "Veen, Wyntje van": ["https://archief.amsterdam/indexen/deeds/989339a5-1215-433f-99b1-765c934b33b4?person=961f6b1d-cb14-53f7-e053-b784100aa83b"]
+        "Veen, Wyntje van": ["https://archief.amsterdam/indexen/deeds/989339a5-1215-433f-99b1-765c934b33b4?person=961f6b1d-cb14-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/98261f2d-350e-4c25-b938-f8f97aee2ada?person=961f6b17-9928-53f7-e053-b784100aa83b"]
     },
     "2135": {
         "otr": ["https://archief.amsterdam/indexen/deeds/d1d43ac9-237d-4e1c-80f4-f3cba8f38527?event=Event1"],
@@ -4532,6 +4532,11 @@
         "otr": ["https://archief.amsterdam/indexen/deeds/021e4cc3-0e69-46cc-aa9f-5b8dbe3fdd4c?event=Event1", "https://archief.amsterdam/indexen/deeds/f2104444-64d1-439c-8006-bfce9d7e65f1?event=Event1"],
         "Hasselaer, Dirk": ["https://archief.amsterdam/indexen/deeds/021e4cc3-0e69-46cc-aa9f-5b8dbe3fdd4c?person=961f6b19-3889-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/f2104444-64d1-439c-8006-bfce9d7e65f1?person=961f6b22-5651-53f7-e053-b784100aa83b"],
         "Scholvanger, Jacomina": ["https://archief.amsterdam/indexen/deeds/021e4cc3-0e69-46cc-aa9f-5b8dbe3fdd4c?person=961f6b19-388a-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/f2104444-64d1-439c-8006-bfce9d7e65f1?person=961f6b22-5652-53f7-e053-b784100aa83b"]
+    },
+    "2455": {
+        "otr": ["https://archief.amsterdam/indexen/deeds/98261f2d-350e-4c25-b938-f8f97aee2ada?event=Event1"],
+        "Berg, Willem van den": ["https://archief.amsterdam/indexen/deeds/98261f2d-350e-4c25-b938-f8f97aee2ada?person=961f6b17-9927-53f7-e053-b784100aa83b"],
+        "Veen, Wyntje van": ["https://archief.amsterdam/indexen/deeds/989339a5-1215-433f-99b1-765c934b33b4?person=961f6b1d-cb14-53f7-e053-b784100aa83b", "https://archief.amsterdam/indexen/deeds/98261f2d-350e-4c25-b938-f8f97aee2ada?person=961f6b17-9928-53f7-e053-b784100aa83b"]
     },
     "2457": {
         "otr": ["https://archief.amsterdam/indexen/deeds/bf212c6e-4084-4094-a117-9a1e9f5e1181?event=Event1"],
