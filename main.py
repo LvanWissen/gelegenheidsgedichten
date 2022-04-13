@@ -858,10 +858,10 @@ def main():
     #              (1640, 1650), (1645, 1655), (1650, 1660), (1655, 1665),
     #              (1660, 1670)]:
     #     toRdf(filepath=JSONFILE,
-    #           target=f'ttl/ggd_{temp[0]}-{temp[1]}.ttl',
+    #           target=f'rdf/ggd_{temp[0]}-{temp[1]}.ttl',
     #           temporalConstraint=temp)
 
-    toRdf(filepath=JSONFILE, target=f"ttl/ggd.trig")
+    toRdf(filepath=JSONFILE, target=f"rdf/ggd.trig")
 
 
 if __name__ == "__main__":
