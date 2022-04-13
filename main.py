@@ -1,7 +1,8 @@
 import re
 import json
 import uuid
-from itertools import count
+from itertools import count, permutations
+from collections import defaultdict
 
 from rdflib import Graph, Namespace, OWL, Literal, URIRef, BNode, XSD, RDFS, RDF
 from rdflib.term import skolem_genid
@@ -210,6 +211,18 @@ def unique(*args, ns=None):
         return BNode(unique_id)
 
 
+def constructSameAs(sameAs_list, sameAs_mapping: dict):
+
+    perms = permutations(sameAs_list, 2)
+
+    for u1, u2 in perms:
+
+        sameAs_mapping[u1].add(u2)
+        sameAs_mapping[u1].update(sameAs_mapping[u2])
+
+    return sameAs_mapping
+
+
 def parsePersonName(nameString, identifier=None):
     """
     Parse a capitalised Notary Name from the notorial acts to pnv format.
@@ -342,7 +355,9 @@ def getRoleType(roleName):
 
 def toRdf(filepath: str, target: str, temporalConstraint=False):
 
-    g = rdfSubject.db = Graph()
+    g = rdfSubject.db = Graph(
+        identifier=URIRef("https://data.goldenagents.org/datasets/ggd/")
+    )
     eventTypesDict = dict()
 
     with open(filepath) as infile:
@@ -350,6 +365,49 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
 
     with open("data/authorSameAs.json") as infile:
         authorLinkList = json.load(infile)
+
+    # construct sameAsMapping from links in data
+    sameAs_mapping = defaultdict(set)
+
+    for r in data:
+        for entry in r.get("author", []) + r.get("person", []):
+
+            sameAs_list = []
+
+            # amatch = tuple(
+            #     [r["event"]["eventid"], entry["person"]] + sorted(a["thesaurus"])
+            # )
+            pmatch = tuple([r["event"]["eventid"], entry["person"]])
+            sameAs_list.append(pmatch)
+
+            for k in (
+                "thesaurus",
+                "otr",
+                "doop",
+                "begraaf",
+                "rkd",
+                "wikidata",
+                "ecartico",
+                "na",
+            ):
+                sameAs_list += entry[k] if k in entry else []
+
+            sameAs_mapping = constructSameAs(sameAs_list, sameAs_mapping)
+
+    for k, values in sameAs_mapping.items():
+
+        for v in set(values):
+            sameAs_mapping[k].update(sameAs_mapping[v])
+
+    with open("data/sameAs_mapping.json", "w") as outfile:
+        json.dump(
+            {
+                k: [i for i in v if type(i) != tuple]
+                for k, v in sameAs_mapping.items()
+                if type(k) != tuple
+            },
+            outfile,
+        )
 
     itemCounter = count(1)
     authorCounter = count(1)
@@ -391,10 +449,13 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
             # Attempt to also give the same URIs to authors with same name in
             # poems for the the same event
             authorURI = None
-            amatch = tuple(
-                [r["event"]["eventid"], a["person"]] + sorted(a["thesaurus"])
-            )
-            authorSameAs = []
+            # amatch = tuple(
+            #     [r["event"]["eventid"], a["person"]] + sorted(a["thesaurus"])
+            # )
+            amatch = tuple([r["event"]["eventid"], a["person"]])
+            authorSameAs = [
+                URIRef(i) for i in sameAs_mapping[amatch] if type(i) != tuple
+            ]
 
             if a["thesaurus"]:
 
@@ -660,28 +721,10 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
                 # for persons, being in the same event also counts
                 personURI = None
                 pmatch = tuple([r["event"]["eventid"], p["person"]])
-                personSameAs = []
 
-                # otr
-                personSameAs += [URIRef(i) for i in p["otr"]]
-
-                # doop
-                personSameAs += [URIRef(i) for i in p["doop"]]
-
-                # begraaf
-                personSameAs += [URIRef(i) for i in p["begraaf"]]
-
-                # rkd
-                personSameAs += [URIRef(i) for i in p["rkd"]]
-
-                # wikidata
-                personSameAs += [URIRef(i) for i in p["wikidata"]]
-
-                # ecartico
-                personSameAs += [URIRef(i) for i in p["ecartico"]]
-
-                # na
-                personSameAs += [URIRef(i) for i in p["na"]]
+                personSameAs = [
+                    URIRef(i) for i in sameAs_mapping[pmatch] if type(i) != tuple
+                ]
 
                 if p["thesaurus"]:
 
@@ -692,8 +735,6 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
                             and personURI is None
                         ):
                             personURI = URIRef(i)
-                        else:
-                            personSameAs.append(URIRef(i))
 
                     if personURI is None:
                         personURI = person2uri.get(pmatch)
@@ -793,7 +834,11 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
             book.sameAs = [URIRef(r["stcn"])]
 
     # Skolemize BNodes
-    g = g.skolemize(authority="https://data.goldenagents.org/", basepath=skolem_genid)
+    g = g.skolemize(
+        new_graph=Graph(identifier=g.identifier),
+        authority="https://data.goldenagents.org/",
+        basepath=skolem_genid,
+    )
 
     g.bind("schema", schema)
     g.bind("kbdef", kbdef)
@@ -804,7 +849,7 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
     g.bind("pnv", pnv)
 
     print(f"Serializing to {target}")
-    g.serialize(target, format="turtle")
+    g.serialize(target, format="trig")
 
 
 def main():
@@ -816,7 +861,7 @@ def main():
     #           target=f'ttl/ggd_{temp[0]}-{temp[1]}.ttl',
     #           temporalConstraint=temp)
 
-    toRdf(filepath=JSONFILE, target=f"ttl/ggd.ttl")
+    toRdf(filepath=JSONFILE, target=f"ttl/ggd.trig")
 
 
 if __name__ == "__main__":
