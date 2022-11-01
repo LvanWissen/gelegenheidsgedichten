@@ -13,7 +13,7 @@ ggd = Namespace("http://data.bibliotheken.nl/id/dataset/ggd/")
 ggddoc = Namespace("http://data.bibliotheken.nl/doc/dataset/ggd/")
 
 bio = Namespace("http://purl.org/vocab/bio/0.1/")
-schema = Namespace("http://schema.org/")
+schema = Namespace("https://schema.org/")
 sem = Namespace("http://semanticweb.cs.vu.nl/2009/11/sem/")
 pnv = Namespace("https://w3id.org/pnv#")
 

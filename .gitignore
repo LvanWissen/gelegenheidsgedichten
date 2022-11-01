@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+analysis/
+data/ll/
+data/nta/
+data/cerl/
+data/stcn/
+data/gender/
+gephi/
+linksets/
