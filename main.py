@@ -9,8 +9,8 @@ from rdflib.term import skolem_genid
 from rdfalchemy import rdfSubject, rdfSingle, rdfMultiple
 
 # http://data.bibliotheken.nl/id/dataset/ggd/
-ggd = Namespace("http://data.bibliotheken.nl/id/dataset/ggd/")
-ggddoc = Namespace("http://data.bibliotheken.nl/doc/dataset/ggd/")
+ggd = Namespace("https://data.goldenagents.org/datasets/ggd/")
+ggddoc = Namespace("https://data.goldenagents.org/datasets/ggd/")
 
 bio = Namespace("http://purl.org/vocab/bio/0.1/")
 schema = Namespace("https://schema.org/")
@@ -18,13 +18,13 @@ sem = Namespace("http://semanticweb.cs.vu.nl/2009/11/sem/")
 pnv = Namespace("https://w3id.org/pnv#")
 
 kbdef = Namespace("http://data.bibliotheken.nl/def#")
-gaThes = Namespace("https://data.goldenagents.org/datasets/thesaurus/eventtype/")
+gaThes = Namespace("https://data.goldenagents.org/thesaurus/")
 
 ggdItem = Namespace("http://data.bibliotheken.nl/id/dataset/ggd/item/")
 ggdEvent = Namespace("http://data.bibliotheken.nl/id/dataset/ggd/event/")
-ggdAuthor = Namespace("https://data.create.humanities.uva.nl/id/ggd/author/")
-ggdPrinter = Namespace("https://data.create.humanities.uva.nl/id/ggd/printer/")
-ggdPerson = Namespace("https://data.create.humanities.uva.nl/id/ggd/person/")
+ggdAuthor = Namespace("https://data.goldenagents.org/datasets/ggd/author/")
+ggdPrinter = Namespace("https://data.goldenagents.org/datasets/ggd/printer/")
+ggdPerson = Namespace("https://data.goldenagents.org/datasets/ggd/person/")
 
 JSONFILE = "data/ggd.json"
 
@@ -506,6 +506,9 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
             else:
                 gender = None
 
+            if authorURI in authorSameAs:
+                authorSameAs.remove(authorURI)
+
             author = Person(
                 authorURI,
                 label=labelInverseName,
@@ -761,6 +764,9 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
                 else:
                     gender = None
 
+                if personURI in personSameAs:
+                    personSameAs.remove(personURI)
+
                 person = Person(
                     personURI,
                     label=labelInverseName,
@@ -820,8 +826,8 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
             description=r.get("description"),
             comment=r.get("comments"),
             identifier=identifiers,
-            sameAs=[ggddoc.term(r["id"])],
-            isPartOf=URIRef("http://data.bibliotheken.nl/id/dataset/ggd"),
+            sameAs=[ggddoc.term(r["id"] + "#document")],
+            isPartOf=URIRef("https://data.goldenagents.org/datasets/ggd/"),
             dateCreated=Literal(r["created"], datatype=XSD.date),
             dateModified=Literal(r["modified"], datatype=XSD.date),
         )
