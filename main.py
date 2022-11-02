@@ -20,8 +20,8 @@ pnv = Namespace("https://w3id.org/pnv#")
 kbdef = Namespace("http://data.bibliotheken.nl/def#")
 gaThes = Namespace("https://data.goldenagents.org/thesaurus/")
 
-ggdItem = Namespace("http://data.bibliotheken.nl/id/dataset/ggd/item/")
-ggdEvent = Namespace("http://data.bibliotheken.nl/id/dataset/ggd/event/")
+ggdItem = Namespace("https://data.goldenagents.org/datasets/ggd/item/")
+ggdEvent = Namespace("https://data.goldenagents.org/datasets/ggd/event/")
 ggdAuthor = Namespace("https://data.goldenagents.org/datasets/ggd/author/")
 ggdPrinter = Namespace("https://data.goldenagents.org/datasets/ggd/printer/")
 ggdPerson = Namespace("https://data.goldenagents.org/datasets/ggd/person/")
@@ -479,21 +479,28 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
             else:
                 # No thesaurus entry, but maybe this author is in the link file
 
-                # already defined?
-                authorURI = author2uri.get(amatch)
-
-                # not defined, try to find it in the link file
-                # btw, we need a database
                 if authorURI is None:
-                    for n, link in authorLinkList.items():
-                        if r["id"] in link.get(a["person"], []):
-                            authorURI = ggdAuthor.term("a" + n)
-                            break
+                    # else:
 
-                    if authorURI is None:
-                        authorURI = ggdAuthor.term(str(next(authorCounter)))
+                    if p["wikidata"]:
+                        authorURI = URIRef(p["wikidata"][0])
+                    else:
 
-                    author2uri[amatch] = authorURI
+                        # already defined?
+                        authorURI = author2uri.get(amatch)
+
+                        # not defined, try to find it in the link file
+                        # btw, we need a database
+                        if authorURI is None:
+                            for n, link in authorLinkList.items():
+                                if r["id"] in link.get(a["person"], []):
+                                    authorURI = ggdAuthor.term("a" + n)
+                                    break
+
+                            if authorURI is None:
+                                authorURI = ggdAuthor.term(str(next(authorCounter)))
+
+                            author2uri[amatch] = authorURI
 
             # Single name to unique person
             pn, pnLabels = parsePersonName(
@@ -739,6 +746,7 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
                         ):
                             personURI = URIRef(i)
 
+                    # This is never reached?
                     if personURI is None:
                         personURI = person2uri.get(pmatch)
 
@@ -750,8 +758,11 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
                 if personURI is None:
                     # else:
 
-                    personURI = unique(*sorted(personSameAs), ns=ggdPerson)
-                    person2uri[pmatch] = personURI
+                    if p["wikidata"]:
+                        personURI = URIRef(p["wikidata"][0])
+                    else:
+                        personURI = unique(*sorted(personSameAs), ns=ggdPerson)
+                        person2uri[pmatch] = personURI
 
                 # Single name to unique person
                 pn, pnLabels = parsePersonName(
