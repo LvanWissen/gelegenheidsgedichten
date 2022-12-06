@@ -459,6 +459,7 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
 
             if a["thesaurus"]:
 
+                # Is there a thesaurus URI (NTA or VIAF)?
                 for i in sorted(a["thesaurus"], reverse=True):
                     if (
                         "data.bibliotheken.nl/id/thes/" in i
@@ -482,8 +483,8 @@ def toRdf(filepath: str, target: str, temporalConstraint=False):
                 if authorURI is None:
                     # else:
 
-                    if p["wikidata"]:
-                        authorURI = URIRef(p["wikidata"][0])
+                    if a["wikidata"]:
+                        authorURI = URIRef(a["wikidata"][0])
                     else:
 
                         # already defined?
