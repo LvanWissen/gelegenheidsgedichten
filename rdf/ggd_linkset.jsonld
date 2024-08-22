@@ -1,0 +1,5228 @@
+{
+  "@context": {
+    "type": "@type",
+    "id": "@id",
+    "label": "http://www.w3.org/2000/01/rdf-schema#label",
+    "sameAs": {
+      "@id": "http://www.w3.org/2002/07/owl#sameAs",
+      "@type": "@id"
+    }
+  },
+  "@id": "https://data.goldenagents.org/datasets/ggd/links/",
+  "@graph": [
+    {
+      "id": "urn:goldenagents:ggd:person:5220:05",
+      "label": "Wegener, Bernhard Diderich",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5461:05",
+          "label": "Wegener, Bernhard Diderich"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3877:07",
+      "label": "Koekebakker, Jan",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4136:06",
+          "label": "Koekebakker, Jan"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4509:04",
+          "label": "Koekebakker, Jan"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4400:06",
+      "label": "Hoogenbergh, Isaak Pietersz",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4782:05",
+          "label": "Hoogenbergh, Isaak Pietersz"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3271:09",
+      "label": "Callenfels, Petrus Wilhelmus",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3471:04",
+          "label": "Callenfels, Petrus Wilhelmus"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:1349:06",
+      "label": "Streek, H. van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:1469:05",
+          "label": "Streek, H. van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2014:07",
+          "label": "Streek, H. van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2027:07",
+          "label": "Streek, H. van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:1804:08",
+      "label": "Sadelhof, T. van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:1816:08",
+          "label": "Sadelhof, T. van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:1830:05",
+          "label": "Sadelhof, T. van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4592:04",
+      "label": "Zoutman, Jacob",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4656:05",
+          "label": "Zoutman, Jacob"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4885:07",
+      "label": "Luden, Hendrik",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5268:15",
+          "label": "Luden, Hendrik"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2612:05",
+      "label": "Speelman, A.",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2648:07",
+          "label": "Speelman, A."
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3010:03",
+          "label": "Speelman, A."
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4728:07",
+      "label": "Driest, Johannes van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4977:07",
+          "label": "Driest, Johannes van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:5208:04",
+          "label": "Driest, Johannes van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:6831:08",
+          "label": "Driest, Johannes van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:1845:11",
+      "label": "Jonas, A.",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3293:05",
+          "label": "Jonas, A."
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4691:04",
+      "label": "Cliever, Cornelis de",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4734:05",
+          "label": "Cliever, Cornelis de"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:1750:07",
+      "label": "Delcourt, Isaac Thomasz",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:1912:05",
+          "label": "Delcourt, Isaac Thomasz"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:1975:04",
+          "label": "Delcourt, Isaac Thomasz"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2107:03",
+          "label": "Delcourt, Isaac Thomasz"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2194:04",
+          "label": "Delcourt, Isaac Thomasz"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2230:05",
+          "label": "Delcourt, Isaac Thomasz"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2294:09",
+          "label": "Delcourt, Isaac Thomasz"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2297:09",
+          "label": "Delcourt, Isaac Thomasz"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2356:03",
+          "label": "Delcourt, Isaac Thomasz"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2619:05",
+          "label": "Delcourt, Isaac Thomasz"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2646:07",
+          "label": "Delcourt, Isaac Thomasz"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2728:07",
+          "label": "Delcourt, Isaac Thomasz"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:1474:05",
+      "label": "Roeters, J.",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:1498:05",
+          "label": "Roeters, J."
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5401:06",
+      "label": "Broek, Maria van den",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5437:06",
+          "label": "Broek, Maria van den"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2419:03",
+      "label": "Du Sart, Izaak",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2714:04",
+          "label": "Du Sart, Izaak"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3384:03",
+          "label": "Du Sart, Izaak"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3385:04",
+          "label": "Du Sart, Izaak"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3475:03",
+          "label": "Du Sart, Izaak"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3384:01",
+          "label": "Du Sart, Izaak (Jr)"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3385:05",
+          "label": "Du Sart, Izaak (Jr)"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3475:04",
+          "label": "Du Sart, Izaak (Jr)"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5268:10",
+      "label": "Luden, Johannes",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5268:06",
+          "label": "Luden, Johannes (Jr)"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2521:15",
+      "label": "Steenhovius Posthma, Petrus",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2524:19",
+          "label": "Steenhovius Posthma, Petrus"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5185:07",
+      "label": "Haffen, David van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5381:15",
+          "label": "Haffen, David van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4876:10",
+      "label": "Brandt, Gerard",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5011:04",
+          "label": "Brandt, Gerard"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:6102:05",
+      "label": "Haaxman, Daniel",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:6115:03",
+          "label": "Haaxman, Daniel"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4579:04",
+      "label": "Vooght, Pieter de",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5640:06",
+          "label": "Vooght, Pieter de"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:6193:27",
+      "label": "Sluyter, Johannes Albertus",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:6268:05",
+          "label": "Sluyter, Johannes Albertus"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:6314:07",
+          "label": "Sluyter, Johannes Albertus"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:1635:08",
+      "label": "Fortgens, J.",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:1661:06",
+          "label": "Fortgens, J."
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:1746:04",
+          "label": "Fortgens, J."
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:1974:04",
+          "label": "Fortgens, J."
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3031:12",
+      "label": "Poorten, Josua van der",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3559:06",
+          "label": "Poorten, Josua van der"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3687:03",
+          "label": "Poorten, Josua van der"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3784:05",
+          "label": "Poorten, Josua van der"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5633:04",
+      "label": "Heyveld, Gerrit",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5841:03",
+          "label": "Heyveld, Gerrit"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4068:05",
+      "label": "Bogaerd, Cornelis Isaaksz van den",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3096:05",
+          "label": "Bogaerd, Cornelis Izaaksz van den"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3824:04",
+          "label": "Bogaerd, Cornelis Izaaksz van den"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2724:03",
+      "label": "Oillaarts, Catharina",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2737:03",
+          "label": "Oillaarts, Catharina"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2742:03",
+          "label": "Oillaarts, Catharina"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2769:03",
+          "label": "Oillaarts, Catharina"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4566:09",
+      "label": "Hartgers Asschenberg, Jan",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4658:09",
+          "label": "Hartgers Asschenberg, Jan"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4869:09",
+          "label": "Hartgers Asschenberg, Jan"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3705:06",
+      "label": "Ophoven, Cornelis van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3810:07",
+          "label": "Ophoven, Cornelis van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4188:07",
+      "label": "Bouman, Jan",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3501:04",
+          "label": "Bouman, Joan (Jr)"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2610:06",
+      "label": "Ys, Jan",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2629:04",
+          "label": "Ys, Jan"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:1512:06",
+      "label": "Delcourt, Pieter",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:1679:04",
+          "label": "Delcourt, Pieter"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:1708:04",
+          "label": "Delcourt, Pieter"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4159:05",
+      "label": "Vos, Jacob",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4284:05",
+          "label": "Vos, Jacob"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3432:09",
+      "label": "Cloes Lutkeman, Dirk",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3595:05",
+          "label": "Cloes Lutkeman, Dirk"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2184:06",
+      "label": "Wit, Petrus de",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2203:07",
+          "label": "Wit, Petrus de"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4368:16",
+      "label": "Rog-aar, Jan Arendsz",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4439:06",
+          "label": "Rog-aar, Jan Arendsz"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:1927:07",
+      "label": "Velsen, T. van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2019:05",
+          "label": "Velsen, T. van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4501:04",
+      "label": "Ryke, Jan Baptista",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4773:05",
+          "label": "Ryke, Jan Baptista"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2307:07",
+      "label": "Wiert, Gerardus van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2334:07",
+          "label": "Wiert, Gerardus van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2627:07",
+          "label": "Wiert, Gerardus van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4689:08",
+      "label": "Swerus, Benjamin",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4978:07",
+          "label": "Swerus, Benjamin"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4108:07",
+      "label": "Poest, Andries van der",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4441:02",
+          "label": "Poest, Andries van der"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4382:05",
+      "label": "Hachmeester, Joan Willem",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4566:07",
+          "label": "Hachmeester, Joan Willem"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3590:03",
+      "label": "Wilde, J. de",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3590:06",
+          "label": "Wilde, J. de (Jr)"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2526:06",
+      "label": "Yver",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4016:07",
+          "label": "Yver"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4474:04",
+      "label": "Wakkerdak, Pieter Anthony",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5625:04",
+          "label": "Wakkerdak, Pieter Anthony"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5009:10",
+      "label": "Vroom, Jan Jacob",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5049:12",
+          "label": "Vroom, Jan Jacob"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3344:07",
+      "label": "With, Samuel de",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3391:06",
+          "label": "With, Samuel de"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2843:06",
+      "label": "Schouten, C.",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3383:03",
+          "label": "Schouten, C."
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3418:05",
+      "label": "Hoisingh, Arnoldus",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3464:06",
+          "label": "Hoisingh, Arnoldus"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5643:07",
+      "label": "Schoemaker, Gerard",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5686:03",
+          "label": "Schoemaker, Gerard"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:1631:04",
+      "label": "Ster, Salomo van der",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2397:02",
+          "label": "Ster, Salomo van der"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4482:04",
+      "label": "Schorer, A.C.",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4555:03",
+          "label": "Schorer, A.C."
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2976:06",
+      "label": "Voort, Jan van der",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3019:06",
+          "label": "Voort, Jan van der"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4191:09",
+      "label": "Cuperus, Joannes",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4261:08",
+          "label": "Cuperus, Joannes"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3384:05",
+      "label": "Du Sart, Joannes Isaaksz",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3385:06",
+          "label": "Du Sart, Joannes Isaaksz"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:6257:05",
+      "label": "Akerboom, Johanna Wilhelmina",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:6340:06",
+          "label": "Akerboom, Johanna Wilhelmina"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4400:09",
+      "label": "Stanhoffius, Andries",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5492:15",
+          "label": "Stanhoffius, Andries"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:1665:04",
+      "label": "Peyster, Abraham",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:1820:09",
+          "label": "Peyster, Abraham"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5474:05",
+      "label": "Bruyn, A.",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5857:03",
+          "label": "Bruyn, A."
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3178:04",
+      "label": "Verbeek, Willem",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3240:06",
+          "label": "Verbeek, Willem"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2346:04",
+      "label": "Mauregnault, Johan de",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2422:03",
+          "label": "Mauregnault, Johan de"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2423:03",
+          "label": "Mauregnault, Johan de"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3063:05",
+      "label": "Beukelaar, Egidius",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3204:06",
+          "label": "Beukelaar, Egidius"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2914:07",
+      "label": "Cloppenburg, Jan",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2928:04",
+          "label": "Cloppenburg, Jan"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:1043:03",
+      "label": "Cramer, R.",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:1108:05",
+          "label": "Cramer, R."
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2448:06",
+      "label": "Kinderen, Emanuel der",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2676:05",
+          "label": "Kinderen, Emanuel der"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4382:06",
+      "label": "Hachmeester, Jurgen",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4566:08",
+          "label": "Hachmeester, Jurgen"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2263:04",
+      "label": "Sennepart, Eduard",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2581:06",
+          "label": "Sennepart, Eduard"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2595:10",
+          "label": "Sennepart, Eduard"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2712:06",
+          "label": "Sennepart, Eduard"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3114:04",
+          "label": "Sennepart, Eduard"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3386:09",
+          "label": "Sennepart, Eduard"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2815:06",
+      "label": "Meysenheym, Hendrik (Jr)",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3696:04",
+          "label": "Meysenheym, Hendrik (Jr)"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4075:04",
+      "label": "Asschenbergh, Aart",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4290:06",
+          "label": "Asschenbergh, Aart"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4521:04",
+          "label": "Asschenbergh, Aart"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2580:05",
+      "label": "Blom, Dirk Dirkse",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2594:05",
+          "label": "Blom, Dirk Dirkse"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3526:04",
+      "label": "Tak, Adriaan",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3585:04",
+          "label": "Tak, Adriaen"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2667:07",
+      "label": "Huysum, Josua van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2701:08",
+          "label": "Huysum, Josua van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2977:11",
+          "label": "Huysum, Josua van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3595:03",
+      "label": "Wylik, Jan van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3794:10",
+          "label": "Wylik, Jan van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4190:09",
+      "label": "Beeke, Simon Jansz",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4200:09",
+          "label": "Beeke, Simon Jansz"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3271:03",
+      "label": "Buys, Helena",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4168:04",
+          "label": "Buys, Helena"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4133:03",
+      "label": "Hoebe, Johannes",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5077:05",
+          "label": "Hoebe, Johannes"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2260:05",
+      "label": "Sibersma, Daniel Simon",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2279:04",
+          "label": "Sibersma, Daniel Simon"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3645:02",
+      "label": "Steenbergen, Petronella Catharina van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4700:05",
+          "label": "Steenbergen, Petronella Catharina van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4232:10",
+      "label": "Potholt, Isaac",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4233:08",
+          "label": "Potholt, Isaac"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2885:09",
+      "label": "Boonen, Isaac",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2948:05",
+          "label": "Boonen, Isaac"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3011:07",
+          "label": "Boonen, Isaac"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3086:04",
+          "label": "Boonen, Isaac"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3143:06",
+          "label": "Boonen, Isaac"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3449:05",
+          "label": "Boonen, Isaac"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2001:10",
+      "label": "Kok, Barent",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2655:08",
+          "label": "Kok, Barent"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3196:04",
+          "label": "Kok, Barent"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3279:06",
+          "label": "Kok, Barent"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4414:04",
+      "label": "Anias, Judith",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4450:09",
+          "label": "Anias, Judith"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4482:08",
+          "label": "Anias, Judith"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:5916:03",
+          "label": "Anias, Judith"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:472:03",
+      "label": "Marchant, Stephanus",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:489:04",
+          "label": "Marchant, Stephanus"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:491:04",
+          "label": "Marchant, Stephanus"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4645:06",
+      "label": "Meylink, Catharina Margareta",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5106:05",
+          "label": "Meylink, Catharina Margareta"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4837:04",
+      "label": "Lette, W.A.",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4907:10",
+          "label": "Lette, W.A."
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3525:03",
+      "label": "Vermaas, M.",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3740:04",
+          "label": "Vermaas, M."
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2932:04",
+      "label": "Wenkink, Paulus Jansz",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3844:07",
+          "label": "Wenkink, Paulus Jansz"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:992:22",
+      "label": "Eyssonius, Henricus",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:1090:19",
+          "label": "Eyssonius, Henricus"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5032:03",
+      "label": "Huytingh, Johannes",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5224:03",
+          "label": "Huytingh, Johannes"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2978:03",
+      "label": "Olthoff, Jan",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3092:08",
+          "label": "Olthoff, Jan"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3938:10",
+          "label": "Olthoff, Jan"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4050:10",
+          "label": "Olthoff, Jan"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4561:06",
+          "label": "Olthoff, Jan"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4682:04",
+          "label": "Olthoff, Jan"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4750:06",
+          "label": "Olthoff, Jan"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4932:05",
+      "label": "Wenkink, Paulus (Jr)",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:6759:04",
+          "label": "Wenkink, Paulus (Jr)"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3158:03",
+      "label": "Egmont, Willem van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3231:03",
+          "label": "Egmont, Willem van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3234:06",
+          "label": "Egmont, Willem van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3386:07",
+      "label": "Bruyn, Ysbrant George",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3512:04",
+          "label": "Bruyn, Ysbrant George"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4634:13",
+      "label": "Wilt, Nicolaas",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4727:03",
+          "label": "Wilt, Nicolaas"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4755:07",
+          "label": "Wilt, Nicolaas"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2457:03",
+      "label": "Doornik, David",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2683:05",
+          "label": "Doornik, David"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5437:03",
+      "label": "Broek, Reinier Jan van den",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5602:07",
+          "label": "Broek, Reinier Jan van den"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2188:06",
+      "label": "Nikkelen, Eduard van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2232:10",
+          "label": "Nikkelen, Eduard van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2334:04",
+          "label": "Nikkelen, Eduard van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2536:07",
+          "label": "Nikkelen, Eduard van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2607:04",
+          "label": "Nikkelen, Eduard van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2627:08",
+          "label": "Nikkelen, Eduard van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2655:10",
+          "label": "Nikkelen, Eduard van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2795:06",
+          "label": "Nikkelen, Eduard van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2949:08",
+          "label": "Nikkelen, Eduard van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3150:05",
+          "label": "Nikkelen, Eduard van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3727:04",
+          "label": "Nikkelen, Eduard van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4134:07",
+          "label": "Nikkelen, Eduard van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4886:03",
+          "label": "Nikkelen, Eduard van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3335:02",
+      "label": "Paauw, L.",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2622:09",
+          "label": "Paeuw, L."
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2710:05",
+      "label": "Schutte, Hendrik",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3344:04",
+          "label": "Schutte, Hendrik"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3555:05",
+          "label": "Schutte, Hendrik"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4449:03",
+      "label": "Koeye, Pieter",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5012:08",
+          "label": "Koeye, Pieter"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3105:04",
+      "label": "Stockinck, Hendrik",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3206:05",
+          "label": "Stockinck, Hendrik"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5345:05",
+      "label": "Hooghart, Joannes",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5587:05",
+          "label": "Hooghart, Joannes"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4858:04",
+      "label": "Roy, Anna Maria de",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5673:08",
+          "label": "Roy, Anna Maria de"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3546:04",
+      "label": "Muller, Anthony Christiaan",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5033:03",
+          "label": "Muller, Anthony Christiaan"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3242:06",
+      "label": "Broek, Joannes van den",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3929:13",
+          "label": "Broek, Joannes van den"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4054:05",
+          "label": "Broek, Joannes van den"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3084:10",
+      "label": "Bruyning, Lodewyk",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3195:05",
+          "label": "Bruyning, Lodewyk"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3297:06",
+          "label": "Bruyning, Lodewyk"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3810:08",
+          "label": "Bruyning, Lodewyk"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3899:04",
+          "label": "Bruyning, Lodewyk"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4378:03",
+          "label": "Bruyning, Lodewyk"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4488:02",
+          "label": "Bruyning, Lodewyk"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4615:02",
+          "label": "Bruyning, Lodewyk"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4792:03",
+          "label": "Bruyning, Lodewyk"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:5166:02",
+          "label": "Bruyning, Lodewyk"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5846:12",
+      "label": "Spruyt, Jan",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5909:03",
+          "label": "Spruyt, Jan"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:1636:12",
+      "label": "Viruly, Jacob",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:1641:05",
+          "label": "Viruly, Jacob"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3921:07",
+      "label": "Goethals, Jacobus",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3926:13",
+          "label": "Goethals, Jacobus"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2534:04",
+      "label": "Sluys, Gulliam van der",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2594:03",
+          "label": "Sluys, Gulliam van der"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2597:06",
+          "label": "Sluys, Gulliam van der"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2909:10",
+      "label": "Hazebroek, J.W.",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2914:09",
+          "label": "Hazebroek, J.W."
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3125:10",
+          "label": "Hazebroek, J.W."
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3323:05",
+          "label": "Hazebroek, J.W."
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3340:05",
+          "label": "Hazebroek, J.W."
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3356:08",
+          "label": "Hazebroek, J.W."
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3449:12",
+          "label": "Hazebroek, J.W."
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3088:05",
+      "label": "Claus, Jan",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2910:07",
+          "label": "Claus, Jan (Jr.)"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4111:10",
+      "label": "Wit, C.H. de",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4232:09",
+          "label": "Wit, C.H. de"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4383:09",
+          "label": "Wit, C.H. de"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4844:07",
+      "label": "Bruyn, Willem de",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4993:05",
+          "label": "Bruyn, Willem de"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:5685:13",
+          "label": "Bruyn, Willem de"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:6700:06",
+          "label": "Bruyn, Willem de"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4397:06",
+      "label": "Haakman, Hermanus (1715-17xx)",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5359:06",
+          "label": "Haakman, Hermanus (1715-17xx)"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2109:04",
+      "label": "Garengroot, Johannes",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3401:03",
+          "label": "Garengroot, Johannes (Jr)"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2592:04",
+      "label": "Wiel, M.M.",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2635:05",
+          "label": "Wiel, M.M."
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:6175:27",
+      "label": "Dorland, A.",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:6822:04",
+          "label": "Dorland, A."
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5289:05",
+      "label": "Paschen, Bernardus",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5495:07",
+          "label": "Paschen, Bernardus"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4220:05",
+      "label": "Heycop, Cornelis van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4232:06",
+          "label": "Heycop, Cornelis van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2088:03",
+      "label": "Brederode, Theodorus van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2548:05",
+          "label": "Brederode, Theodorus van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4695:06",
+      "label": "Munnikhuysen, Libertus",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4864:08",
+          "label": "Munnikhuysen, Libertus"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:5033:04",
+          "label": "Munnikhuysen, Libertus"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:6207:05",
+      "label": "Vries, Adrianus de",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:6381:06",
+          "label": "Vries, Adrianus de"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:1845:09",
+      "label": "Asperen, J. van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2203:09",
+          "label": "Asperen, J. van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5147:13",
+      "label": "Bezoet, Jan Jacobsz",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5371:06",
+          "label": "Bezoet, Jan Jacobsz"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:5774:06",
+          "label": "Bezoet, Jan Jacobsz"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:6601:05",
+      "label": "Os, Jan van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:6856:10",
+          "label": "Os, Jan van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4840:07",
+      "label": "Du Sart, Izaak",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4840:05",
+          "label": "Du Sart, Izaak (Jr)"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:461:05",
+      "label": "H\u00fcnerfenger, Johann Adam",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:478:08",
+          "label": "H\u00fcnerfenger, Johann Adam"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5910:04",
+      "label": "Jut, Pieter Nicolaas",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:6218:08",
+          "label": "Jut, Pieter Nicolaas"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:6266:03",
+          "label": "Jut, Pieter Nicolaas"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4061:09",
+      "label": "Hoogenhuysen, Pieter",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4332:15",
+          "label": "Hoogenhuysen, Pieter"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:169:20",
+      "label": "Heydanus, Johannes",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:178:05",
+          "label": "Heydanus, Johannes"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:569:03",
+      "label": "Cuylenborch, Emilius van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:1041:05",
+          "label": "Cuylenborch, Emilius van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3122:06",
+      "label": "Klinkhamer, P.",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3203:09",
+          "label": "Klinkhamer, P."
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3084:09",
+      "label": "Harde, Anthony de",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3327:04",
+          "label": "Harde, Anthony de"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3356:05",
+          "label": "Harde, Anthony de"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:1693:03",
+      "label": "Sande, Abraham van der",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2265:04",
+          "label": "Sande, Abraham van der"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:1416:04",
+      "label": "Bruyn, Fredrik de",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:1428:03",
+          "label": "Bruyn, Fredrik de"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3509:04",
+      "label": "Lohoff, J.",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4111:03",
+          "label": "Lohoff, J."
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4209:08",
+      "label": "Keere, H. van der",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4644:08",
+          "label": "Keere, H. van der"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3183:03",
+      "label": "Thierens, Petrus",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3924:03",
+          "label": "Thierens, Petrus"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3280:05",
+      "label": "Souw, Jan van der",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3449:04",
+          "label": "Souw, Jan van der"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4024:03",
+          "label": "Souw, Jan van der"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3763:08",
+      "label": "Prins, Simon",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3907:07",
+          "label": "Prins, Simon"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2670:04",
+      "label": "Terwen, Jan",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2819:07",
+          "label": "Terwen, Jan"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3074:04",
+          "label": "Terwen, Jan"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3099:04",
+          "label": "Terwen, Jan"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3124:04",
+          "label": "Terwen, Jan"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3136:07",
+          "label": "Terwen, Jan"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5009:09",
+      "label": "Soorbeek Vroom, Hendrik",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5036:05",
+          "label": "Soorbeek Vroom, Hendrik"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3212:05",
+      "label": "Okhuysen, Adriaan Matthiasz",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4311:04",
+          "label": "Okhuysen, Adriaan Matthiasz"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4509:03",
+          "label": "Okhuysen, Adriaan Matthiasz"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:5119:04",
+          "label": "Okhuysen, Adriaan Matthiasz"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5715:42",
+      "label": "Wyk, Cornelis Johannes van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:6193:36",
+          "label": "Wyk, Cornelis Johannes van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3768:05",
+      "label": "Clamator, B.",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5185:04",
+          "label": "Clamator, B."
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3647:05",
+      "label": "Schardam, Johannes",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3685:03",
+          "label": "Schardam, Johannes"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5220:08",
+      "label": "Wegener, Ludolph Frederik",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5461:09",
+          "label": "Wegener, Ludolph Frederik"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:1692:05",
+      "label": "Grafwegh, Johannes",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2382:04",
+          "label": "Grafwegh, Johannes"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2630:04",
+      "label": "Limburg, Abraham van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3057:02",
+          "label": "Limburg, Abraham van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3145:04",
+          "label": "Limburg, Abraham van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3473:08",
+          "label": "Limburg, Abraham van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3597:15",
+          "label": "Limburg, Abraham van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4205:02",
+          "label": "Limburg, Abraham van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4311:03",
+          "label": "Limburg, Abraham van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4509:05",
+          "label": "Limburg, Abraham van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3577:03",
+      "label": "Smit, Daniel de",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3926:07",
+          "label": "Smit, Daniel de"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5785:08",
+      "label": "Overstraten, Jan van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5840:06",
+          "label": "Overstraten, Jan van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:5843:06",
+          "label": "Overstraten, Jan van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:5941:07",
+          "label": "Overstraten, Jan van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4422:03",
+      "label": "Brouwer, Hendrik",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4475:03",
+          "label": "Brouwer, Hendrik"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4652:05",
+          "label": "Brouwer, Hendrik"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4988:08",
+          "label": "Brouwer, Hendrik"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:6299:04",
+          "label": "Brouwer, Hendrik"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3122:07",
+      "label": "Klinkhamer, Michael",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3152:05",
+          "label": "Klinkhamer, Michael"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3203:07",
+          "label": "Klinkhamer, Michael"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2014:08",
+      "label": "Spiering, Willem",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2027:06",
+          "label": "Spiering, Willem"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5421:12",
+      "label": "Wees, Wilhelmus van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5673:06",
+          "label": "Wees, Wilhelmus van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2526:05",
+      "label": "Noorl\u00e9, Jan van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2906:06",
+          "label": "Noorl\u00e9, Jan van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2910:13",
+      "label": "Doekes, Warner",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3088:04",
+          "label": "Doekes, Warner"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3279:07",
+          "label": "Doekes, Warner"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3581:17",
+          "label": "Doekes, Warner"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3605:20",
+          "label": "Doekes, Warner"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3704:08",
+          "label": "Doekes, Warner"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3877:14",
+      "label": "Koekebakker, Johanna Magdalena",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4311:07",
+          "label": "Koekebakker, Johanna Magdalena"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4509:09",
+          "label": "Koekebakker, Johanna Magdalena"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:5119:07",
+          "label": "Koekebakker, Johanna Magdalena"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5191:06",
+      "label": "Rie, Jacob de",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5239:10",
+          "label": "Rie, Jacob de"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2749:12",
+      "label": "Baarenbroek, J.",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3646:05",
+          "label": "Baarenbroek, J."
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4530:02",
+      "label": "Hemmes, Joannes",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4557:10",
+          "label": "Hemmes, Joannes"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4158:11",
+      "label": "Ryk, Frans",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4176:03",
+          "label": "Ryk, Frans"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4777:05",
+          "label": "Ryk, Frans"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2670:03",
+      "label": "Terwen, J.",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3178:03",
+          "label": "Terwen, J."
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:1804:05",
+      "label": "Thin, Izak",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:1830:06",
+          "label": "Thin, Izak"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:1272:05",
+      "label": "Halmael, Hester van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:1529:06",
+          "label": "Halmael, Hester van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5427:07",
+      "label": "Dyk, Maria Henrietta van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5503:07",
+          "label": "Dyk, Maria Henrietta van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3773:02",
+      "label": "Bruin, Lieve Sieverdsz de",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5021:06",
+          "label": "Bruin, Lieve Sieverdsz de"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2656:06",
+      "label": "Schooten, N. van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2911:05",
+          "label": "Schooten, N. van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3132:09",
+          "label": "Schooten, N. van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3048:06",
+      "label": "Hoolwerff, J.R. van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3118:03",
+          "label": "Hoolwerff, J.R. van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3122:11",
+          "label": "Hoolwerff, J.R. van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3152:07",
+          "label": "Hoolwerff, J.R. van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3203:03",
+          "label": "Hoolwerff, J.R. van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3222:03",
+          "label": "Hoolwerff, J.R. van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3301:06",
+          "label": "Hoolwerff, J.R. van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3513:03",
+          "label": "Hoolwerff, J.R. van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4678:09",
+      "label": "Willemsen Meeusen, Jacob",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4725:05",
+          "label": "Willemsen Meeusen, Jacob"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:5378:05",
+          "label": "Willemsen Meeusen, Jacob"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2672:04",
+      "label": "Jacobi, Joannes Albertus",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2846:04",
+          "label": "Jacobi, Joannes Albertus"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3140:05",
+          "label": "Jacobi, Joannes Albertus"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3406:06",
+          "label": "Jacobi, Joannes Albertus"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3743:05",
+          "label": "Jacobi, Joannes Albertus"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3753:04",
+          "label": "Jacobi, Joannes Albertus"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4494:03",
+          "label": "Jacobi, Joannes Albertus"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:6891:03",
+          "label": "Jacobi, Joannes Albertus"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:6207:04",
+      "label": "Greve, Coenraad",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:6381:05",
+          "label": "Greve, Coenraad"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2526:04",
+      "label": "Have, N. ten",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2906:04",
+          "label": "Have, N. ten"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2656:07",
+      "label": "Oortman, H.",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2122:05",
+          "label": "Oortman, H. (Jr)"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2333:03",
+          "label": "Oortman, H. (Jr)"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2556:04",
+          "label": "Oortman, H. (Jr)"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3486:03",
+      "label": "Staphorst, Jan van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5146:07",
+          "label": "Staphorst, Jan van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5605:04",
+      "label": "Beth, Johannes",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:6497:06",
+          "label": "Beth, Johannes"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4145:11",
+      "label": "Arrewyne, E.J. van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4804:09",
+          "label": "Arrewyne, E.J. van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2261:05",
+      "label": "Tideman, Bruno",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3701:07",
+          "label": "Tideman, Bruno"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3590:04",
+      "label": "Wolff, Cornelis de",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4472:06",
+          "label": "Wolff, Cornelis de"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5221:05",
+      "label": "Crajenschot, Henricus",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5600:04",
+          "label": "Crajenschot, Henricus"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4311:13",
+      "label": "Boll, Johannes",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4205:08",
+          "label": "Bolle, Johannes"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3271:05",
+      "label": "Vermeere, Maximiliaan",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3450:04",
+          "label": "Vermeere, Maximiliaan"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3577:04",
+          "label": "Vermeere, Maximiliaan"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:1559:17",
+      "label": "Tol, J. van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2399:03",
+          "label": "Tol, J. van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4061:03",
+      "label": "Scholten, Gysbert",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4349:05",
+          "label": "Scholten, Gysbert"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:779:03",
+      "label": "Ooms, Margareta Cornelia",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:844:05",
+          "label": "Ooms, Margareta Cornelia"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3097:15",
+      "label": "Meylincq, Abraham",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3316:03",
+          "label": "Meylincq, Abraham"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3391:04",
+          "label": "Meylincq, Abraham"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3432:10",
+          "label": "Meylincq, Abraham"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3449:11",
+          "label": "Meylincq, Abraham"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:965:07",
+      "label": "Witt, C.Jz de",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:1393:05",
+          "label": "Witt, C.Jz de"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5007:04",
+      "label": "Oosterwyk, Lambertus van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5393:04",
+          "label": "Oosterwyk, Lambertus van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4374:06",
+      "label": "Meinertzhagen, Philip",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4910:06",
+          "label": "Meinertzhagen, Philip"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4450:18",
+      "label": "Bakker, Pieter Leendertsz",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4537:09",
+          "label": "Bakker, Pieter Leendertsz"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4158:10",
+      "label": "Broek, Cornelis Cornelisz van den",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4254:07",
+          "label": "Broek, Cornelis Cornelisz van den"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:1380:06",
+      "label": "Wetstein, Frederik Hendrik",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:1541:02",
+          "label": "Wetstein, Frederik Hendrik"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:1629:03",
+          "label": "Wetstein, Frederik Hendrik"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:1845:06",
+          "label": "Wetstein, Frederik Hendrik"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2588:14",
+          "label": "Wetstein, Frederik Hendrik"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2715:08",
+          "label": "Wetstein, Frederik Hendrik"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3078:08",
+          "label": "Wetstein, Frederik Hendrik"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5347:05",
+      "label": "Hoogenhuyzen, Willem van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5424:05",
+          "label": "Hoogenhuyzen, Willem van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2714:06",
+      "label": "Rensselaar, R. Kiliaansz van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3384:04",
+          "label": "Rensselaar, R. Kiliaansz van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4275:05",
+      "label": "Overvelt, George Constantyn van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4306:03",
+          "label": "Overvelt, George Constantyn van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:5300:04",
+          "label": "Overvelt, George Constantyn van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:5422:03",
+          "label": "Overvelt, George Constantyn van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:5459:03",
+          "label": "Overvelt, George Constantyn van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:463:04",
+      "label": "Ouderkerck, N. van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:483:04",
+          "label": "Ouderkerck, N. van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2003:04",
+      "label": "Velsen, Leendert van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2305:04",
+          "label": "Velsen, Leendert van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3033:05",
+          "label": "Velsen, Leendert van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:1680:05",
+      "label": "Haan, Jan de",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2229:04",
+          "label": "Haan, Jan de"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2416:04",
+          "label": "Haan, Jan de"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2484:05",
+          "label": "Haan, Jan de"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5677:04",
+      "label": "Posthumus, Pieter Jacobsz",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5681:05",
+          "label": "Posthumus, Pieter Jacobsz"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:379:01",
+      "label": "Toll, Claes van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:393:04",
+          "label": "Toll, Claes van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2919:04",
+      "label": "Waller, Elbertus",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3002:04",
+          "label": "Waller, Elbertus"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3266:05",
+          "label": "Waller, Elbertus"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:1629:04",
+      "label": "Stryen, H. van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:1845:07",
+          "label": "Stryen, H. van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2457:05",
+          "label": "Stryen, H. van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3365:05",
+      "label": "Man, Jan de",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3430:05",
+          "label": "Man, Jan de"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4354:07",
+      "label": "Bruyn, Fredrik de",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4355:02",
+          "label": "Bruyn, Fredrik de"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4480:06",
+          "label": "Bruyn, Fredrik de"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4621:10",
+          "label": "Bruyn, Fredrik de"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2746:04",
+      "label": "Valk, Laurens",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3060:04",
+          "label": "Valk, Laurens"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4209:05",
+      "label": "Keere, Willem van der",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4644:06",
+          "label": "Keere, Willem van der"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5605:08",
+      "label": "Sprang, Pieter van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5665:09",
+          "label": "Sprang, Pieter van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3780:06",
+      "label": "Faber, Antonius",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3807:03",
+          "label": "Faber, Antonius"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3846:03",
+          "label": "Faber, Antonius"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3938:06",
+          "label": "Faber, Antonius"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4441:05",
+      "label": "Superville, Jacques de",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4450:14",
+          "label": "Superville, Jacques de"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:592:06",
+      "label": "Wyngaerden, Wilhelmus Bernardusz",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:608:06",
+          "label": "Wyngaerden, Wilhelmus Bernardusz"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3620:06",
+      "label": "Leemputten, P.G. van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3731:03",
+          "label": "Leemputten, P.G. van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4720:03",
+          "label": "Leemputten, P.G. van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2662:07",
+      "label": "Raket, Henrick",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4056:06",
+          "label": "Raket, Henrick"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4061:07",
+          "label": "Raket, Henrick"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:6207:03",
+      "label": "Smit, Pieter",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:6381:03",
+          "label": "Smit, Pieter"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3524:03",
+      "label": "Das, Hendrik",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4136:13",
+          "label": "Das, Hendrik"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:6247:02",
+      "label": "Rutgers, Johannes",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:6718:05",
+          "label": "Rutgers, Johannes"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2719:04",
+      "label": "Reen, A.R.",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3144:04",
+          "label": "Reen, A.R."
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2397:06",
+      "label": "Wesel, P.",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3066:05",
+          "label": "Wesel, P."
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5278:03",
+      "label": "Besoyen, Alida",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5366:03",
+          "label": "Besoyen, Alida"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:6364:04",
+      "label": "Brouwer, Pieter Jacob",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:6373:04",
+          "label": "Brouwer, Pieter Jacob"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:6402:04",
+          "label": "Brouwer, Pieter Jacob"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4645:04",
+      "label": "Meylink, Antonius Christianus",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5106:04",
+          "label": "Meylink, Antonius Christianus"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3048:08",
+      "label": "Slob, Fredrick",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3066:03",
+          "label": "Slob, Fredrick"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4728:08",
+      "label": "Leeuw, W. de",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4977:10",
+          "label": "Leeuw, W. de"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:5208:06",
+          "label": "Leeuw, W. de"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:6831:10",
+          "label": "Leeuw, W. de"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:1770:03",
+      "label": "Issendorp, Isaak",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3085:04",
+          "label": "Issendorp, Isaak"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3303:05",
+          "label": "Issendorp, Isaak"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:1052:04",
+      "label": "Paauw, Amaranthe Maria",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:1053:04",
+          "label": "Paauw, Amaranthe Maria"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:1229:04",
+          "label": "Paauw, Amaranthe Maria"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:1236:04",
+          "label": "Paauw, Amaranthe Maria"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:1259:04",
+          "label": "Paauw, Amaranthe Maria"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:1275:03",
+          "label": "Paauw, Amaranthe Maria"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:1284:04",
+          "label": "Paauw, Amaranthe Maria"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:1295:04",
+          "label": "Paauw, Amaranthe Maria"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:1370:03",
+          "label": "Paauw, Amaranthe Maria"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:1445:06",
+      "label": "Ryneveld, Benedictus van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2239:03",
+          "label": "Ryneveld, Benedictus van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2531:07",
+          "label": "Ryneveld, Benedictus van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2587:04",
+          "label": "Ryneveld, Benedictus van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2760:03",
+          "label": "Ryneveld, Benedictus van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5601:06",
+      "label": "Burger, Fredericus David",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5642:15",
+          "label": "Burger, Fredericus David"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5259:04",
+      "label": "Oosterdyk Schacht, Joannes",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5304:03",
+          "label": "Oosterdyk Schacht, Joannes"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2062:04",
+      "label": "Karnebeek, Egbert van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2583:10",
+          "label": "Karnebeek, Egbert van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4931:10",
+      "label": "Laar, Lambert Johannes van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5479:03",
+          "label": "Laar, Lambert Johannes van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:6024:03",
+          "label": "Laar, Lambert Johannes van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:6193:17",
+      "label": "Velde, Willem van de",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:6656:05",
+          "label": "Velde, Willem van de"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:6885:08",
+          "label": "Velde, Willem van de"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3164:12",
+      "label": "Boer, Jacobus de",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4054:06",
+          "label": "Boer, Jacobus de"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4158:04",
+          "label": "Boer, Jacobus de"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2384:06",
+      "label": "Viruly, Jacob",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2482:06",
+          "label": "Viruly, Jacob"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2672:11",
+          "label": "Viruly, Jacob"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3386:05",
+          "label": "Viruly, Jacob"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3422:04",
+          "label": "Viruly, Jacob"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3234:10",
+      "label": "Alkemade, Joannes van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3604:02",
+          "label": "Alkemade, Joannes van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5991:04",
+      "label": "Spaan, Agatha van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:6797:05",
+          "label": "Spaan, Agatha van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:639:03",
+      "label": "Bogaard, A. van den",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:867:05",
+          "label": "Bogaard, A. van den"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:915:07",
+          "label": "Bogaard, A. van den"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:1571:10",
+      "label": "Loo, P. van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:1583:06",
+          "label": "Loo, P. van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2909:12",
+      "label": "Goris, Leonard",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2914:10",
+          "label": "Goris, Leonard"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:6131:08",
+      "label": "Roo, Nicolaas de",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:6216:06",
+          "label": "Roo, Nicolaas de"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2819:10",
+      "label": "Casius, K.",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2852:04",
+          "label": "Casius, K."
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3609:06",
+          "label": "Casius, K."
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4109:07",
+          "label": "Casius, K."
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4170:05",
+          "label": "Casius, K."
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3509:06",
+      "label": "Erbervelt, Abraham",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3544:05",
+          "label": "Erbervelt, Abraham"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4111:05",
+          "label": "Erbervelt, Abraham"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5077:04",
+      "label": "Bonn, Bernardus",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5751:07",
+          "label": "Bonn, Bernardus"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5289:07",
+      "label": "Wyck, Gerardus Christianus van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5495:04",
+          "label": "Wyck, Gerardus Christianus van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2156:06",
+      "label": "Erhard, Johannes",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2397:05",
+          "label": "Erhard, Johannes"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3021:05",
+          "label": "Erhard, Johannes"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3048:07",
+          "label": "Erhard, Johannes"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3066:04",
+          "label": "Erhard, Johannes"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3424:03",
+          "label": "Erhard, Johannes"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5820:06",
+      "label": "Visser, Maria de",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:6811:05",
+          "label": "Visser, Maria de"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3389:09",
+      "label": "Volkmar, Jan",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3509:11",
+          "label": "Volkmar, Jan"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4111:12",
+          "label": "Volkmar, Jan"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2628:09",
+      "label": "Nolk, Pieter van der",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2755:07",
+          "label": "Nolk, Pieter van der"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4595:07",
+      "label": "Meulman, H.",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5077:07",
+          "label": "Meulman, H."
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5289:06",
+      "label": "Weddik, Arnoldus Laurens",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5495:05",
+          "label": "Weddik, Arnoldus Laurens"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3779:03",
+      "label": "Winter, Gerard",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3780:09",
+          "label": "Winter, Gerard"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:1272:07",
+      "label": "Efflant, J.J.",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:1281:05",
+          "label": "Efflant, J.J."
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:1282:05",
+          "label": "Efflant, J.J."
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3583:04",
+      "label": "Bouricius, Gerard",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3325:03",
+          "label": "Bouricius, Gerard (Jr)"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2975:04",
+      "label": "Ruarus, David",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3244:04",
+          "label": "Ruarus, David"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3284:08",
+          "label": "Ruarus, David"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3348:06",
+          "label": "Ruarus, David"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2276:06",
+      "label": "Verhoeve, Jan",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2548:07",
+          "label": "Verhoeve, Jan"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2209:05",
+      "label": "Verhoek, J.",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2465:04",
+          "label": "Verhoek, J."
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:6188:08",
+      "label": "Bosch, Reijer van den",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:6789:11",
+          "label": "Bosch, Reijer van den"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4978:06",
+      "label": "Koek, Willem",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4689:06",
+          "label": "Koek, Willem (Jr)"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4805:03",
+      "label": "Balen, Anthonie",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5007:03",
+          "label": "Balen, Anthonie"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5633:07",
+      "label": "Pryn, Samuel Arnoldus",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5841:05",
+          "label": "Pryn, Samuel Arnoldus"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3271:10",
+      "label": "Step, Gerhard",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3682:13",
+          "label": "Step, Gerhard"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3683:04",
+          "label": "Step, Gerhard"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3714:05",
+          "label": "Step, Gerhard"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:1910:05",
+      "label": "Fortgens, Abraham",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:1974:05",
+          "label": "Fortgens, Abraham"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:1981:06",
+          "label": "Fortgens, Abraham"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2145:08",
+          "label": "Fortgens, Abraham"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3501:12",
+      "label": "Sligtenhorst, Hendrik",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3785:04",
+          "label": "Sligtenhorst, Hendrik"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4130:04",
+          "label": "Sligtenhorst, Hendrik"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4726:06",
+          "label": "Sligtenhorst, Hendrik"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4783:06",
+      "label": "Blankstein, Menso",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4984:06",
+          "label": "Blankstein, Menso"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4858:06",
+      "label": "Roy, Willem Anthonie de",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5421:07",
+          "label": "Roy, Willem Anthonie de"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:1633:05",
+      "label": "Fortgens, Isaac",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3147:04",
+          "label": "Fortgens, Isaac"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4431:05",
+      "label": "Lambrechtsen, Nicolaas",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4441:03",
+          "label": "Lambrechtsen, Nicolaas"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:224:05",
+      "label": "Sengwerdt, Arnoldus van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:252:05",
+          "label": "Sengwerdt, Arnoldus van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:260:09",
+          "label": "Sengwerdt, Arnoldus van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3858:04",
+      "label": "Heerde, D.",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4368:17",
+          "label": "Heerde, D."
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4643:08",
+      "label": "Geer, Johannes van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:6811:08",
+          "label": "Geer, Johannes van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3317:03",
+      "label": "Visscher, Gerard",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4190:07",
+          "label": "Visscher, Gerard"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4480:04",
+          "label": "Visscher, Gerard"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5597:02",
+      "label": "Schoemaker, Warnard",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5598:02",
+          "label": "Schoemaker, Warnard"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4689:05",
+      "label": "Koek, Hendrik",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4978:05",
+          "label": "Koek, Hendrik"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2428:03",
+      "label": "Buys, Jan Egbertsz",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2592:05",
+          "label": "Buys, Jan Egbertsz"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2656:05",
+      "label": "Leeser, Jacob",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3389:04",
+          "label": "Leeser, Jacob"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2795:04",
+      "label": "Sypesteyn, Johan van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2815:07",
+          "label": "Sypesteyn, Johan van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4275:07",
+          "label": "Sypesteyn, Johan van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3624:05",
+      "label": "Muller, Gerrit",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5213:05",
+          "label": "Muller, Gerrit"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:5309:03",
+          "label": "Muller, Gerrit"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2614:06",
+      "label": "Nieuwouts, Menno",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2651:06",
+          "label": "Nieuwouts, Menno"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3245:05",
+      "label": "Rauwers, Christina",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3573:03",
+          "label": "Rauwers, Christina"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:6001:17",
+      "label": "Douwes, Jacob Cornelisz",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:6002:17",
+          "label": "Douwes, Jacob Cornelisz"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:6266:11",
+          "label": "Douwes, Jacob Cornelisz"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4652:06",
+      "label": "Meulen, Pieter van der",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5140:04",
+          "label": "Meulen, Pieter van der"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3769:06",
+      "label": "Beels, Cornelia",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5245:04",
+          "label": "Beels, Cornelia"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2082:11",
+      "label": "Marchand, Jan",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3075:04",
+          "label": "Marchand, Jan (Jr)"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:1629:06",
+      "label": "Le Seur, Nicolaas",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:1845:05",
+          "label": "Le Seur, Nicolaas"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:1855:09",
+          "label": "Le Seur, Nicolaas"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4382:07",
+      "label": "Hoffham, Hendrik",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4396:08",
+          "label": "Hoffham, Hendrik"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4566:05",
+          "label": "Hoffham, Hendrik"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4658:04",
+          "label": "Hoffham, Hendrik"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4869:07",
+          "label": "Hoffham, Hendrik"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2202:04",
+      "label": "Wit, J. de",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2678:08",
+          "label": "Witt, J. de"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2829:04",
+          "label": "Witt, J. de"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3715:06",
+          "label": "Witt, J. de"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3696:05",
+      "label": "Graauwhart, Hendrik",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3696:06",
+          "label": "Graauwhart, Hendrik (Jr)"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5681:03",
+      "label": "Boom, Adolph Julius Philip",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:6696:05",
+          "label": "Boom, Adolph Julius Philip (Jr)"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3779:07",
+      "label": "Davervelt, C. van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4722:02",
+          "label": "Davervelt, C. van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4989:10",
+      "label": "Casand, Wouter Pietersz van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5175:08",
+          "label": "Casand, Wouter Pietersz van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:5869:05",
+          "label": "Casand, Wouter Pietersz van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:5921:04",
+          "label": "Casand, Wouter Pietersz van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4235:06",
+      "label": "Ens, Eva",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4517:06",
+          "label": "Ens, Eva"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5751:04",
+      "label": "Roos, Carel Carelsz",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5835:06",
+          "label": "Roos, Carel Carelsz"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2303:08",
+      "label": "Langevelt, M.",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2622:07",
+          "label": "Langevelt, M."
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2865:03",
+      "label": "Boonen, J.",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2878:22",
+          "label": "Boonen, J."
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3293:04",
+          "label": "Boonen, J."
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3582:05",
+          "label": "Boonen, J."
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:6193:06",
+      "label": "Tol, Jacobus",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:6268:09",
+          "label": "Tol, Jacobus"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:6459:03",
+          "label": "Tol, Jacobus"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:1054:04",
+      "label": "Toorenburg, Pieter van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:1262:07",
+          "label": "Toorenburg, Pieter van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:1291:06",
+          "label": "Toorenburg, Pieter van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:1315:09",
+          "label": "Toorenburg, Pieter van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:1349:05",
+          "label": "Toorenburg, Pieter van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2521:18",
+      "label": "Hartog, Fredericus Henricus",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2524:07",
+          "label": "Hartog, Fredericus Henricus"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4136:05",
+      "label": "Cramer, Petrus Fredriksz",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4243:04",
+          "label": "Cramer, Petrus Fredriksz"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4856:06",
+          "label": "Cramer, Petrus Fredriksz"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4977:06",
+          "label": "Cramer, Petrus Fredriksz"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5839:02",
+      "label": "Philadelphus",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5951:03",
+          "label": "Philadelphus"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2812:07",
+      "label": "Roos, P.",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3146:05",
+          "label": "Roos, P."
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2970:04",
+      "label": "Schalkwyk a Velden, Samuel van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3314:06",
+          "label": "Schalkwyk a Velden, Samuel van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3122:09",
+      "label": "Swartendyk, Pieter",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3203:08",
+          "label": "Swartendyk, Pieter"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:1674:07",
+      "label": "Hoogstraten, Mattheus van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:1754:06",
+          "label": "Hoogstraten, Mattheus van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4012:05",
+      "label": "Bakhuizen, A.",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4054:09",
+          "label": "Bakhuizen, A."
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4059:03",
+          "label": "Bakhuizen, A."
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4158:08",
+          "label": "Bakhuizen, A."
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4416:07",
+      "label": "Posthumus, Maria",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5681:07",
+          "label": "Posthumus, Maria"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5908:09",
+      "label": "Prins, Simon",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5937:05",
+          "label": "Prins, Simon"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3327:08",
+      "label": "Rijkman, Gijsbert",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3404:04",
+          "label": "Rijkman, Gijsbert"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:752:04",
+      "label": "Brugge, Jacobus van der",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:845:05",
+          "label": "Brugge, Jacobus van der"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5012:07",
+      "label": "Kleef, Willem van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5055:08",
+          "label": "Kleef, Willem van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4415:03",
+      "label": "Laren, Catharina van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4761:04",
+          "label": "Laren, Catharina van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4379:04",
+      "label": "Vryhart",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4454:04",
+          "label": "Vryhart"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5012:04",
+      "label": "Schalkwyk a Velden, Jacobus van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5055:04",
+          "label": "Schalkwyk a Velden, Jacobus van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2632:04",
+      "label": "Ploos van Amstel, Cornelis Jacobsz",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3389:11",
+          "label": "Ploos van Amstel, Cornelis Jacobsz"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2473:13",
+      "label": "Hunnius, Jacobus",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2521:10",
+          "label": "Hunnius, Jacobus"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:1901:03",
+      "label": "Hoogstraten, Fran\u00e7ois Jansz van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:1908:05",
+          "label": "Hoogstraten, Fran\u00e7ois Jansz van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:1918:03",
+          "label": "Hoogstraten, Fran\u00e7ois Jansz van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2139:04",
+          "label": "Hoogstraten, Fran\u00e7ois Jansz van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2588:10",
+          "label": "Hoogstraten, Fran\u00e7ois Jansz van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2548:04",
+      "label": "Smets, Hendrik",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2555:10",
+          "label": "Smets, Hendrik"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2628:04",
+          "label": "Smets, Hendrik"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2755:04",
+          "label": "Smets, Hendrik"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2905:04",
+          "label": "Smets, Hendrik"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3195:06",
+          "label": "Smets, Hendrik"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3473:03",
+          "label": "Smets, Hendrik"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3597:07",
+          "label": "Smets, Hendrik"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3915:04",
+          "label": "Smets, Hendrik"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3936:04",
+          "label": "Smets, Hendrik"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:6733:05",
+      "label": "Burlett, Everard de (Jr)",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:6745:12",
+          "label": "Burlett, Everard de (Jr)"
+        },
+        {
+          "id": "http://data.bibliotheken.nl/id/thes/p166286834",
+          "label": "Burlett, Everard Janszoon de"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5359:04",
+      "label": "Haakman, Isaak",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5448:03",
+          "label": "Haakman, Isaak"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3303:04",
+      "label": "Issendorp, Assuerus",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4595:05",
+          "label": "Issendorp, Assuerus"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4375:06",
+          "label": "Issendorp, Assuerus (Jr)"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5602:13",
+      "label": "Mees, Joanne",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5142:09",
+          "label": "Mes, Jan"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4145:09",
+      "label": "Vries, Jan de",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4838:07",
+          "label": "Vries, Jan de"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:5099:03",
+          "label": "Vries, Jan de"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5392:06",
+      "label": "Baalde, A.",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5414:06",
+          "label": "Baalde, A."
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2217:06",
+      "label": "Hendrikz, Jan",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2308:04",
+          "label": "Hendrikz, Jan"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5722:03",
+      "label": "Jagt, Adriaan van der",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:6102:06",
+          "label": "Jagt, Adriaan van der"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:6115:04",
+          "label": "Jagt, Adriaan van der"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3063:07",
+      "label": "Beukelaar, Geertruid",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3204:09",
+          "label": "Beukelaar, Geertruid"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2737:05",
+      "label": "Robid\u00e9, Jan Isaac",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2742:11",
+          "label": "Robid\u00e9, Jan Isaac"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2334:09",
+      "label": "Spiering, Jan",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2540:08",
+          "label": "Spiering, Jan"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2728:08",
+      "label": "Lelivelt, Cornelis",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2977:04",
+          "label": "Lelivelt, Cornelis"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2997:04",
+          "label": "Lelivelt, Cornelis"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3340:06",
+          "label": "Lelivelt, Cornelis"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5466:02",
+      "label": "Dyck, Agnita van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5774:04",
+          "label": "Dyck, Agnita van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:6175:08",
+          "label": "Dyck, Agnita van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2751:06",
+      "label": "Kappenberg, Hendrik",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3424:05",
+          "label": "Kappenberg, Hendrik"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3501:08",
+          "label": "Kappenberg, Hendrik"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4595:08",
+      "label": "Muller, Johannes",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5213:04",
+          "label": "Muller, Johannes"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2499:03",
+      "label": "Gravia, J.H.",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2653:03",
+          "label": "Gravia, J.H."
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2203:06",
+      "label": "Tadee, Hendrik",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3356:11",
+          "label": "Tadee, Hendrik"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3533:06",
+          "label": "Tadee, Hendrik"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2038:05",
+      "label": "Petersen, M.",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2099:04",
+          "label": "Petersen, M."
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4940:05",
+      "label": "Jotzselaar, Joannes Jacobus",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5137:03",
+          "label": "Jotzselaar, Joannes Jacobus"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5392:04",
+      "label": "Baalde, J.D.",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5414:03",
+          "label": "Baalde, J.D."
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3956:02",
+      "label": "Ryken, A.",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4107:02",
+          "label": "Ryken, A."
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4268:03",
+          "label": "Ryken, A."
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4372:07",
+          "label": "Ryken, A."
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4469:02",
+          "label": "Ryken, A."
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3115:07",
+      "label": "Bouman, Arnold",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3360:09",
+          "label": "Bouman, Arnold"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3937:05",
+          "label": "Bouman, Arnold"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2652:07",
+      "label": "Nessing, Jan",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3509:03",
+          "label": "Nessing, Jan"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2843:11",
+      "label": "Spanjert, J.",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3169:07",
+          "label": "Spanjert, J."
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3284:07",
+          "label": "Spanjert, J."
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4778:04",
+      "label": "Issendorp, Cornelis",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4794:04",
+          "label": "Issendorp, Cornelis"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4825:04",
+          "label": "Issendorp, Cornelis"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3907:06",
+      "label": "Koning, Adrianus Wilhelmus",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4344:03",
+          "label": "Koning, Adrianus Wilhelmus"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:6188:09",
+      "label": "Pennis, Jan (Jr)",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:6789:08",
+          "label": "Pennis, Jan (Jr)"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4209:07",
+      "label": "Keere, Arent van der",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4644:07",
+          "label": "Keere, Arent van der"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4695:07",
+          "label": "Keere, Arent van der"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3278:08",
+      "label": "Jong, G. de",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4566:12",
+          "label": "Jong, G. de"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4658:10",
+          "label": "Jong, G. de"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2231:06",
+      "label": "Laar, Lambert van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2919:08",
+          "label": "Laar, Lambert van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3266:04",
+          "label": "Laar, Lambert van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3301:09",
+          "label": "Laar, Lambert van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:1931:05",
+      "label": "Ruster, Jan van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2525:05",
+          "label": "Ruster, Jan van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2597:08",
+          "label": "Ruster, Jan van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2709:05",
+          "label": "Ruster, Jan van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3188:07",
+          "label": "Ruster, Jan van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:1919:05",
+      "label": "Capelle, Nicolaas",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2744:06",
+          "label": "Capelle, Nicolaas"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2751:07",
+          "label": "Capelle, Nicolaas"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2795:07",
+          "label": "Capelle, Nicolaas"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2815:10",
+          "label": "Capelle, Nicolaas"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2954:03",
+          "label": "Capelle, Nicolaas"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:1851:04",
+      "label": "West, Abraham",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:1921:09",
+          "label": "West, Abraham"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2004:07",
+          "label": "West, Abraham"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4384:05",
+      "label": "Camerbeek, Splinterus Fran\u00e7iscus",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5697:07",
+          "label": "Camerbeek, Splinterus Fran\u00e7iscus"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3705:10",
+      "label": "Campen, Hendrik",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3859:05",
+          "label": "Campen, Hendrik"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5677:05",
+      "label": "Posthumus, Jacob",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5681:06",
+          "label": "Posthumus, Jacob"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:6696:10",
+          "label": "Posthumus, Jacob"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3668:03",
+      "label": "Vollenhoven, Ysbrand",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5172:04",
+          "label": "Vollenhoven, Ysbrand"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4714:03",
+      "label": "Richelman, J.",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4771:03",
+          "label": "Richelman, J."
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5165:02",
+      "label": "Oudshoorn, Hendrik",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5285:02",
+          "label": "Oudshoorn, Hendrik"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4375:05",
+      "label": "Issendorp, Fran\u00e7ois",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4376:04",
+          "label": "Issendorp, Fran\u00e7ois"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4778:06",
+          "label": "Issendorp, Fran\u00e7ois"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:5077:08",
+          "label": "Issendorp, Fran\u00e7ois"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2255:06",
+      "label": "Zoeten, F.",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2628:07",
+          "label": "Zoeten, F."
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2656:09",
+          "label": "Zoeten, F."
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4974:08",
+      "label": "Noort, Jacobus van den",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5650:08",
+          "label": "Noort, Jacobus van den"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2449:09",
+      "label": "Bruyn, Fredrik de",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2541:09",
+          "label": "Bruyn, Fredrik de"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2652:10",
+          "label": "Bruyn, Fredrik de"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3034:03",
+      "label": "La Vigne, Malachias de",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3090:02",
+          "label": "La Vigne, Malachias de"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4648:04",
+      "label": "Roy, Gerard de",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4858:05",
+          "label": "Roy, Gerard de"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:5421:06",
+          "label": "Roy, Gerard de"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2555:11",
+      "label": "Smets, Marten",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2620:03",
+          "label": "Smets, Marten"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2787:07",
+          "label": "Smets, Marten"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3646:06",
+          "label": "Smets, Marten"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3053:05",
+      "label": "Wybo, Jan",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4108:04",
+          "label": "Wybo, Jan"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2465:06",
+      "label": "Broek, Joannes Reyniersz van den",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2470:04",
+          "label": "Broek, Joannes Reyniersz van den"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2633:07",
+          "label": "Broek, Joannes Reyniersz van den"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2661:07",
+          "label": "Broek, Joannes Reyniersz van den"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5828:10",
+      "label": "Papenhuyzen, Jan",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:6177:03",
+          "label": "Papenhuyzen, Jan"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5009:08",
+      "label": "Vroom, Benjamin",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5036:06",
+          "label": "Vroom, Benjamin"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:5049:11",
+          "label": "Vroom, Benjamin"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3911:03",
+      "label": "Rog-aar, Arend",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4368:11",
+          "label": "Rog-aar, Arend"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4439:05",
+          "label": "Rog-aar, Arend"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:1728:07",
+      "label": "Leuve, Cornelis van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:1985:08",
+          "label": "Leuve, Cornelis van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:6131:10",
+      "label": "Velde, Abraham van de (Jr)",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:6216:08",
+          "label": "Velde, Abraham van de (Jr)"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3794:15",
+      "label": "Blok, A.",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3821:05",
+          "label": "Blok, A."
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3509:10",
+      "label": "Volkmar, Harmanus",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3727:05",
+          "label": "Volkmar, Harmanus"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4111:13",
+          "label": "Volkmar, Harmanus"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3021:07",
+      "label": "Ens, Ludovicus",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3048:10",
+          "label": "Ens, Ludovicus"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3114:06",
+          "label": "Ens, Ludovicus"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3152:06",
+          "label": "Ens, Ludovicus"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3164:10",
+          "label": "Ens, Ludovicus"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3424:04",
+          "label": "Ens, Ludovicus"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:6129:02",
+      "label": "Mandemaker, W.",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:6186:02",
+          "label": "Mandemaker, W."
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4220:03",
+      "label": "Pielat, Josina",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4232:03",
+          "label": "Pielat, Josina"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2271:04",
+      "label": "Roswinkel, F.",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2832:11",
+          "label": "Roswinkel, F."
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:6499:02",
+      "label": "M*****",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:6828:02",
+          "label": "M---"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3877:08",
+      "label": "Koekebakker, Adriaan",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4136:07",
+          "label": "Koekebakker, Adriaan"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:5119:05",
+          "label": "Koekebakker, Adriaan"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2521:12",
+      "label": "Goltz, Gerardus Wilhelmus",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2524:11",
+          "label": "Goltz, Gerardus Wilhelmus"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2777:05",
+          "label": "Goltz, Gerardus Wilhelmus"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3031:11",
+      "label": "Kriek, Kornelis",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3036:09",
+          "label": "Kriek, Kornelis"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3139:08",
+          "label": "Kriek, Kornelis"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4713:02",
+          "label": "Kriek, Kornelis"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5492:17",
+      "label": "Moerkerk, Bastiaan",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:6376:23",
+          "label": "Moerkerk, Bastiaan"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:260:12",
+      "label": "Borre, Laevinus van den",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:347:03",
+          "label": "Borre, Laevinus van den"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:1559:05",
+      "label": "Maaswyk, P.M. van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:1721:03",
+          "label": "Maaswyk, P.M. van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4844:04",
+      "label": "Bruyn, Justus de",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4993:06",
+          "label": "Bruyn, Justus de"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4645:07",
+      "label": "Meylink, Maria Agnes",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5106:06",
+          "label": "Meylink, Maria Agnes"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2062:08",
+      "label": "George",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2523:07",
+          "label": "George"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2086:06",
+      "label": "Brinck, Christianus",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2940:05",
+          "label": "Brinck, Christianus"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3217:03",
+          "label": "Brinck, Christianus"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3531:02",
+          "label": "Brinck, Christianus"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2783:07",
+      "label": "Croese, J.",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3155:06",
+          "label": "Croese, J."
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4190:08",
+      "label": "Beeke, Henricus",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4200:12",
+          "label": "Beeke, Henricus"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4332:12",
+          "label": "Beeke, Henricus"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4480:05",
+          "label": "Beeke, Henricus"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5012:06",
+      "label": "Rigagneau, Jacob",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5055:07",
+          "label": "Rigagneau, Jacob"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5234:05",
+      "label": "Ensched\u00e9, Johannes II",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5381:19",
+          "label": "Ensched\u00e9, Johannes II"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:5714:05",
+      "label": "Woensel, Jacob van (Jr)",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5766:06",
+          "label": "Woensel, Jacob van (Jr)"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:5829:04",
+          "label": "Woensel, Jacob van (Jr)"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:6125:07",
+          "label": "Woensel, Jacob van (Jr)"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:6193:22",
+          "label": "Woensel, Jacob van (Jr)"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:1933:04",
+      "label": "Sys, Jan van der",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2452:03",
+          "label": "Sys, Jan van der"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2476:04",
+          "label": "Sys, Jan van der"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3769:05",
+      "label": "Beels, Margareta Maria",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:5245:03",
+          "label": "Beels, Margareta Maria"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:1394:04",
+      "label": "Hulst, Hendrik van der",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:1497:05",
+          "label": "Hulst, Hendrik van der"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4108:10",
+      "label": "Morjou, Samuel Cornelisz",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4403:04",
+          "label": "Morjou, Samuel Cornelisz"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4450:17",
+          "label": "Morjou, Samuel Cornelisz"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4537:11",
+          "label": "Morjou, Samuel Cornelisz"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2473:05",
+      "label": "Blankstein, Timotheus",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2521:11",
+          "label": "Blankstein, Timotheus"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2373:04",
+      "label": "Lohoff, Isaac",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4111:04",
+          "label": "Lohoff, Isaac"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:2111:06",
+      "label": "Feitama, Eduard Sybrandsz",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:2694:11",
+          "label": "Feitama, Eduard Sybrandsz"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:2730:05",
+          "label": "Feitama, Eduard Sybrandsz"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3088:09",
+          "label": "Feitama, Eduard Sybrandsz"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3243:04",
+          "label": "Feitama, Eduard Sybrandsz"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3291:05",
+          "label": "Feitama, Eduard Sybrandsz"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:3341:06",
+          "label": "Feitama, Eduard Sybrandsz"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:592:05",
+      "label": "Wyngaerden, Johannes Bernardusz",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:612:06",
+          "label": "Wyngaerden, Johannes Bernardusz"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:1088:03",
+          "label": "Wyngaerden, Johannes Bernardusz"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3001:03",
+      "label": "Smidt, G.",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:3147:05",
+          "label": "Smidt, G."
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3938:04",
+      "label": "Bosch, Jan",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4050:11",
+          "label": "Bosch, Jan"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4223:04",
+          "label": "Bosch, Jan"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:4553:04",
+          "label": "Bosch, Jan"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4728:06",
+      "label": "Driest, Maria Dorothea van",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4977:04",
+          "label": "Driest, Maria Dorothea van"
+        },
+        {
+          "id": "urn:goldenagents:ggd:person:6831:06",
+          "label": "Driest, Maria Dorothea van"
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:4595:06",
+      "label": "Issendorp, Hendrik",
+      "sameAs": [
+        {
+          "id": "urn:goldenagents:ggd:person:4778:05",
+          "label": "Issendorp, Hendrik"
+        }
+      ]
+    }
+  ]
+}
