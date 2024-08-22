@@ -994,10 +994,10 @@ def main(filepath: str):
         "@graph": [parseLinkJSONLD(i) for i in sameAs_clusters.values()],
     }
 
-    with open("data/ggd.json", "w", encoding="utf-8") as outfile:
+    with open("rdf/ggd.jsonld", "w", encoding="utf-8") as outfile:
         json.dump(records, outfile, indent=2)
 
-    with open("data/ggd_linkset.json", "w", encoding="utf-8") as outfile:
+    with open("rdf/ggd_linkset.jsonld", "w", encoding="utf-8") as outfile:
         json.dump(links, outfile, indent=2)
 
 
