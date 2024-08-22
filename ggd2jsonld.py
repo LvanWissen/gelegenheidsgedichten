@@ -208,11 +208,12 @@ CONTEXT = {
 CONTEXT_LINKS = {
     "type": "@type",
     "id": "@id",
+    "label": "http://www.w3.org/2000/01/rdf-schema#label",
     "sameAs": {"@id": "http://www.w3.org/2002/07/owl#sameAs", "@type": "@id"},
-    "name": "https://schema.org/name",
 }
 
 personCounter = count(1)
+recordCounter = defaultdict(lambda: count(1))
 indexMapping = defaultdict(dict)  # some kind of hash dict for bnodes
 
 with open("data/ggd2stcn.json") as infile:
@@ -561,7 +562,7 @@ def getPersons(persons, getRole=False, recordID=None, indexMapping=indexMapping)
             na += ID2NA_TESTAMENT[recordID].get(person, [])
 
         # index = "urn:goldenagents:ggd:person:ggd" + str(next(personCounter)).zfill(4)
-        index = f"urn:goldenagents:ggd:person:{recordID}:{str(n).zfill(2)}"
+        index = f"urn:goldenagents:ggd:person:{recordID}:{str(next(recordCounter[recordID])).zfill(2)}"
         indexMapping[recordID][person] = uri or index
 
         plist.append(
@@ -970,8 +971,8 @@ def parseLinkJSONLD(link: dict) -> dict:
     first_id, rest_id = ids[0], ids[1:]
     link = {
         "id": first_id,
-        "name": first_name,
-        "sameAs": [{"id": i, "name": n} for i, n in zip(rest_id, rest_name)],
+        "label": first_name,
+        "sameAs": [{"id": i, "label": n} for i, n in zip(rest_id, rest_name)],
     }
     return link
 
