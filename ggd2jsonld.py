@@ -110,6 +110,9 @@ CONTEXT = {
     "ArchiveComponent": "https://schema.org/ArchiveComponent",
     "IndividualProduct": "https://schema.org/IndividualProduct",
     "Book": "https://schema.org/Book",
+    "CreativeWork": "https://schema.org/CreativeWork",
+    "ProductModel": "https://schema.org/ProductModel",
+    "MusicComposition": "https://schema.org/MusicComposition",
     "Person": "https://schema.org/Person",
     "Organization": "https://schema.org/Organization",
     "Place": "https://schema.org/Place",
@@ -121,17 +124,18 @@ CONTEXT = {
     "description": "https://schema.org/description",
     "author": "https://schema.org/author",
     "publication": "https://schema.org/publication",
-    "eventType": "http://semanticweb.cs.vu.nl/2009/11/sem/#eventType",
-    "hasActor": "http://semanticweb.cs.vu.nl/2009/11/sem/#hasActor",
-    "hasPlace": "http://semanticweb.cs.vu.nl/2009/11/sem/#hasPlace",
-    "hasTime": "http://semanticweb.cs.vu.nl/2009/11/sem/#hasTime",
-    "hasEarliestBeginTimeStamp": "http://semanticweb.cs.vu.nl/2009/11/sem/#hasEarliestBeginTimeStamp",
-    "hasLatestBeginTimeStamp": "http://semanticweb.cs.vu.nl/2009/11/sem/#hasLatestBeginTimeStamp",
-    "hasEarliestEndTimeStamp": "http://semanticweb.cs.vu.nl/2009/11/sem/#hasEarliestEndTimeStamp",
-    "hasLatestEndTimeStamp": "http://semanticweb.cs.vu.nl/2009/11/sem/#hasLatestEndTimeStamp",
-    "hasBeginTimeStamp": "http://semanticweb.cs.vu.nl/2009/11/sem/#hasBeginTimeStamp",
-    "hasEndTimeStamp": "http://semanticweb.cs.vu.nl/2009/11/sem/#hasEndTimeStamp",
-    "hasTimeStamp": "http://semanticweb.cs.vu.nl/2009/11/sem/#hasTimeStamp",
+    "EventType": "http://semanticweb.cs.vu.nl/2009/11/sem/EventType",
+    "eventType": "http://semanticweb.cs.vu.nl/2009/11/sem/eventType",
+    "hasActor": "http://semanticweb.cs.vu.nl/2009/11/sem/hasActor",
+    "hasPlace": "http://semanticweb.cs.vu.nl/2009/11/sem/hasPlace",
+    "hasTime": "http://semanticweb.cs.vu.nl/2009/11/sem/hasTime",
+    "hasEarliestBeginTimeStamp": "http://semanticweb.cs.vu.nl/2009/11/sem/hasEarliestBeginTimeStamp",
+    "hasLatestBeginTimeStamp": "http://semanticweb.cs.vu.nl/2009/11/sem/hasLatestBeginTimeStamp",
+    "hasEarliestEndTimeStamp": "http://semanticweb.cs.vu.nl/2009/11/sem/hasEarliestEndTimeStamp",
+    "hasLatestEndTimeStamp": "http://semanticweb.cs.vu.nl/2009/11/sem/hasLatestEndTimeStamp",
+    "hasBeginTimeStamp": "http://semanticweb.cs.vu.nl/2009/11/sem/hasBeginTimeStamp",
+    "hasEndTimeStamp": "http://semanticweb.cs.vu.nl/2009/11/sem/hasEndTimeStamp",
+    "hasTimeStamp": "http://semanticweb.cs.vu.nl/2009/11/sem/hasTimeStamp",
     "type": "@type",
     "id": "@id",
     "label": "http://www.w3.org/2000/01/rdf-schema#label",
@@ -196,6 +200,10 @@ CONTEXT = {
         "@type": "@id",
     },
     "sameAs_wikidata": {
+        "@id": "http://www.w3.org/2002/07/owl#sameAs",
+        "@type": "@id",
+    },
+    "sameAs_rkd": {
         "@id": "http://www.w3.org/2002/07/owl#sameAs",
         "@type": "@id",
     },
@@ -580,6 +588,7 @@ def getPersons(persons, getRole=False, recordID=None, indexMapping=indexMapping)
                 "wikidata": wikidata,
                 "ecartico": ecartico,
                 "na": na,
+                "sameAs_other": sameAs_other,
             }
         )
 
@@ -841,6 +850,9 @@ def getPerson(person_data, kind="author"):
         if p["wikidata"]:
             person["sameAs_wikidata"] = p["wikidata"]
 
+        if p["rkd"]:
+            person["sameAs_rkd"] = p["rkd"]
+
         if p.get("sameAs_other"):
             person["sameAs_other"] = p["sameAs_other"]
 
@@ -972,7 +984,9 @@ def parseLinkJSONLD(link: dict) -> dict:
     link = {
         "id": first_id,
         "label": first_name,
-        "sameAs": [{"id": i, "label": n} for i, n in zip(rest_id, rest_name)],
+        "sameAs": [
+            {"id": i, "label": n} for i, n in zip(rest_id, rest_name) if i != first_id
+        ],
     }
     return link
 
@@ -986,8 +1000,14 @@ def main(filepath: str):
         "@graph": [parseRecordJSONLD(r) for r in records],
     }
 
+    with open("data/indexMapping.json", "w") as f:
+        json.dump(indexMapping, f, indent=2)
+
     with open("data/authorSameAs.json") as f:
         sameAs_clusters = json.load(f)
+
+    with open("data/personSameAs.json") as f:
+        sameAs_clusters.update(json.load(f))
 
     links = {
         "@context": CONTEXT_LINKS,
