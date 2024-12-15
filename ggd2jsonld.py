@@ -8,7 +8,7 @@ import calendar
 from typing import List, Dict
 import uuid
 
-GGDFILE = "data/Gelegenheidsgedichten_Golden Agents_KB.dmp"
+GGDFILE = "data/dump/Gelegenheidsgedichten_Golden Agents_KB.dmp"
 
 KEYS = {
     "AAR": "event",
@@ -227,61 +227,61 @@ recordCounter = defaultdict(lambda: count(1))
 indexMapping = defaultdict(dict)  # some kind of hash dict for bnodes
 
 ## STCN
-with open("data/ggd2stcn.json") as infile:
+with open("data/mappings/ggd2stcn.json") as infile:
     GGD2STCN = json.load(infile)
 
-with open("data/id2printer.json") as infile:
+with open("data/mappings/id2printer.json") as infile:
     ID2PRINTER = json.load(infile)
 
 ## Author/Person to URI (NTA or VIAF)
-with open("data/id2author.json") as infile:
+with open("data/mappings/id2author.json") as infile:
     ID2AUTHOR = json.load(infile)
 
-with open("data/id2person.json") as infile:
+with open("data/mappings/id2person.json") as infile:
     ID2PERSON = json.load(infile)
 
 ## Ecartico
-with open("data/id2ecartico.json") as infile:
+with open("data/mappings/id2ecartico.json") as infile:
     ID2ECARTICO = json.load(infile)
 
 ## Gender based on given name
-with open("data/id2gender.json") as infile:
+with open("data/mappings/id2gender.json") as infile:
     ID2GENDER = json.load(infile)
 
 # SAA DTB
-with open("data/id2doop.json") as infile:
+with open("data/mappings/id2doop.json") as infile:
     ID2DOOP = json.load(infile)
 
-with open("data/id2otr.json") as infile:
+with open("data/mappings/id2otr.json") as infile:
     ID2OTR = json.load(infile)
 
-with open("data/id2begraaf.json") as infile:
+with open("data/mappings/id2begraaf.json") as infile:
     ID2BEGRAAF = json.load(infile)
 
 ## SAA NA
-with open("data/id2na_hv.json") as infile:
+with open("data/mappings/id2na_hv.json") as infile:
     ID2NA_HV = json.load(infile)
 
-with open("data/id2na_boedel.json") as infile:
+with open("data/mappings/id2na_boedel.json") as infile:
     ID2NA_BOEDEL = json.load(infile)
 
-with open("data/id2na_testament.json") as infile:
+with open("data/mappings/id2na_testament.json") as infile:
     ID2NA_TESTAMENT = json.load(infile)
 
 ## RKD
-with open("data/id2rkd.json") as infile:
+with open("data/mappings/id2rkd.json") as infile:
     ID2RKD = json.load(infile)
 
 ## Wikidata
-with open("data/id2wikidata.json") as infile:
+with open("data/mappings/id2wikidata.json") as infile:
     ID2WIKIDATA = json.load(infile)
 
 ## Liederenbank
-with open("data/id2melodie.json") as infile:
+with open("data/mappings/id2melodie.json") as infile:
     ID2MELODIE = json.load(infile)
 
 ## KB
-with open("data/shelfmark2item.json") as infile:
+with open("data/mappings/shelfmark2item.json") as infile:
     SHELFMARK2ITEM = json.load(infile)
 
 ## Everything into one big thesaurus
@@ -297,11 +297,11 @@ for ggdid in ID2PRINTER:
         ID2THESAURUS[ggdid]["printer"][name] += ID2PRINTER[ggdid][name]
 
 ## We link places to Ecartico
-with open("data/place2ecartico.json") as infile:
+with open("data/mappings/place2ecartico.json") as infile:
     PLACE2ECARTICO = json.load(infile)
 
 ## And we have parsed the impressum info into place and year
-with open("data/impressum_place_year.json") as infile:
+with open("data/mappings/impressum_place_year.json") as infile:
     IMPRESSUMDATA = json.load(infile)
 
 
