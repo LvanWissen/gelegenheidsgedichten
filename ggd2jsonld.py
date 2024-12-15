@@ -220,28 +220,35 @@ CONTEXT_LINKS = {
     "sameAs": {"@id": "http://www.w3.org/2002/07/owl#sameAs", "@type": "@id"},
 }
 
+## Mappings
+
 personCounter = count(1)
 recordCounter = defaultdict(lambda: count(1))
 indexMapping = defaultdict(dict)  # some kind of hash dict for bnodes
 
+## STCN
 with open("data/ggd2stcn.json") as infile:
     GGD2STCN = json.load(infile)
-
-with open("data/id2person.json") as infile:
-    ID2PERSON = json.load(infile)
-
-with open("data/id2ecartico.json") as infile:
-    ID2ECARTICO = json.load(infile)
-
-with open("data/id2author.json") as infile:
-    ID2AUTHOR = json.load(infile)
 
 with open("data/id2printer.json") as infile:
     ID2PRINTER = json.load(infile)
 
+## Author/Person to URI (NTA or VIAF)
+with open("data/id2author.json") as infile:
+    ID2AUTHOR = json.load(infile)
+
+with open("data/id2person.json") as infile:
+    ID2PERSON = json.load(infile)
+
+## Ecartico
+with open("data/id2ecartico.json") as infile:
+    ID2ECARTICO = json.load(infile)
+
+## Gender based on given name
 with open("data/id2gender.json") as infile:
     ID2GENDER = json.load(infile)
 
+# SAA DTB
 with open("data/id2doop.json") as infile:
     ID2DOOP = json.load(infile)
 
@@ -251,17 +258,7 @@ with open("data/id2otr.json") as infile:
 with open("data/id2begraaf.json") as infile:
     ID2BEGRAAF = json.load(infile)
 
-with open("data/id2rkd.json") as infile:
-    ID2RKD = json.load(infile)
-
-with open("data/id2wikidata.json") as infile:
-    ID2WIKIDATA = json.load(infile)
-
-with open("data/id2melodie.json") as infile:
-    ID2MELODIE = json.load(infile)
-
-## NA
-
+## SAA NA
 with open("data/id2na_hv.json") as infile:
     ID2NA_HV = json.load(infile)
 
@@ -271,11 +268,23 @@ with open("data/id2na_boedel.json") as infile:
 with open("data/id2na_testament.json") as infile:
     ID2NA_TESTAMENT = json.load(infile)
 
+## RKD
+with open("data/id2rkd.json") as infile:
+    ID2RKD = json.load(infile)
+
+## Wikidata
+with open("data/id2wikidata.json") as infile:
+    ID2WIKIDATA = json.load(infile)
+
+## Liederenbank
+with open("data/id2melodie.json") as infile:
+    ID2MELODIE = json.load(infile)
+
 ## KB
 with open("data/shelfmark2item.json") as infile:
     SHELFMARK2ITEM = json.load(infile)
 
-
+## Everything into one big thesaurus
 ID2THESAURUS = defaultdict(lambda: defaultdict(lambda: defaultdict(list)))
 for ggdid in ID2PERSON:
     for name in ID2PERSON[ggdid]:
@@ -287,9 +296,11 @@ for ggdid in ID2PRINTER:
     for name in ID2PRINTER[ggdid]:
         ID2THESAURUS[ggdid]["printer"][name] += ID2PRINTER[ggdid][name]
 
+## We link places to Ecartico
 with open("data/place2ecartico.json") as infile:
     PLACE2ECARTICO = json.load(infile)
 
+## And we have parsed the impressum info into place and year
 with open("data/impressum_place_year.json") as infile:
     IMPRESSUMDATA = json.load(infile)
 
@@ -320,12 +331,21 @@ def unique(*args, ns=None):
         return unique_id, "_:" + unique_id
 
 
-def parsePersonName(nameString, identifier_uri=None, ns=None):
+def parsePersonName(nameString: str, identifier_uri=None, ns=None):
+    """
+    Parse a name string into a unique PersonName object.
+
+    Args:
+        nameString (str): The name string to be parsed.
+        identifier_uri (str, optional): The unique identifier or URI for the person. Defaults to None.
+        ns (str, optional): The namespace for the unique identifier. Defaults to None.
+
+    Returns:
+        tuple: A tuple containing the parsed PersonName objects and the labels.
+    """
+
     pns = []
     labels = []
-
-    if ns:
-        identifier, identifier_uri = unique(nameString, ns=ns)
 
     if "(" in nameString:
         nameString = re.sub(r" ?\(.*\) ?", "", nameString)
@@ -335,6 +355,10 @@ def parsePersonName(nameString, identifier_uri=None, ns=None):
         nameString = " ".join([first, last]).strip()
 
     for full_name in nameString.split(" / "):
+
+        if ns:
+            identifier, identifier_uri = unique(nameString, ns=ns)
+
         # Some static lists
         dets = ["van", "de", "den", "des", "der", "ten", "l'", "d'"]
         prefixes = ["Mr."]
@@ -407,9 +431,7 @@ def parsePersonName(nameString, identifier_uri=None, ns=None):
         else:
             givenName, initials = None, None
 
-        pn = {
-            "type": "PersonName",
-        }
+        pn = {"type": "PersonName"}
 
         if identifier:
             pn["id"] = identifier
@@ -449,6 +471,16 @@ def parsePersonName(nameString, identifier_uri=None, ns=None):
 
 
 def getRecords(filepath: str) -> List[Dict]:
+    """
+    Reads in the GGD Dump and converts it into a list of dicts.
+
+    Args:
+        filepath (str): Path to the GGD Dump file.
+
+    Returns:
+        List[Dict]: List of dictionaries (records) from the GGD data.
+    """
+
     NONSPLIT = ("title", "impressum", "collate", "description", "comments", "pages")
     SPLIT = ("language", "item_cbg", "item_saa", "item_kb", "item_mmw", "item_mnl")
 
@@ -479,6 +511,36 @@ def getRecords(filepath: str) -> List[Dict]:
 
 
 def getPersons(persons, getRole=False, recordID=None, indexMapping=indexMapping):
+    """
+    Parse information for a person/author.
+
+    This function processes a list of persons, extracting and organizing various attributes such as roles,
+    thesaurus entries, gender, and other related information. It also handles the creation of unique identifiers
+    and mappings for each person.
+
+    Args:
+        persons (str or list): A single person as a string or a list of persons.
+        getRole (bool, optional): Flag to determine if roles should be extracted from the person string. Defaults to False.
+        recordID (str, optional): The record ID used to fetch additional information from various mappings. Defaults to None.
+        indexMapping (dict, optional): A dictionary used to map persons to their unique identifiers. Defaults to indexMapping.
+
+    Returns:
+        list: A list of dictionaries, each containing detailed information about a person, including:
+            - id (str): The unique identifier or URI for the person.
+            - index (str): The generated index for the person.
+            - person (str): The name of the person.
+            - role (str or None): The role of the person if extracted.
+            - thesaurus (list): A list of thesaurus entries related to the person.
+            - gender (str or None): The gender of the person if available.
+            - otr (list): A list of OTR entries related to the person.
+            - doop (list): A list of baptism (doop) entries related to the person.
+            - begraaf (list): A list of burial (begraaf) entries related to the person.
+            - rkd (list): A list of RKD entries related to the person.
+            - wikidata (list): A list of Wikidata entries related to the person.
+            - ecartico (list): A list of ECARTICO entries related to the person.
+            - na (list): A list of NA entries related to the person.
+            - sameAs_other (list): A list of other URIs related to the person.
+    """
     plist = []
 
     if type(persons) is str:
@@ -486,7 +548,7 @@ def getPersons(persons, getRole=False, recordID=None, indexMapping=indexMapping)
     elif persons is None:
         return []
 
-    for n, person in enumerate(persons, 1):
+    for _, person in enumerate(persons, 1):
         if getRole and ". " in person:
             if person.count(".") > 1:
                 # initials
@@ -571,7 +633,7 @@ def getPersons(persons, getRole=False, recordID=None, indexMapping=indexMapping)
 
         # index = "urn:goldenagents:ggd:person:ggd" + str(next(personCounter)).zfill(4)
         index = f"urn:goldenagents:ggd:person:{recordID}:{str(next(recordCounter[recordID])).zfill(2)}"
-        indexMapping[recordID][person] = uri or index
+        indexMapping[recordID][person] = uri or index  # we prefer the thesaurus URI
 
         plist.append(
             {
@@ -596,6 +658,17 @@ def getPersons(persons, getRole=False, recordID=None, indexMapping=indexMapping)
 
 
 def getEvent(record: dict, persons: list) -> dict:
+    """
+    Parse event information (date, place, actors) from a record and create a JSON-LD formatted event.
+
+    Args:
+        record (dict): A dictionary containing the record data.
+        persons (list): A list of persons related to the event.
+
+    Returns:
+        dict: A dictionary representing the JSON-LD formatted event.
+    """
+
     if record["date"][10:]:
         # Example: 1781-02-01-5-c
         eventid = record["date"][:12]
@@ -673,6 +746,18 @@ def getEvent(record: dict, persons: list) -> dict:
 
 
 def getMelody(record_id, melody_name):
+    """
+    Retrieve melody information and create a music composition arrangement
+    to link to the Liederenbank.
+
+    Args:
+        record_id (str): The identifier for the record in the ID2MELODIE dictionary.
+        melody_name (str): The name of the melody to be used in the arrangement.
+
+    Returns:
+        dict: A dictionary representing the music composition arrangement (cf. schema.org).
+    """
+
     liederenbank = ID2MELODIE.get(record_id, None)
 
     arrangement = {"type": "MusicComposition", "name": melody_name}
@@ -692,52 +777,17 @@ def getMelody(record_id, melody_name):
     return arrangement
 
 
-def parseRecord(record: dict):
-    # otr
-    otr = ID2OTR.get(record["id"])
-    if otr:
-        otr = otr.get("otr", [])
-    else:
-        otr = []
-    record["event"]["otr"] = otr
-
-    # doop
-    doop = ID2DOOP.get(record["id"])
-    if doop and doop.get("doop"):
-        doop = doop["doop"]
-    else:
-        doop = []
-    record["event"]["doop"] = doop
-
-    # begraaf
-    begraaf = ID2BEGRAAF.get(record["id"])
-    if begraaf and begraaf.get("begraaf"):
-        begraaf = begraaf["begraaf"]
-    else:
-        begraaf = []
-    record["event"]["begraaf"] = begraaf
-
-    # impressum place
-    if record["id"] in IMPRESSUMDATA:
-        imp_place = IMPRESSUMDATA[record["id"]]["place"]
-        if imp_place:
-            record["impressum_place"] = PLACE2ECARTICO[imp_place]
-        else:
-            record["impressum_place"] = None
-    else:
-        record["impressum_place"] = None
-
-    # impressum date
-    if record["id"] in IMPRESSUMDATA:
-        imp_year = IMPRESSUMDATA[record["id"]]["year"]
-    else:
-        imp_year = None
-    record["impressum_year"] = imp_year
-
-    return record
-
-
 def parseRecordJSONLD(record: dict):
+    """
+    Parses a GGD record dictionary into a valid JSON-LD formatted document.
+
+    Args:
+        record (dict): A dictionary containing the record data.
+
+    Returns:
+        dict: A dictionary representing the JSON-LD formatted document.
+    """
+
     _stcn = GGD2STCN.get(record["id"])
 
     _all_persons = getPersons(record.get("person"), recordID=record["id"], getRole=True)
@@ -746,7 +796,7 @@ def parseRecordJSONLD(record: dict):
     _printer_publishers = [i for i in _all_persons if i["role"] == "Drukker/uitgever"]
     _persons = [i for i in _all_persons if i["role"] != "Drukker/uitgever"]
 
-    persons = getPerson(_persons, kind="person")
+    persons = getPerson(_persons)
 
     if record["id"] in IMPRESSUMDATA and IMPRESSUMDATA[record["id"]]["place"]:
         _printer_publisher_place = PLACE2ECARTICO[IMPRESSUMDATA[record["id"]]["place"]]
@@ -786,7 +836,7 @@ def parseRecordJSONLD(record: dict):
             _printer_publisher_place,
             _printer_publisher_year,
         ),
-        "author": getPerson(_authors, kind="author"),
+        "author": getPerson(_authors),
         "about": [_event] + persons,
     }
 
@@ -813,7 +863,23 @@ def parseRecordJSONLD(record: dict):
     return doc
 
 
-def getPerson(person_data, kind="author"):
+def getPerson(person_data):
+    """
+    Further parse and structure information about a person.
+
+    This function parses names and external links for a person. These are
+    added in separate keys in the person's dictionary, to make it easier to
+    see where a link came from (e.g. SAA, Ecartico, or Wikidata).
+
+    Args:
+        person_data (list): A list of dictionaries, where each dictionary
+                            contains information about a person.
+
+    Returns:
+        list: A list of dictionaries, where each dictionary represents
+              a person with structured data.
+    """
+
     persons = []
 
     for p in person_data:
@@ -832,6 +898,7 @@ def getPerson(person_data, kind="author"):
             person["gender"] = p["gender"]
 
         # External links (SAA, Ecartico, Wikidata)
+        # Use the JSON-LD context and structure to make it easier to see where a link came from.
         if p["doop"]:
             person["sameAs_saa_doop"] = p["doop"]
 
@@ -870,6 +937,28 @@ def getPublication(
     place: dict,
     year: int,
 ) -> dict:
+    """
+    Create a publication event dictionary with provided details.
+
+    Args:
+        record_id (str): The unique identifier for the record.
+        impressum (str): The impressum or description of the publication.
+        printer_publishers (list): A list of printer or publisher details.
+        place (dict): A dictionary containing location details of the publication.
+        year (int): The year of publication.
+
+    Returns:
+        dict: A dictionary representing the publication event with keys such as:
+            - 'id'
+            - 'type'
+            - 'publishedBy'
+            - 'description'
+            - 'location'
+            - 'startDate'
+            - 'hasEarliestBeginTimeStamp'
+            - 'hasLatestEndTimeStamp'
+    """
+
     publicationEvent = {
         "id": f"{record_id}#publication",
         "type": "PublicationEvent",
@@ -992,17 +1081,22 @@ def parseLinkJSONLD(link: dict) -> dict:
 
 
 def main(filepath: str):
+    # 1. Read in the GGD data from the data dump
     records = getRecords(filepath)
 
+    # 2. Parse the records into JSON-LD (RDF)
     records = {
         "@context": CONTEXT,
         "@id": "https://data.goldenagents.org/datasets/ggd/",
         "@graph": [parseRecordJSONLD(r) for r in records],
     }
 
+    # 3. Links and URIs for persons are made based on their index in the record
+    # and how the person is referred to. Order matters, so let's save this mapping.
     with open("data/indexMapping.json", "w") as f:
         json.dump(indexMapping, f, indent=2)
 
+    # 4. Parse the links between authors/persons into a separate JSON-LD file.
     with open("data/authorSameAs.json") as f:
         sameAs_clusters = json.load(f)
 
@@ -1015,9 +1109,12 @@ def main(filepath: str):
         "@graph": [parseLinkJSONLD(i) for i in sameAs_clusters.values()],
     }
 
+    # 5. Write the JSON-LD files to disk
+    print("Writing records to rdf/ggd.jsonld")
     with open("rdf/ggd.jsonld", "w", encoding="utf-8") as outfile:
         json.dump(records, outfile, indent=2)
 
+    print("Writing links to rdf/ggd_linkset.jsonld")
     with open("rdf/ggd_linkset.jsonld", "w", encoding="utf-8") as outfile:
         json.dump(links, outfile, indent=2)
 
