@@ -745,14 +745,13 @@ def getEvent(record: dict, persons: list) -> dict:
     return event
 
 
-def getMelody(record_id, melody_name):
+def getMelody(record_id):
     """
     Retrieve melody information and create a music composition arrangement
     to link to the Liederenbank.
 
     Args:
         record_id (str): The identifier for the record in the ID2MELODIE dictionary.
-        melody_name (str): The name of the melody to be used in the arrangement.
 
     Returns:
         dict: A dictionary representing the music composition arrangement (cf. schema.org).
@@ -760,12 +759,14 @@ def getMelody(record_id, melody_name):
 
     liederenbank = ID2MELODIE.get(record_id, None)
 
-    arrangement = {"type": "MusicComposition", "name": melody_name}
+    arrangements = []
 
     if liederenbank:
-        arrangement["arrangementOf"] = []
-
         for liederenbank_name, liederenbank_uri in liederenbank.items():
+            arrangement = {"type": "MusicComposition"}
+
+            arrangement["arrangementOf"] = []
+
             melody = {
                 "id": liederenbank_uri,
                 "name": liederenbank_name,
@@ -774,7 +775,9 @@ def getMelody(record_id, melody_name):
 
             arrangement["arrangementOf"].append(melody)  # inverse: musicalArrangement
 
-    return arrangement
+            arrangements.append(arrangement)
+
+    return arrangements
 
 
 def parseRecordJSONLD(record: dict):
@@ -858,7 +861,7 @@ def parseRecordJSONLD(record: dict):
         doc["numberOfPages"] = pages
 
     if record.get("melody"):
-        doc["lyricsOf"] = getMelody(record["id"], record["melody"])  # inverse: lyrics
+        doc["lyricsOf"] = getMelody(record["id"])  # inverse: lyrics
 
     return doc
 
