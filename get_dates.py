@@ -47,7 +47,18 @@ CONTEXT = {
 }
 
 
-def query(q, endpoint, source=""):
+def query_endpoint(q: str, endpoint: str, source: str = ""):
+    """
+    Executes a SPARQL query against a specified endpoint and returns the results.
+    Args:
+        q (str): The SPARQL query string.
+        endpoint (str): The URL of the SPARQL endpoint.
+        source (str, optional): An optional source identifier to include in the results. Defaults to "".
+    Returns:
+        list: A list of dictionaries containing the query results.
+    """
+
+    # Prevent multiple queries for the same query string
     if q in cache:
         return cache[q]
 
@@ -79,6 +90,16 @@ def query(q, endpoint, source=""):
 
 
 def get_dates_from_nta(uri, endpoint="http://data.bibliotheken.nl/sparql"):
+    """
+    Get birth and death dates from the NTA dataset.
+
+    Args:
+        uri (str): The URI of the person.
+        endpoint (str, optional): The SPARQL endpoint. Defaults to "http://data.bibliotheken.nl/sparql".
+
+    Returns:
+        list: A list of dictionaries containing the birth and death dates.
+    """
 
     q = """
     PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
@@ -112,7 +133,9 @@ def get_dates_from_nta(uri, endpoint="http://data.bibliotheken.nl/sparql"):
         "<URI>", f"<{uri}>"
     )
 
-    results = query(q, endpoint, "http://data.bibliotheken.nl/id/dataset/persons")
+    results = query_endpoint(
+        q, endpoint, "http://data.bibliotheken.nl/id/dataset/persons"
+    )
     print(uri, results)
 
     return results
@@ -122,6 +145,21 @@ def get_dates_from_ecartico(
     uri,
     endpoint="https://api.lod.uba.uva.nl/datasets/CREATE/ECARTICO/services/ECARTICO/sparql",
 ):
+    """
+    Get birth and death dates from Ecartico
+
+    Args:
+        uri (str): The URI of the person.
+        endpoint (str, optional): The SPARQL endpoint. Defaults to "https://api.lod.uba.uva.nl/datasets/CREATE/ECARTICO/services/ECARTICO/sparql".
+
+    Returns:
+        list: A list of dictionaries containing the birth and death dates.
+    """
+
+    # The old data is still in the endpoint
+    uri = uri.replace(
+        "https://ecartico.org/", "https://www.vondel.humanities.uva.nl/ecartico/"
+    )
 
     q = """
     PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -159,13 +197,23 @@ def get_dates_from_ecartico(
         "<URI>", f"<{uri}>"
     )
 
-    results = query(q, endpoint, "https://vondel.humanities.uva.nl/ecartico/")
+    results = query_endpoint(q, endpoint, "https://vondel.humanities.uva.nl/ecartico/")
     print(results)
 
     return results
 
 
 def get_dates_from_wikidata(uri, endpoint="https://query.wikidata.org/sparql"):
+    """
+    Get birth and death dates from Wikidata
+
+    Args:
+        uri (str): The URI of the person.
+        endpoint (str, optional): The SPARQL endpoint. Defaults to "https://query.wikidata.org/sparql".
+
+    Returns:
+        list: A list of dictionaries containing the birth and death dates.
+    """
 
     q = """
     PREFIX schema: <http://schema.org/>
@@ -221,7 +269,7 @@ def get_dates_from_wikidata(uri, endpoint="https://query.wikidata.org/sparql"):
         "<URI>", f"<{uri}>"
     )
 
-    results = query(q, endpoint, "https://www.wikidata.org/")
+    results = query_endpoint(q, endpoint, "https://www.wikidata.org/")
 
     print(uri, results)
 
@@ -229,6 +277,20 @@ def get_dates_from_wikidata(uri, endpoint="https://query.wikidata.org/sparql"):
 
 
 def get_dates_from_saa(uri):
+    """
+    Extracts age, birth date, and estimated birth year for a given person URI from a table.
+
+    Args:
+        uri (str): The URI of the person to extract dates for.
+
+    Returns:
+        list: A list containing a dictionary with the following keys:
+            - "source" (str): The URI of the person.
+            - "age" (int or None): The age of the person, if available.
+            - "birthDate_year" (int or None): The estimated birth year of the person, if available.
+            - "birthDate_date" (datetime or None): The birth date of the person, if available.
+        If no data is found, returns an empty list.
+    """
 
     frame = df_ggd_otr[df_ggd_otr["person"] == uri]
 
@@ -271,6 +333,7 @@ def main(persons):
 
         person2name[uri] = name
 
+        # List possible sources for birth and death dates
         if "data.bibliotheken.nl" in uri:
             person2dates[uri] += get_dates_from_nta(uri)
 
@@ -283,6 +346,7 @@ def main(persons):
         if r.get("saa"):
             person2dates[uri] += get_dates_from_saa(r["saa"])
 
+    # Make a new dataset
     g = Graph(identifier="https://data.goldenagents.org/datasets/ggd/dates/")
     for uri, dates in person2dates.items():
         name = person2name[uri]
@@ -323,8 +387,10 @@ def main(persons):
                 g.add((statement_uri, RDF.object, date))
                 g.add((statement_uri, PROV.wasDerivedFrom, URIRef(d["source"])))
 
+    # Serialize the graph first
     g.serialize("rdf/ggd_dates.jsonld", format="json-ld")
 
+    # Then compact it
     with open("rdf/ggd_dates.jsonld") as f:
 
         doc = json.load(f)
@@ -336,6 +402,7 @@ def main(persons):
 
 if __name__ == "__main__":
 
+    # Temporary endpoint
     ENDPOINT = "https://api.druid.datalegend.net/datasets/LvanWissen/Test/sparql"
     Q = """
         PREFIX schema: <https://schema.org/>
@@ -362,6 +429,6 @@ if __name__ == "__main__":
         }
     """
 
-    results = query(Q, ENDPOINT)
+    results = query_endpoint(Q, ENDPOINT)
 
     main(results)
