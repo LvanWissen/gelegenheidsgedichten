@@ -2,1706 +2,1706 @@
     "'s-Graveland": {
         "type": "Place",
         "name": "'s-Graveland",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/917"
+        "id": "https://ecartico.org/places/917"
     },
     "'s-Gravendeel": {
         "type": "Place",
         "name": "'s-Gravendeel",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/435"
+        "id": "https://ecartico.org/places/435"
     },
     "'s-Gravenzande": {
         "type": "Place",
         "name": "'s-Gravenzande",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/767"
+        "id": "https://ecartico.org/places/767"
     },
     "'s-Hertogenbosch": {
         "type": "Place",
         "name": "'s-Hertogenbosch",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/436"
+        "id": "https://ecartico.org/places/436"
     },
     "Aarlanderveen": {
         "type": "Place",
         "name": "Aarlanderveen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1434"
+        "id": "https://ecartico.org/places/1434"
     },
     "Abcoude": {
         "type": "Place",
         "name": "Abcoude",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3"
+        "id": "https://ecartico.org/places/3"
     },
     "Achthoven": {
         "type": "Place",
         "name": "Achthoven",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1000"
+        "id": "https://ecartico.org/places/1000"
     },
     "Aduard": {
         "type": "Place",
         "name": "Aduard",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1436"
+        "id": "https://ecartico.org/places/1436"
     },
     "Aken": {
         "type": "Place",
         "name": "Aken",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/5"
+        "id": "https://ecartico.org/places/5"
     },
     "Alkmaar": {
         "type": "Place",
         "name": "Alkmaar",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/7"
+        "id": "https://ecartico.org/places/7"
     },
     "Almelo": {
         "type": "Place",
         "name": "Almelo",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/978"
+        "id": "https://ecartico.org/places/978"
     },
     "Alphen": {
         "type": "Place",
         "name": "Alphen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/8"
+        "id": "https://ecartico.org/places/8"
     },
     "Altona": {
         "type": "Place",
         "name": "Altona",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/812"
+        "id": "https://ecartico.org/places/812"
     },
     "Amerongen": {
         "type": "Place",
         "name": "Amerongen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2338"
+        "id": "https://ecartico.org/places/2338"
     },
     "Amersfoort": {
         "type": "Place",
         "name": "Amersfoort",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/9"
+        "id": "https://ecartico.org/places/9"
     },
     "Amstelveen": {
         "type": "Place",
         "name": "Amstelveen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/593"
+        "id": "https://ecartico.org/places/593"
     },
     "Amsterdam": {
         "type": "Place",
         "name": "Amsterdam",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/11"
+        "id": "https://ecartico.org/places/11"
     },
     "Ankeveen": {
         "type": "Place",
         "name": "Ankeveen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1170"
+        "id": "https://ecartico.org/places/1170"
     },
     "Apeldoorn": {
         "type": "Place",
         "name": "Apeldoorn",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/14"
+        "id": "https://ecartico.org/places/14"
     },
     "Arnhem": {
         "type": "Place",
         "name": "Arnhem",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/18"
+        "id": "https://ecartico.org/places/18"
     },
     "Asperen": {
         "type": "Place",
         "name": "Asperen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1402"
+        "id": "https://ecartico.org/places/1402"
     },
     "Avenhorn": {
         "type": "Place",
         "name": "Avenhorn",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1323"
+        "id": "https://ecartico.org/places/1323"
     },
     "Axel": {
         "type": "Place",
         "name": "Axel",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/805"
+        "id": "https://ecartico.org/places/805"
     },
     "Baambrugge": {
         "type": "Place",
         "name": "Baambrugge",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1318"
+        "id": "https://ecartico.org/places/1318"
     },
     "Baarn": {
         "type": "Place",
         "name": "Baarn",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2348"
+        "id": "https://ecartico.org/places/2348"
     },
     "Babiloni\u00ebnbroek": {
         "type": "Place",
         "name": "Babiloni\u00ebnbroek",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3170"
+        "id": "https://ecartico.org/places/3170"
     },
     "Batavia": {
         "type": "Place",
         "name": "Batavia",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/36"
+        "id": "https://ecartico.org/places/36"
     },
     "Batavia/Jakarta": {
         "type": "Place",
         "name": "Batavia/Jakarta",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/36"
+        "id": "https://ecartico.org/places/36"
     },
     "Beetgum": {
         "type": "Place",
         "name": "Beetgum",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1448"
+        "id": "https://ecartico.org/places/1448"
     },
     "Beilen": {
         "type": "Place",
         "name": "Beilen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/963"
+        "id": "https://ecartico.org/places/963"
     },
     "Bellingeweer": {
         "type": "Place",
         "name": "Bellingeweer",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2975"
+        "id": "https://ecartico.org/places/2975"
     },
     "Bennebroek": {
         "type": "Place",
         "name": "Bennebroek",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2227"
+        "id": "https://ecartico.org/places/2227"
     },
     "Benschop": {
         "type": "Place",
         "name": "Benschop",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3171"
+        "id": "https://ecartico.org/places/3171"
     },
     "Bergen NH": {
         "type": "Place",
         "name": "Bergen NH",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1012"
+        "id": "https://ecartico.org/places/1012"
     },
     "Bergen op Zoom": {
         "type": "Place",
         "name": "Bergen op Zoom",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/46"
+        "id": "https://ecartico.org/places/46"
     },
     "Berkel": {
         "type": "Place",
         "name": "Berkel",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/849"
+        "id": "https://ecartico.org/places/849"
     },
     "Berkhout": {
         "type": "Place",
         "name": "Berkhout",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3172"
+        "id": "https://ecartico.org/places/3172"
     },
     "Beverwijk": {
         "type": "Place",
         "name": "Beverwijk",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/52"
+        "id": "https://ecartico.org/places/52"
     },
     "Biervliet": {
         "type": "Place",
         "name": "Biervliet",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2372"
+        "id": "https://ecartico.org/places/2372"
     },
     "Bloemendaal": {
         "type": "Place",
         "name": "Bloemendaal",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/636"
+        "id": "https://ecartico.org/places/636"
     },
     "Bodegraven": {
         "type": "Place",
         "name": "Bodegraven",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/60"
+        "id": "https://ecartico.org/places/60"
     },
     "Bolsward": {
         "type": "Place",
         "name": "Bolsward",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/63"
+        "id": "https://ecartico.org/places/63"
     },
     "Boschkapelle": {
         "type": "Place",
         "name": "Boschkapelle",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3184"
+        "id": "https://ecartico.org/places/3184"
     },
     "Bovenkarspel": {
         "type": "Place",
         "name": "Bovenkarspel",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2986"
+        "id": "https://ecartico.org/places/2986"
     },
     "Brandwijk en Gijbeland": {
         "type": "Place",
         "name": "Brandwijk en Gijbeland",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1316"
+        "id": "https://ecartico.org/places/1316"
     },
     "Breda": {
         "type": "Place",
         "name": "Breda",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/76"
+        "id": "https://ecartico.org/places/76"
     },
     "Bremen": {
         "type": "Place",
         "name": "Bremen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/77"
+        "id": "https://ecartico.org/places/77"
     },
     "Breukelen": {
         "type": "Place",
         "name": "Breukelen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/838"
+        "id": "https://ecartico.org/places/838"
     },
     "Brielle": {
         "type": "Place",
         "name": "Brielle",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/98"
+        "id": "https://ecartico.org/places/98"
     },
     "Briels Nieuwland": {
         "type": "Place",
         "name": "Briels Nieuwland",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3183"
+        "id": "https://ecartico.org/places/3183"
     },
     "Broek in Waterland": {
         "type": "Place",
         "name": "Broek in Waterland",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/590"
+        "id": "https://ecartico.org/places/590"
     },
     "Brouwershaven": {
         "type": "Place",
         "name": "Brouwershaven",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/900"
+        "id": "https://ecartico.org/places/900"
     },
     "Brussel": {
         "type": "Place",
         "name": "Brussel",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/83"
+        "id": "https://ecartico.org/places/83"
     },
     "Buiksloot": {
         "type": "Place",
         "name": "Buiksloot",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/591"
+        "id": "https://ecartico.org/places/591"
     },
     "Buitenpost": {
         "type": "Place",
         "name": "Buitenpost",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2397"
+        "id": "https://ecartico.org/places/2397"
     },
     "Bunnik": {
         "type": "Place",
         "name": "Bunnik",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3173"
+        "id": "https://ecartico.org/places/3173"
     },
     "Buren": {
         "type": "Place",
         "name": "Buren",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/835"
+        "id": "https://ecartico.org/places/835"
     },
     "B\u00fcy\u00fckdere": {
         "type": "Place",
         "name": "B\u00fcy\u00fckdere",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3211"
+        "id": "https://ecartico.org/places/3211"
     },
     "Capelle a/d IJssel": {
         "type": "Place",
         "name": "Capelle a/d IJssel",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2060"
+        "id": "https://ecartico.org/places/2060"
     },
     "Ceylon": {
         "type": "Place",
         "name": "Ceylon",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/619"
+        "id": "https://ecartico.org/places/619"
     },
     "Charlois": {
         "type": "Place",
         "name": "Charlois",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1460"
+        "id": "https://ecartico.org/places/1460"
     },
     "Colombo": {
         "type": "Place",
         "name": "Colombo",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/652"
+        "id": "https://ecartico.org/places/652"
     },
     "Culemborg": {
         "type": "Place",
         "name": "Culemborg",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/92"
+        "id": "https://ecartico.org/places/92"
     },
     "Danzig/Gdansk": {
         "type": "Place",
         "name": "Danzig/Gdansk",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/94"
+        "id": "https://ecartico.org/places/94"
     },
     "De Beemster": {
         "type": "Place",
         "name": "De Beemster",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1189"
+        "id": "https://ecartico.org/places/1189"
     },
     "De Koog": {
         "type": "Place",
         "name": "De Koog",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2408"
+        "id": "https://ecartico.org/places/2408"
     },
     "De Rijp": {
         "type": "Place",
         "name": "De Rijp",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1127"
+        "id": "https://ecartico.org/places/1127"
     },
     "Delfshaven": {
         "type": "Place",
         "name": "Delfshaven",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/96"
+        "id": "https://ecartico.org/places/96"
     },
     "Delft": {
         "type": "Place",
         "name": "Delft",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/97"
+        "id": "https://ecartico.org/places/97"
     },
     "Den Bosch": {
         "type": "Place",
         "name": "Den Bosch",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/436"
+        "id": "https://ecartico.org/places/436"
     },
     "Den Briel": {
         "type": "Place",
         "name": "Den Briel",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/98"
+        "id": "https://ecartico.org/places/98"
     },
     "Den Haag": {
         "type": "Place",
         "name": "Den Haag",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/100"
+        "id": "https://ecartico.org/places/100"
     },
     "Den Hitsert": {
         "type": "Place",
         "name": "Den Hitsert",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2928"
+        "id": "https://ecartico.org/places/2928"
     },
     "Den Hoef": {
         "type": "Place",
         "name": "Den Hoef",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3209"
+        "id": "https://ecartico.org/places/3209"
     },
     "Deventer": {
         "type": "Place",
         "name": "Deventer",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/105"
+        "id": "https://ecartico.org/places/105"
     },
     "Diemen": {
         "type": "Place",
         "name": "Diemen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/108"
+        "id": "https://ecartico.org/places/108"
     },
     "Dirksland": {
         "type": "Place",
         "name": "Dirksland",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/114"
+        "id": "https://ecartico.org/places/114"
     },
     "Dodewaard": {
         "type": "Place",
         "name": "Dodewaard",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2427"
+        "id": "https://ecartico.org/places/2427"
     },
     "Doetinchem": {
         "type": "Place",
         "name": "Doetinchem",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/115"
+        "id": "https://ecartico.org/places/115"
     },
     "Dokkum": {
         "type": "Place",
         "name": "Dokkum",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/116"
+        "id": "https://ecartico.org/places/116"
     },
     "Domburg": {
         "type": "Place",
         "name": "Domburg",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1260"
+        "id": "https://ecartico.org/places/1260"
     },
     "Dongjum": {
         "type": "Place",
         "name": "Dongjum",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3178"
+        "id": "https://ecartico.org/places/3178"
     },
     "Dordrecht": {
         "type": "Place",
         "name": "Dordrecht",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/118"
+        "id": "https://ecartico.org/places/118"
     },
     "Douai": {
         "type": "Place",
         "name": "Douai",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1909"
+        "id": "https://ecartico.org/places/1909"
     },
     "Dresden": {
         "type": "Place",
         "name": "Dresden",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/717"
+        "id": "https://ecartico.org/places/717"
     },
     "Dubbeldam": {
         "type": "Place",
         "name": "Dubbeldam",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/706"
+        "id": "https://ecartico.org/places/706"
     },
     "Duinkerken": {
         "type": "Place",
         "name": "Duinkerken",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/127"
+        "id": "https://ecartico.org/places/127"
     },
     "Duisburg": {
         "type": "Place",
         "name": "Duisburg",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/128"
+        "id": "https://ecartico.org/places/128"
     },
     "Echten": {
         "type": "Place",
         "name": "Echten",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3037"
+        "id": "https://ecartico.org/places/3037"
     },
     "Eck en Wiel": {
         "type": "Place",
         "name": "Eck en Wiel",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2442"
+        "id": "https://ecartico.org/places/2442"
     },
     "Edam": {
         "type": "Place",
         "name": "Edam",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/132"
+        "id": "https://ecartico.org/places/132"
     },
     "Eede": {
         "type": "Place",
         "name": "Eede",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/763"
+        "id": "https://ecartico.org/places/763"
     },
     "Eelde": {
         "type": "Place",
         "name": "Eelde",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2443"
+        "id": "https://ecartico.org/places/2443"
     },
     "Eemnes": {
         "type": "Place",
         "name": "Eemnes",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1099"
+        "id": "https://ecartico.org/places/1099"
     },
     "Eenrum": {
         "type": "Place",
         "name": "Eenrum",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2444"
+        "id": "https://ecartico.org/places/2444"
     },
     "Emden": {
         "type": "Place",
         "name": "Emden",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/142"
+        "id": "https://ecartico.org/places/142"
     },
     "Emmerik": {
         "type": "Place",
         "name": "Emmerik",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/143"
+        "id": "https://ecartico.org/places/143"
     },
     "Enkhuizen": {
         "type": "Place",
         "name": "Enkhuizen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/145"
+        "id": "https://ecartico.org/places/145"
     },
     "Erkelenz": {
         "type": "Place",
         "name": "Erkelenz",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1991"
+        "id": "https://ecartico.org/places/1991"
     },
     "Etersheim": {
         "type": "Place",
         "name": "Etersheim",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3193"
+        "id": "https://ecartico.org/places/3193"
     },
     "Franeker": {
         "type": "Place",
         "name": "Franeker",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/153"
+        "id": "https://ecartico.org/places/153"
     },
     "Frankfurt a/d Main": {
         "type": "Place",
         "name": "Frankfurt a/d Main",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/155"
+        "id": "https://ecartico.org/places/155"
     },
     "Frankfurt an der Oder": {
         "type": "Place",
         "name": "Frankfurt an der Oder",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1132"
+        "id": "https://ecartico.org/places/1132"
     },
     "Geertruidenberg": {
         "type": "Place",
         "name": "Geertruidenberg",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/161"
+        "id": "https://ecartico.org/places/161"
     },
     "Gibraltar": {
         "type": "Place",
         "name": "Gibraltar",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3188"
+        "id": "https://ecartico.org/places/3188"
     },
     "Goes": {
         "type": "Place",
         "name": "Goes",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/173"
+        "id": "https://ecartico.org/places/173"
     },
     "Gorinchem": {
         "type": "Place",
         "name": "Gorinchem",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/174"
+        "id": "https://ecartico.org/places/174"
     },
     "Gotenburg": {
         "type": "Place",
         "name": "Gotenburg",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/176"
+        "id": "https://ecartico.org/places/176"
     },
     "Gouda": {
         "type": "Place",
         "name": "Gouda",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/177"
+        "id": "https://ecartico.org/places/177"
     },
     "Goudswaard": {
         "type": "Place",
         "name": "Goudswaard",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3194"
+        "id": "https://ecartico.org/places/3194"
     },
     "Goutum": {
         "type": "Place",
         "name": "Goutum",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1564"
+        "id": "https://ecartico.org/places/1564"
     },
     "Graft": {
         "type": "Place",
         "name": "Graft",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3135"
+        "id": "https://ecartico.org/places/3135"
     },
     "Grave": {
         "type": "Place",
         "name": "Grave",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/178"
+        "id": "https://ecartico.org/places/178"
     },
     "Groningen": {
         "type": "Place",
         "name": "Groningen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/182"
+        "id": "https://ecartico.org/places/182"
     },
     "Grosthuizen": {
         "type": "Place",
         "name": "Grosthuizen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3195"
+        "id": "https://ecartico.org/places/3195"
     },
     "Haamstede": {
         "type": "Place",
         "name": "Haamstede",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2495"
+        "id": "https://ecartico.org/places/2495"
     },
     "Haarlem": {
         "type": "Place",
         "name": "Haarlem",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/184"
+        "id": "https://ecartico.org/places/184"
     },
     "Haastrecht": {
         "type": "Place",
         "name": "Haastrecht",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1332"
+        "id": "https://ecartico.org/places/1332"
     },
     "Hamburg": {
         "type": "Place",
         "name": "Hamburg",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/187"
+        "id": "https://ecartico.org/places/187"
     },
     "Hamm": {
         "type": "Place",
         "name": "Hamm",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2967"
+        "id": "https://ecartico.org/places/2967"
     },
     "Harderwijk": {
         "type": "Place",
         "name": "Harderwijk",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/190"
+        "id": "https://ecartico.org/places/190"
     },
     "Hardinxveld": {
         "type": "Place",
         "name": "Hardinxveld",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3196"
+        "id": "https://ecartico.org/places/3196"
     },
     "Harlingen": {
         "type": "Place",
         "name": "Harlingen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/192"
+        "id": "https://ecartico.org/places/192"
     },
     "Harmelen": {
         "type": "Place",
         "name": "Harmelen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2501"
+        "id": "https://ecartico.org/places/2501"
     },
     "Hasselt": {
         "type": "Place",
         "name": "Hasselt",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/195"
+        "id": "https://ecartico.org/places/195"
     },
     "Hazerswoude": {
         "type": "Place",
         "name": "Hazerswoude",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1908"
+        "id": "https://ecartico.org/places/1908"
     },
     "Heemstede": {
         "type": "Place",
         "name": "Heemstede",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/198"
+        "id": "https://ecartico.org/places/198"
     },
     "Heenvliet": {
         "type": "Place",
         "name": "Heenvliet",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2006"
+        "id": "https://ecartico.org/places/2006"
     },
     "Heerjansdam": {
         "type": "Place",
         "name": "Heerjansdam",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3181"
+        "id": "https://ecartico.org/places/3181"
     },
     "Hei- en Boeikop": {
         "type": "Place",
         "name": "Hei- en Boeikop",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3197"
+        "id": "https://ecartico.org/places/3197"
     },
     "Hellevoetsluis": {
         "type": "Place",
         "name": "Hellevoetsluis",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/201"
+        "id": "https://ecartico.org/places/201"
     },
     "Hemmen": {
         "type": "Place",
         "name": "Hemmen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3210"
+        "id": "https://ecartico.org/places/3210"
     },
     "Hensbroek": {
         "type": "Place",
         "name": "Hensbroek",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2519"
+        "id": "https://ecartico.org/places/2519"
     },
     "Herwijnen": {
         "type": "Place",
         "name": "Herwijnen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2525"
+        "id": "https://ecartico.org/places/2525"
     },
     "Heteren": {
         "type": "Place",
         "name": "Heteren",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2526"
+        "id": "https://ecartico.org/places/2526"
     },
     "Heusden": {
         "type": "Place",
         "name": "Heusden",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/209"
+        "id": "https://ecartico.org/places/209"
     },
     "Hichtum": {
         "type": "Place",
         "name": "Hichtum",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2912"
+        "id": "https://ecartico.org/places/2912"
     },
     "Holwerd": {
         "type": "Place",
         "name": "Holwerd",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/865"
+        "id": "https://ecartico.org/places/865"
     },
     "Hontenisse": {
         "type": "Place",
         "name": "Hontenisse",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2537"
+        "id": "https://ecartico.org/places/2537"
     },
     "Hoogezand": {
         "type": "Place",
         "name": "Hoogezand",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2233"
+        "id": "https://ecartico.org/places/2233"
     },
     "Hoogwoud": {
         "type": "Place",
         "name": "Hoogwoud",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2542"
+        "id": "https://ecartico.org/places/2542"
     },
     "Hoorn": {
         "type": "Place",
         "name": "Hoorn",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/219"
+        "id": "https://ecartico.org/places/219"
     },
     "Hulst": {
         "type": "Place",
         "name": "Hulst",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/222"
+        "id": "https://ecartico.org/places/222"
     },
     "IJsselstein": {
         "type": "Place",
         "name": "IJsselstein",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/227"
+        "id": "https://ecartico.org/places/227"
     },
     "IJzendoorn": {
         "type": "Place",
         "name": "IJzendoorn",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2248"
+        "id": "https://ecartico.org/places/2248"
     },
     "Istanbul": {
         "type": "Place",
         "name": "Istanbul",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/89"
+        "id": "https://ecartico.org/places/89"
     },
     "Jaarsveld": {
         "type": "Place",
         "name": "Jaarsveld",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3198"
+        "id": "https://ecartico.org/places/3198"
     },
     "Jelsum": {
         "type": "Place",
         "name": "Jelsum",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1050"
+        "id": "https://ecartico.org/places/1050"
     },
     "Jutphaas": {
         "type": "Place",
         "name": "Jutphaas",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2172"
+        "id": "https://ecartico.org/places/2172"
     },
     "Kampen": {
         "type": "Place",
         "name": "Kampen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/240"
+        "id": "https://ecartico.org/places/240"
     },
     "Kassel": {
         "type": "Place",
         "name": "Kassel",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/241"
+        "id": "https://ecartico.org/places/241"
     },
     "Katwijk": {
         "type": "Place",
         "name": "Katwijk",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/830"
+        "id": "https://ecartico.org/places/830"
     },
     "Keulen": {
         "type": "Place",
         "name": "Keulen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/242"
+        "id": "https://ecartico.org/places/242"
     },
     "Kijfhoek": {
         "type": "Place",
         "name": "Kijfhoek",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3182"
+        "id": "https://ecartico.org/places/3182"
     },
     "Klundert": {
         "type": "Place",
         "name": "Klundert",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/246"
+        "id": "https://ecartico.org/places/246"
     },
     "Kortenhoef": {
         "type": "Place",
         "name": "Kortenhoef",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/970"
+        "id": "https://ecartico.org/places/970"
     },
     "Koudekerk": {
         "type": "Place",
         "name": "Koudekerk",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2584"
+        "id": "https://ecartico.org/places/2584"
     },
     "Koudum": {
         "type": "Place",
         "name": "Koudum",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/846"
+        "id": "https://ecartico.org/places/846"
     },
     "Krommenie": {
         "type": "Place",
         "name": "Krommenie",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1263"
+        "id": "https://ecartico.org/places/1263"
     },
     "Lakerveld": {
         "type": "Place",
         "name": "Lakerveld",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3216"
+        "id": "https://ecartico.org/places/3216"
     },
     "Langen": {
         "type": "Place",
         "name": "Langen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2592"
+        "id": "https://ecartico.org/places/2592"
     },
     "Langweer": {
         "type": "Place",
         "name": "Langweer",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1445"
+        "id": "https://ecartico.org/places/1445"
     },
     "Leeuwarden": {
         "type": "Place",
         "name": "Leeuwarden",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/261"
+        "id": "https://ecartico.org/places/261"
     },
     "Leiden": {
         "type": "Place",
         "name": "Leiden",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/262"
+        "id": "https://ecartico.org/places/262"
     },
     "Leiderdorp": {
         "type": "Place",
         "name": "Leiderdorp",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/263"
+        "id": "https://ecartico.org/places/263"
     },
     "Leidschendam": {
         "type": "Place",
         "name": "Leidschendam",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2141"
+        "id": "https://ecartico.org/places/2141"
     },
     "Leimuiden": {
         "type": "Place",
         "name": "Leimuiden",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/960"
+        "id": "https://ecartico.org/places/960"
     },
     "Leuven": {
         "type": "Place",
         "name": "Leuven",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/267"
+        "id": "https://ecartico.org/places/267"
     },
     "Lexmond": {
         "type": "Place",
         "name": "Lexmond",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/810"
+        "id": "https://ecartico.org/places/810"
     },
     "Lezart": {
         "type": "Place",
         "name": "Lezart",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3208"
+        "id": "https://ecartico.org/places/3208"
     },
     "Limmen": {
         "type": "Place",
         "name": "Limmen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1464"
+        "id": "https://ecartico.org/places/1464"
     },
     "Lingen": {
         "type": "Place",
         "name": "Lingen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/988"
+        "id": "https://ecartico.org/places/988"
     },
     "Lisse": {
         "type": "Place",
         "name": "Lisse",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/274"
+        "id": "https://ecartico.org/places/274"
     },
     "Loenen": {
         "type": "Place",
         "name": "Loenen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/276"
+        "id": "https://ecartico.org/places/276"
     },
     "Loenersloot": {
         "type": "Place",
         "name": "Loenersloot",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3175"
+        "id": "https://ecartico.org/places/3175"
     },
     "Londen": {
         "type": "Place",
         "name": "Londen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/279"
+        "id": "https://ecartico.org/places/279"
     },
     "Loosduinen": {
         "type": "Place",
         "name": "Loosduinen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/281"
+        "id": "https://ecartico.org/places/281"
     },
     "Lopik": {
         "type": "Place",
         "name": "Lopik",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1357"
+        "id": "https://ecartico.org/places/1357"
     },
     "Lopikerkapel": {
         "type": "Place",
         "name": "Lopikerkapel",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/629"
+        "id": "https://ecartico.org/places/629"
     },
     "Maarssen": {
         "type": "Place",
         "name": "Maarssen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/288"
+        "id": "https://ecartico.org/places/288"
     },
     "Maasbommel": {
         "type": "Place",
         "name": "Maasbommel",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1597"
+        "id": "https://ecartico.org/places/1597"
     },
     "Maasland": {
         "type": "Place",
         "name": "Maasland",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1216"
+        "id": "https://ecartico.org/places/1216"
     },
     "Maassluis": {
         "type": "Place",
         "name": "Maassluis",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/290"
+        "id": "https://ecartico.org/places/290"
     },
     "Maastricht": {
         "type": "Place",
         "name": "Maastricht",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/291"
+        "id": "https://ecartico.org/places/291"
     },
     "Makkum": {
         "type": "Place",
         "name": "Makkum",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/296"
+        "id": "https://ecartico.org/places/296"
     },
     "Marseille": {
         "type": "Place",
         "name": "Marseille",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/623"
+        "id": "https://ecartico.org/places/623"
     },
     "Marsum": {
         "type": "Place",
         "name": "Marsum",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1733"
+        "id": "https://ecartico.org/places/1733"
     },
     "Mechelen": {
         "type": "Place",
         "name": "Mechelen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/305"
+        "id": "https://ecartico.org/places/305"
     },
     "Medemblik": {
         "type": "Place",
         "name": "Medemblik",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/306"
+        "id": "https://ecartico.org/places/306"
     },
     "Meppel": {
         "type": "Place",
         "name": "Meppel",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/309"
+        "id": "https://ecartico.org/places/309"
     },
     "Middelburg": {
         "type": "Place",
         "name": "Middelburg",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/314"
+        "id": "https://ecartico.org/places/314"
     },
     "Middelharnis": {
         "type": "Place",
         "name": "Middelharnis",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1307"
+        "id": "https://ecartico.org/places/1307"
     },
     "Mijdrecht": {
         "type": "Place",
         "name": "Mijdrecht",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/317"
+        "id": "https://ecartico.org/places/317"
     },
     "Mijnsheerenland": {
         "type": "Place",
         "name": "Mijnsheerenland",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2629"
+        "id": "https://ecartico.org/places/2629"
     },
     "Molkwerum": {
         "type": "Place",
         "name": "Molkwerum",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2633"
+        "id": "https://ecartico.org/places/2633"
     },
     "Monnikendam": {
         "type": "Place",
         "name": "Monnikendam",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/321"
+        "id": "https://ecartico.org/places/321"
     },
     "Monster": {
         "type": "Place",
         "name": "Monster",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1740"
+        "id": "https://ecartico.org/places/1740"
     },
     "Montfoort": {
         "type": "Place",
         "name": "Montfoort",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/322"
+        "id": "https://ecartico.org/places/322"
     },
     "Moordrecht": {
         "type": "Place",
         "name": "Moordrecht",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1928"
+        "id": "https://ecartico.org/places/1928"
     },
     "Muiden": {
         "type": "Place",
         "name": "Muiden",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/328"
+        "id": "https://ecartico.org/places/328"
     },
     "Muiderberg": {
         "type": "Place",
         "name": "Muiderberg",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2640"
+        "id": "https://ecartico.org/places/2640"
     },
     "M\u00fclheim am Rhein": {
         "type": "Place",
         "name": "M\u00fclheim am Rhein",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1517"
+        "id": "https://ecartico.org/places/1517"
     },
     "Naarden": {
         "type": "Place",
         "name": "Naarden",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/333"
+        "id": "https://ecartico.org/places/333"
     },
     "Namen": {
         "type": "Place",
         "name": "Namen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/334"
+        "id": "https://ecartico.org/places/334"
     },
     "Namen (Namur)": {
         "type": "Place",
         "name": "Namen (Namur)",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/334"
+        "id": "https://ecartico.org/places/334"
     },
     "Nederland": {
         "type": "Place",
         "name": "Nederland",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/337"
+        "id": "https://ecartico.org/places/337"
     },
     "Neer": {
         "type": "Place",
         "name": "Neer",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3212"
+        "id": "https://ecartico.org/places/3212"
     },
     "Nichtevecht": {
         "type": "Place",
         "name": "Nichtevecht",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1601"
+        "id": "https://ecartico.org/places/1601"
     },
     "Nieuw Loosdrecht": {
         "type": "Place",
         "name": "Nieuw Loosdrecht",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3192"
+        "id": "https://ecartico.org/places/3192"
     },
     "Nieuw-Beijerland": {
         "type": "Place",
         "name": "Nieuw-Beijerland",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3199"
+        "id": "https://ecartico.org/places/3199"
     },
     "Nieuwendam": {
         "type": "Place",
         "name": "Nieuwendam",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/587"
+        "id": "https://ecartico.org/places/587"
     },
     "Nieuwer-Amstel": {
         "type": "Place",
         "name": "Nieuwer-Amstel",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3215"
+        "id": "https://ecartico.org/places/3215"
     },
     "Nieuwerkerk a/d IJssel": {
         "type": "Place",
         "name": "Nieuwerkerk a/d IJssel",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3200"
+        "id": "https://ecartico.org/places/3200"
     },
     "Nieuwkoop": {
         "type": "Place",
         "name": "Nieuwkoop",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/348"
+        "id": "https://ecartico.org/places/348"
     },
     "Nijmegen": {
         "type": "Place",
         "name": "Nijmegen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/350"
+        "id": "https://ecartico.org/places/350"
     },
     "Noordgouwe": {
         "type": "Place",
         "name": "Noordgouwe",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3191"
+        "id": "https://ecartico.org/places/3191"
     },
     "Noordwijk": {
         "type": "Place",
         "name": "Noordwijk",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/359"
+        "id": "https://ecartico.org/places/359"
     },
     "Ochten": {
         "type": "Place",
         "name": "Ochten",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1415"
+        "id": "https://ecartico.org/places/1415"
     },
     "Oegstgeest": {
         "type": "Place",
         "name": "Oegstgeest",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/367"
+        "id": "https://ecartico.org/places/367"
     },
     "Oenkerk": {
         "type": "Place",
         "name": "Oenkerk",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2917"
+        "id": "https://ecartico.org/places/2917"
     },
     "Oost-Graftdijk": {
         "type": "Place",
         "name": "Oost-Graftdijk",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3201"
+        "id": "https://ecartico.org/places/3201"
     },
     "Oosterbeek": {
         "type": "Place",
         "name": "Oosterbeek",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1610"
+        "id": "https://ecartico.org/places/1610"
     },
     "Oosterblokker": {
         "type": "Place",
         "name": "Oosterblokker",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2681"
+        "id": "https://ecartico.org/places/2681"
     },
     "Oosterwijk": {
         "type": "Place",
         "name": "Oosterwijk",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1440"
+        "id": "https://ecartico.org/places/1440"
     },
     "Oosthuizen": {
         "type": "Place",
         "name": "Oosthuizen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1563"
+        "id": "https://ecartico.org/places/1563"
     },
     "Oostkapelle": {
         "type": "Place",
         "name": "Oostkapelle",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2686"
+        "id": "https://ecartico.org/places/2686"
     },
     "Oostzaan": {
         "type": "Place",
         "name": "Oostzaan",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/375"
+        "id": "https://ecartico.org/places/375"
     },
     "Oud-Beijerland": {
         "type": "Place",
         "name": "Oud-Beijerland",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/382"
+        "id": "https://ecartico.org/places/382"
     },
     "Oud-Vossemeer": {
         "type": "Place",
         "name": "Oud-Vossemeer",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2693"
+        "id": "https://ecartico.org/places/2693"
     },
     "Ouderkerk": {
         "type": "Place",
         "name": "Ouderkerk",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/594"
+        "id": "https://ecartico.org/places/594"
     },
     "Oudewater": {
         "type": "Place",
         "name": "Oudewater",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/386"
+        "id": "https://ecartico.org/places/386"
     },
     "Oudkerk": {
         "type": "Place",
         "name": "Oudkerk",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2023"
+        "id": "https://ecartico.org/places/2023"
     },
     "Oudorp": {
         "type": "Place",
         "name": "Oudorp",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1805"
+        "id": "https://ecartico.org/places/1805"
     },
     "Overschie": {
         "type": "Place",
         "name": "Overschie",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/389"
+        "id": "https://ecartico.org/places/389"
     },
     "Overveen": {
         "type": "Place",
         "name": "Overveen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1674"
+        "id": "https://ecartico.org/places/1674"
     },
     "Padua": {
         "type": "Place",
         "name": "Padua",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/392"
+        "id": "https://ecartico.org/places/392"
     },
     "Parijs": {
         "type": "Place",
         "name": "Parijs",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/395"
+        "id": "https://ecartico.org/places/395"
     },
     "Pera": {
         "type": "Place",
         "name": "Pera",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3217"
+        "id": "https://ecartico.org/places/3217"
     },
     "Piershil": {
         "type": "Place",
         "name": "Piershil",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/400"
+        "id": "https://ecartico.org/places/400"
     },
     "Polsbroek": {
         "type": "Place",
         "name": "Polsbroek",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3189"
+        "id": "https://ecartico.org/places/3189"
     },
     "Poortvliet": {
         "type": "Place",
         "name": "Poortvliet",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2719"
+        "id": "https://ecartico.org/places/2719"
     },
     "Purmerend": {
         "type": "Place",
         "name": "Purmerend",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/410"
+        "id": "https://ecartico.org/places/410"
     },
     "Purmerland": {
         "type": "Place",
         "name": "Purmerland",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/726"
+        "id": "https://ecartico.org/places/726"
     },
     "Putney": {
         "type": "Place",
         "name": "Putney",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3214"
+        "id": "https://ecartico.org/places/3214"
     },
     "Raamsdonk": {
         "type": "Place",
         "name": "Raamsdonk",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3202"
+        "id": "https://ecartico.org/places/3202"
     },
     "Ransdorp": {
         "type": "Place",
         "name": "Ransdorp",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/836"
+        "id": "https://ecartico.org/places/836"
     },
     "Ravenswaai": {
         "type": "Place",
         "name": "Ravenswaai",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3203"
+        "id": "https://ecartico.org/places/3203"
     },
     "Ridderkerk": {
         "type": "Place",
         "name": "Ridderkerk",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/421"
+        "id": "https://ecartico.org/places/421"
     },
     "Rijnsaterwoude": {
         "type": "Place",
         "name": "Rijnsaterwoude",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/974"
+        "id": "https://ecartico.org/places/974"
     },
     "Rijnsburg": {
         "type": "Place",
         "name": "Rijnsburg",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/422"
+        "id": "https://ecartico.org/places/422"
     },
     "Rijswijk": {
         "type": "Place",
         "name": "Rijswijk",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/424"
+        "id": "https://ecartico.org/places/424"
     },
     "Rindern": {
         "type": "Place",
         "name": "Rindern",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3204"
+        "id": "https://ecartico.org/places/3204"
     },
     "Rockanje": {
         "type": "Place",
         "name": "Rockanje",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1667"
+        "id": "https://ecartico.org/places/1667"
     },
     "Roermond": {
         "type": "Place",
         "name": "Roermond",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/427"
+        "id": "https://ecartico.org/places/427"
     },
     "Rome": {
         "type": "Place",
         "name": "Rome",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/430"
+        "id": "https://ecartico.org/places/430"
     },
     "Rotterdam": {
         "type": "Place",
         "name": "Rotterdam",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/431"
+        "id": "https://ecartico.org/places/431"
     },
     "Rozendaal": {
         "type": "Place",
         "name": "Rozendaal",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3213"
+        "id": "https://ecartico.org/places/3213"
     },
     "Sas van Gent": {
         "type": "Place",
         "name": "Sas van Gent",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/977"
+        "id": "https://ecartico.org/places/977"
     },
     "Schalkwijk": {
         "type": "Place",
         "name": "Schalkwijk",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/993"
+        "id": "https://ecartico.org/places/993"
     },
     "Schermer": {
         "type": "Place",
         "name": "Schermer",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3206"
+        "id": "https://ecartico.org/places/3206"
     },
     "Scheveningen": {
         "type": "Place",
         "name": "Scheveningen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/446"
+        "id": "https://ecartico.org/places/446"
     },
     "Schiedam": {
         "type": "Place",
         "name": "Schiedam",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/447"
+        "id": "https://ecartico.org/places/447"
     },
     "Schipluiden": {
         "type": "Place",
         "name": "Schipluiden",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/981"
+        "id": "https://ecartico.org/places/981"
     },
     "Schoonhoven": {
         "type": "Place",
         "name": "Schoonhoven",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/449"
+        "id": "https://ecartico.org/places/449"
     },
     "Sint-Annaparochie": {
         "type": "Place",
         "name": "Sint-Annaparochie",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/596"
+        "id": "https://ecartico.org/places/596"
     },
     "Sint-Eustatius": {
         "type": "Place",
         "name": "Sint-Eustatius",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3185"
+        "id": "https://ecartico.org/places/3185"
     },
     "Sint-Laurens": {
         "type": "Place",
         "name": "Sint-Laurens",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2179"
+        "id": "https://ecartico.org/places/2179"
     },
     "Sint-Pancras": {
         "type": "Place",
         "name": "Sint-Pancras",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2754"
+        "id": "https://ecartico.org/places/2754"
     },
     "Sint-Truiden": {
         "type": "Place",
         "name": "Sint-Truiden",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/465"
+        "id": "https://ecartico.org/places/465"
     },
     "Sloten": {
         "type": "Place",
         "name": "Sloten",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/468"
+        "id": "https://ecartico.org/places/468"
     },
     "Sloterdijk": {
         "type": "Place",
         "name": "Sloterdijk",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/637"
+        "id": "https://ecartico.org/places/637"
     },
     "Sluis": {
         "type": "Place",
         "name": "Sluis",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/469"
+        "id": "https://ecartico.org/places/469"
     },
     "Sneek": {
         "type": "Place",
         "name": "Sneek",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/471"
+        "id": "https://ecartico.org/places/471"
     },
     "Soest": {
         "type": "Place",
         "name": "Soest",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/473"
+        "id": "https://ecartico.org/places/473"
     },
     "Sommelsdijk": {
         "type": "Place",
         "name": "Sommelsdijk",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/477"
+        "id": "https://ecartico.org/places/477"
     },
     "Spaarndam": {
         "type": "Place",
         "name": "Spaarndam",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/480"
+        "id": "https://ecartico.org/places/480"
     },
     "Steenwijk": {
         "type": "Place",
         "name": "Steenwijk",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/485"
+        "id": "https://ecartico.org/places/485"
     },
     "Stitswerd": {
         "type": "Place",
         "name": "Stitswerd",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3186"
+        "id": "https://ecartico.org/places/3186"
     },
     "Stockholm": {
         "type": "Place",
         "name": "Stockholm",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/489"
+        "id": "https://ecartico.org/places/489"
     },
     "Strijen": {
         "type": "Place",
         "name": "Strijen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2987"
+        "id": "https://ecartico.org/places/2987"
     },
     "Suriname": {
         "type": "Place",
         "name": "Suriname",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/493"
+        "id": "https://ecartico.org/places/493"
     },
     "Swichem": {
         "type": "Place",
         "name": "Swichem",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3207"
+        "id": "https://ecartico.org/places/3207"
     },
     "Syracuse": {
         "type": "Place",
         "name": "Syracuse",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3187"
+        "id": "https://ecartico.org/places/3187"
     },
     "Ter Aar": {
         "type": "Place",
         "name": "Ter Aar",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1167"
+        "id": "https://ecartico.org/places/1167"
     },
     "Ter Heide": {
         "type": "Place",
         "name": "Ter Heide",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/833"
+        "id": "https://ecartico.org/places/833"
     },
     "Ternaard": {
         "type": "Place",
         "name": "Ternaard",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1617"
+        "id": "https://ecartico.org/places/1617"
     },
     "Terweer": {
         "type": "Place",
         "name": "Terweer",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/539"
+        "id": "https://ecartico.org/places/539"
     },
     "Texel": {
         "type": "Place",
         "name": "Texel",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/803"
+        "id": "https://ecartico.org/places/803"
     },
     "Tholen": {
         "type": "Place",
         "name": "Tholen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/924"
+        "id": "https://ecartico.org/places/924"
     },
     "Tiel": {
         "type": "Place",
         "name": "Tiel",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/782"
+        "id": "https://ecartico.org/places/782"
     },
     "Ursem": {
         "type": "Place",
         "name": "Ursem",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2810"
+        "id": "https://ecartico.org/places/2810"
     },
     "Utingeradeel": {
         "type": "Place",
         "name": "Utingeradeel",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3176"
+        "id": "https://ecartico.org/places/3176"
     },
     "Utrecht": {
         "type": "Place",
         "name": "Utrecht",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/512"
+        "id": "https://ecartico.org/places/512"
     },
     "Veere": {
         "type": "Place",
         "name": "Veere",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/516"
+        "id": "https://ecartico.org/places/516"
     },
     "Velp": {
         "type": "Place",
         "name": "Velp",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2816"
+        "id": "https://ecartico.org/places/2816"
     },
     "Velsen": {
         "type": "Place",
         "name": "Velsen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/756"
+        "id": "https://ecartico.org/places/756"
     },
     "Venlo": {
         "type": "Place",
         "name": "Venlo",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/520"
+        "id": "https://ecartico.org/places/520"
     },
     "Veur": {
         "type": "Place",
         "name": "Veur",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2302"
+        "id": "https://ecartico.org/places/2302"
     },
     "Veurne": {
         "type": "Place",
         "name": "Veurne",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/522"
+        "id": "https://ecartico.org/places/522"
     },
     "Vianen": {
         "type": "Place",
         "name": "Vianen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/523"
+        "id": "https://ecartico.org/places/523"
     },
     "Vlaardingen": {
         "type": "Place",
         "name": "Vlaardingen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/526"
+        "id": "https://ecartico.org/places/526"
     },
     "Vlissingen": {
         "type": "Place",
         "name": "Vlissingen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/528"
+        "id": "https://ecartico.org/places/528"
     },
     "Vollenhove": {
         "type": "Place",
         "name": "Vollenhove",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/529"
+        "id": "https://ecartico.org/places/529"
     },
     "Voorburg": {
         "type": "Place",
         "name": "Voorburg",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/530"
+        "id": "https://ecartico.org/places/530"
     },
     "Voorschoten": {
         "type": "Place",
         "name": "Voorschoten",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/899"
+        "id": "https://ecartico.org/places/899"
     },
     "Vreeland": {
         "type": "Place",
         "name": "Vreeland",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1136"
+        "id": "https://ecartico.org/places/1136"
     },
     "Waddinxveen": {
         "type": "Place",
         "name": "Waddinxveen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/774"
+        "id": "https://ecartico.org/places/774"
     },
     "Warmond": {
         "type": "Place",
         "name": "Warmond",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/537"
+        "id": "https://ecartico.org/places/537"
     },
     "Wassenaar": {
         "type": "Place",
         "name": "Wassenaar",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/539"
+        "id": "https://ecartico.org/places/539"
     },
     "Wateringen": {
         "type": "Place",
         "name": "Wateringen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2841"
+        "id": "https://ecartico.org/places/2841"
     },
     "Waverveen": {
         "type": "Place",
         "name": "Waverveen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/944"
+        "id": "https://ecartico.org/places/944"
     },
     "Weert": {
         "type": "Place",
         "name": "Weert",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/542"
+        "id": "https://ecartico.org/places/542"
     },
     "Weesp": {
         "type": "Place",
         "name": "Weesp",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/543"
+        "id": "https://ecartico.org/places/543"
     },
     "Wesel": {
         "type": "Place",
         "name": "Wesel",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/546"
+        "id": "https://ecartico.org/places/546"
     },
     "Westzaan": {
         "type": "Place",
         "name": "Westzaan",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/913"
+        "id": "https://ecartico.org/places/913"
     },
     "Wezepe": {
         "type": "Place",
         "name": "Wezepe",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3179"
+        "id": "https://ecartico.org/places/3179"
     },
     "Willemstad": {
         "type": "Place",
         "name": "Willemstad",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/554"
+        "id": "https://ecartico.org/places/554"
     },
     "Wilsveen": {
         "type": "Place",
         "name": "Wilsveen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3177"
+        "id": "https://ecartico.org/places/3177"
     },
     "Windesheim": {
         "type": "Place",
         "name": "Windesheim",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2314"
+        "id": "https://ecartico.org/places/2314"
     },
     "Winschoten": {
         "type": "Place",
         "name": "Winschoten",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1083"
+        "id": "https://ecartico.org/places/1083"
     },
     "Winterswijk": {
         "type": "Place",
         "name": "Winterswijk",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1068"
+        "id": "https://ecartico.org/places/1068"
     },
     "Woerden": {
         "type": "Place",
         "name": "Woerden",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/557"
+        "id": "https://ecartico.org/places/557"
     },
     "Workum": {
         "type": "Place",
         "name": "Workum",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/559"
+        "id": "https://ecartico.org/places/559"
     },
     "Wormer": {
         "type": "Place",
         "name": "Wormer",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/560"
+        "id": "https://ecartico.org/places/560"
     },
     "Woubrugge": {
         "type": "Place",
         "name": "Woubrugge",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1980"
+        "id": "https://ecartico.org/places/1980"
     },
     "Zaandam": {
         "type": "Place",
         "name": "Zaandam",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/562"
+        "id": "https://ecartico.org/places/562"
     },
     "Zaltbommel": {
         "type": "Place",
         "name": "Zaltbommel",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/563"
+        "id": "https://ecartico.org/places/563"
     },
     "Zandvoort": {
         "type": "Place",
         "name": "Zandvoort",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2881"
+        "id": "https://ecartico.org/places/2881"
     },
     "Zeist": {
         "type": "Place",
         "name": "Zeist",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/566"
+        "id": "https://ecartico.org/places/566"
     },
     "Zevenbergen": {
         "type": "Place",
         "name": "Zevenbergen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/567"
+        "id": "https://ecartico.org/places/567"
     },
     "Zevenhuizen": {
         "type": "Place",
         "name": "Zevenhuizen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/568"
+        "id": "https://ecartico.org/places/568"
     },
     "Zierikzee": {
         "type": "Place",
         "name": "Zierikzee",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/570"
+        "id": "https://ecartico.org/places/570"
     },
     "Zoeterwoude": {
         "type": "Place",
         "name": "Zoeterwoude",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/572"
+        "id": "https://ecartico.org/places/572"
     },
     "Zonnemere": {
         "type": "Place",
         "name": "Zonnemere",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3190"
+        "id": "https://ecartico.org/places/3190"
     },
     "Zorgvliet": {
         "type": "Place",
         "name": "Zorgvliet",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/3205"
+        "id": "https://ecartico.org/places/3205"
     },
     "Zuid-Beijerland": {
         "type": "Place",
         "name": "Zuid-Beijerland",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/2928"
+        "id": "https://ecartico.org/places/2928"
     },
     "Zuidzijpe": {
         "type": "Place",
         "name": "Zuidzijpe",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1723"
+        "id": "https://ecartico.org/places/1723"
     },
     "Zuilen": {
         "type": "Place",
         "name": "Zuilen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/1431"
+        "id": "https://ecartico.org/places/1431"
     },
     "Zutphen": {
         "type": "Place",
         "name": "Zutphen",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/576"
+        "id": "https://ecartico.org/places/576"
     },
     "Zwammerdam": {
         "type": "Place",
         "name": "Zwammerdam",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/577"
+        "id": "https://ecartico.org/places/577"
     },
     "Zwolle": {
         "type": "Place",
         "name": "Zwolle",
-        "id": "https://www.vondel.humanities.uva.nl/ecartico/places/580"
+        "id": "https://ecartico.org/places/580"
     }
 }
