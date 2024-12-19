@@ -158,7 +158,7 @@ def get_dates_from_ecartico(
 
     # The old data is still in the endpoint
     uri = uri.replace(
-        "https://ecartico.org/", "https://www.vondel.humanities.uva.nl/ecartico/"
+        "https://www.vondel.humanities.uva.nl/ecartico/", "https://ecartico.org/"
     )
 
     q = """
@@ -197,7 +197,7 @@ def get_dates_from_ecartico(
         "<URI>", f"<{uri}>"
     )
 
-    results = query_endpoint(q, endpoint, "https://vondel.humanities.uva.nl/ecartico/")
+    results = query_endpoint(q, endpoint, "https://ecartico.org/")
     print(results)
 
     return results

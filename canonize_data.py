@@ -1,7 +1,6 @@
-from rdflib import Graph, ConjunctiveGraph, Namespace, OWL, XSD
+from rdflib import Graph, ConjunctiveGraph, Namespace, OWL, XSD, SDO
 
 bio = Namespace("http://purl.org/vocab/bio/0.1/")
-schema = Namespace("https://schema.org/")
 sem = Namespace("http://semanticweb.cs.vu.nl/2009/11/sem/")
 pnv = Namespace("https://w3id.org/pnv#")
 
@@ -25,27 +24,47 @@ def canonize(g):
             - mapping (dict): A dictionary mapping non-canonical URIs to their canonical counterparts.
     """
 
-    mapping = {}
+    mapping = dict()
+    sdo_sameAs_statements = []
     for s, p, o in g.triples((None, OWL.sameAs, None)):
+
+        print(f"Processing {s} owl:sameAs {o}")
 
         # We prefer the canonical URI to be a data.bibliotheken.nl URI. If both are, we sort them and take the first.
         if "data.bibliotheken.nl" in s and "data.bibliotheken.nl" in o:
             canonical_uri, non_canonical_uri = sorted([s, o])
+            sdo_sameAs_statements.append((canonical_uri, SDO.sameAs, non_canonical_uri))
+        elif "data.bibliotheken.nl" in s:
+            canonical_uri = s
+            non_canonical_uri = o
         elif "data.bibliotheken.nl" in o:
             canonical_uri = o
             non_canonical_uri = s
+
         # If the canonical URI is not a data.bibliotheken.nl URI, we take the first one we encounter.
         else:
-            canonical_uri = s
-            non_canonical_uri = o
+            canonical_uri, non_canonical_uri = sorted([s, o], reverse=True)
 
-        mapping[non_canonical_uri] = canonical_uri
+        mapping[non_canonical_uri] = mapping.get(canonical_uri, canonical_uri)
 
-    # Resolve indirect mappings
-    for k in list(mapping.keys()):
-        while mapping[k] in mapping:
-            mapping[k] = mapping[mapping[k]]
+        # For external links (Ecartico, Wikidata, VIAF, Stadsarchief): move these to a schema:sameAs statement
+        if (
+            "ecartico.org" in non_canonical_uri
+            or "wikidata.org" in non_canonical_uri
+            or "viaf.org" in non_canonical_uri
+            or "archief.amsterdam" in non_canonical_uri
+        ):
+            sdo_sameAs_statements.append((canonical_uri, SDO.sameAs, non_canonical_uri))
+            print(f"Moving {non_canonical_uri} to schema:sameAs")
 
+    # for non_c in list(mapping.keys()):
+    #     if non_c in mapping:
+    #         canonical = mapping[non_c]
+    #         while canonical in mapping:
+    #             canonical = mapping[canonical]
+    #         mapping[non_c] = canonical
+
+    # Create a new graph with the canonical URIs
     new_graph = Graph(identifier="https://data.goldenagents.org/datasets/ggd/")
     for s, p, o in g:
         s = mapping.get(s, s)
@@ -53,6 +72,10 @@ def canonize(g):
 
         if s != o:
             new_graph.add((s, p, o))
+
+    for s, p, o in sdo_sameAs_statements:
+        s = mapping.get(s, s)
+        new_graph.add((s, p, o))
 
     return new_graph, mapping
 
@@ -73,7 +96,7 @@ if __name__ == "__main__":
         print(mapping)
 
     # Bind namespaces
-    g.bind("schema", schema)
+    g.bind("schema", SDO)
     g.bind("kbdef", kbdef)
     g.bind("owl", OWL)
     g.bind("xsd", XSD)
