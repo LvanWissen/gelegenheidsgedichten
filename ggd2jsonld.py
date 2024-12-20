@@ -129,13 +129,34 @@ CONTEXT = {
     "hasActor": "http://semanticweb.cs.vu.nl/2009/11/sem/hasActor",
     "hasPlace": "http://semanticweb.cs.vu.nl/2009/11/sem/hasPlace",
     "hasTime": "http://semanticweb.cs.vu.nl/2009/11/sem/hasTime",
-    "hasEarliestBeginTimeStamp": "http://semanticweb.cs.vu.nl/2009/11/sem/hasEarliestBeginTimeStamp",
-    "hasLatestBeginTimeStamp": "http://semanticweb.cs.vu.nl/2009/11/sem/hasLatestBeginTimeStamp",
-    "hasEarliestEndTimeStamp": "http://semanticweb.cs.vu.nl/2009/11/sem/hasEarliestEndTimeStamp",
-    "hasLatestEndTimeStamp": "http://semanticweb.cs.vu.nl/2009/11/sem/hasLatestEndTimeStamp",
-    "hasBeginTimeStamp": "http://semanticweb.cs.vu.nl/2009/11/sem/hasBeginTimeStamp",
-    "hasEndTimeStamp": "http://semanticweb.cs.vu.nl/2009/11/sem/hasEndTimeStamp",
-    "hasTimeStamp": "http://semanticweb.cs.vu.nl/2009/11/sem/hasTimeStamp",
+    "hasEarliestBeginTimeStamp": {
+        "@id": "http://semanticweb.cs.vu.nl/2009/11/sem/hasEarliestBeginTimeStamp",
+        "@type": "xsd:date",
+    },
+    "hasLatestBeginTimeStamp": {
+        "@id": "http://semanticweb.cs.vu.nl/2009/11/sem/hasLatestBeginTimeStamp",
+        "@type": "xsd:date",
+    },
+    "hasEarliestEndTimeStamp": {
+        "@id": "http://semanticweb.cs.vu.nl/2009/11/sem/hasEarliestEndTimeStamp",
+        "@type": "xsd:date",
+    },
+    "hasLatestEndTimeStamp": {
+        "@id": "http://semanticweb.cs.vu.nl/2009/11/sem/hasLatestEndTimeStamp",
+        "@type": "xsd:date",
+    },
+    "hasBeginTimeStamp": {
+        "@id": "http://semanticweb.cs.vu.nl/2009/11/sem/hasBeginTimeStamp",
+        "@type": "xsd:date",
+    },
+    "hasEndTimeStamp": {
+        "@id": "http://semanticweb.cs.vu.nl/2009/11/sem/hasEndTimeStamp",
+        "@type": "xsd:date",
+    },
+    "hasTimeStamp": {
+        "@id": "http://semanticweb.cs.vu.nl/2009/11/sem/hasTimeStamp",
+        "@type": "xsd:date",
+    },
     "type": "@type",
     "id": "@id",
     "label": "http://www.w3.org/2000/01/rdf-schema#label",

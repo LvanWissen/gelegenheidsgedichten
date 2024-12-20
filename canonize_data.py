@@ -1,4 +1,4 @@
-from rdflib import Graph, ConjunctiveGraph, Namespace, OWL, XSD, SDO
+from rdflib import Graph, Dataset, ConjunctiveGraph, Namespace, OWL, XSD, SDO
 
 bio = Namespace("http://purl.org/vocab/bio/0.1/")
 sem = Namespace("http://semanticweb.cs.vu.nl/2009/11/sem/")
@@ -57,13 +57,6 @@ def canonize(g):
             sdo_sameAs_statements.append((canonical_uri, SDO.sameAs, non_canonical_uri))
             print(f"Moving {non_canonical_uri} to schema:sameAs")
 
-    # for non_c in list(mapping.keys()):
-    #     if non_c in mapping:
-    #         canonical = mapping[non_c]
-    #         while canonical in mapping:
-    #             canonical = mapping[canonical]
-    #         mapping[non_c] = canonical
-
     # Create a new graph with the canonical URIs
     new_graph = Graph(identifier="https://data.goldenagents.org/datasets/ggd/")
     for s, p, o in g:
@@ -82,7 +75,7 @@ def canonize(g):
 
 if __name__ == "__main__":
 
-    # Load the graph
+    # Load the graphs
     g = ConjunctiveGraph()
     g.parse("rdf/ggd.jsonld", format="json-ld")
     g.parse("rdf/ggd_linkset.jsonld", format="json-ld")
@@ -95,14 +88,27 @@ if __name__ == "__main__":
 
         print(mapping)
 
-    # Bind namespaces
-    g.bind("schema", SDO)
-    g.bind("kbdef", kbdef)
-    g.bind("owl", OWL)
-    g.bind("xsd", XSD)
-    g.bind("sem", sem)
-    g.bind("bio", bio)
-    g.bind("pnv", pnv)
+    ds = Dataset()
+    g_ggd = ds.graph(identifier="https://data.goldenagents.org/datasets/ggd/")
 
-    # Serialize!
-    jsonld_data = g.serialize("rdf/ggd_canonized.trig", format="trig")
+    # Turn conjunctive graph into a regular graph
+    for s, p, o in g:
+        g_ggd.add((s, p, o))
+
+    # Add some labels AND the religion info from SAA data
+    g_external = ds.graph(
+        identifier="https://data.goldenagents.org/datasets/ggd/external/"
+    )
+    g_external.parse("rdf/ggd_external.jsonld", format="json-ld")
+
+    # Bind namespaces
+    ds.bind("schema", SDO)
+    ds.bind("kbdef", kbdef)
+    ds.bind("owl", OWL)
+    ds.bind("xsd", XSD)
+    ds.bind("sem", sem)
+    ds.bind("bio", bio)
+    ds.bind("pnv", pnv)
+
+    # Serialize! (two named graphs in the end)
+    ds.serialize("rdf/ggd_canonized.trig", format="trig")

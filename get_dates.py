@@ -402,7 +402,7 @@ def main(persons):
 
 if __name__ == "__main__":
 
-    # Temporary endpoint
+    # Temporary endpoint with ggd.jsonld + ggd_linkset.jsonld
     ENDPOINT = "https://api.druid.datalegend.net/datasets/LvanWissen/Test/sparql"
     Q = """
         PREFIX schema: <https://schema.org/>
