@@ -247,11 +247,13 @@
         {
           "id": "urn:goldenagents:ggd:person:3475:03",
           "label": "Du Sart, Izaak"
-        },
-        {
-          "id": "urn:goldenagents:ggd:person:3384:01",
-          "label": "Du Sart, Izaak (Jr)"
-        },
+        }
+      ]
+    },
+    {
+      "id": "urn:goldenagents:ggd:person:3384:01",
+      "label": "Du Sart, Izaak (Jr)",
+      "sameAs": [
         {
           "id": "urn:goldenagents:ggd:person:3385:05",
           "label": "Du Sart, Izaak (Jr)"
@@ -259,16 +261,6 @@
         {
           "id": "urn:goldenagents:ggd:person:3475:04",
           "label": "Du Sart, Izaak (Jr)"
-        }
-      ]
-    },
-    {
-      "id": "urn:goldenagents:ggd:person:5268:10",
-      "label": "Luden, Johannes",
-      "sameAs": [
-        {
-          "id": "urn:goldenagents:ggd:person:5268:06",
-          "label": "Luden, Johannes (Jr)"
         }
       ]
     },
@@ -573,16 +565,6 @@
         {
           "id": "urn:goldenagents:ggd:person:4566:07",
           "label": "Hachmeester, Joan Willem"
-        }
-      ]
-    },
-    {
-      "id": "urn:goldenagents:ggd:person:3590:03",
-      "label": "Wilde, J. de",
-      "sameAs": [
-        {
-          "id": "urn:goldenagents:ggd:person:3590:06",
-          "label": "Wilde, J. de (Jr)"
         }
       ]
     },
@@ -1519,16 +1501,6 @@
       ]
     },
     {
-      "id": "urn:goldenagents:ggd:person:2109:04",
-      "label": "Garengroot, Johannes",
-      "sameAs": [
-        {
-          "id": "urn:goldenagents:ggd:person:3401:03",
-          "label": "Garengroot, Johannes (Jr)"
-        }
-      ]
-    },
-    {
       "id": "urn:goldenagents:ggd:person:2592:04",
       "label": "Wiel, M.M.",
       "sameAs": [
@@ -1633,16 +1605,6 @@
         {
           "id": "urn:goldenagents:ggd:person:6856:10",
           "label": "Os, Jan van"
-        }
-      ]
-    },
-    {
-      "id": "urn:goldenagents:ggd:person:4840:07",
-      "label": "Du Sart, Izaak",
-      "sameAs": [
-        {
-          "id": "urn:goldenagents:ggd:person:4840:05",
-          "label": "Du Sart, Izaak (Jr)"
         }
       ]
     },
@@ -2285,13 +2247,9 @@
       ]
     },
     {
-      "id": "urn:goldenagents:ggd:person:2656:07",
-      "label": "Oortman, H.",
+      "id": "urn:goldenagents:ggd:person:2122:05",
+      "label": "Oortman, H. (Jr)",
       "sameAs": [
-        {
-          "id": "urn:goldenagents:ggd:person:2122:05",
-          "label": "Oortman, H. (Jr)"
-        },
         {
           "id": "urn:goldenagents:ggd:person:2333:03",
           "label": "Oortman, H. (Jr)"
@@ -3279,16 +3237,6 @@
       ]
     },
     {
-      "id": "urn:goldenagents:ggd:person:3583:04",
-      "label": "Bouricius, Gerard",
-      "sameAs": [
-        {
-          "id": "urn:goldenagents:ggd:person:3325:03",
-          "label": "Bouricius, Gerard (Jr)"
-        }
-      ]
-    },
-    {
       "id": "urn:goldenagents:ggd:person:2975:04",
       "label": "Ruarus, David",
       "sameAs": [
@@ -3333,16 +3281,6 @@
         {
           "id": "urn:goldenagents:ggd:person:6789:11",
           "label": "Bosch, Reijer van den"
-        }
-      ]
-    },
-    {
-      "id": "urn:goldenagents:ggd:person:4978:06",
-      "label": "Koek, Willem",
-      "sameAs": [
-        {
-          "id": "urn:goldenagents:ggd:person:4689:06",
-          "label": "Koek, Willem (Jr)"
         }
       ]
     },
@@ -3631,16 +3569,6 @@
       ]
     },
     {
-      "id": "urn:goldenagents:ggd:person:2082:11",
-      "label": "Marchand, Jan",
-      "sameAs": [
-        {
-          "id": "urn:goldenagents:ggd:person:3075:04",
-          "label": "Marchand, Jan (Jr)"
-        }
-      ]
-    },
-    {
       "id": "urn:goldenagents:ggd:person:1629:06",
       "label": "Le Seur, Nicolaas",
       "sameAs": [
@@ -3677,13 +3605,9 @@
       ]
     },
     {
-      "id": "urn:goldenagents:ggd:person:2202:04",
-      "label": "Wit, J. de",
+      "id": "urn:goldenagents:ggd:person:2678:08",
+      "label": "Witt, J. de",
       "sameAs": [
-        {
-          "id": "urn:goldenagents:ggd:person:2678:08",
-          "label": "Witt, J. de"
-        },
         {
           "id": "urn:goldenagents:ggd:person:2829:04",
           "label": "Witt, J. de"
@@ -3691,26 +3615,6 @@
         {
           "id": "urn:goldenagents:ggd:person:3715:06",
           "label": "Witt, J. de"
-        }
-      ]
-    },
-    {
-      "id": "urn:goldenagents:ggd:person:3696:05",
-      "label": "Graauwhart, Hendrik",
-      "sameAs": [
-        {
-          "id": "urn:goldenagents:ggd:person:3696:06",
-          "label": "Graauwhart, Hendrik (Jr)"
-        }
-      ]
-    },
-    {
-      "id": "urn:goldenagents:ggd:person:5681:03",
-      "label": "Boom, Adolph Julius Philip",
-      "sameAs": [
-        {
-          "id": "urn:goldenagents:ggd:person:6696:05",
-          "label": "Boom, Adolph Julius Philip (Jr)"
         }
       ]
     },
@@ -4087,20 +3991,6 @@
       ]
     },
     {
-      "id": "urn:goldenagents:ggd:person:6733:05",
-      "label": "Burlett, Everard de (Jr)",
-      "sameAs": [
-        {
-          "id": "urn:goldenagents:ggd:person:6745:12",
-          "label": "Burlett, Everard de (Jr)"
-        },
-        {
-          "id": "http://data.bibliotheken.nl/id/thes/p166286834",
-          "label": "Burlett, Everard Janszoon de"
-        }
-      ]
-    },
-    {
       "id": "urn:goldenagents:ggd:person:5359:04",
       "label": "Haakman, Isaak",
       "sameAs": [
@@ -4117,20 +4007,6 @@
         {
           "id": "urn:goldenagents:ggd:person:4595:05",
           "label": "Issendorp, Assuerus"
-        },
-        {
-          "id": "urn:goldenagents:ggd:person:4375:06",
-          "label": "Issendorp, Assuerus (Jr)"
-        }
-      ]
-    },
-    {
-      "id": "urn:goldenagents:ggd:person:5602:13",
-      "label": "Mees, Joanne",
-      "sameAs": [
-        {
-          "id": "urn:goldenagents:ggd:person:5142:09",
-          "label": "Mes, Jan"
         }
       ]
     },
@@ -4849,16 +4725,6 @@
         {
           "id": "urn:goldenagents:ggd:person:2832:11",
           "label": "Roswinkel, F."
-        }
-      ]
-    },
-    {
-      "id": "urn:goldenagents:ggd:person:6499:02",
-      "label": "M*****",
-      "sameAs": [
-        {
-          "id": "urn:goldenagents:ggd:person:6828:02",
-          "label": "M---"
         }
       ]
     },
